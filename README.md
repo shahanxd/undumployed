@@ -1,8 +1,6 @@
-# student-opportunities
+# undumployed
 
-> **120+ curated opportunities for Indian students — fellowships, internships, events, and insider programs. Sorted, verified, real.**
-
-Maintained by students, for students. No spam, no affiliate links, no "apply to 500 jobs" energy. Every entry is researched, has a reality check, and tells you what it actually takes to get in.
+For the under employed gang.
 
 ---
 
@@ -22,7 +20,7 @@ Maintained by students, for students. No spam, no affiliate links, no "apply to 
 
 ---
 
-## ⚡ Act Now — Closing in 60 days
+## ⚡ Close deadlines
 
 | Deadline | Opportunity | Type | Funded |
 |----------|-------------|------|--------|
@@ -58,4 +56,4 @@ Last research update: **August–September 2026.**
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). If you find a dead link, wrong deadline, or a missing program — open a PR. Entry format is standardized; please follow it.
+See [CONTRIBUTING.md](CONTRIBUTING.md). If you find a dead link, wrong deadline, or a missing program, open a PR. Entry format is standardized; please follow it.
