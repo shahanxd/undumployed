@@ -22,7 +22,7 @@ const INDEX = [
 const copy = `
 <div class="hero-copy container">
   <h1 class="hero-title" id="hero-title">undumployed</h1>
-  <p class="hero-lede">A hand-checked list of internships, fellowships, scholarships, competitions and events for students.</p>
+  <p class="hero-lede">everything you wanna apply to. put together.</p>
   <form class="hero-search" id="hero-search" role="search">
     <label class="sr-only" for="hero-q">Search the list</label>
     <div class="search-field">
@@ -96,7 +96,9 @@ function restHtml() {
   <div class="section-head"><h2 id="about-h">What’s undumployed</h2></div>
   <div class="about">
     <p class="dedication">Made with <span class="spark spark-love" data-spark="heart">love</span> and <span class="spark spark-coffee" data-spark="bean">coffee</span>, in memory of the one who was always there to guide me.</p>
-    <p>An <a href="https://github.com/shahanxd/undumployed" rel="noopener">open-source</a>, unsponsored list for students, kept as plain markdown on GitHub and checked against each organiser’s own site in ${esc(db.meta.lastVerified)}. Something wrong or missing? <a href="https://github.com/shahanxd/undumployed/issues/new/choose" rel="noopener">Open an issue</a> or <a href="#/guide/contributing">fix the file</a>.</p>
+    <p>An <a href="https://github.com/shahanxd/undumployed" rel="noopener">open-source</a> list of opportunities for all em friends who’re ready to get out there for something better.<br>
+      Checked and verified in ${esc(db.meta.lastVerified)}.<br>
+      Something off? <a href="https://github.com/shahanxd/undumployed/issues/new/choose" rel="noopener">Open an issue</a> or <a href="#/guide/contributing">fix the file</a>.</p>
   </div>
 </section>`;
 }
