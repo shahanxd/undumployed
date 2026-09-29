@@ -1,4 +1,4 @@
-// The loving corner of the footer: hearts rise from "love", coffee beans hop out of "coffee".
+// The dedication in "What’s undumployed": hearts rise from "love", coffee beans hop out of "coffee".
 // Decorative only, so the particles are hidden from assistive tech and skipped for reduced motion.
 import { reducedMotion } from './state.js';
 

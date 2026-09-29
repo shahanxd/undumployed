@@ -1,4 +1,5 @@
 // Home: the bay, one sentence to find what fits, what's closing soon, and the whole index.
+import { wireSparks } from './sparks.js';
 import { db, loadAll } from './data.js';
 import { esc, icon, oppRow, stateHtml, loadingHtml } from './ui.js';
 import { hashFor, go } from './state.js';
@@ -92,10 +93,10 @@ function restHtml() {
 </section>
 
 <section class="section container" aria-labelledby="about-h">
-  <div class="section-head"><h2 id="about-h">About this list</h2></div>
+  <div class="section-head"><h2 id="about-h">What’s undumployed</h2></div>
   <div class="about">
-    <p>Every entry here was checked against the organiser’s own website in ${esc(db.meta.lastVerified)}. If a deadline is confirmed, you’ll see the date. If the next round hasn’t been announced yet, you’ll see the month it usually opens, marked as expected, so check the official page before you plan around it.</p>
-    <p>The whole list lives in plain markdown files on <a href="https://github.com/shahanxd/undumployed" rel="noopener">GitHub</a>, and this site is built from them. No sponsors, no referral links, nobody paid to be here. If something is wrong, out of date or missing, <a href="https://github.com/shahanxd/undumployed/issues/new/choose" rel="noopener">open an issue</a> or <a href="#/guide/contributing">fix the file yourself</a>. Every correction helps whoever reads it next.</p>
+    <p class="dedication">Made with <span class="spark spark-love" data-spark="heart">love</span> and <span class="spark spark-coffee" data-spark="bean">coffee</span>, in memory of the one who was always there to guide me.</p>
+    <p>An <a href="https://github.com/shahanxd/undumployed" rel="noopener">open-source</a>, unsponsored list for students, kept as plain markdown on GitHub and checked against each organiser’s own site in ${esc(db.meta.lastVerified)}. Something wrong or missing? <a href="https://github.com/shahanxd/undumployed/issues/new/choose" rel="noopener">Open an issue</a> or <a href="#/guide/contributing">fix the file</a>.</p>
   </div>
 </section>`;
 }
@@ -134,6 +135,7 @@ export const landingPage = {
     }
     if (!document.body.contains(rest)) return; // navigated away while loading
     rest.innerHTML = restHtml();
+    wireSparks(rest);
     const form = rest.querySelector('#fit');
     const fits = [...form.querySelectorAll('select')].map(autosize).filter(Boolean);
     if (fits.length) {
