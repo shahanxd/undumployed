@@ -10,7 +10,6 @@ import { guidesPage, guidePage } from './guides.js';
 import { savedPage } from './saved.js';
 import { openOpportunity, openEvent, closeDrawer, isOpen } from './drawer.js';
 import { esc, toast, syncSaveButtons, stateHtml, loadingHtml } from './ui.js';
-import { wireSparks } from './sparks.js';
 
 const PAGES = { home: landingPage, browse: browsePage, deadlines: deadlinesPage, events: eventsPage, perks: perksPage, guides: guidesPage, guide: guidePage, saved: savedPage };
 const UPDATES_IN_PLACE = new Set(['browse', 'deadlines', 'events', 'perks', 'saved']);
@@ -175,7 +174,6 @@ function boot() {
     requestAnimationFrame(wait);
   });
 
-  wireSparks(document.querySelector('.footer'));
   window.addEventListener('hashchange', route);
   route();
 
