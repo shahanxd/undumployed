@@ -1,0 +1,34 @@
+name: Generated files are in sync
+
+on:
+  pull_request:
+    paths:
+      - "internships/**"
+      - "open-source/**"
+      - "fellowships/**"
+      - "startups/**"
+      - "hackathons/**"
+      - "competitions/**"
+      - "communities/**"
+      - "events/**"
+      - "student-perks/**"
+      - "guides/**"
+      - "CONTRIBUTING.md"
+      - "deadlines.md"
+      - "site/data/**"
+      - "scripts/**"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: deadlines.md matches the At-a-glance tables
+        run: python scripts/build_deadlines.py --check
+      - name: site/data matches the markdown
+        run: python scripts/build_site_data.py --check
+      - name: Relative links and anchors resolve
+        run: python scripts/check_links.py

@@ -1,0 +1,260 @@
+{
+"builtOn": "2026-09-29",
+"lastVerified": "September 2026",
+"counts": {
+"opportunities": 556,
+"events": 173,
+"perks": 94,
+"inferredTags": 0,
+"unverified": 61
+},
+"categories": [
+{
+"id": "research-india",
+"label": "Research internship · India",
+"group": "internship",
+"file": "internships/research-india.md"
+},
+{
+"id": "research-global",
+"label": "Research internship · Global",
+"group": "internship",
+"file": "internships/research-global.md"
+},
+{
+"id": "tech",
+"label": "Tech internship",
+"group": "internship",
+"file": "internships/tech-companies.md"
+},
+{
+"id": "finance",
+"label": "Finance, quant & consulting",
+"group": "internship",
+"file": "internships/finance-quant-consulting.md"
+},
+{
+"id": "govt-nontech",
+"label": "Government, policy & non-tech",
+"group": "internship",
+"file": "internships/government-and-non-tech.md"
+},
+{
+"id": "open-source",
+"label": "Paid open source",
+"group": "open-source",
+"file": "open-source/README.md"
+},
+{
+"id": "study-abroad",
+"label": "Study-abroad scholarship",
+"group": "fellowship",
+"file": "fellowships/study-abroad.md"
+},
+{
+"id": "fellowship-india",
+"label": "Fellowship & scholarship · India",
+"group": "fellowship",
+"file": "fellowships/india.md"
+},
+{
+"id": "research-fellowship",
+"label": "Research fellowship, forum & grant",
+"group": "fellowship",
+"file": "fellowships/research-and-networking.md"
+},
+{
+"id": "startup",
+"label": "Startup & builder program",
+"group": "startup",
+"file": "startups/README.md"
+},
+{
+"id": "hackathon",
+"label": "Hackathon",
+"group": "competition",
+"file": "hackathons/README.md"
+},
+{
+"id": "cp",
+"label": "Competitive programming",
+"group": "competition",
+"file": "competitions/competitive-programming.md"
+},
+{
+"id": "case-research",
+"label": "Case, business & research competition",
+"group": "competition",
+"file": "competitions/case-business-and-research.md"
+},
+{
+"id": "ambassador",
+"label": "Ambassador program",
+"group": "community",
+"file": "communities/ambassador-programs.md"
+},
+{
+"id": "insider",
+"label": "Brand insider program",
+"group": "community",
+"file": "communities/brand-insider-programs.md"
+}
+],
+"eventKinds": [
+{
+"id": "tech",
+"label": "Tech & developer",
+"file": "events/tech-global.md"
+},
+{
+"id": "research",
+"label": "Research conference",
+"file": "events/research-conferences.md"
+},
+{
+"id": "india",
+"label": "India",
+"file": "events/india.md"
+},
+{
+"id": "arts",
+"label": "Arts, culture & sport",
+"file": "events/arts-culture.md"
+}
+],
+"vocab": {
+"stage": [
+"hs",
+"ug",
+"pg",
+"phd",
+"grad"
+],
+"field": [
+"cs",
+"ai",
+"ee",
+"mech",
+"civil",
+"physics",
+"math",
+"chem",
+"bio",
+"med",
+"design",
+"business",
+"econ",
+"policy",
+"law",
+"humanities",
+"media",
+"edu",
+"any"
+],
+"region": [
+"india",
+"remote",
+"europe",
+"uk",
+"north-america",
+"east-asia",
+"southeast-asia",
+"middle-east",
+"australia",
+"global"
+],
+"funding": [
+"full",
+"stipend",
+"prize",
+"free",
+"unpaid",
+"loan"
+],
+"citizenship": [
+"any",
+"indian-only",
+"other"
+],
+"gates": [
+"nomination",
+"faculty-first",
+"campus-only",
+"women-only",
+"diversity",
+"noc",
+"team",
+"age-limit",
+"work-experience",
+"enrolled-only",
+"invite-only"
+],
+"format": [
+"in-person",
+"remote",
+"hybrid"
+]
+},
+"guides": [
+{
+"file": "guides/timeline-by-year.md",
+"slug": "timeline-by-year",
+"title": "What to Apply for, by Where You Are",
+"description": "A stage-by-stage playbook. Find your row, apply to what fits, ignore the rest. Deadlines below are *typical windows* (~). The exact dates for each programme live in the linked files, which are the source of truth."
+},
+{
+"file": "guides/application-kit.md",
+"slug": "application-kit",
+"title": "Application Kit",
+"description": "Build this once. Update it every 3 months. It unlocks most opportunities."
+},
+{
+"file": "guides/how-to-cold-email.md",
+"slug": "how-to-cold-email",
+"title": "How to Cold Email a Professor",
+"description": "For programs where you must get a professor interested before you apply: IIT Bombay, IISc, Max Planck, RIKEN, HKUST, Caltech SURF, Charpak Lab, and most rolling international programs. Entries live in Research internships: India and Research internships: Global."
+},
+{
+"file": "guides/interviews-and-tests.md",
+"slug": "interviews-and-tests",
+"title": "Interviews, Tests & Selection Rounds",
+"description": "Every selection process in this repo is one of ~10 formats. Learn the format once, reuse it everywhere. Free resources first; paid ones only where nothing free is comparable. Test fees are ~approximate and change every year; check the testing body's site."
+},
+{
+"file": "guides/visas-for-indian-passport.md",
+"slug": "visas-for-indian-passport",
+"title": "Visas for an Indian Passport",
+"description": "Which visa you need for a conference, hackathon final or research stay abroad, what it costs, and how early to start."
+},
+{
+"file": "CONTRIBUTING.md",
+"slug": "contributing",
+"title": "Contributing",
+"description": "Type: Research Internship | Location: City, Country | Funded: ✅ CHF 2,900/month + travel"
+}
+],
+"aliases": {
+"competitions/case-business-and-research.md#enactus": "communities/ambassador-programs.md#enactus",
+"events/india.md#devcon-8-ethereum-2026": "events/tech-global.md#devcon-8-ethereum-2026",
+"events/india.md#indoml-2026": "events/research-conferences.md#indoml-2026",
+"events/india.md#kubecon--cloudnativecon-india-2027": "events/tech-global.md#kubecon--cloudnativecon-india-2027",
+"events/tech-global.md#neurips-2026": "events/research-conferences.md#neurips-2026",
+"fellowships/research-and-networking.md#fulbright-nehru-doctoral-research-fellowships-cross-ref": "fellowships/study-abroad.md#fulbright-nehru-doctoral-research-fellowships",
+"internships/government-and-non-tech.md#isro-centres": "internships/research-india.md#isro-centres-student-internships--projects",
+"internships/research-global.md#anthropic-fellows-program": "fellowships/research-and-networking.md#anthropic-fellows-program",
+"internships/research-global.md#eraai-fellowship": "fellowships/research-and-networking.md#era-fellowship-cambridge",
+"internships/research-global.md#mats": "fellowships/research-and-networking.md#mats-ml-alignment--theory-scholars",
+"internships/research-global.md#pibbss-fellowship": "fellowships/research-and-networking.md#pibbss-principles-of-intelligence-fellowship",
+"internships/research-global.md#spar": "fellowships/research-and-networking.md#spar-supervised-program-for-alignment-research",
+"internships/research-india.md#vidhi-centre-for-legal-policy-internships": "internships/government-and-non-tech.md#vidhi-centre-for-legal-policy--nyaaya",
+"internships/tech-companies.md#amazon-future-engineer-scholarship--internship": "fellowships/india.md#amazon-future-engineer-scholarship",
+"internships/tech-companies.md#anthropic-fellows": "fellowships/research-and-networking.md#anthropic-fellows-program",
+"internships/tech-companies.md#google-student-researcher-incl-deepmind": "internships/research-india.md#google-research-india-student-researcher--intern",
+"internships/tech-companies.md#ibm-research-india": "internships/research-india.md#ibm-research-india-intern",
+"startups/README.md#eo-gsea-global-student-entrepreneur-awards": "competitions/case-business-and-research.md#gsea-global-student-entrepreneur-awards",
+"startups/README.md#global-shapers": "communities/ambassador-programs.md#global-shapers-wef",
+"startups/README.md#hult-prize": "competitions/case-business-and-research.md#hult-prize",
+"startups/README.md#polaris-fellowship": "fellowships/india.md#polaris-fellowship",
+"startups/README.md#thiel-fellowship": "fellowships/study-abroad.md#thiel-fellowship"
+}
+}
