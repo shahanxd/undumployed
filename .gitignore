@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 node_modules/
 *.stackdump
+
+.vercel
+.env*
