@@ -1,0 +1,74 @@
+/* Two moods, one site.
+   golden — Arcadia Bay an hour before sunset. The default.
+   storm  — the same place after dark. Used for dark mode. */
+
+:root {
+  --font-serif: 'Newsreader', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-sans: 'Schibsted Grotesk', 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+  --bg: #faf7f1;
+  --bg-2: #f2ede3;
+  --surface: #ffffff;
+  --ink: #1b2430;
+  --ink-2: #485361;
+  --ink-3: #636c78;
+  --line: rgba(27, 36, 48, .10);
+  --line-2: rgba(27, 36, 48, .20);
+
+  --accent: #2456c4;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(36, 86, 196, .07);
+  --urgent: #b8432b;
+  --soon: #c07a1c;
+  --ok: #2e7a4f;
+  --note-bg: #fbf2df;
+  --note-line: #dfae5c;
+
+  --fly-1: #5b9bff;
+  --fly-2: #1f55d0;
+  --fly-body: #1b2430;
+
+  --shadow-1: 0 1px 2px rgba(27, 36, 48, .06);
+  --shadow-2: 0 12px 32px -14px rgba(27, 36, 48, .28), 0 2px 6px rgba(27, 36, 48, .06);
+  --shadow-3: 0 30px 80px -24px rgba(27, 36, 48, .38);
+
+  --radius-s: 8px;
+  --radius: 12px;
+  --maxw: 1120px;
+  --read: 680px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --topbar-h: 60px;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+
+  color-scheme: light;
+}
+
+:root[data-theme="storm"] {
+  --bg: #0f141b;
+  --bg-2: #151c25;
+  --surface: #18202b;
+  --ink: #ece6da;
+  --ink-2: #bdb6a9;
+  --ink-3: #959ca7;
+  --line: rgba(236, 230, 218, .09);
+  --line-2: rgba(236, 230, 218, .18);
+
+  --accent: #8db4ff;
+  --accent-ink: #0f141b;
+  --accent-soft: rgba(141, 180, 255, .10);
+  --urgent: #ff8f73;
+  --soon: #e6b35c;
+  --ok: #82d3a4;
+  --note-bg: rgba(230, 179, 92, .08);
+  --note-line: rgba(230, 179, 92, .55);
+
+  --fly-1: #a6c8ff;
+  --fly-2: #4f86ef;
+  --fly-body: #ece6da;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, .4);
+  --shadow-2: 0 14px 36px -14px rgba(0, 0, 0, .7), 0 2px 6px rgba(0, 0, 0, .3);
+  --shadow-3: 0 30px 80px -24px rgba(0, 0, 0, .8);
+
+  color-scheme: dark;
+}

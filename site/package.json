@@ -1,0 +1,10 @@
+{
+  "name": "undumployed-site",
+  "private": true,
+  "type": "module",
+  "description": "Static front end for the undumployed collection. No build step.",
+  "scripts": {
+    "test": "node js/filters.test.mjs",
+    "serve": "python ../scripts/serve.py 8000"
+  }
+}

@@ -1,0 +1,66 @@
+name: "➕ New opportunity"
+description: Suggest a program, internship, fellowship, competition, event, or perk that isn't listed.
+title: "Add: <program name>"
+labels: ["new-entry"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Program name
+      placeholder: e.g. KAUST Visiting Student Research Program
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+      description: The organiser's own page. No aggregators, no referral links.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Where does it belong?
+      options:
+        - internships/research-india.md
+        - internships/research-global.md
+        - internships/tech-companies.md
+        - internships/finance-quant-consulting.md
+        - internships/government-and-non-tech.md
+        - open-source/README.md
+        - fellowships/study-abroad.md
+        - fellowships/india.md
+        - fellowships/research-and-networking.md
+        - startups/README.md
+        - hackathons/README.md
+        - competitions/competitive-programming.md
+        - competitions/case-business-and-research.md
+        - events/ (say which file below)
+        - communities/ (say which file below)
+        - student-perks/README.md
+        - guides/
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Key facts
+      description: Deadline / window, who is eligible, funding, duration, and a one-line reality check.
+      placeholder: |
+        Deadline: ...
+        Who: ...
+        Funded: ...
+        Duration: ...
+        Reality check: ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I verified this on the official site within the last 30 days.
+          required: true
+        - label: This is not a paid course, a coaching service, or an aggregator.
+          required: true

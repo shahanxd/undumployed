@@ -2,3 +2,9 @@
 Thumbs.db
 desktop.ini
 *.local
+
+# Python and Node leftovers
+__pycache__/
+*.pyc
+node_modules/
+*.stackdump

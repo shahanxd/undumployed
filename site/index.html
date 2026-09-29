@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en" data-theme="golden">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>undumployed · internships, fellowships and scholarships for students</title>
+<meta name="description" content="A hand-checked list of internships, fellowships, scholarships, competitions and events for students in India and beyond. Filter by your stage, field, money and deadline, and save what you like.">
+<meta name="theme-color" content="#faf7f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f141b" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="undumployed">
+<meta property="og:description" content="A hand-checked list of internships, fellowships, scholarships, competitions and events for students.">
+<meta property="og:url" content="https://undumployed.vercel.app/">
+<meta property="og:image" content="https://undumployed.vercel.app/assets/og.png">
+<link rel="canonical" href="https://undumployed.vercel.app/">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/hero.css">
+<link rel="stylesheet" href="css/pages.css">
+<!-- fetch every module at once instead of discovering them one import at a time -->
+<link rel="modulepreload" href="js/app.js">
+<link rel="modulepreload" href="js/state.js">
+<link rel="modulepreload" href="js/data.js">
+<link rel="modulepreload" href="js/config.js">
+<link rel="modulepreload" href="js/ui.js">
+<link rel="modulepreload" href="js/filters.js">
+<link rel="modulepreload" href="js/menus.js">
+<link rel="modulepreload" href="js/hero.js">
+<link rel="modulepreload" href="js/landing.js">
+<link rel="modulepreload" href="js/browse.js">
+<link rel="modulepreload" href="js/deadlines.js">
+<link rel="modulepreload" href="js/events.js">
+<link rel="modulepreload" href="js/perks.js">
+<link rel="modulepreload" href="js/guides.js">
+<link rel="modulepreload" href="js/md.js">
+<link rel="modulepreload" href="js/saved.js">
+<link rel="modulepreload" href="js/drawer.js">
+<link rel="modulepreload" href="js/ics.js">
+<link rel="modulepreload" href="js/sparks.js">
+<script>
+  // Pick the theme before first paint so there is no flash: saved choice, else the system setting.
+  (function () {
+    var t = 'golden';
+    try {
+      var saved = localStorage.getItem('undumployed:theme');
+      t = saved === 'storm' || saved === 'golden' ? saved : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'storm' : 'golden');
+    } catch (e) {}
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="morpho" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" style="stop-color:var(--fly-1)"/>
+      <stop offset="1" style="stop-color:var(--fly-2)"/>
+    </linearGradient>
+  </defs>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 4.5 4.5"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13m-5-5 5 5-5 5"/></symbol>
+  <symbol id="i-out" viewBox="0 0 24 24"><path d="M8 16 16 8m-6 0h6v6"/></symbol>
+  <symbol id="i-mark" viewBox="0 0 24 24"><path d="M7 4.5h10a.5.5 0 0 1 .5.5v14.3a.3.3 0 0 1-.48.24L12 16l-5.02 3.54a.3.3 0 0 1-.48-.24V5a.5.5 0 0 1 .5-.5z"/></symbol>
+  <symbol id="i-mark-on" viewBox="0 0 24 24"><path fill="currentColor" d="M7 4.5h10a.5.5 0 0 1 .5.5v14.3a.3.3 0 0 1-.48.24L12 16l-5.02 3.54a.3.3 0 0 1-.48-.24V5a.5.5 0 0 1 .5-.5z"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="4" y="5.5" width="16" height="14" rx="2"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a3.5 3.5 0 0 0 5 0l3-3a3.5 3.5 0 0 0-5-5l-1 1M14 10a3.5 3.5 0 0 0-5 0l-3 3a3.5 3.5 0 0 0 5 5l1-1"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.6"/><path d="M12 3.5v1.8M12 18.7v1.8M3.5 12h1.8M18.7 12h1.8M6 6l1.3 1.3M16.7 16.7 18 18M6 18l1.3-1.3M16.7 7.3 18 6"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M19 14.2A7.2 7.2 0 0 1 9.8 5a7.2 7.2 0 1 0 9.2 9.2z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4.5 8h15M4.5 16h15"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4.5v10m0 0 4-4m-4 4-4-4M5 19.5h14"/></symbol>
+  <!-- Blue morpho. Left and right wings are separate groups so they can fold. -->
+  <symbol id="morpho-fly" viewBox="0 0 64 52">
+    <g class="wing wing-l" fill="url(#morpho)">
+      <path d="M30.6 21.2C26.2 13 17.3 5.4 8.2 4.5 3.6 4 1.6 7.3 2.6 11.6c1.4 6 6.9 12.9 14.9 15.4 5 1.6 10 1.4 13-.2z"/>
+      <path d="M30.6 29.6c-4.5-.3-11.6.6-16.1 4.2-4.1 3.3-4.3 8.8-.9 11.4 3.8 2.9 9.2.6 12.3-3.6 2.5-3.4 4-8 4.7-12z"/>
+    </g>
+    <g class="wing wing-r" fill="url(#morpho)">
+      <path d="M33.4 21.2C37.8 13 46.7 5.4 55.8 4.5c4.6-.5 6.6 2.8 5.6 7.1-1.4 6-6.9 12.9-14.9 15.4-5 1.6-10 1.4-13-.2z"/>
+      <path d="M33.4 29.6c4.5-.3 11.6.6 16.1 4.2 4.1 3.3 4.3 8.8.9 11.4-3.8 2.9-9.2.6-12.3-3.6-2.5-3.4-4-8-4.7-12z"/>
+    </g>
+    <path class="fly-body" d="M32 19.4c1.2 0 1.8 1.4 1.8 3.1v17.2c0 2.4-.8 4.4-1.8 4.4s-1.8-2-1.8-4.4V22.5c0-1.7.6-3.1 1.8-3.1z"/>
+    <path class="fly-feelers" d="M31.2 20.2c-1.6-5.6-4-9.8-7-12.4M32.8 20.2c1.6-5.6 4-9.8 7-12.4"/>
+  </symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="#/" aria-label="undumployed, home">
+    <svg class="brand-fly" aria-hidden="true" focusable="false"><use href="#morpho-fly"/></svg>
+    <span class="brand-word">undumployed</span>
+  </a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="#/browse" data-route="browse">Opportunities</a>
+    <a href="#/deadlines" data-route="deadlines">Deadlines</a>
+    <a href="#/events" data-route="events">Events</a>
+    <a href="#/perks" data-route="perks">Perks</a>
+    <a href="#/guides" data-route="guides">Guides</a>
+    <a href="#/saved" data-route="saved">Saved<span class="nav-count" id="saved-count" hidden></span></a>
+  </nav>
+  <div class="topbar-end">
+    <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to the dark storm theme">
+      <svg class="ico when-golden" aria-hidden="true"><use href="#i-moon"/></svg>
+      <svg class="ico when-storm" aria-hidden="true"><use href="#i-sun"/></svg>
+    </button>
+    <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><svg class="ico" aria-hidden="true"><use href="#i-menu"/></svg></button>
+  </div>
+</header>
+
+<main id="main" class="main" tabindex="-1"></main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p class="corner"><span class="footer-name">undumployed</span> is <a href="https://github.com/shahanxd/undumployed" rel="noopener">open source</a> and unsponsored.<br>
+      Made with <span class="spark spark-love" data-spark="heart">love</span> and <span class="spark spark-coffee" data-spark="bean">coffee</span>, in memory of the one who was always there to guide me.</p>
+    <p class="footer-meta" id="footer-meta">Every entry was checked by hand. Things change fast, so if something looks off, <a href="https://github.com/shahanxd/undumployed/issues/new/choose" rel="noopener">tell us</a> and we’ll fix it.</p>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim" hidden></div>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" hidden></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<noscript><p class="noscript">This site needs JavaScript to search and filter the list. The whole list is also readable as plain markdown on <a href="https://github.com/shahanxd/undumployed">GitHub</a>.</p></noscript>
+<script>
+  // If part of the site fails to arrive, say so and offer a reload, instead of leaving an empty page.
+  window.__bootFail = function () {
+    if (window.__booted) return;
+    var m = document.getElementById('main');
+    if (m) m.innerHTML = '<section class="page container"><div class="state"><h2>That didn’t load properly.</h2><p>Part of the site didn’t make it to your browser, which usually means a shaky connection. A reload almost always fixes it.</p><button class="btn" type="button" onclick="location.reload()">Reload</button></div></section>';
+  };
+  setTimeout(window.__bootFail, 12000);
+</script>
+<script src="js/vendor/marked.min.js" defer></script>
+<script type="module" src="js/app.js" onerror="window.__bootFail()"></script>
+</body>
+</html>

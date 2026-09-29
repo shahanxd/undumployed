@@ -1,0 +1,88 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+html.is-locked { overflow: hidden; padding-right: var(--sbw, 0px); }
+html.is-locked .topbar { padding-right: calc(var(--gutter) + var(--sbw, 0px)); }
+[hidden] { display: none !important; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 16px/1.55 var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+p { margin: 0; text-wrap: pretty; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: .18em; }
+a:hover { text-decoration-thickness: 2px; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+img, svg { display: block; }
+ul, ol { margin: 0; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+::selection { background: color-mix(in srgb, var(--accent) 22%, transparent); }
+
+.container { width: min(var(--maxw), 100% - 2 * var(--gutter)); margin-inline: auto; }
+.sr-only {
+  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+.skip {
+  position: fixed; left: 12px; top: -64px; z-index: 100;
+  background: var(--ink); color: var(--bg); padding: 10px 14px; border-radius: var(--radius-s);
+  text-decoration: none; font-weight: 600;
+}
+.skip:focus { top: 12px; }
+
+.ico {
+  width: 20px; height: 20px; flex: none;
+  fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round;
+}
+.ico-s { width: 16px; height: 16px; }
+
+.main { min-height: 72vh; padding-top: var(--topbar-h); outline: none; }
+body.is-home .main { padding-top: 0; }
+
+.noscript { max-width: 36rem; margin: 120px auto; padding: 0 var(--gutter); }
+
+.page-enter { animation: page-enter .28s var(--ease) both; }
+@keyframes page-enter { from { opacity: 0; transform: translateY(6px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (forced-colors: active) {
+  .btn, .fbtn, .input, .search-field, .row, .menu { border: 1px solid CanvasText; }
+}
+
+/* Printing: students print checklists and guides. Keep the words, drop the chrome. */
+@media print {
+  .topbar, .footer, .scrim, .toast, .filterbar, .browse-search, .result-bar, .more, .save, .d-actions, .d-bar,
+  .monthbar, .toc, .back-link, .saved-tools, .hero .scene, .hero-search, .ev-bar, .toolbar, .skip { display: none !important; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .main { padding-top: 0; }
+  html.is-locked .main { display: none; }
+  html.is-locked .drawer { position: static; width: auto; height: auto; transform: none; opacity: 1; box-shadow: none; overflow: visible; }
+  .hero { height: auto; background: none; color: #000; }
+  .hero-title, .hero-lede { color: #000; text-shadow: none; }
+  .prose a[href^="http"]::after, .d-inner a[href^="http"]::after { content: " (" attr(href) ")"; font-size: .8em; color: #555; word-break: break-all; }
+  .row, .perk, h2, h3 { break-inside: avoid; }
+}

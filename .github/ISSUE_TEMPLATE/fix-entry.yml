@@ -1,0 +1,31 @@
+name: "🛠 Fix an entry"
+description: Wrong deadline, dead link, changed eligibility, or a program that no longer exists.
+title: "Fix: <program name>"
+labels: ["fix"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      placeholder: file path + program name, e.g. fellowships/study-abroad.md → Chevening
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's wrong?
+      options:
+        - Deadline / window has changed
+        - Link is dead or redirects somewhere else
+        - Eligibility or funding details are wrong
+        - Program is discontinued
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction + source
+      description: What it should say, and the official URL that proves it.
+    validations:
+      required: true
