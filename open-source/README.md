@@ -26,7 +26,6 @@
 | [Open Source Promotion Plan (OSPP)](#open-source-promotion-plan-ospp) | `~May–Jun 2027` (2026 apps closed Jun 22) | ✅ ¥3,500–10,000 by tier | students 18+, global | UG / PG / PhD |
 | [FOSS United Grants + FOSS Hack](#foss-united-grants--foss-hack) | Grants: `Rolling` (being overhauled) · FOSS Hack: `~Feb 2027` | ✅ ₹ grants / ₹ prizes | Indian FOSS builders | UG / PG / PhD |
 | [ML Collective](#ml-collective) | `Rolling` | ❌ Unpaid | independent ML researchers | UG / PG / PhD |
-| [FOSSASIA Codeheat](#fossasia-codeheat) | `⚠️ Unverified: no edition since 2023/24` | ✅ Trip to FOSSASIA Summit for winners | anyone | HS / UG / PG |
 
 ---
 
@@ -330,25 +329,6 @@
 
 ---
 
-### FOSSASIA Codeheat
-<!-- tags: stage=hs,ug,pg,phd,grad; field=cs; region=remote; funding=prize; citizenship=any; gates=; format=remote -->
-> **Type:** Contribution contest | **Location:** Remote | **Funded:** ✅ Winners flown to FOSSASIA Summit (Bangkok, ~March); certificates for 5+ merged PRs
-
-| Field | Details |
-|-------|---------|
-| Deadline | `⚠️ Unverified: no edition since 2023/24` (last one ran Dec 1, 2023–Mar 31, 2024; FOSSASIA's GitHub onboarding still mentions "future Codeheat contests" but no dates are posted; watch codeheat.org from November) |
-| Duration | ~4–5 months |
-| Who | Anyone; contribute to FOSSASIA repos (eventyay, Pocket Science Lab, SUSI, Badge Magic) |
-| Stage | HS / UG / PG |
-
-**What it is:** Points per merged PR and closed issue; top contributors get a trip to the Summit and prizes.
-
-**Reality check:** Popular with Indian students; leaderboard-gaming is common, so judges weigh quality. Good springboard to FOSSASIA's GSoC slots.
-
-**Apply:** [codeheat.org](https://codeheat.org/)
-
----
-
 ## Unpaid but real
 
 ### Hacktoberfest
@@ -434,6 +414,7 @@ These do **not** run their own paid student program; apply to them *through* GSo
 | Program | Status |
 |---------|--------|
 | **Google Season of Docs** | **Discontinued in 2025** after six seasons. |
+| **FOSSASIA Codeheat** | Removed Oct 2026: no edition since Dec 2023–Mar 2024, and no dates posted for another. If codeheat.org announces one, it usually starts Dec 1. |
 | **X.Org Endless Vacation of Code (EVoC)** | **Sunset**: the X.Org wiki says do not apply. |
 | **Rails Girls Summer of Code** | Ended in 2020. |
 | **Google Summer of Earth Engine (India)** | Ran 2018–2019 only; not recurring. |

@@ -10,8 +10,8 @@
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [MEA Internship Programme](#mea-internship-programme) | **Oct 5, 2026** (Term II, Oct–Mar); Next: `~Jan–Feb 2027` (Term I, Apr–Sep) | ✅ ₹10,000/month + airfare | Indian graduates ≤ 25; each term open to half the states/UTs | UG (final) / PG |
-| [NITI Aayog Internship](#niti-aayog-internship) | **Oct 10, 2026** (window Oct 1–10; reopens 1st–10th every month) | ❌ Unpaid | UG (2+ yrs done), PG, research scholars | UG / PG / PhD |
+| [MEA Internship Programme](#mea-internship-programme) | Next: Term I call `~Jan–Feb 2027` (Apr–Sep; Term II closed Oct 5) | ✅ ₹10,000/month + airfare | Indian graduates ≤ 25; each term open to half the states/UTs | UG (final) / PG |
+| [NITI Aayog Internship](#niti-aayog-internship) | **Nov 10, 2026** (window Nov 1–10; reopens 1st–10th every month) | ❌ Unpaid | UG (2+ yrs done), PG, research scholars | UG / PG / PhD |
 | [IMF Fund Internship Program](#imf-fund-internship-program) | **Dec 5, 2026** | ✅ Paid + travel | PhD (econ) / Master's | PG / PhD |
 | [RBI Summer Internship & Research Internship](#rbi-summer-internship--research-internship) | Research: **Jul–Nov 2026** (Jan 2027 batch), then Jan–May 2027; Summer: `~Oct–Dec 2026` ⚠️ | ✅ Stipend (Research ₹45,000/month) | Penultimate-yr PG or law students; graduates heading for a PhD | UG (law) / PG / PhD |
 | [Wire services & foreign bureaus: Reuters, AP, AFP, BBC India](#wire-services--foreign-bureaus-reuters-ap-afp-bbc-india) | Reuters `~Nov–Dec 2026`; AP plans due early 2027; BBC India trainees closed Aug 2026 | ✅ Paid (Reuters/AP/BBC); AFP varies | Journalism students, final yr/PG | UG / PG |
@@ -48,7 +48,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 1–10, 2026**; the portal accepts applications only from the **1st to 10th of every month**, for internships starting 2–6 months later (apply no later than 2 months before your start month) |
+| Deadline | Next window **Nov 1–10, 2026**; the portal accepts applications only from the **1st to 10th of every month**, for internships starting 2–6 months later (apply no later than 2 months before your start month) |
 | Duration | 6 weeks minimum, up to 6 months |
 | Who | Bona fide UG students who have completed at least 2 years with ≥85% in Class 12, PG students with ≥70% in graduation, research scholars; any discipline incl. engineering, economics, law, social sciences. NOC/bona fide letter from your institution is mandatory |
 | Stipend | None |
@@ -88,7 +88,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | Two terms a year. **Term II 2026-27** (Oct–Mar): **Oct 5, 2026**, 4 pm (extended from Sep 27). **Term I** (Apr–Sep 2027): next call `~Jan–Feb 2027` (2026 call: Feb 10–Mar 4). Each term takes applicants only from its own states/UTs. Term II: Uttar Pradesh, Rajasthan, Punjab, Uttarakhand, West Bengal, Odisha, Tamil Nadu, Telangana, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura, J&K, Ladakh, Puducherry, Lakshadweep; all other states/UTs apply in Term I. Notices and timelines are under the portal's "Internship" tab |
+| Deadline | Two terms a year. **Term II 2026-27** (Oct–Mar): closed Oct 5, 2026 (extended from Sep 27). **Term I** (Apr–Sep 2027): next call `~Jan–Feb 2027` (2026 call: Feb 10–Mar 4). Each term takes applicants only from its own states/UTs. Term II: Uttar Pradesh, Rajasthan, Punjab, Uttarakhand, West Bengal, Odisha, Tamil Nadu, Telangana, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura, J&K, Ladakh, Puducherry, Lakshadweep; all other states/UTs apply in Term I. Notices and timelines are under the portal's "Internship" tab |
 | Duration | 1–3 months within the term |
 | Who | Indian citizens with a graduate degree when applying (final-year UG only if an internship is a compulsory part of the course); age ≤ 25 on Dec 31 of the internship year; state-wise merit lists on Class 12 and graduation marks, priority to aspirational (TADP) districts at screening and to SC/ST/OBC/EWS at interview, at least 30% women; up to 30 interns per term. NOC/bona fide required |
 | Stipend | ₹10,000/month; travel reimbursed; accommodation is your own |

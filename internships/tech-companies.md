@@ -10,11 +10,11 @@
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [Microsoft Explore India](#microsoft-explore-india) | `~Aug–Oct 2026` | ✅ Paid | 2nd-year UG | UG |
+| [Microsoft Explore India](#microsoft-explore-india) | ⚠️ Unverified: `~Oct–Nov 2026` (not posted yet) | ✅ Paid | 2nd-year UG | UG |
 | [Qualcomm India Interim Engineering Intern](#qualcomm-india-interim-engineering-intern) | `~Aug–Oct 2026` + rolling | ✅ Paid | UG/PG ECE/CS | UG / PG |
 | [Texas Instruments India](#texas-instruments-india) | `~Aug–Oct 2026` (campus) | ✅ Paid | Pre-final UG/PG EE/ECE/CS | UG / PG |
 | [Amazon Future Engineer Scholarship (→ internship)](#amazon-future-engineer-scholarship--internship) | ~Nov 2026 (for 2026-27 first-years) | ✅ ₹50k/yr + laptop + internship interview | 1st-year CS/IT women, income <₹4L | UG |
-| [Google SWE Intern India (Summer 2027)](#google-swe-intern-india-summer-2027) | `~Sep–Nov 2026` | ✅ Paid | Pre-final year UG / 1st-yr PG | UG / PG |
+| [Google SWE Intern India (Summer 2027)](#google-swe-intern-india-summer-2027) | ⚠️ Unverified: `~Nov–Dec 2026` (BS/MS listing not up yet; PhD roles are) | ✅ Paid | Pre-final year UG / 1st-yr PG | UG / PG |
 | [Salesforce, Oracle, Cisco, LinkedIn, Sprinklr: campus-cycle MNCs](#salesforce-oracle-cisco-linkedin-sprinklr-campus-cycle-mncs) | `~Aug–Nov 2026` | ✅ Paid | Pre-final UG/PG | UG / PG |
 | [Walmart Global Tech & Target India](#walmart-global-tech--target-india) | `~Aug–Nov 2026`; CodeHers `~Feb–Mar 2027` | ✅ Paid | Pre-final UG/PG | UG / PG |
 | [AMD, Arm & Micron India design centres](#amd-arm--micron-india-design-centres) | Arm India opens **Nov 2026**; AMD campus Aug–Nov | ✅ Paid | UG/PG ECE/EE/CS | UG / PG |
@@ -71,7 +71,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | `~Sep–Nov 2026`. The India BS/MS SWE intern listing for summer 2027 is not up yet (end-Sep 2026); only the **PhD** variant ("Software Engineering PhD Intern, Summer 2027", Bengaluru/Hyderabad/Pune) is live, posted Sep 2026. Rolling until filled. ⚠️ Unverified, so watch the careers page |
+| Deadline | ⚠️ Unverified: `~Nov–Dec 2026`. As of Oct 26, 2026 the India BS/MS SWE intern listing for summer 2027 still isn't up; Google's careers site shows only PhD roles for India ("Software Engineering PhD Intern, Summer 2027" and "Silicon Engineering Intern, PhD, Summer 2027"). Once it appears it's rolling until filled, so set a job alert. |
 | Duration | 10–12 weeks, May–Aug 2027 |
 | Who | Pre-final year B.Tech/dual-degree, or 1st-year M.Tech/MS; CS or related; must be returning to school |
 | Stipend | Paid + relocation |
@@ -139,7 +139,7 @@ Google's research-track internship in India and the only student route into Goog
 
 | Field | Details |
 |-------|---------|
-| Deadline | `~Aug–Oct 2026` for summer 2027 (posting title "Software Engineering: Explore Intern (India)"). Not posted yet at end-Sep 2026, though Microsoft's regular India intern reqs went live Aug–Sep. ⚠️ Unverified; watch the Explore page |
+| Deadline | ⚠️ Unverified: `~Oct–Nov 2026` for summer 2027 (posting title "Software Engineering: Explore Intern (India)"). Not posted as of late Oct 2026, though Microsoft's regular India intern reqs went live Aug–Oct; watch the Explore page and set an alert. |
 | Duration | 8 weeks (India), summer 2027 |
 | Who | Enrolled in **2nd year** of a 4-year UG (CS/Engineering/Data/Cyber) at time of application; intro CS course and one semester of calculus completed |
 | Stipend | Paid |

@@ -10,10 +10,6 @@
 
 | Event | Dates | Location | Access | Student angle |
 |-------|-------|----------|--------|---------------|
-| [Open Source Summit Europe 2026](#open-source-summit-europe-2026) | **Oct 7–9, 2026** | Prague, Czechia | Ticketed | Academic rate; scholarships closed |
-| [TOKEN2049 Singapore 2026](#token2049-singapore-2026) | **Oct 7–8, 2026** | Singapore | Ticketed (expensive) | Side events are free; volunteer program |
-| [TechCrunch Disrupt 2026](#techcrunch-disrupt-2026) | **Oct 13–15, 2026** | San Francisco, USA | Ticketed | Student pass tier |
-| [PyTorch Conference 2026](#pytorch-conference-2026) | **Oct 20–21, 2026** | San Jose, USA | Ticketed | $249 student rate; scholarships closed |
 | [Grace Hopper Celebration 2026](#grace-hopper-celebration-2026) | **Oct 27–30, 2026** | Anaheim, USA | Ticketed (women & non-binary technologists) | GHC scholarships (closed for 2026); student pricing |
 | [GitHub Universe 2026](#github-universe-2026) | **Oct 28–29, 2026** | San Francisco, USA | Ticketed + **free virtual** | Free virtual track |
 | [Devcon 8 (Ethereum) 2026](#devcon-8-ethereum-2026) | **Nov 3–6, 2026** | Mumbai, India | Ticketed | $25 Indian students; $149 India residents |
@@ -64,74 +60,14 @@
 | [KubeCon + CloudNativeCon NA 2027](#kubecon--cloudnativecon-na-2027) | **Nov 8–11, 2027** | New Orleans, USA | Ticketed | Academic pricing + scholarship |
 | [KubeCon + CloudNativeCon India 2027](#kubecon--cloudnativecon-india-2027) | `~2027 (TBA)` | India | Ticketed | Academic pricing; no visa |
 
+| [TOKEN2049 Singapore 2027](#token2049-singapore-2027) | `~Oct 2027 (TBA)` | Singapore | Ticketed (expensive) | Side events are free; volunteer program |
+| [TechCrunch Disrupt 2027](#techcrunch-disrupt-2027) | `~Oct 2027 (TBA)` | San Francisco, USA | Ticketed | Student pass tier |
+| [PyTorch Conference 2027](#pytorch-conference-2027) | `~Oct 2027 (TBA)` | USA (TBA) | Ticketed | Student rate; scholarships ~spring |
 ---
 
 ## Oct–Dec 2026
 
 > Starting a visa now? US events need a B1/B2 you already hold (first-time waits run 7–12 months). Schengen takes 8–10 weeks, so Prague is out and Lisbon and Helsinki are a stretch. Still reachable: Devcon (Mumbai), NeurIPS in Sydney (Australian visa, about a month), GITEX (UAE e-visa), Open Source Summit Japan (~5-day visa), 40C3 (Schengen, apply now), and every free virtual track.
-
-### Open Source Summit Europe 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=cs; region=europe; funding=unpaid; citizenship=any; gates=; format=hybrid -->
-> **Dates:** Oct 7–9, 2026 | **Location:** Prague, Czechia | **Access:** Ticketed
-
-| Field | Details |
-|-------|---------|
-| Cost | Typically ~$700–1,100; academic rate ~$250; in person only |
-| Student angle | Academic pass tier. The 2026 scholarship (closed Sep 7) and travel fund (closed Aug 19) are shut; for a funded LF trip this year, see [Open Source Summit Japan](#open-source-summit-japan-2026). |
-| Visa | Schengen |
-| Register | Open now |
-
-**What it is:** The Linux Foundation's umbrella conference: LinuxCon, Embedded Linux Conference, Open AI + Data, security and cloud. It's co-located with Linux Plumbers (Oct 5–7) and is the place to meet the maintainers of the projects you use.
-**Apply:** [events.linuxfoundation.org](https://events.linuxfoundation.org/open-source-summit-europe/)
-
----
-
-### TOKEN2049 Singapore 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=cs,business; region=southeast-asia; funding=unpaid; citizenship=any; gates=; format=in-person -->
-> **Dates:** Oct 7–8, 2026 | **Location:** Marina Bay Sands, Singapore | **Access:** Ticketed
-
-| Field | Details |
-|-------|---------|
-| Cost | Main conference tickets are expensive ($600–2,000+). The 500+ side events across "TOKEN2049 Week" are mostly free. |
-| Student angle | Volunteer program (free access for shifts); the side-event ecosystem is where students actually go |
-| Visa | Singapore visa via VFS |
-| Register | Open |
-
-**What it is:** The largest crypto/Web3 conference in the world (~25,000 people, 160 countries). Founders, VCs, exchanges. Worth it only if you're building in crypto; the free side events and hackathons are the real student value.
-**Apply:** [token2049.com/singapore](https://www.token2049.com/singapore)
-
----
-
-### TechCrunch Disrupt 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=business; region=north-america; funding=unpaid; citizenship=any; gates=; format=in-person -->
-> **Dates:** Oct 13–15, 2026 | **Location:** Moscone West, San Francisco, USA | **Access:** Ticketed
-
-| Field | Details |
-|-------|---------|
-| Cost | Attendee/founder passes ~$1,000–3,000; **Student Pass** tier is cheapest (verified against .edu/enrolment); 15% off for groups of 4+ |
-| Student angle | Student Pass; Startup Battlefield 200 for early-stage founders (free exhibit space if selected) |
-| Visa | US B1/B2 |
-| Register | Open (tickets non-refundable after Jul 31) |
-
-**What it is:** The startup-media conference: Startup Battlefield pitch competition, VC panels, Expo Hall. Good for founders and startup-curious students; not a developer conference.
-**Apply:** [techcrunch.com/events/techcrunch-disrupt/tickets](https://techcrunch.com/events/techcrunch-disrupt/tickets/)
-
----
-
-### PyTorch Conference 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=ai,cs; region=north-america; funding=unpaid; citizenship=any; gates=; format=hybrid -->
-> **Dates:** Oct 20–21, 2026 | **Location:** San Jose, USA | **Access:** Ticketed (+ AGNTCon/MCPCon Oct 22–23 co-located)
-
-| Field | Details |
-|-------|---------|
-| Cost | Students and researchers $249; in person only |
-| Student angle | Student rate only; the 2026 registration scholarship (closed Sep 6) and travel fund (closed Aug 23) are shut |
-| Visa | US B1/B2 |
-
-**What it is:** The PyTorch Foundation's annual conference on model training, compilers and inference. The new AGNTCon + MCPCon (agents and Model Context Protocol) runs Oct 22–23 at the same venue.
-**Apply:** [events.linuxfoundation.org/pytorch-conference](https://events.linuxfoundation.org/pytorch-conference/)
-
----
 
 ### Grace Hopper Celebration 2026
 <!-- tags: stage=hs,ug,pg,phd,grad; field=cs; region=north-america; funding=unpaid; citizenship=any; gates=women-only; format=in-person -->
@@ -629,7 +565,7 @@ The largest machine-learning research conference, with a big industry expo; from
 
 | Field | Details |
 |-------|---------|
-| Student angle | Recordings free. **Config India** (Oct 15, 2026, Bengaluru) is a separate one-day event: in-person places were by application and are closed, but its livestream is free with registration. See [india.md](india.md#figma-config-india-2026) |
+| Student angle | Recordings free. Figma also ran a first one-day **Config India** in Bengaluru on Oct 15, 2026; no 2027 India edition is announced yet |
 | Visa | US B1/B2 |
 
 **What it is:** Figma's main yearly Config conference in San Francisco, on product design and Figma's latest launches. Product and UX students: watch the recordings, and register for the free Config India livestream.
@@ -854,6 +790,51 @@ The largest machine-learning research conference, with a big industry expo; from
 
 **What it is:** The India edition of KubeCon + CloudNativeCon, the Cloud Native Computing Foundation's conference on Kubernetes and cloud-native tools, and the cheapest KubeCon to attend from India.
 **Apply:** [events.linuxfoundation.org/kubecon-cloudnativecon-india](https://events.linuxfoundation.org/kubecon-cloudnativecon-india/)
+
+---
+
+### TOKEN2049 Singapore 2027
+<!-- tags: stage=hs,ug,pg,phd,grad; field=cs,business; region=southeast-asia; funding=unpaid; citizenship=any; gates=; format=in-person -->
+> **Dates:** `~Oct 2027` (TBA; 2026 ran Oct 7–8) | **Location:** Marina Bay Sands, Singapore | **Access:** Ticketed
+
+| Field | Details |
+|-------|---------|
+| Cost | Main conference tickets are expensive ($600–2,000+). The 500+ side events across "TOKEN2049 Week" are mostly free. |
+| Student angle | Volunteer program (free access for shifts); the side-event ecosystem is where students actually go |
+| Visa | Singapore visa via VFS |
+
+**What it is:** The largest crypto/Web3 conference in the world (~25,000 people). Founders, VCs, exchanges. Worth it only if you're building in crypto; the free side events and hackathons are the real student value. A first New York edition is planned for June 2027.
+**Apply:** [token2049.com/singapore](https://www.token2049.com/singapore)
+
+---
+
+### TechCrunch Disrupt 2027
+<!-- tags: stage=hs,ug,pg,phd,grad; field=business; region=north-america; funding=unpaid; citizenship=any; gates=; format=in-person -->
+> **Dates:** `~Oct 2027 (TBA)` (2026 ran Oct 13–15) | **Location:** San Francisco, USA (Moscone West in recent years) | **Access:** Ticketed
+
+| Field | Details |
+|-------|---------|
+| Cost | Attendee/founder passes ~$1,000–3,000; the **Student Pass** tier is cheapest (checked against a .edu address or proof of enrolment) |
+| Student angle | Student Pass; Startup Battlefield 200 for early-stage founders (free exhibit space if selected) |
+| Visa | US B1/B2 |
+
+**What it is:** The startup-media conference: Startup Battlefield pitch competition, VC panels, Expo Hall. Good for founders and startup-curious students; not a developer conference.
+**Apply:** [techcrunch.com/events](https://techcrunch.com/events/)
+
+---
+
+### PyTorch Conference 2027
+<!-- tags: stage=hs,ug,pg,phd,grad; field=ai,cs; region=north-america; funding=unpaid; citizenship=any; gates=; format=in-person -->
+> **Dates:** `~Oct 2027 (TBA)` (2026 ran Oct 20–21 in San Jose) | **Location:** USA (TBA) | **Access:** Ticketed
+
+| Field | Details |
+|-------|---------|
+| Cost | 2026 student and researcher rate: $249 |
+| Student angle | Student rate; a registration scholarship and a travel fund usually open in spring and close by ~Aug |
+| Visa | US B1/B2 |
+
+**What it is:** The PyTorch Foundation's annual conference on model training, compilers and inference. In 2026 the new AGNTCon + MCPCon (agents and Model Context Protocol) ran alongside it.
+**Apply:** [events.linuxfoundation.org/pytorch-conference](https://events.linuxfoundation.org/pytorch-conference/)
 
 ---
 

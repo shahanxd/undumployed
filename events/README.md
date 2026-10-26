@@ -22,26 +22,10 @@ Generated from the four files by `scripts/build_events_calendar.py`. Bold dates 
 <!-- events-calendar:start -->
 | When | Event | Where | Type | Student angle |
 |------|-------|-------|------|---------------|
-| **September 2026** | | | | |
-| **Sep 27–Oct 1, 2026** (ongoing) | [IROS 2026](research-conferences.md#iros-2026) | Pittsburgh, USA | Research | 2026 travel awards closed Aug 14; next: IRO… |
-| **Sep 29–Oct 2, 2026** (ongoing) | [SOSP 2026](research-conferences.md#sosp-2026) | Prague, Czechia | Research | Too late for 2026 grants; next: SOSP 2027 ~… |
 | **October 2026** | | | | |
-| **Oct 1–4, 2026** (conf Oct 3–4) | [DesignUp 2026](india.md#designup-2026) | Whitefield, Bengaluru | India | Student passes |
 | `~Oct 2026` (through Dec) | [DevFest India 2026 (GDG)](india.md#devfest-india-2026-gdg) | 30+ cities | India | Free |
-| Mumbai **Oct 3, 2026**; Delhi `20… | [BSides Mumbai / Bangalore / Delhi](india.md#bsides-mumbai--bangalore--delhi) | Mumbai / Bengaluru / Delhi | India | Cheap; CTF |
-| **Oct 5–9, 2026** | [IAC 2026](arts-culture.md#iac-2026) | Antalya, Türkiye | Arts / culture | Student registration rate (2026 grants clos… |
-| **Oct 6–9, 2026** | [COLM 2026](research-conferences.md#colm-2026) | San Francisco, USA | Research | Student rate |
-| **Oct 6–13, 2026** (conf Oct 9–10) | [c0c0n 2026](india.md#c0c0n-2026) | Grand Hyatt, Kochi | India | Student pass ₹4,999; CTF |
-| **Oct 7–10, 2026** | [India Mobile Congress 2026](india.md#india-mobile-congress-2026) | Yashobhoomi, New Delhi | India | Free; student zone |
-| **Oct 7–9, 2026** | [Open Source Summit Europe 2026](tech-global.md#open-source-summit-europe-2026) | Prague, Czechia | Tech | Academic rate; scholarships closed |
-| **Oct 7–8, 2026** | [TOKEN2049 Singapore 2026](tech-global.md#token2049-singapore-2026) | Singapore | Tech | Side events are free; volunteer program |
-| **Oct 9–11, 2026** | [Thomso 2026 (IIT Roorkee)](india.md#thomso-2026-iit-roorkee) | Roorkee | India | Competitions, prizes |
 | **Oct 10–Dec 13, 2026** | [Comic Con India 2026–27](india.md#comic-con-india-202627) | Multi-city | India | Volunteer registration |
-| **Oct 13–15, 2026** | [TechCrunch Disrupt 2026](tech-global.md#techcrunch-disrupt-2026) | San Francisco, USA | Tech | Student pass tier |
-| **Oct 15, 2026** | [Figma Config India 2026](india.md#figma-config-india-2026) | BIEC, Bengaluru | India | Free livestream registration |
-| Next: Mumbai **Oct 17, 2026**; ot… | [AWS Community Day India](india.md#aws-community-day-india) | Multiple cities | India | Cheap |
-| **Oct 18, 2026** | [Vedanta Delhi Half Marathon 2026](india.md#vedanta-delhi-half-marathon-2026) | New Delhi | India | Full for 2026; next window ~Jul 2027 |
-| **Oct 20–21, 2026** | [PyTorch Conference 2026](tech-global.md#pytorch-conference-2026) | San Jose, USA | Tech | $249 student rate; scholarships closed |
+| One city at a time through the ye… | [AWS Community Day India](india.md#aws-community-day-india) | Multiple cities | India | Cheap |
 | **Oct 24–29, 2026** | [EMNLP 2026](research-conferences.md#emnlp-2026) | Budapest, Hungary | Research | Volunteer + D&I subsidy calls closed (Sep 1… |
 | **Oct 27–30, 2026** | [Grace Hopper Celebration 2026](tech-global.md#grace-hopper-celebration-2026) | Anaheim, USA | Tech | GHC scholarships (closed for 2026); student… |
 | **Oct 28–29, 2026** | [GitHub Universe 2026](tech-global.md#github-universe-2026) | San Francisco, USA | Tech | Free virtual track |
@@ -167,6 +151,7 @@ Generated from the four files by `scripts/build_events_calendar.py`. Bold dates 
 | **Jun 21–25, 2027** | [Cannes Lions 2027](arts-culture.md#cannes-lions-2027) | Cannes, France | Arts / culture | **Young Lions** competition (under 30) |
 | `~Jun 28–Jul 11, 2027` | [Wimbledon 2027](arts-culture.md#wimbledon-2027) | London, UK | Arts / culture | The Queue (cheap day tickets) |
 | **July 2027** | | | | |
+| Delhi `2026 (TBA)`; Bangalore `~J… | [BSides Mumbai / Bangalore / Delhi](india.md#bsides-mumbai--bangalore--delhi) | Mumbai / Bengaluru / Delhi | India | Cheap; CTF |
 | `~Jul 2027 (TBA)` | [ICML 2027](research-conferences.md#icml-2027) | South America (TBA) | Research | Financial assistance + volunteers |
 | `~Mar–Jul 2027` | [James Dyson Award 2027](arts-culture.md#james-dyson-award-2027) | Online | Arts / culture | Engineering/design students & recent grads |
 | `~Jul 2027 (TBA)` | [The Fifth Elephant 2027](india.md#the-fifth-elephant-2027) | Bengaluru | India | Student discount |
@@ -199,10 +184,21 @@ Generated from the four files by `scripts/build_events_calendar.py`. Bold dates 
 | **Sep 9–19, 2027** | [TIFF 2027](arts-culture.md#tiff-2027) | Toronto, Canada | Arts / culture | Free Under-25 Pass (festival ticket discoun… |
 | **Sep 15–16, 2027** | [AGNTCon + MCPCon Europe 2027](tech-global.md#agntcon--mcpcon-europe-2027) | London, UK | Tech | LF scholarships |
 | **Sep 20–22, 2027** | [Open Source Summit Europe 2027](tech-global.md#open-source-summit-europe-2027) | Glasgow, UK | Tech | LF scholarships |
+| Sep 26–Oct 1, 2027 | [IROS 2027](research-conferences.md#iros-2027) | Florence, Italy | Research | Student rate; travel awards ~Jun |
 | **Sep 27–Oct 1, 2027** | [IAC 2027](arts-culture.md#iac-2027) | Poznań, Poland | Arts / culture | Student registration + grants |
 | **October 2027** | | | | |
+| `~Oct 2027 (TBA)` | [COLM 2027](research-conferences.md#colm-2027) | TBA | Research | Register early (2026 sold out) |
+| `~Sep–Oct 2027 (TBA)` | [DesignUp 2027](india.md#designup-2027) | Bengaluru | India | Student passes |
 | `~Sep/Oct 2027 (TBA)` | [Grace Hopper Celebration 2027](tech-global.md#grace-hopper-celebration-2027) | USA (TBA) | Tech | GHC scholarships open ~Mar–May |
+| `~Oct 2027 (TBA)` | [India Mobile Congress 2027](india.md#india-mobile-congress-2027) | New Delhi | India | Free expo; student zone |
 | `~Oct 2027 (TBA)` | [OpenAI DevDay 2027](tech-global.md#openai-devday-2027) | San Francisco, USA | Tech | Livestreamed |
+| `~Oct 2027 (TBA)` | [PyTorch Conference 2027](tech-global.md#pytorch-conference-2027) | USA (TBA) | Tech | Student rate; scholarships ~spring |
+| `~Oct 2027 (TBA)` | [SOSP 2027](research-conferences.md#sosp-2027) | TBA | Research | SIGOPS travel grants |
+| `~Oct 2027 (TBA)` | [TOKEN2049 Singapore 2027](tech-global.md#token2049-singapore-2027) | Singapore | Tech | Side events are free; volunteer program |
+| `~Oct 2027 (TBA)` | [TechCrunch Disrupt 2027](tech-global.md#techcrunch-disrupt-2027) | San Francisco, USA | Tech | Student pass tier |
+| `~Oct 2027 (TBA)` | [Thomso 2027 (IIT Roorkee)](india.md#thomso-2027-iit-roorkee) | IIT Roorkee | India | Inter-college competitions |
+| `~Oct 2027 (TBA)` | [Vedanta Delhi Half Marathon 2027](india.md#vedanta-delhi-half-marathon-2027) | New Delhi | India | 5K/10K open to anyone |
+| `~Oct 2027 (TBA)` | [c0c0n 2027](india.md#c0c0n-2027) | Kochi | India | Student pass; CTF |
 | **Oct 2–8, 2027** | [ICCV 2027](research-conferences.md#iccv-2027) | Hong Kong | Research | Student volunteers; travel grants |
 | **November 2027** | | | | |
 | **Nov 8–11, 2027** | [KubeCon + CloudNativeCon NA 2027](tech-global.md#kubecon--cloudnativecon-na-2027) | New Orleans, USA | Tech | Academic pricing + scholarship |
