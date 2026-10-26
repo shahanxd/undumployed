@@ -16,7 +16,7 @@
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [OIST Research Internship](#oist-research-internship) | **Oct 15, 2026** (Spring 2027) | ✅ Full | final-2-yr UG / MSc, STEM | UG / PG |
+| [OIST Research Internship](#oist-research-internship) | Next: `~Apr 15, 2027` for Fall 2027 (Spring closed Oct 15) | ✅ Full | final-2-yr UG / MSc, STEM | UG / PG |
 | [EPFL E3](#epfl-e3) | **Nov 1, 2026** (portal opens Oct) | ✅ CHF 1,800–2,500/mo + travel | UG (2 yrs done) / MSc engineering | UG / PG |
 | [EPFL Life Sciences Summer Research](#epfl-life-sciences-summer-research-program) | **Nov 15, 2026** | ✅ Stipend | UG / 1st-yr MSc life sci | UG / PG |
 | [Summer@EPFL](#summerepfl) | **Nov 29, 2026** | ✅ CHF 1,800/mo + travel | UG (2nd yr+) / MSc in CS, EE, comm | UG / PG |
@@ -60,7 +60,7 @@
 | [Australia faculty-first (ANU / UNSW / Melbourne)](#australia-faculty-first-anu--unsw--melbourne) | `Rolling` (ANU FRT: Next `~Aug–Sep 2027`) | ⚠️ Varies | UG / MSc | UG / PG |
 | [Anthropic Fellows](#anthropic-fellows-program) | Rolling: open now for the Jan 2027 cohort | ✅ $3,850/week + ~$15k/mo compute | needs US/UK/Canada work rights | PG / PhD / professionals |
 | [DAAD WISE](#daad-wise) | ⚠️ Unverified: DAAD lists it as "not available right now" | ✅ Stipend + travel | Indian UG/PG, CGPA 8+ | UG / PG |
-| [Khorana Program](#khorana-program) | ⚠️ Unverified: no call since Oct 2024 | ✅ Airfare + stipend | Indian pre-final-yr biotech | UG / PG |
+| [Khorana Program](#khorana-program) | ⚠️ Paused: no call since Oct 2024 (described as on hold) | ✅ Airfare + stipend | Indian pre-final-yr biotech | UG / PG |
 | [IRIS@NUS](#irisnus) | Next: `~Jul–Aug 2027` | ✅ Full | UG / MSc any field | UG / PG |
 | [Mitacs Globalink](#mitacs-globalink) | Next: `~Aug–Sep 2027` | ✅ Full | Indian B.E/B.Tech at listed colleges (not IITs for 2027), 70%+ | UG |
 | [ERA:AI Fellowship](#eraai-fellowship) | Next: not announced (Winter 2027 closed) | ✅ Stipend + meals + travel + visa | any career stage, AI safety/governance | UG / PG / PhD |
@@ -215,7 +215,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | ⚠️ Unverified: DAAD's scholarship database shows WISE as "not available right now" (Sep 2026), and DAAD India no longer lists it among its scholarships. Past calls opened in October and closed ~Nov 1 for May–Jul internships; watch daad.in through October. |
+| Deadline | ⚠️ Unverified: DAAD hasn't posted a 2027 call as of Oct 26, 2026 (its database showed WISE as "not available right now" in September, and DAAD India no longer lists it). Some third-party sites claim a Nov 1, 2026 deadline; don't rely on it until daad.in confirms. Past calls opened in October and closed ~Nov 1 for May–Jul internships. |
 | Duration | 2–3 months, May–Jul 2027 |
 | Who | Indian citizens; ≥3rd year of Bachelor's or in Master's at an Indian institution; CGPA 8.0+/75%+; engineering and natural sciences. **You must already hold a written invitation from a professor at a public German university or research institute.** |
 | Stipend | Monthly stipend (€650 in older calls; a new call may pay more) + travel subsidy + insurance |
@@ -457,7 +457,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | ⚠️ Unverified: no call since the summer-2025 round (closed Oct 7, 2024); IUSSTF lists no summer-2026 round. Past calls closed between October and January, so watch iusstf.org from September. |
+| Deadline | ⚠️ Paused: no call since the summer-2025 round (closed Oct 7, 2024), IUSSTF lists no 2026 or 2027 round, and partner WINStep Forward describes the program as on hold. Past calls closed between October and January. |
 | Duration | 10–12 weeks, mid-May to end-Jul |
 | Who | Indian citizens, **pre-final year** B.Tech/M.Tech/B.Sc/M.Sc/MBBS/B.Pharm in biotech, biomedical and allied fields; CGPA 8.0+ or 80%+ (65% for MBBS). First-year, final-year and PhD students ineligible. |
 | Stipend | Round-trip airfare + stipend + health insurance. Accommodation, visa fee, bench fees are on you. |
@@ -699,7 +699,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 15, 2026** 23:59 JST for the Spring 2027 intake (placements Apr 1 to Sep 30, 2027). Next: `~Apr 15, 2027` for Fall 2027 (Oct 2027 to Mar 2028) |
+| Deadline | The Spring 2027 intake closed Oct 15, 2026 (placements Apr 1 to Sep 30, 2027). Next: `~Apr 15, 2027` (23:59 JST) for Fall 2027 (Oct 2027 to Mar 2028). |
 | Duration | 4–6 months |
 | Who | Students in the final two years of a Bachelor's, any year of a Master's, or holding a Bachelor's/Master's; STEM; home-institution approval required; PhD students/holders ineligible |
 | Stipend | ¥2,400/working day (~¥50k/month) + one round-trip air ticket + housing + visa CoE support. **Application fee ¥5,000, non-refundable, no waivers.** |
