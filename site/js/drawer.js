@@ -1,5 +1,5 @@
 // The detail panel for one opportunity or event.
-import { db, fmtDays } from './data.js';
+import { db, fmtDays, fmtDate } from './data.js';
 import { esc, icon, inline, block, plain, CAT_SHORT, toast, copyText } from './ui.js';
 import { isSaved, parseHash, hashFor, replaceHash, reducedMotion } from './state.js';
 import { icsForDeadlines, download } from './ics.js';
@@ -33,7 +33,7 @@ function oppHtml(o) {
   const money = String(o.stipend || o.funded || '').replace(/^\s*(?:✅|❌|⚠️)️?\s*/u, '');
   const extra = Object.entries(o.table || {}).filter(([k, v]) => !SKIP.has(k) && plain(v));
   const facts = [
-    ['Deadline', `${inline(o.deadline)}<span class="hint">${esc(deadlineHint(o))}</span>${o.unverified ? '<span class="hint is-warn">We couldn’t confirm this on the official site this round, so double-check before you plan around it.</span>' : ''}`],
+    ['Deadline', `${inline(o.deadline)}<span class="hint">${esc(deadlineHint(o))}</span>${o.drop && o.expiresDate ? `<span class="hint">A one-off: this edition isn’t expected to come round again. It’s over on ${esc(fmtDate(o.expiresDate))}.</span>` : ''}${o.unverified ? '<span class="hint is-warn">We couldn’t confirm this on the official site this round, so double-check before you plan around it.</span>' : ''}`],
     o.who && ['Who', inline(o.who)],
     money && ['Money', inline(money)],
     o.duration && ['Duration', inline(o.duration)],
@@ -42,10 +42,9 @@ function oppHtml(o) {
   ].filter(Boolean);
   return `${bar}
 <div class="d-inner">
-  <p class="d-kicker">${esc(CAT_SHORT[o.category] || o.categoryLabel)}</p>
+  <p class="d-kicker">${esc(CAT_SHORT[o.category] || o.categoryLabel)}${o.drop ? ' · One-off drop' : ''}</p>
   <h2 class="d-title" id="drawer-title" tabindex="-1">${esc(o.name)}</h2>
-  ${o.type || o.location ? `<p class="d-sub">${esc([plain(o.type), plain(o.location)].filter(Boolean).join(' · '))}</p>` : ''}
-  <dl class="facts">${facts.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>
+  ${o.type || o.location ? `<p class="d-sub">${esc([plain(o.type), plain(o.location)].filter(Boolean).join(' · '))}</p>` : ''}  <dl class="facts">${facts.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>
   <div class="d-actions">
     ${o.applyUrl ? `<a class="btn btn-primary" href="${esc(o.applyUrl)}" target="_blank" rel="noopener">Official page ${icon('i-out')}</a>` : ''}
     <button class="btn" type="button" data-save="${esc(o.id)}" data-name="${esc(o.name)}" aria-pressed="${saved}">${icon(saved ? 'i-mark-on' : 'i-mark')}<span>${saved ? 'Saved' : 'Save'}</span></button>
@@ -71,7 +70,7 @@ function eventHtml(e) {
   ].filter(Boolean);
   return `${bar}
 <div class="d-inner">
-  <p class="d-kicker">${esc(e.kindLabel)}</p>
+  <p class="d-kicker">${esc(e.kindLabel)}${e.drop ? ' · One-off drop' : ''}</p>
   <h2 class="d-title" id="drawer-title" tabindex="-1">${esc(e.name)}</h2>
   <dl class="facts">${facts.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>
   <div class="d-actions">

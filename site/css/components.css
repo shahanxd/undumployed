@@ -238,8 +238,9 @@ a.row-title { text-decoration: underline; text-decoration-thickness: 1px; text-u
 .row:hover a.row-title { text-decoration-color: color-mix(in srgb, currentColor 32%, transparent); }
 a.row-title:focus-visible { outline: none; }
 .row-meta { margin-top: 3px; font-size: 14px; color: var(--ink-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.row-end { position: relative; z-index: 1; display: flex; justify-content: flex-end; }
+.row-end { position: relative; z-index: 1; display: flex; justify-content: flex-end; align-items: center; gap: 8px; }
 .row-tag { font-size: 12px; font-weight: 700; color: var(--ok); white-space: nowrap; }
+.row-drop { color: var(--accent); padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); }
 .row.is-past { opacity: .6; }
 
 .save {

@@ -8,15 +8,9 @@
 
 | Event | Dates | Location | Access | Student angle |
 |-------|-------|----------|--------|---------------|
-| [DesignUp 2026](#designup-2026) | **Oct 1–4, 2026** (conf Oct 3–4) | Whitefield, Bengaluru | Ticketed | Student passes |
-| [BSides Mumbai / Bangalore / Delhi](#bsides-mumbai--bangalore--delhi) | Mumbai **Oct 3, 2026**; Delhi `2026 (TBA)`; Bangalore `~Jul 2027` | Mumbai / Bengaluru / Delhi | Cheap ticketed | Cheap; CTF |
-| [c0c0n 2026](#c0c0n-2026) | **Oct 6–13, 2026** (conf Oct 9–10) | Grand Hyatt, Kochi | Ticketed | Student pass ₹4,999; CTF |
-| [India Mobile Congress 2026](#india-mobile-congress-2026) | **Oct 7–10, 2026** | Yashobhoomi, New Delhi | **Free visitor pass** | Free; student zone |
-| [Thomso 2026 (IIT Roorkee)](#thomso-2026-iit-roorkee) | **Oct 9–11, 2026** | Roorkee | Open to students | Competitions, prizes |
+| [BSides Mumbai / Bangalore / Delhi](#bsides-mumbai--bangalore--delhi) | Delhi `2026 (TBA)`; Bangalore `~Jul 2027`; Mumbai `~Oct 2027` | Mumbai / Bengaluru / Delhi | Cheap ticketed | Cheap; CTF |
 | [Comic Con India 2026–27](#comic-con-india-202627) | **Oct 10–Dec 13, 2026** | Multi-city | Ticketed | Volunteer registration |
-| [Figma Config India 2026](#figma-config-india-2026) | **Oct 15, 2026** | BIEC, Bengaluru | Free virtual (in-person closed) | Free livestream registration |
-| [AWS Community Day India](#aws-community-day-india) | Next: Mumbai **Oct 17, 2026**; other cities through the year | Multiple cities | Cheap ticketed | Cheap |
-| [Vedanta Delhi Half Marathon 2026](#vedanta-delhi-half-marathon-2026) | **Oct 18, 2026** | New Delhi | Registration closed | Full for 2026; next window ~Jul 2027 |
+| [AWS Community Day India](#aws-community-day-india) | One city at a time through the year (Mumbai was Oct 17, 2026) | Multiple cities | Cheap ticketed | Cheap |
 | [MAMI Mumbai Film Festival 2026](#mami-mumbai-film-festival-2026) | ⚠️ Unverified: 2026 dates TBA | Mumbai | Ticketed | Student passes historically |
 | [React India 2026](#react-india-2026) | **Oct 29–31, 2026** | Goa | Ticketed | Student discount |
 | [Oasis 2026 (BITS Pilani)](#oasis-2026-bits-pilani) | **Oct 29–Nov 2, 2026** | Pilani | Open to students | Competitions |
@@ -65,56 +59,14 @@
 | [IndiaFOSS 2027](#indiafoss-2027) | `~Sep 2027 (TBA)` | Bengaluru | Ticketed | Student tickets; travel support |
 | [Ziro Festival of Music 2027](#ziro-festival-of-music-2027) | `~Sep 2027 (TBA)` | Ziro Valley, Arunachal | Ticketed | none |
 
+| [DesignUp 2027](#designup-2027) | `~Sep–Oct 2027 (TBA)` | Bengaluru | Ticketed | Student passes |
+| [c0c0n 2027](#c0c0n-2027) | `~Oct 2027 (TBA)` | Kochi | Ticketed | Student pass; CTF |
+| [India Mobile Congress 2027](#india-mobile-congress-2027) | `~Oct 2027 (TBA)` | New Delhi | Free visitor pass | Free expo; student zone |
+| [Thomso 2027 (IIT Roorkee)](#thomso-2027-iit-roorkee) | `~Oct 2027 (TBA)` | IIT Roorkee | Open to college students | Inter-college competitions |
+| [Vedanta Delhi Half Marathon 2027](#vedanta-delhi-half-marathon-2027) | `~Oct 2027 (TBA)` | New Delhi | Registration ~Jul–Sep | 5K/10K open to anyone |
 ---
 
 ## Oct–Dec 2026
-
-### DesignUp 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=design; region=india; funding=unpaid; citizenship=any; gates=; format=in-person -->
-> **Dates:** Oct 1–4, 2026: Oct 1 LeadUp (invite-only); Oct 2 workshops; conference Oct 3–4 | **Location:** Sheraton Grand Whitefield, Bengaluru | **Access:** Ticketed
-
-**What it is:** Design and tech conference (product/UX), now in its tenth year. Student passes offered (restrictions apply).
-**Apply:** [26.designup.io](https://26.designup.io/)
-
----
-
-### c0c0n 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=cs; region=india; funding=unpaid; citizenship=any; gates=; format=in-person -->
-> **Dates:** Oct 6–13, 2026 (trainings Oct 6–8 and Oct 11–13; conference Oct 9–10) | **Location:** Grand Hyatt, Bolgatty, Kochi, Kerala | **Access:** Ticketed (online registration to Sep 30, 2026; after that on-site only, subject to seats)
-
-| Field | Details |
-|-------|---------|
-| Student angle | Student conference pass (Oct 9–10): ₹4,999 + taxes, student ID required; DomeCTF and hands-on villages; hosted by Kerala Police and ISRA (Information Security Research Association) |
-| Register | [c0c0n.org/register](https://c0c0n.org/register) |
-
-**What it is:** Long-running hacking and cyber-security conference (19th edition in 2026) with trainings, talks, a CTF and a big police/government presence.
-**Apply:** [c0c0n.org](https://c0c0n.org/)
-
----
-
-### India Mobile Congress 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=ee,cs,ai; region=india; funding=free; citizenship=any; gates=; format=in-person -->
-> **Dates:** Oct 7–10, 2026 | **Location:** Yashobhoomi (India International Convention & Expo Centre), Dwarka, New Delhi | **Access:** **Free visitor pass**; conference passes ₹15,000–20,000 early bird
-
-| Field | Details |
-|-------|---------|
-| Cost | Visitor: free · Conference: ₹15k/₹20k early bird |
-| Student angle | Free expo access; student innovation/startup zone; hackathons announced via DoT/COAI |
-| Register | Open at indiamobilecongress.com |
-
-**What it is:** The big annual telecom and tech expo, run by the Department of Telecommunications and COAI. It covers 5G/6G, satcom, semiconductors and AI. The expo floor is free with a visitor pass.
-**Apply:** [indiamobilecongress.com](https://www.indiamobilecongress.com/)
-
----
-
-### Thomso 2026 (IIT Roorkee)
-<!-- tags: stage=ug,pg,phd; field=any; region=india; funding=free; citizenship=any; gates=enrolled-only; format=in-person -->
-> **Dates:** Oct 9–11, 2026 | **Location:** IIT Roorkee | **Access:** Open to all college students
-
-**What it is:** IIT Roorkee's cultural fest: dance, music, drama and pro-nights, with competitions open to students from other colleges.
-**Apply:** [thomso.in](https://thomso.in/)
-
----
 
 ### Comic Con India 2026–27
 <!-- tags: stage=hs,ug,pg,phd,grad; field=any; region=india; funding=unpaid; citizenship=any; gates=; format=in-person -->
@@ -127,25 +79,6 @@
 
 **What it is:** Pop-culture, gaming, anime and comics conventions, one weekend in each city.
 **Apply:** [comicconindia.com](https://www.comicconindia.com/)
-
----
-
-### Figma Config India 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=design; region=india; funding=free; citizenship=any; gates=; format=hybrid -->
-> **Dates:** Oct 15, 2026 | **Location:** BIEC, Tumkur Road, Bengaluru | **Access:** In-person by application (closed); virtual registration free
-
-**What it is:** Figma's first Config in India, a one-day conference in Bengaluru with talks and product launches for designers and product teams. It is a separate event from Figma's main Config in San Francisco ([Figma Config 2027](tech-global.md#figma-config-2027)).
-**Student angle:** in-person places were by application and are closed; the livestream is free with registration.
-**Apply:** [config.figma.com/india](https://config.figma.com/india/)
-
----
-
-### Vedanta Delhi Half Marathon 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=any; region=india; funding=unpaid; citizenship=any; gates=; format=in-person -->
-> **Dates:** Oct 18, 2026 | **Location:** JLN Stadium, New Delhi | **Access:** Registration closed for 2026
-
-**Student angle:** the Great Delhi Run (~5 km) and Open 10K are open to anyone (~₹1,000–2,000), but registration runs late July to September and the half marathon fills in days; 2026 is closed.
-**Apply:** [vedantadelhihalfmarathon.procam.in](https://www.vedantadelhihalfmarathon.procam.in/)
 
 ---
 
@@ -547,11 +480,69 @@ The India edition of the Cloud Native Computing Foundation's Kubernetes conferen
 
 ---
 
+## Oct–Dec 2027
+
+---
+
+### DesignUp 2027
+<!-- tags: stage=hs,ug,pg,phd,grad; field=design; region=india; funding=unpaid; citizenship=any; gates=; format=in-person -->
+> **Dates:** `~Sep–Oct 2027 (TBA)` (2026 ran Oct 1–4) | **Location:** Bengaluru | **Access:** Ticketed
+
+**What it is:** Design and tech conference (product/UX), past its tenth year. Student passes offered (restrictions apply).
+**Apply:** [designup.io](https://designup.io/)
+
+---
+
+### c0c0n 2027
+<!-- tags: stage=hs,ug,pg,phd,grad; field=cs; region=india; funding=unpaid; citizenship=any; gates=; format=in-person -->
+> **Dates:** `~Oct 2027 (TBA)` (2026 ran Oct 6–13, conference Oct 9–10) | **Location:** Kochi, Kerala | **Access:** Ticketed
+
+| Field | Details |
+|-------|---------|
+| Student angle | 2026 student conference pass: ₹4,999 + taxes, student ID required; DomeCTF and hands-on villages; hosted by Kerala Police and ISRA (Information Security Research Association) |
+
+**What it is:** Long-running hacking and cyber-security conference (19th edition in 2026) with trainings, talks, a CTF and a big police/government presence.
+**Apply:** [c0c0n.org](https://c0c0n.org/)
+
+---
+
+### India Mobile Congress 2027
+<!-- tags: stage=hs,ug,pg,phd,grad; field=ee,cs,ai; region=india; funding=free; citizenship=any; gates=; format=in-person -->
+> **Dates:** `~Oct 2027 (TBA)` (2026 ran Oct 7–10) | **Location:** Yashobhoomi (IICC), Dwarka, New Delhi, in recent years | **Access:** **Free visitor pass**; paid conference passes
+
+| Field | Details |
+|-------|---------|
+| Cost | Visitor: free · Conference: ~₹15k–20k early bird (2026) |
+| Student angle | Free expo access; student innovation/startup zone; hackathons announced via DoT/COAI |
+
+**What it is:** The big annual telecom and tech expo, run by the Department of Telecommunications and COAI. It covers 5G/6G, satcom, semiconductors and AI. The expo floor is free with a visitor pass.
+**Apply:** [indiamobilecongress.com](https://www.indiamobilecongress.com/)
+
+---
+
+### Thomso 2027 (IIT Roorkee)
+<!-- tags: stage=ug,pg,phd; field=any; region=india; funding=free; citizenship=any; gates=enrolled-only; format=in-person -->
+> **Dates:** `~Oct 2027 (TBA)` (2026 ran Oct 9–11) | **Location:** IIT Roorkee | **Access:** Open to all college students
+
+**What it is:** IIT Roorkee's cultural fest: dance, music, drama and pro-nights, with competitions open to students from other colleges.
+**Apply:** [thomso.in](https://thomso.in/)
+
+---
+
+### Vedanta Delhi Half Marathon 2027
+<!-- tags: stage=hs,ug,pg,phd,grad; field=any; region=india; funding=unpaid; citizenship=any; gates=; format=in-person -->
+> **Dates:** `~Oct 2027 (TBA)` (2026 ran Oct 18) | **Location:** JLN Stadium, New Delhi | **Access:** Registration `~late Jul–Sep 2027`
+
+**Student angle:** the Great Delhi Run (~5 km) and Open 10K are open to anyone (~₹1,000–2,000), but registration runs late July to September and the half marathon fills in days, so set a reminder for July.
+**Apply:** [vedantadelhihalfmarathon.procam.in](https://www.vedantadelhihalfmarathon.procam.in/)
+
+---
+
 ## Recurring & community
 
 ### BSides Mumbai / Bangalore / Delhi
 <!-- tags: stage=hs,ug,pg,phd,grad; field=cs; region=india; funding=unpaid; citizenship=any; gates=; format=in-person -->
-> **Dates:** BSides Mumbai **Oct 3, 2026** (Deloitte Knowledge Center, Parel; the online CTF ran Sep 26–27) · BSides Delhi `2026 (TBA)` on its new site (the old bsidesdelhi.in now redirects to an unrelated site) · BSides Bangalore `~Jul 2027 (TBA)` (2026 edition was Jul 9) | **Access:** Cheap ticketed (BSides Mumbai student pass ₹2,400–3,100; student ID checked at entry)
+> **Dates:** BSides Mumbai `~Oct 2027` (2026 ran Oct 3 at Deloitte Knowledge Center, Parel) · BSides Delhi `2026 (TBA)` on its new site (the old bsidesdelhi.in now redirects to an unrelated site) · BSides Bangalore `~Jul 2027 (TBA)` (2026 edition was Jul 9) | **Access:** Cheap ticketed (BSides Mumbai student pass ₹2,400–3,100; student ID checked at entry)
 
 **What it is:** Low-cost, community-run security conferences: talks, workshops and CTFs.
 **Apply:** [bsidesmumbai.in](https://bsidesmumbai.in/) · [bsidesbangalore.in](https://bsidesbangalore.in/) · [bsidesdelhi.com](https://bsidesdelhi.com/)
@@ -578,7 +569,7 @@ The India edition of the Cloud Native Computing Foundation's Kubernetes conferen
 
 ### AWS Community Day India
 <!-- tags: stage=hs,ug,pg,phd,grad; field=cs; region=india; funding=free; citizenship=any; gates=; format=in-person -->
-> **Dates:** Community-run, one city at a time. Next: **Mumbai, Oct 17, 2026** (Nesco Grande, Goregaon); Vadodara was Sep 12, 2026. Past hosts include Bengaluru, Pune, Chennai, Kochi, Jaipur and Ahmedabad | **Access:** Cheap ticketed (Mumbai standard pass ₹2,599)
+> **Dates:** Community-run, one city at a time. Recent: Vadodara Sep 12 and Mumbai Oct 17, 2026; the next city is announced on AWS's Community Day page. Past hosts include Bengaluru, Pune, Chennai, Kochi, Jaipur and Ahmedabad | **Access:** Cheap ticketed (Mumbai standard pass ₹2,599)
 
 **What it is:** One-day conferences run by local AWS User Groups: community talks and workshops on AWS.
 **Apply:** [ACD Mumbai 2026](https://acd.awsugmum.in/) · other cities on [AWS's Community Day page](https://aws.amazon.com/events/community-day/)
@@ -589,12 +580,12 @@ The India edition of the Cloud Native Computing Foundation's Kubernetes conferen
 
 Open to students from any college (register online; many offer hostel accommodation). **Why go:** hackathons and robotics/coding competitions with real prize money, hands-on workshops, guest lectures by founders and researchers, industry stalls that recruit interns, and pro-nights.
 
-These have their own entries above: [Thomso](#thomso-2026-iit-roorkee), [Oasis](#oasis-2026-bits-pilani), [Techfest](#techfest-2026-iit-bombay), [Mood Indigo](#mood-indigo-2026-iit-bombay), [Kshitij / Spring Fest](#kshitij--spring-fest-2027-iit-kharagpur), [Shaastra / Saarang](#shaastra--saarang-2027-iit-madras) and [Tryst / Techkriti / Cognizance / Apogee](#tryst--techkriti--cognizance--apogee-2027). A few more:
+These have their own entries above: [Thomso](#thomso-2027-iit-roorkee), [Oasis](#oasis-2026-bits-pilani), [Techfest](#techfest-2026-iit-bombay), [Mood Indigo](#mood-indigo-2026-iit-bombay), [Kshitij / Spring Fest](#kshitij--spring-fest-2027-iit-kharagpur), [Shaastra / Saarang](#shaastra--saarang-2027-iit-madras) and [Tryst / Techkriti / Cognizance / Apogee](#tryst--techkriti--cognizance--apogee-2027). A few more:
 
 | Fest | Institute | Type | When |
 |------|-----------|------|------|
-| Rendezvous | IIT Delhi | Cultural | **Sep 28–Oct 1, 2026** |
-| Antaragni | IIT Kanpur | Cultural | `~Oct 2026` |
+| Rendezvous | IIT Delhi | Cultural | `~Sep–Oct 2027` (2026 ran Sep 28–Oct 1) |
+| Antaragni | IIT Kanpur | Cultural | `~Oct` each year |
 | DU college fests (Hindu Mecca, Hansraj Confluence, LSR Tarang, Miranda…) | Delhi University | Cultural | `~Feb–Apr 2027` |
 | Crossroads | SRCC, Delhi University | Cultural | `~Mar/Apr 2027` |
 
@@ -611,10 +602,11 @@ These have their own entries above: [Thomso](#thomso-2026-iit-roorkee), [Oasis](
 | DefExpo | Billed as biennial but not held since the 12th edition (Oct 18–22, 2022, Gandhinagar); no next edition announced as of Sep 2026 |
 | Wings India | Biennial civil-aviation show, Hyderabad; last Jan 2026 → next `~Jan 2028` |
 | Google for India | Annual Google keynote; 2026 date not announced |
+| Figma Config India | First edition held Oct 15, 2026, Bengaluru (in person by application, free livestream); no 2027 edition announced |
 | DevOpsDays India | Last held Sep 28, 2024 (Kerala, Kochi); no India edition in 2025–26 or listed through Aug 2027 ([devopsdays.org/events](https://devopsdays.org/events/)) |
 
 ---
 
 *[← Back to Events](README.md) | [Tech & developer →](tech-global.md) | [Research conferences →](research-conferences.md) | [Arts & culture →](arts-culture.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

@@ -39,6 +39,13 @@ function prepOpp(o) {
   // A confirmed date that has passed is closed. Computed at runtime, so the site never needs a rebuild to notice.
   if (o.kind === 'exact' && o.days < 0) o.kind = 'closed';
   if (o.kind === 'approx' && o.days !== null && o.days < -45) o.kind = 'next';
+  // A one-off is over once its expiry passes, whatever its deadline cell says. It won't come round again.
+  o.expiresDate = o.expires ? parseISO(o.expires) : null;
+  if (o.drop && o.expiresDate && o.expiresDate < TODAY) {
+    o.kind = 'closed';
+    o.date = o.expiresDate;
+    o.days = Math.round((o.date - TODAY) / DAY);
+  }
   o.sourceUrl = (o.sourceUrl || '').replace('{repo}', REPO).replace('/blob/master/', `/blob/${BRANCH}/`);
   o.search = [o.name, o.type, o.location, o.who, o.what, o.section, o.categoryLabel, o.stipend, o.stageText]
     .join(' ').toLowerCase();
@@ -49,6 +56,7 @@ function prepEvent(e) {
   e.date = e.startDate ? parseISO(e.startDate) : null;
   e.days = e.date ? Math.round((e.date - TODAY) / DAY) : null;
   e.past = e.date ? e.days < -10 : false;
+  if (e.drop && e.expires && parseISO(e.expires) < TODAY) e.past = true;
   e.sourceUrl = (e.sourceUrl || '').replace('{repo}', REPO).replace('/blob/master/', `/blob/${BRANCH}/`);
   e.search = [e.name, e.location, e.what, e.studentAngle, e.kindLabel, e.section, e.cost].join(' ').toLowerCase();
   return e;

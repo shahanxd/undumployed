@@ -43,6 +43,7 @@ function menuHtml(key) {
       return `<label class="opt opt-group"><input type="checkbox" data-group="${g}"><span>${esc(label)}</span><span class="n"></span></label>${catsOf(g).map((c) => opt('cat', c, CAT_SHORT[c] || c).replace('class="opt"', 'class="opt opt-sub"')).join('')}`;
     }).join('')}</div>${foot('cat')}`;
     case 'more': return `<p class="menu-head">Only show</p>
+      <label class="opt"><input type="checkbox" name="drops"><span>One-off drops</span><span class="n" data-n="drops"></span></label>
       <label class="opt"><input type="checkbox" name="women"><span>Programs for women</span><span class="n" data-n="women"></span></label>
       <label class="opt"><input type="checkbox" name="verified"><span>Dates confirmed on the official site</span><span class="n" data-n="verified"></span></label>
       <label class="opt"><input type="checkbox" name="closed"><span>Include ones that have closed</span><span class="n" data-n="closed"></span></label>
@@ -55,7 +56,7 @@ const FACETS = [['stage', 'Stage'], ['field', 'Field'], ['cat', 'Type'], ['regio
 
 function activeIn(key) {
   if (key === 'when') return f.when ? 1 : 0;
-  if (key === 'more') return f.nogate.length + (f.women ? 1 : 0) + (f.verified ? 1 : 0) + (f.closed ? 1 : 0);
+  if (key === 'more') return f.nogate.length + (f.drops ? 1 : 0) + (f.women ? 1 : 0) + (f.verified ? 1 : 0) + (f.closed ? 1 : 0);
   return f[key].length;
 }
 
@@ -79,7 +80,7 @@ function updateMenus(counts) {
       return;
     }
     if (name === 'when') input.checked = f.when === value;
-    else if (['women', 'verified', 'closed'].includes(name)) input.checked = f[name];
+    else if (['drops', 'women', 'verified', 'closed'].includes(name)) input.checked = f[name];
     else if (Array.isArray(f[name])) input.checked = f[name].includes(value);
     const nEl = input.closest('.opt').querySelector('.n');
     if (!nEl) return;
@@ -156,7 +157,7 @@ export const browsePage = {
         const cats = catsOf(i.dataset.group);
         f.cat = i.checked ? [...new Set([...f.cat, ...cats])] : f.cat.filter((c) => !cats.includes(c));
       } else if (i.name === 'when') f.when = i.value;
-      else if (['women', 'verified', 'closed'].includes(i.name)) f[i.name] = i.checked;
+      else if (['drops', 'women', 'verified', 'closed'].includes(i.name)) f[i.name] = i.checked;
       else {
         const set = new Set(f[i.name]);
         if (i.checked) set.add(i.value); else set.delete(i.value);
@@ -169,7 +170,7 @@ export const browsePage = {
       const clear = t.closest('[data-clear]');
       if (clear) {
         const k = clear.dataset.clear;
-        if (k === 'more') { f.nogate = []; f.women = false; f.verified = false; f.closed = false; } else if (k === 'when') f.when = ''; else f[k] = [];
+        if (k === 'more') { f.nogate = []; f.drops = false; f.women = false; f.verified = false; f.closed = false; } else if (k === 'when') f.when = ''; else f[k] = [];
         shown = PAGE; sync(); return;
       }
       if (t.closest('[data-clear-all]')) { f = { ...F.DEFAULT }; shown = PAGE; menus.forEach((m) => m.close()); sync(); return; }

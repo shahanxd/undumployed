@@ -25,7 +25,6 @@
 | [Samsung Members Star](#samsung-members-star) | Cycle-based recruitment | ❌ Free to join (Unpacked travel for top members) | Galaxy device owners | UG / PG |
 | [Google Developer Experts](#google-developer-experts) | Nomination only | ❌ Free (event travel, early access) | Recognised experts (nominated by a GDE/Googler) | PG / PhD |
 | [Microsoft MVP](#microsoft-mvp) | Nomination only | ✅ Azure credits, MVP Summit | Community leaders (nominated) | PG / PhD |
-| [Twitch Ambassador](#twitch-ambassador) | ⚠️ Unverified, invitation only; program page taken down | ❌ Free (promotion, event travel) | Active streamers | UG / PG |
 
 ---
 
@@ -361,24 +360,6 @@
 
 ---
 
-### Twitch Ambassador
-<!-- tags: stage=ug,pg,phd,grad; field=media; region=global; funding=free; citizenship=any; gates=invite-only; format=hybrid -->
-> **Type:** Creator recognition | **Location:** Worldwide | **Funded:** ❌ Free; promotion, TwitchCon travel for some
-
-| Field | Details |
-|-------|---------|
-| Deadline | ⚠️ Unverified, invitation only; Twitch has taken its Ambassadors page down and its creator pages no longer mention the program (Sept 2026) |
-| Who | Established, consistent streamers who reflect community values |
-| Stage | UG / PG |
-
-**What it is:** Twitch's invite-only recognition for consistent streamers who run welcoming communities: promotion on Twitch and, for some, TwitchCon travel.
-
-**Reality check:** You can't apply, so treat it as a possible bonus of streaming consistently, not a goal. YouTube's equivalent, NextUp, has been dormant (see [Ended / not verified](#ended--not-verified)).
-
-**Apply:** No application route; it's invitation only.
-
----
-
 ## How to get invited to launch events in India
 
 Brands in Delhi, Bengaluru and Mumbai fill launch-event guest lists from four pools: media, creators, community superusers, and campus partners. Students can get in through the last three.
@@ -422,6 +403,7 @@ Most RSVP windows close within 24–48 hours.
 
 | Program | Status |
 |---------|--------|
+| **Twitch Ambassador** | Removed Oct 2026: invitation-only, and Twitch has taken its Ambassadors page down; its creator pages no longer mention the program. |
 | **Discord Partner Program** | Ended 2023; the HypeSquad Events badge is "no longer obtainable" per Discord |
 | **Adobe Creative Residency** | Ended 2021; no replacement residency. An Adobe Express ambassador programme is unconfirmed as of Sept 2026. ⚠️ Treat as inactive |
 | **LinkedIn Creator Accelerator (India)** | Ran 2022; no 2025–26 cohort found. ⚠️ Inactive |
@@ -432,4 +414,4 @@ Most RSVP windows close within 24–48 hours.
 
 ---
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

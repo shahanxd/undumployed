@@ -2,18 +2,19 @@
 
 > Business/case competitions (Hult, Brandstorm, CFA, corporate challenges), school science fairs and the ISEF route from India, the HBCSE olympiad pathway with 2026-27 dates, data-science/quant competitions, and engineering, robotics and space challenges. Coding contests are in [`competitive-programming.md`](competitive-programming.md); hackathons in [`../hackathons/`](../hackathons/README.md).
 
-**Jump to:** [Business & entrepreneurship](#business--entrepreneurship) · [Corporate case & brand challenges (India)](#corporate-case--brand-challenges-india) · [Finance & consulting](#finance--consulting) · [Essays, debate, MUN, moots](#essays-debate-mun-moots) · [School science fairs & research (HS)](#school-science-fairs--research-hs) · [Olympiads: the HBCSE pathway](#olympiads-the-hbcse-pathway) · [Data science & quant](#data-science--quant) · [Engineering, robotics & motorsport](#engineering-robotics--motorsport) · [Space](#space) · [Aggregators worth following](#aggregators-worth-following) · [Defunct / unclear](#defunct--unclear)
+**Jump to:** [Drops](#drops-one-off--limited-editions) · [Business & entrepreneurship](#business--entrepreneurship) · [Corporate case & brand challenges (India)](#corporate-case--brand-challenges-india) · [Finance & consulting](#finance--consulting) · [Essays, debate, MUN, moots](#essays-debate-mun-moots) · [School science fairs & research (HS)](#school-science-fairs--research-hs) · [Olympiads: the HBCSE pathway](#olympiads-the-hbcse-pathway) · [Data science & quant](#data-science--quant) · [Engineering, robotics & motorsport](#engineering-robotics--motorsport) · [Space](#space) · [Aggregators worth following](#aggregators-worth-following) · [Defunct / unclear](#defunct--unclear)
 
 ## At a glance
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [Vidyarthi Vigyan Manthan](#vidyarthi-vigyan-manthan-vvm) | **Sep 30, 2026** (registration) · exams Nov 16–21 | ✅ Cash + camps | classes 6–11, India | HS |
-| [ML Reproducibility Challenge](#ml-reproducibility-challenge) | **Sep 30, 2026** (TMLR-acceptance cutoff; next `~2027`) | ❌ Publication | ML students | UG / PG / PhD |
-| [IRIS National Fair 2026](#iris-national-fair-india) | **Oct 3, 2026** (registration closes) | ✅ Fair travel; ISEF trip for winners | classes 5–12, India | HS |
-| [Regeneron ISEF 2027](#regeneron-isef) | Register via IRIS by **Oct 3, 2026** · fair May 8–14, 2027, Los Angeles | ✅ $9M+ awards; trip funded by IRIS | HS finalists | HS |
-| [INSPIRE Awards MANAK](#inspire-awards-manak) | **Oct 10, 2026** (extended) | ✅ ₹10,000 per selected idea | classes 6–12, India, via school | HS |
-| [Formula Bharat 2027](#formula-bharat) | Registrations closed · event Jan 19–24, 2027 · Dynamix 2027 register by **Oct 21, 2026** | ✅ Prizes | Formula Student teams | UG |
+| [Gemma 4 Developer Agent Competition (Kaggle)](#gemma-4-developer-agent-competition-kaggle) | **Nov 25, 2026** (join) · final submissions Dec 2 | ✅ $110k prizes | 18+, teams of up to 5, online | UG / PG / PhD |
+| [Vidyarthi Vigyan Manthan](#vidyarthi-vigyan-manthan-vvm) | Next: registration `~Apr–Sep 2027` (2026 closed Sep 30; exams Nov 16–21) | ✅ Cash + camps | classes 6–11, India | HS |
+| [ML Reproducibility Challenge](#ml-reproducibility-challenge) | Next: TMLR-acceptance cutoff `~Sep 2027` (2026 closed Sep 30) | ❌ Publication | ML students | UG / PG / PhD |
+| [IRIS National Fair 2026](#iris-national-fair-india) | Next: registration `~Aug–Oct 2027` (2026 closed Oct 3) | ✅ Fair travel; ISEF trip for winners | classes 5–12, India | HS |
+| [Regeneron ISEF 2027](#regeneron-isef) | Next: via IRIS `~Aug–Oct 2027` for ISEF 2028 (ISEF 2027 is May 8–14, 2027, LA) | ✅ $9M+ awards; trip funded by IRIS | HS finalists | HS |
+| [INSPIRE Awards MANAK](#inspire-awards-manak) | Next: `~Jun–Sep 2027` (2026 closed Oct 10) | ✅ ₹10,000 per selected idea | classes 6–12, India, via school | HS |
+| [Formula Bharat 2027](#formula-bharat) | Next: FB2028 registration `~mid-2027` (FB2027 event Jan 19–24, 2027) | ✅ Prizes | Formula Student teams | UG |
 | [Conrad Challenge](#conrad-challenge) | **Oct 29, 2026** (Activation, free) · **Jan 7, 2027** (Innovation Stage, US$499/team) | ✅ Prizes/scholarships; aid for the stage fee | ages 13–18, global | HS |
 | [University Rover Challenge 2027](#university-rover-challenge-urc) | **Oct 30, 2026** (registration) · finals Jun 2–5, 2027 | ✅ Prize | university teams | UG / PG |
 | [Panini Linguistics Olympiad → IOL](#panini-linguistics-olympiad-plo--iol) | **Oct 31, 2026** (Round 1 registration; exam Nov 29) | ✅ IOL trip funded | grades 6–12, India | HS |
@@ -29,9 +30,9 @@
 | [NSS Space Settlement Contest](#nss-gerard-k-oneill-space-settlement-contest) | **Feb 15, 2027** (portal opens Dec 2026) | ✅ Certificates; $5k scholarship at ISDC; $15 entry fee | K-12, global | HS |
 | [Blue Ocean Student Entrepreneur Competition](#blue-ocean-student-entrepreneur-competition) | **Feb 21, 2027** | ✅ Cash ($1,000 top prize) | HS, global | HS |
 | [CFA Research Challenge](#cfa-institute-research-challenge) | India local rounds `~Jan–Feb 2027` · regionals Apr 6–9, 2027 · global **May 14, 2027** | ✅ Travel for advancing teams | teams of 3–5, via university | UG / PG |
-| [EY Techathon](#ey-techathon) | `~Oct 2026` launch expected (6.0 ran Sep 2025–Feb 2026) | ✅ ₹3 lakh grand prize + PPI | students, India | UG / PG |
-| [WUDC 2027 (Ottawa)](#world-universities-debating-championship-wudc) | Registration via society `~Aug–Oct 2026` · tournament Dec 27, 2026 to Jan 4, 2027 | ❌ Self-funded via society | university debaters | UG / PG |
-| [Harvard WorldMUN / HMUN India](#model-un-worldmun--hmun-india) | WorldMUN applications `~Sep–Nov 2026` (conference ~Mar 2027) · HMUN India `~Apr–Jun 2027` | ❌ Self-funded (some scholarships) | UG / HS | HS / UG |
+| [EY Techathon](#ey-techathon) | ⚠️ Unverified: 7.0 not announced (6.0 launched Sep 2025) | ✅ ₹3 lakh grand prize + PPI | students, India | UG / PG |
+| [WUDC 2027 (Ottawa)](#world-universities-debating-championship-wudc) | Next: via society `~Aug–Oct 2027` (WUDC 2027: Dec 27, 2026–Jan 4, 2027) | ❌ Self-funded via society | university debaters | UG / PG |
+| [Harvard WorldMUN / HMUN India](#model-un-worldmun--hmun-india) | WorldMUN applications `~Feb 2027` (conference ~Mar 2027) · HMUN India `~Apr–Jun 2027` | ❌ Self-funded (some scholarships) | UG / HS | HS / UG |
 | [IESO (Earth Science Olympiad)](#indian-earth-science-olympiad--ieso) | Entrance test `~Jan 2027` (2026: exam Jan 24, registration closed Jan 12) | ✅ IESO trip | classes 9–12, India | HS |
 | [iGEM 2027](#igem) | Registration opens `~mid-Jan 2027`; fee deadlines `~Feb / ~Apr / ~Jun 2027` | ❌ Team fees up to ~€8.7k (2026 rates) + Jamboree passes; medals | UG/HS teams via institution | HS / UG / PG |
 | [Hult Prize 2027](#hult-prize) | Qualifiers **Sep 2026–Feb 2027** · Nationals Apr–May · Finals Sep 2027 | ✅ $1M investment (for 10% equity) | teams of 2–4 enrolled students, 18+ | UG / PG / PhD |
@@ -55,9 +56,29 @@
 | [Breakthrough Junior Challenge](#breakthrough-junior-challenge) | 2026 closed Sep 15 · Next: `~May–Sep 2027` | ✅ $250k scholarship + $50k teacher + $100k lab | ages 13–18 | HS |
 | [Science Olympiads (NSE → INO → OCSC)](#science-olympiads-2026-27-nse--ino--ocsc--iphoichoiboioaa) | Next: NSE 2027 enrolment `~Aug–Sep 2027` (2026 enrolment closed Sep 14; NSE Nov 21–22, INO Jan 30–31 for enrolled students) | ✅ Free; international trips funded | classes ≤12, India | HS |
 | [Wharton Global HS Investment Competition](#wharton-global-high-school-investment-competition) | 2026-27 closed **Sep 11, 2026** · Global Finale Apr 29–30, 2027 · Next: `~Aug–Sep 2027` | ❌ Free to enter; finalists self-fund travel | HS teams via teacher | HS |
-| [KPMG Ideation Challenge](#kpmg-ideation-challenge-kic) | `⚠️ Unverified: no 2026 edition found; last known registration ~Dec` | ✅ Prize + PPI | students, India | UG / PG |
-| [Mahindra War Room](#mahindra-war-room) | `⚠️ Unverified: no 2026 season found; official site offline` | ✅ Prize + PPI | MBA students, India | PG |
-| [CSIR Innovation Award for School Children](#csir-innovation-award-for-school-children-ciasc) | `⚠️ Unverified: dormant; no call since CIASC-2022 (closed Apr 30, 2022)` | ✅ ₹1 lakh top prize | up to class 12, under 18, India | HS |
+
+---
+
+## Drops: one-off & limited editions
+
+One-off competitions that clear the [quality bar](../CONTRIBUTING.md#drops-one-off-opportunities). They're also listed in [drops.md](../drops.md) and leave this file once they're over.
+
+### Gemma 4 Developer Agent Competition (Kaggle)
+<!-- tags: stage=ug,pg,phd,grad; field=ai,cs; region=remote; funding=prize; citizenship=any; gates=age-limit; format=remote; edition=one-off; expires=2026-12-02 -->
+> **Type:** Kaggle featured competition (Google DeepMind; sponsor Google LLC) | **Location:** Online | **Funded:** ✅ $110,000 in prizes
+
+| Field | Details |
+|-------|---------|
+| Deadline | Join (accept the rules) by **Nov 25, 2026** · final submissions **Dec 2, 2026** · optional paper track due Nov 12, 2026 (all 11:59 PM UTC) |
+| Who | 18+ with a Kaggle account; teams of up to 5. Open to India. |
+| Prize | Leaderboard: $37,000 / $18,000 / $10,000. Paper track: $35,000. A $10,000 bonus for the best entry built on the small Gemma E2B or E4B. Winning code is released under Apache 2.0. |
+| Stage | UG / PG / PhD |
+
+**What it is:** Post-train Gemma 4 into an offline coding agent that finds its way around real repositories and writes patches, scored SWE-bench style on whether each patch passes the issue's tests. You submit an agent config (prompts, tools, skills, LoRA adapters) that runs in Kaggle's sandbox on L4 GPUs with a 12-hour budget. Top entries are shown at a Google-hosted event such as a NeurIPS expo workshop.
+
+**Reality check:** Close to 4,000 teams are already in, many of them seasoned Kagglers, so leaderboard cash is a long shot. The small-model bonus and the paper track are the more realistic routes, and a clear public notebook here is solid proof of agent and fine-tuning skill whatever your rank.
+
+**Apply:** [kaggle.com/competitions/gemma-4-developer-agent](https://www.kaggle.com/competitions/gemma-4-developer-agent)
 
 ---
 
@@ -208,29 +229,13 @@ Almost all run on **Unstop**; prizes are ₹ lakhs plus pre-placement interviews
 
 ---
 
-### KPMG Ideation Challenge (KIC)
-<!-- tags: stage=ug,pg; field=any; region=india; funding=prize; citizenship=indian-only; gates=team,enrolled-only; format=hybrid -->
-> **Type:** Global student innovation challenge | **Location:** Online → India final → global final | **Funded:** ✅ Cash + PPIs at KPMG India
-
-| Field | Details |
-|-------|---------|
-| Deadline | `⚠️ Unverified: no 2026 edition found`. KPMG's KIC pages (kpmg.com/in and kic.kpmg.com) are offline as of Sep 2026. Last known cycle (KIC 2022): registration Dec, national finals Mar; teams of 4–6 STEM students; national winner ₹5 lakh + KPMG internship. |
-| Who | UG/PG students in India (multidisciplinary teams) |
-| Stage | UG / PG |
-
-**Reality check:** The last confirmed edition is KIC 2022, so don't plan around it until KPMG posts a new call.
-
-**Apply:** [kpmg.com/in](https://kpmg.com/in/en.html) (search "Ideation Challenge") / Unstop
-
----
-
 ### EY Techathon
 <!-- tags: stage=ug,pg; field=cs,ai,business; region=india; funding=prize; citizenship=indian-only; gates=enrolled-only; format=hybrid -->
 > **Type:** Tech-for-business case + prototype challenge | **Location:** Online → EY India final | **Funded:** ✅ ₹3 lakh grand prize, ₹2 lakh runners-up + PPIs
 
 | Field | Details |
 |-------|---------|
-| Deadline | `~Oct 2026` launch expected (Techathon 6.0 ran **Sep 15, 2025**–Feb 2026; 7.0 not yet announced on ey.com as of Sep 2026) |
+| Deadline | `⚠️ Unverified: Techathon 7.0 not announced` as of Oct 26, 2026 (6.0 launched Sep 15, 2025, ran to Feb 2026, and named its winner in Mar 2026). If it runs, expect a late-2026 launch. |
 | Who | Indian citizens 18+ enrolled in any degree/diploma course (any discipline) at an Indian college; solo or teams of up to 5 (max 2 non-students) |
 | Stage | UG / PG |
 
@@ -267,24 +272,6 @@ Almost all run on **Unstop**; prizes are ₹ lakhs plus pre-placement interviews
 | Stage | UG / PG |
 
 **Apply:** [tatacrucible.com](https://www.tatacrucible.com/)
-
----
-
-### Mahindra War Room
-<!-- tags: stage=pg; field=business; region=india; funding=prize; citizenship=indian-only; gates=campus-only,team,enrolled-only; format=hybrid -->
-> **Type:** Live-business-problem case competition | **Location:** B-schools → national final | **Funded:** ✅ Cash + PPIs (Mahindra GMC program)
-
-| Field | Details |
-|-------|---------|
-| Deadline | `⚠️ Unverified: no 2026 season found`. mahindrawarroom.com is offline and mahindra.com has no War Room page (Sep 2026). Past seasons launched on B-school campuses in late July (Season 12: Jul 26, 2019); watch Unstop and your placement cell. |
-| Who | MBA students at participating B-schools, teams of 4 |
-| Stage | PG |
-
-**Reality check:** Only MBA students at participating B-schools can enter, in teams of 4, so if your school isn't taking part you can't join.
-
-**Apply:** through participating B-schools' placement cells when a season is announced (past seasons were listed on Unstop)
-
-Also worth knowing: **Flipkart WiredIn / GRiD** → [`hackathons`](../hackathons/README.md#flipkart-grid); **Amazon ML Challenge** → [`competitive-programming.md`](competitive-programming.md#amazon-ml-challenge); **McKinsey Solve** is a hiring assessment game, not a competition; **Bain/BCG** run campus case comps only through specific B-schools.
 
 ---
 
@@ -380,7 +367,7 @@ For quant/trading: [IMC Prosperity](competitive-programming.md#imc-prosperity), 
 
 | Field | Details |
 |-------|---------|
-| Deadline | WorldMUN applications `~Sep–Nov 2026` (via university delegation); HMUN India `~Apr–Jun 2027` |
+| Deadline | WorldMUN 2027 (conference `~Mar 2027`) applications `~Nov 2026–Feb 2027` via a university delegation (a third-party listing says Feb 14, 2027; not confirmed on worldmun.org); HMUN India `~Apr–Jun 2027` |
 | Who | WorldMUN: university students; HMUN India: high-school students |
 | Stage | HS / UG |
 
@@ -396,7 +383,7 @@ For quant/trading: [IMC Prosperity](competitive-programming.md#imc-prosperity), 
 
 | Field | Details |
 |-------|---------|
-| Deadline | Registration via institutions `~Aug–Oct 2026` |
+| Deadline | WUDC 2027 (Ottawa) runs Dec 27, 2026 to Jan 4, 2027; teams registered through their societies `~Aug–Oct 2026`. Next: WUDC 2028 registration `~Aug–Oct 2027`. |
 | Who | University teams of 2 + adjudicators |
 | Stage | UG / PG |
 
@@ -430,7 +417,7 @@ For quant/trading: [IMC Prosperity](competitive-programming.md#imc-prosperity), 
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Registration Aug 1–Oct 3, 2026 (6:00 pm)**; fixed, no extensions. Submit synopsis + full research paper + 90-second video. Fee ₹5,000 + taxes (EWS waiver available). |
+| Deadline | IRIS 2026 registration closed Oct 3, 2026 (no extensions). Next: registration `~Aug–Oct 2027`: synopsis + full research paper + 90-second video; fee ₹5,000 + taxes (EWS waiver available). |
 | Duration | National Fair Nov 2026; ISEF May 8–14, 2027 |
 | Who | Indian-origin students in classes 5–12 studying in schools in India |
 | Stage | HS |
@@ -481,7 +468,7 @@ For quant/trading: [IMC Prosperity](competitive-programming.md#imc-prosperity), 
 
 | Field | Details |
 |-------|---------|
-| Deadline | Nominations extended to **Oct 10, 2026** (schools nominate up to 5 ideas; up to 2 from classes 11–12 science) |
+| Deadline | 2026-27 nominations closed Oct 10, 2026 (extended). Next: `~Jun–Sep 2027` (schools nominate up to 5 ideas; up to 2 from classes 11–12 science). |
 | Who | Classes 6–12, any school in India; you go through your school's nodal teacher |
 | Stage | HS |
 
@@ -491,29 +478,13 @@ For quant/trading: [IMC Prosperity](competitive-programming.md#imc-prosperity), 
 
 ---
 
-### CSIR Innovation Award for School Children (CIASC)
-<!-- tags: stage=hs; field=cs,ee,mech,physics,chem,bio; region=remote; funding=prize; citizenship=indian-only; gates=age-limit; format=remote -->
-> **Type:** Written innovation proposal award | **Location:** Online/postal | **Funded:** ✅ ₹1,00,000 (1st) / ₹50,000 / ₹30,000 / ₹20,000 / ₹10,000
-
-| Field | Details |
-|-------|---------|
-| Deadline | `⚠️ Unverified, dormant`: csir.res.in lists no call after CIASC-2022 (proposals closed **Apr 30, 2022**; the 2021 round closed May 31) as of Sep 2026, though the award page still calls it annual. If revived, expect a spring proposal deadline with awards on CSIR Foundation Day (Sep 26), not a late-Sep application date. |
-| Who | Indian school students up to class 12 and under 18; individual or group proposals (≤5,000 words, English/Hindi) submitted through the school principal |
-| Stage | HS |
-
-**Reality check:** With no call since 2022, don't hold an idea back for this one; take it to IRIS or INSPIRE MANAK instead.
-
-**Apply:** [csir.res.in → CIASC award page](https://www.csir.res.in/en/award/csir-innovation-award-school-children-ciasc); past calls and results under [Awards → CIASC](https://www.csir.res.in/en/awards/csir-innovation-award-school-children-0)
-
----
-
 ### Vidyarthi Vigyan Manthan (VVM)
 <!-- tags: stage=hs; field=physics,math,chem,bio; region=india; funding=prize; citizenship=indian-only; gates=; format=hybrid -->
 > **Type:** National science talent test + camps (Vijnana Bharati / NCERT / VIBHA) | **Location:** Online test → state camps → national camp | **Funded:** ✅ Cash awards, Bhaskara scholarships
 
 | Field | Details |
 |-------|---------|
-| Deadline | Registration **Apr 3–Sep 30, 2026** (fee ₹200); online exams Nov 16–21, 2026 (two dates per class, 10:00–18:00 login window) |
+| Deadline | 2026-27 registration closed Sep 30, 2026; online exams run Nov 16–21, 2026 for those registered. Next: registration `~Apr–Sep 2027` (fee ₹200). |
 | Who | Classes 6–11, India |
 | Stage | HS |
 
@@ -652,7 +623,7 @@ For quant/trading: [IMC Prosperity](competitive-programming.md#imc-prosperity), 
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Sep 30, 2026** (AoE): hard cutoff for a TMLR acceptance decision plus the MLRC nomination form (the Jun 4 intent deadline was soft). Notifications Oct 7; presented at NeurIPS 2026, Sydney, Dec 6–13. Next: MLRC 2027 not yet announced; this edition accepted TMLR papers accepted between Jun 20, 2025 and Sep 30, 2026, so a TMLR submission now can target the next cycle. |
+| Deadline | MLRC 2026 closed Sep 30, 2026 (TMLR-acceptance cutoff); accepted reports are presented at NeurIPS 2026, Sydney, Dec 6–13. Next: MLRC 2027 not yet announced; this edition took TMLR papers accepted between Jun 20, 2025 and Sep 30, 2026, so a TMLR submission now targets the next cycle, cutoff `~Sep 2027`. |
 | Who | Anyone, including industry, with a reproducibility study accepted at TMLR (double-blind, code required); undergrad teams frequently accepted |
 | Stage | UG / PG / PhD |
 
@@ -702,7 +673,7 @@ For quant/trading: [IMC Prosperity](competitive-programming.md#imc-prosperity), 
 
 | Field | Details |
 |-------|---------|
-| Deadline | Formula Bharat 2027 registrations **closed**; event **Jan 19–24, 2027** (Combustion, Electric and the new Driverless Cup). Still open: Dynamix 2027 (dynamic-events-only, same venue and dates; register by **Oct 21, 2026**) and FS Concept Challenge 2026 (virtual design round, no build). Watch formulabharat.com for FB2028 registration. |
+| Deadline | Formula Bharat 2027 registrations are closed, including Dynamix 2027 (closed Oct 21, 2026); the event runs **Jan 19–24, 2027** (Combustion, Electric and the new Driverless Cup). Next: FB2028 registration `~mid-2027`; watch formulabharat.com. |
 | Who | University Formula Student teams worldwide; 80+ institutes, 3,000+ participants |
 | Stage | UG |
 
@@ -917,10 +888,13 @@ Sources, not entries:
 | **P&G CEO Challenge** | Likely discontinued: no 2026 edition, and pgcareers.com/CEO-Challenge now redirects to P&G's general Student Programs page, which doesn't list it. |
 | **ISRO Robotics Challenge: URSC (IRoC-U)** | Live and annual since 2024, not a one-off: 3rd edition finals Jul 21–23, 2026 at URSC Bengaluru (~590 teams registered, top 20 in the finals). IRoC-U 2027 not yet announced; watch [ursc.gov.in/IRoC-U2026](https://www.ursc.gov.in/IRoC-U2026/). |
 | **KVPY** | Discontinued 2022 (merged into INSPIRE-SHE). |
+| **CSIR Innovation Award for School Children (CIASC)** | Removed Oct 2026: no call since CIASC-2022 (closed Apr 30, 2022), though CSIR's page still calls it annual. |
+| **KPMG Ideation Challenge (KIC)** | Removed Oct 2026: no edition since 2022, and both kpmg.com/in and kic.kpmg.com pages are offline. |
+| **Mahindra War Room** | Removed Oct 2026: no season found since 2019, and mahindrawarroom.com is offline. |
 | **Correlation One Data Open (as a standalone)** | Now runs as the Citadel Datathon series above. |
 
 ---
 
 *[← Back to README](../README.md) | [All Deadlines](../deadlines.md) | [Competitive Programming](competitive-programming.md) | [Hackathons](../hackathons/README.md) | [Open Source](../open-source/README.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

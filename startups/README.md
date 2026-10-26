@@ -24,13 +24,13 @@ Cross-refs: hackathon-style competitions live in [hackathons/README.md](../hacka
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [Entrepreneur First (EF) Bangalore](#entrepreneur-first-ef-bangalore) | **Oct 5, 2026** (early; 3 rounds, cohort Jan–Feb 2027) | ✅ Stipend + investment | outliers, no idea needed | UG-final / PG / PhD |
+| [Entrepreneur First (EF) Bangalore](#entrepreneur-first-ef-bangalore) | Later rounds `~Nov–Dec 2026` (early round closed Oct 5; cohort Jan–Feb 2027) | ✅ Stipend + investment | outliers, no idea needed | UG-final / PG / PhD |
 | [EO GSEA (Global Student Entrepreneur Awards)](#eo-gsea-global-student-entrepreneur-awards) | **Oct 15, 2026** to **Jan 15, 2027**, by India city | ✅ $100k prize pool | student business owners, 18–30 | UG / PG |
 | [Y Combinator (YC)](#y-combinator-yc) | **Nov 2, 2026** (W27; Early Decision for students) | ✅ $500k investment | any startup, any country | UG / PG / PhD |
 | [Non-Trivial Fellowship](#non-trivial-fellowship) | **Dec 15, 2026** priority · **Jan 4, 2027** final | ✅ $10k scholarships + project grants | ages 14–20, pre-university | HS / gap year |
 | [Kleiner Perkins Fellows](#kleiner-perkins-fellows) | **Jan 31, 2027** | ✅ Paid summer | students, eng/design/product, in-person SF | UG / PG |
-| [Empresario (IIT Kharagpur)](#empresario-iit-kharagpur) | ~Oct–Nov 2026 (not yet announced; 2025 regular deadline Oct 19) | ✅ Prize pool ₹1.2Cr+ | students to working professionals, worldwide | UG / PG / any |
-| [Speedrun (a16z)](#speedrun-a16z) | ~Nov 2026 for SR008 (Jan–Apr 2027); off-cycle apps rolled forward | ✅ Up to $1M | very early startups, SF | UG+ / any |
+| [Empresario (IIT Kharagpur)](#empresario-iit-kharagpur) | ⚠️ Unverified: 2026-27 not announced (2025 regular deadline Oct 19) | ✅ Prize pool ₹1.2Cr+ | students to working professionals, worldwide | UG / PG / any |
+| [Speedrun (a16z)](#speedrun-a16z) | **Nov 1, 2026** for SR008 (Feb 1–Apr 16, 2027); later apps roll forward | ✅ Up to $1M | very early startups, SF | UG+ / any |
 | [Hult Prize](#hult-prize) | Qualifiers **Sep 2026–Feb 2027** · Nationals Apr–May · Finals Sep 2027 | ✅ $1M investment (for 10% equity) | teams of 2–4 enrolled students, 18+ | UG / PG / PhD |
 | [ACX Grants](#acx-grants) | ~Winter 2026–27 (provisional; 2025 round closed Aug 15) | ✅ Grant | anyone | any |
 | [South Park Commons Founder Fellowship](#south-park-commons-founder-fellowship) | ~Jan 2027 (Spring cohort; Fall closed Aug 2) | ✅ $1M ($400k for 7% + $600k) | technical founders at -1 to 0, SF | PG / any |
@@ -95,7 +95,7 @@ Cross-refs: hackathon-style competitions live in [hackathons/README.md](../hacka
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 5, 2026** early deadline for first selection round; two more rounds follow (dates on the portal) |
+| Deadline | The early deadline (Oct 5, 2026) for the first selection round has passed; two more rounds follow, `~Nov–Dec 2026`, for the cohort starting Jan–Feb 2027 (round dates are on apply.joinef.com). EF pays an INR 3,60,000 talent investment on joining (10% TDS), not equity-linked. |
 | Duration | Winter 27 cohort starts Jan–Feb 2027; full-time, in person; ~3-month FORM then LAUNCH |
 | Who | Exceptional individuals: strong researchers, engineers, ex-founders, top competitive programmers. No idea, no co-founder, no company required. Final-year students who can go full-time at start are fine. |
 | Stipend | Monthly grant during FORM (previously ~₹3.6L over the phase, but confirm the current figure on the portal); investment up to ~$250k on company formation |
@@ -335,7 +335,7 @@ Equity-free money to build full time, for founders 22 or under with no universit
 
 | Field | Details |
 |-------|---------|
-| Deadline | ~Nov 2026 expected close for SR008 (cohort runs late Jan–Apr 2027); apply now, off-cycle submissions are reviewed for the upcoming cohort. SR007 (summer/fall 2026) closed May 17, 2026 |
+| Deadline | **Nov 1, 2026** for SR008 (Feb 1–Apr 16, 2027, San Francisco). Later applications roll to the next residency; applications are reviewed year-round. SR007 (summer/fall 2026) closed May 17, 2026. |
 | Duration | 12 weeks; two cohorts per year; 60–70 teams each |
 | Who | Very early-stage founders of any background; solo founders with strong execution encouraged; started as games/consumer, now broad tech |
 | Stage | any |
@@ -979,7 +979,7 @@ Built for students aged 18–30 who already run a business with revenue or inves
 
 | Field | Details |
 |-------|---------|
-| Deadline | ~Oct–Nov 2026, not yet announced (2025-26 edition: launched Jul 21, early-bird deadline Sep 14, regular deadline Oct 19, 2025) |
+| Deadline | ⚠️ Unverified: the 2026-27 edition isn't announced as of Oct 26, 2026, later than last year (2025-26: launched Jul 21, early-bird Sep 14, regular deadline Oct 19, 2025). Watch ecell-iitkgp.org. |
 | Who | Anyone with an idea, product or operating startup, from students to working professionals, worldwide; teams of 1–5 |
 | Stage | UG / PG / any |
 
@@ -1118,4 +1118,4 @@ Real programs, but gated in a way that excludes most readers here.
 | Rise for the World | Closed to new applicants; its official FAQ said in 2025, "There are no plans for additional cycles." Last cohort 2024 ([risefortheworld.org](https://www.risefortheworld.org/)). |
 | Nirmaan (IIT Madras), IIT Bombay SINE, CIIE.CO (IIM-A), Wadhwani Ignite | Not tracked as separate entries: intake is rolling or campus-run; ask your institute's incubator directly. |
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

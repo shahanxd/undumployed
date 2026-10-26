@@ -1,0 +1,63 @@
+name: "⚡ Spotted a drop"
+description: A one-off hackathon, sprint, cohort or event that's well run and worth a student's time.
+title: "Drop: <name>"
+labels: ["new-entry", "drop"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Drops are one-off or limited-edition opportunities: they won't come round again next year. They need to clear the quality bar in [CONTRIBUTING.md](https://github.com/shahanxd/undumployed/blob/master/CONTRIBUTING.md#drops-one-off-opportunities). A social post is fine as a lead, but we link the organiser's own page.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: e.g. Lexsi AI Safety & Alignment Hackathon
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official page
+      description: The organiser's own page with dates and rules. No aggregators, no referral links.
+    validations:
+      required: true
+  - type: input
+    id: lead
+    attributes:
+      label: Where you saw it (optional)
+      description: An X/LinkedIn post, newsletter or Luma link helps us check it.
+  - type: textarea
+    id: details
+    attributes:
+      label: Key facts
+      placeholder: |
+        Organiser and partners: ...
+        Dates (apply by / runs / ends): ...
+        Where: online / city
+        Who can enter: ...
+        What you get: prizes, credits, interviews, travel ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: bar
+    attributes:
+      label: Hard rules (all four)
+      options:
+        - label: Free to enter.
+          required: true
+        - label: The official page lists dates and who can enter.
+          required: true
+        - label: Students in India can take part (online, or travel is covered).
+          required: true
+        - label: A named organiser runs it, not an anonymous page.
+          required: true
+  - type: checkboxes
+    id: signals
+    attributes:
+      label: Signals (tick every one that applies; it needs two)
+      options:
+        - label: Run or backed by a known lab, company, university, MLH or a credible foundation.
+        - label: Prize pool of $5,000 / ₹2 lakh or more.
+        - label: Travel, compute credits, interviews or a PPI on offer.
+        - label: Mentors or judges from organisations you'd recognise.
+        - label: The organiser has run something like it well before.

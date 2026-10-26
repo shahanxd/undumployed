@@ -8,7 +8,6 @@
 
 | Event | Dates | Location | Access | Student angle |
 |-------|-------|----------|--------|---------------|
-| [IAC 2026](#iac-2026) | **Oct 5–9, 2026** | Antalya, Türkiye | Delegate | Student registration rate (2026 grants closed) |
 | [Sundance Film Festival 2027](#sundance-film-festival-2027) | `~Jan 21–31, 2027` | Boulder, Colorado, USA | Public tickets | Ignite ticket package (18–25) |
 | [Rio Carnival 2027](#rio-carnival-2027) | **Feb 5–10, 2027** | Rio de Janeiro, Brazil | Street parades free; Sambadrome ticketed | Free blocos |
 | [Berlinale 2027](#berlinale-2027) | `~Feb 2027 (TBA)` | Berlin, Germany | Public tickets | Berlinale Talents (early-career) |
@@ -42,21 +41,6 @@
 ---
 
 ## Oct–Dec 2026
-
-### IAC 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=mech,ee,physics,policy; region=middle-east; funding=unpaid; citizenship=any; gates=; format=in-person -->
-> **Dates:** Oct 5–9, 2026 (77th) | **Location:** Antalya, Türkiye | **Access:** Delegate registration
-
-| Field | Details |
-|-------|---------|
-| Cost | Student registration is a fraction of full (~€300–400 vs €1,000+) |
-| Student angle | Student registration rate. The 2026 Emerging Space Leaders grants and Space Generation Congress (SGAC) scholarships closed months ago; aim for the 2027 round (see IAC 2027). |
-| Visa | Türkiye e-Visa only with a valid US, UK, Schengen or Ireland visa or residence permit; otherwise a sticker visa (2–4 weeks) |
-
-**What it is:** The International Astronautical Congress: a week of technical sessions and exhibits with the world's space agencies (ISRO included), primes and startups.
-**Apply:** [iafastro.org/events/iac](https://www.iafastro.org/events/iac/)
-
----
 
 ## Jan–Apr 2027
 
@@ -374,4 +358,4 @@ Most are free or low-fee (each entry gives the cost) and judged by working profe
 
 *[← Back to Events](README.md) | [Tech & developer →](tech-global.md) | [Research conferences →](research-conferences.md) | [India events →](india.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*
