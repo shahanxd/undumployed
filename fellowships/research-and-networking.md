@@ -8,15 +8,15 @@
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [ACM India Winter Schools 2026](#acm-india-summer--winter-schools) | **Oct 5, 2026** (selections Oct 30) | ❌ ₹177 to apply; ≤₹3,540 if selected (stay + meals); no travel support | Senior UG, master's, PhD in India | UG / PG / PhD |
+| [ACM India Winter Schools 2026](#acm-india-summer--winter-schools) | Next: Summer Schools `~Mar–Apr 2027` (Winter 2026 closed Oct 5) | ❌ ₹177 to apply; ≤₹3,540 if selected (stay + meals); no travel support | Senior UG, master's, PhD in India | UG / PG / PhD |
 | [Lindau Nobel Laureate Meeting 2027 (Physiology/Medicine)](#lindau-nobel-laureate-meetings) | **Oct 6, 2026** (open application) · **Oct 27, 2026** (partner nomination) | ✅ Stay + meals; travel usually via partner/DST | Life-science students/postdocs under 35 | UG / PG / PhD |
-| [NeurIPS 2026 Financial Assistance](#neurips-financial-assistance) | **Oct 6, 2026** (AoE) | ✅ Registration + hotel | Students / junior postdocs, authors first | UG / PG / PhD |
+| [NeurIPS 2026 Financial Assistance](#neurips-financial-assistance) | Next: `~Sep–Oct 2027` (2026 closed Oct 6) | ✅ Registration + hotel | Students / junior postdocs, authors first | UG / PG / PhD |
 | [ACM-W Scholarships](#acm-w-scholarships-for-conference-attendance) | **Oct 15, 2026** · **Dec 15, 2026** · **Feb 15, 2027**, then the 15th of every even month | ✅ up to $1,200 | Women students in computing | UG / PG / PhD |
 | [Jane Street Graduate Research Fellowship](#jane-street-graduate-research-fellowship) | **Nov 13, 2026** (AoE); letters Dec 1 | ✅ Tuition + $50k | PhD in CS/EE/math/physics/stats at a US/Canada/UK/Europe/Aus/NZ/Singapore university, ≥1 yr left | PhD |
 | [Humboldt Research Fellowship](#humboldt-research-fellowship-postdoc) | **Nov 15, 2026** (call opens; closes at 800 applications) | ✅ €3,000/mo | Postdoc ≤4 yrs after PhD | Postdoc |
 | [EMBO Postdoctoral Fellowship](#embo-postdoctoral-fellowships) | **Jan 22, 2027** (14:00 CET); rolling | ✅ Salary + relocation | PhD within 2 yrs, life sciences, must move country | Postdoc |
 | [Heidelberg Laureate Forum 2027](#heidelberg-laureate-forum) | **Feb 11, 2027** (opens Nov 11, 2026) | ✅ Stay + meals; travel grant as fallback | UG / master's / PhD / postdoc in maths or CS | UG / PG / PhD |
-| [Cooperative AI PhD Fellowship](#cooperative-ai-phd-fellowship) | `~Oct–Nov 2026` (2026 round closed Nov 16, 2025) | ✅ Research budgets; top ~1% get up to $40k/yr | Current or incoming PhD students, any country | UG / PG / PhD |
+| [Cooperative AI PhD Fellowship](#cooperative-ai-phd-fellowship) | `~Nov 2026` (2027 call not posted yet; 2026 round closed Nov 16, 2025) | ✅ Research budgets; top ~1% get up to $40k/yr | Current or incoming PhD students, any country | UG / PG / PhD |
 | [Raman-Charpak Fellowship](#raman-charpak-fellowship-india--france-phd-exchange) | `~Oct–Dec 2026` (annual call) | ✅ €1,710/mo + airfare | 2nd/3rd-year PhD students at Indian institutions, ≤30 | PhD |
 | [IUSSTF programmes (Khorana / Viterbi)](#iusstf-programmes) | `~Oct 2026–Jan 2027` (summer 2027) | ✅ Full | UG/PG at Indian institutions | UG / PG |
 | [SPAR (AI safety, remote)](#spar-supervised-program-for-alignment-research) | `~Dec 2026–Jan 2027` (Spring 2027 round) | ❌ Unpaid (expenses covered) | HS 13+ to professionals, worldwide | HS / UG / PG / PhD |
@@ -57,9 +57,8 @@
 | [Fulbright-Nehru Doctoral Research](#fulbright-nehru-doctoral-research-fellowships-cross-ref) | Next: `~Jul 1, 2027` (for 2028-29) | ✅ Full | Registered PhD in India | PhD |
 | [Apple Scholars in AI/ML](#apple-scholars-in-aiml) | Next: `~Jul 2027` (internal university deadlines; invited institutions only) | ✅ Tuition + stipend + internship | PhD at invited (non-Indian) universities | PhD |
 | [ERA:AI Fellowship (Cambridge)](#era-fellowship-cambridge) | Next: not announced (Winter 2027 closed) | ✅ Stipend + meals + travel + visa | Any stage, AI safety/governance | UG / PG / PhD |
-| [NVIDIA Graduate Fellowship](#nvidia-graduate-fellowship) | ⚠️ No 2027-28 call posted yet, so keep watching | ✅ Up to $60k + paid internship | PhD after 1st year, CS/EE/robotics/AI | PhD |
+| [NVIDIA Graduate Fellowship](#nvidia-graduate-fellowship) | **Oct 30, 2026** (2027-28 round) | ✅ Up to $60k + paid internship | PhD after 1st year, CS/EE/robotics/AI | PhD |
 | [FLI PhD Fellowship (AI existential safety)](#fli-phd-fellowship-ai-existential-safety) | Paused; no fall 2026 round | ✅ Tuition + $40k (when running) | Incoming/current PhD | PhD |
-| [Google Research India AI Summer School](#google-research-india-ai-summer-school) | ⚠️ Unverified: dormant since 2023 | ✅ Free | n/a | UG / PG |
 
 ---
 
@@ -186,7 +185,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | ⚠️ No call for 2027-28 has been posted; the latest round (2026-27) closed Sep 15, 2025. Past rounds opened in August and closed mid-September, so watch the page |
+| Deadline | 2027-28 round: applications close **Oct 30, 2026** (per NVIDIA's announcement; no time zone given, so submit a day early). Winners are told `~mid-Jan 2027`, and the internship is in summer 2027. |
 | Duration | 1 academic year (renewable via re-application) |
 | Who | PhD students who have **completed their first year**; CS/CE/EE/robotics/related; **international students eligible**; must do a 3–4-month in-person internship at an NVIDIA office (US, Canada, Germany, Sweden, Finland, Switzerland, Israel, Taiwan) before the fellowship year |
 | Stage | PhD |
@@ -509,7 +508,7 @@ The fully funded way for an Indian citizen registered for a PhD in India to spen
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 6, 2026, 23:59 AoE** (opened Sep 7; notifications by Oct 14) |
+| Deadline | NeurIPS 2026 aid closed Oct 6, 2026 (notifications by Oct 14). Next: NeurIPS 2027 financial assistance `~Sep–Oct 2027`. |
 | Who | Priority to students and junior postdocs who are primary contributors to accepted work; others considered on hardship / first-time attendance |
 | Stage | UG / PG / PhD |
 
@@ -689,7 +688,7 @@ Most IITs, IISc, IISERs, NITs, IIITs, DU, JNU and central universities have a st
 
 | Field | Details |
 |-------|---------|
-| Deadline | Winter Schools 2026: **Oct 5, 2026** (selections by Oct 30; six schools between Dec 4, 2026 and Jan 13, 2027). Summer Schools 2027: `~Mar–Apr 2027` (2026 round closed Apr 23, 2026; schools Jun–Jul) |
+| Deadline | Winter Schools 2026 applications closed Oct 5, 2026 (selections by Oct 30; six schools between Dec 4, 2026 and Jan 13, 2027). Next: Summer Schools 2027 `~Mar–Apr 2027` (2026 round closed Apr 23, 2026; schools Jun–Jul). |
 | Who | Senior UG, master's and PhD students in India; ~40 seats per school, selected on academic record and statement of purpose. Each round has one women-only school; Winter 2026 also reserves two schools (IIT Hyderabad, SRM AP) for ACM student members |
 | Stage | UG / PG / PhD |
 
@@ -738,14 +737,6 @@ Most IITs, IISc, IISERs, NITs, IIITs, DU, JNU and central universities have a st
 | Stage | UG / PG |
 
 **Apply:** [scaler.com/partnerships/amazon](https://www.scaler.com/partnerships/amazon), the registration page run by Amazon's partner Scaler and linked from [Amazon's July 2026 announcement](https://press.aboutamazon.com/in/2026/8/amazons-machine-learning-summer-school-turns-five-over-12-000-students-trained-in-ai-ml-skills-across-india)
-
----
-
-### Google Research India AI Summer School
-<!-- tags: stage=ug,pg,phd; field=ai; region=remote; funding=free; citizenship=indian-only; gates=enrolled-only; format=remote -->
-> **Type:** Virtual AI summer school (ran 2020–2023) | **Funded:** ✅ Free
-
-⚠️ Unverified: no edition announced since 2023, so treat it as dormant. Google Research's current student routes are the PhD Fellowship (above), the Student Researcher Program (BS/MS/PhD students on research projects at Google) and research internships (final-year PhD); the CS Research Mentorship Program and Research Scholar Program are now listed as past programmes. Watch [research.google/programs-and-events/student-engagement](https://research.google/programs-and-events/student-engagement/).
 
 ---
 
@@ -837,7 +828,7 @@ Most IITs, IISc, IISERs, NITs, IIITs, DU, JNU and central universities have a st
 
 | Field | Details |
 |-------|---------|
-| Deadline | `~Oct–Nov 2026` for the 2027 cohort (2026 round closed Nov 16, 2025; 2025 round Oct 14, 2024; 2027 call not yet posted) |
+| Deadline | `~Nov 2026` for the 2027 cohort, but the 2027 call isn't posted as of Oct 26, 2026 (the 2026 round closed Nov 16, 2025; 2025's closed Oct 14, 2024). Watch cooperativeai.com. |
 | Who | Students enrolled in, or about to start, a PhD at an accredited university anywhere in the world, working on multi-agent / cooperation problems involving AI (ML, game theory, economics, CS). Apply with a CV, a 2-page research proposal and two reference letters |
 | Stage | UG / PG / PhD |
 
@@ -889,10 +880,11 @@ Most IITs, IISc, IISERs, NITs, IIITs, DU, JNU and central universities have a st
 | **Meta Research PhD Fellowship** | Not accepting applications, and no fellows named since the 2023 class. Source: [research.facebook.com/fellows](https://research.facebook.com/fellows/) |
 | **CIFAR Deep Learning + Reinforcement Learning Summer School (DLRL)** | Last ran in 2025. CIFAR replaced it with the CIFAR AI Frontiers School, which is only for students at Canadian institutions. Source: [cifar.ca → AI Frontiers School](https://cifar.ca/next-generation/cifar-ai-frontiers-school/) |
 | **Open Philanthropy career-development & transition funding** | Handed to BlueDot Impact in Sep 2026 (Open Philanthropy is now Coefficient Giving); BlueDot can't send grant money to India. |
+| **Google Research India AI Summer School** | Removed Oct 2026: a free virtual school that ran 2020–2023, with no edition since. |
 | **DeepLearn schools, Oxford Machine Learning Summer School (OxML)** | Paid courses open to anyone, not selective or funded programmes. |
 
 ---
 
 *[← Back to README](../README.md) | [All Deadlines](../deadlines.md) | [← Study-abroad scholarships](study-abroad.md) | [India Fellowships →](india.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

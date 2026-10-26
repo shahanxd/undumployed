@@ -8,10 +8,10 @@
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [Chevening](#chevening-scholarship) | **Oct 6, 2026** (11:00 UTC / 4:30 PM IST) | ✅ Full | 2+ yrs work exp, Indian citizen | PG |
-| [Knight-Hennessy Scholars](#knight-hennessy-scholars) | **Oct 6, 2026** (1 PM PT) | ✅ Full | Any Stanford grad degree, ≤7 yrs post-UG | PG / PhD |
+| [Chevening](#chevening-scholarship) | Next: `~Aug–Oct 2027` (2027-28 closed Oct 6) | ✅ Full | 2+ yrs work exp, Indian citizen | PG |
+| [Knight-Hennessy Scholars](#knight-hennessy-scholars) | Next: `~Oct 2027` (2027 KHS closed Oct 6; Stanford degree apps by Dec 1) | ✅ Full | Any Stanford grad degree, ≤7 yrs post-UG | PG / PhD |
 | [Lester B. Pearson (UofT)](#lester-b-pearson-international-scholarship-university-of-toronto) | **Oct 9, 2026** (school nom.) → **Oct 16, 2026** (UofT application) → **Nov 6, 2026** | ✅ Full | Class 12, school-nominated | HS |
-| [Commonwealth Master's](#commonwealth-masters--phd-scholarships) | **Oct 20, 2026** (CSC) + MoE/SAKSHAT `~late Nov 2026` (UK offer needed) | ✅ Full | Indian citizen, 2:1, can't self-fund | PG |
+| [Commonwealth Master's](#commonwealth-masters--phd-scholarships) | MoE/SAKSHAT nomination `~late Nov 2026` (only if you applied on CSC, which closed Oct 20) | ✅ Full | Indian citizen, 2:1, can't self-fund | PG |
 | [US need-blind full-need UG](#us-need-blind-full-need-universities) | **Nov 1, 2026** (EA/ED) / **Jan 1–5, 2027** (RD) | ✅ Full need | Class 12, financial need | HS |
 | [NYU Abu Dhabi UG](#nyu-abu-dhabi-undergraduate) | **Nov 1, 2026** (ED1) / `~Jan 5, 2027` (RD) | ✅ Full need | Class 12 | HS |
 | [Tata Scholarship at Cornell](#tata-scholarship-at-cornell) | **Nov 1, 2026** (ED) / **Jan 2, 2027** (RD) | ✅ Full need | Indian UG applicants, need-based | HS |
@@ -31,7 +31,7 @@
 | [GKS: Undergraduate track](#gks-global-korea-scholarship) | `~Sep–Oct 2026` (embassy, UG; check the notice now) | ✅ Full | Class 12, under 25 | HS |
 | [DAAD EPOS](#daad-epos-development-related-postgraduate-courses) | `~Sep–Dec 2026` (per course; some already closed) | ✅ €992–1,300/mo | 2 yrs work exp, degree ≤6 yrs old | PG / PhD |
 | [Melbourne Graduate Research Scholarships](#university-of-melbourne-graduate-research-scholarships) | `~Oct 31, 2026` (intl, for Feb–Jul 2027 start) | ✅ Full | Research master's / PhD | PG / PhD |
-| [Swiss Government Excellence](#swiss-government-excellence-scholarships) | `~Oct–Nov 2026` (Swiss Embassy India sets the date; opened Aug 20) | ✅ CHF 2,450/mo | PhD / postdoc / research, ≤35 | PhD |
+| [Swiss Government Excellence](#swiss-government-excellence-scholarships) | `~Nov 10, 2026` (India, per listings; confirm on the embassy page) | ✅ CHF 2,450/mo | PhD / postdoc / research, ≤35 | PhD |
 | [DAAD Research Grants (Doctoral)](#daad-research-grants-doctoral-programmes-in-germany) | `~Oct–Nov 2026` (per country/portal) | ✅ €1,300/mo | PhD in Germany | PhD |
 | [Erasmus Mundus Joint Masters](#erasmus-mundus-joint-masters) | `~Oct 2026–Feb 2027` (per programme) | ✅ €1,400/mo + tuition | Any bachelor's graduate | PG |
 | [Hong Kong UG entrance scholarships](#hong-kong-undergraduate-entrance-scholarships) | `~Nov 2026–Jan 2027` (with admission) | ✅ Full–partial | Class 12, top scores | HS |
@@ -144,7 +144,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 6, 2026, 1:00 PM PT** (KHS application); separate Stanford degree application by the earlier of the program's own deadline or **Dec 1, 2026** |
+| Deadline | The KHS application for 2027 closed Oct 6, 2026. If you applied, the separate Stanford degree application is due by the earlier of your program's own deadline or **Dec 1, 2026**. Next: KHS application `~Oct 2027`. |
 | Duration | Funds up to 3 years of any Stanford graduate degree (MS, MBA, JD, MD, PhD, etc.) |
 | Who | Any nationality; bachelor's earned in Jan 2020 or later (≤7 years before enrolment); must apply to and be admitted by a Stanford graduate program |
 | Stipend | Tuition + living stipend + academic expenses + annual travel + one-time relocation |
@@ -184,7 +184,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 6, 2026, 11:00 UTC (4:30 PM IST)**; the application system locks after this |
+| Deadline | The 2027-28 round ran Aug 4–Oct 6, 2026 and is closed. Next: 2028-29 applications `~Aug–Oct 2027` (usually open early August and close early October, at a fixed UTC time). |
 | Duration | 1-year master's, Sep/Oct 2027 start |
 | Who | Indian citizen; 2,800+ hours (≈2 years) of work experience gained after your bachelor's, by the time you apply; undergraduate degree equivalent to UK 2:1; must return to India for 2 years after; apply to 3 UK courses, get 1 unconditional offer by Jul 2027 |
 | Stipend | Full tuition + monthly stipend + economy flights + arrival allowance + visa + TB test + thesis grant |
@@ -286,7 +286,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 20, 2026, 16:00 BST** on CSC Central (opened Sep 8, 2026), **plus** a separate application to India's nominating agency, the Ministry of Education, on its [SAKSHAT portal](https://proposal-sakshat.samarth.edu.in/): `~late Nov 2026`; 2027 dates not yet announced (the 2026 round ran Sep 2 to **Nov 30, 2025**, extended to Dec 24). MoE only nominates applicants who hold a confirmed offer from a UK university by its deadline, so apply to universities early |
+| Deadline | The CSC Central application closed Oct 20, 2026 (16:00 BST). If you applied there, you also need a separate application to India's nominating agency, the Ministry of Education, on its [SAKSHAT portal](https://proposal-sakshat.samarth.edu.in/): `~late Nov 2026`; 2027 dates not yet announced (the 2026 round ran Sep 2 to **Nov 30, 2025**, extended to Dec 24). MoE only nominates applicants who hold a confirmed offer from a UK university by its deadline, so apply to universities early |
 | Duration | 1-year taught master's (MBAs not funded), Sep–Oct 2027 start |
 | Who | Indian citizen permanently resident in India; first degree at 2:1 or above (MoE reads this as ≥60%; 50–59% only with a relevant master's); unable to afford UK study without it; developmental relevance of subject; no age limit. **Commonwealth PhD Scholarships are not open to India**: CSC limits them to least-developed and vulnerable Commonwealth countries |
 | Stipend | Full tuition + £1,712/month (£2,000 London) + return economy airfare + study-travel grant; widowed, divorced or single parents also get £622/month for the first child |
@@ -724,7 +724,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | `~Oct–Nov 2026` for 2027-28. Applications opened Aug 20, 2026; India's deadline is set by the Swiss Embassy New Delhi, so check the country page |
+| Deadline | `~Nov 10, 2026` (11:59 PM Swiss time) for India, 2027-28 round: the date third-party listings give; India's official date is set by the Swiss Embassy New Delhi, so confirm on its country page. Applications opened Aug 20, 2026 and go through the GO ESKAS portal only. From India: research fellowships and PhD scholarships. |
 | Duration | PhD up to 3 years; postdoc 12 months; research 12 months |
 | Who | Master's graduates; **≤35** years; Swiss host professor's confirmation letter required; India is an eligible country |
 | Stage | PhD / postdoc |
@@ -1347,4 +1347,4 @@
 
 *[← Back to README](../README.md) | [All Deadlines](../deadlines.md) | [Research fellowships, forums & travel grants →](research-and-networking.md) | [India Fellowships →](india.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

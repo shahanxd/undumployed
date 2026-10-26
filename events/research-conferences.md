@@ -8,9 +8,6 @@
 
 | Event | Dates | Location | Access | Student angle |
 |-------|-------|----------|--------|---------------|
-| [IROS 2026](#iros-2026) | **Sep 27–Oct 1, 2026** (ongoing) | Pittsburgh, USA | Registration | 2026 travel awards closed Aug 14; next: IROS 2027 |
-| [SOSP 2026](#sosp-2026) | **Sep 29–Oct 2, 2026** (ongoing) | Prague, Czechia | Registration | Too late for 2026 grants; next: SOSP 2027 ~Oct 2027 |
-| [COLM 2026](#colm-2026) | **Oct 6–9, 2026** | San Francisco, USA | Waitlist (sold out) | Student rate |
 | [EMNLP 2026](#emnlp-2026) | **Oct 24–29, 2026** | Budapest, Hungary | Registration | Volunteer + D&I subsidy calls closed (Sep 1 / Sep 7) |
 | [MICRO-59 (2026)](#micro-59-2026) | **Oct 31–Nov 4, 2026** | Athens, Greece | Registration | Travel grants closed Sep 16 |
 | [FOCS 2026](#focs-2026) | **Nov 8–11, 2026** | New York City, USA | Registration | Travel awards closed Sep 19 |
@@ -47,6 +44,9 @@
 | [ICCV 2027](#iccv-2027) | **Oct 2–8, 2027** | Hong Kong | Registration | Student volunteers; travel grants |
 | [SIGGRAPH Asia 2027](#siggraph-asia-2027) | **Nov 30–Dec 3, 2027** | Tokyo, Japan | Registration | Student Volunteer program |
 
+| [IROS 2027](#iros-2027) | Sep 26–Oct 1, 2027 | Florence, Italy | Registration | Student rate; travel awards ~Jun |
+| [SOSP 2027](#sosp-2027) | `~Oct 2027 (TBA)` | TBA | Registration | SIGOPS travel grants |
+| [COLM 2027](#colm-2027) | `~Oct 2027 (TBA)` | TBA | Registration | Register early (2026 sold out) |
 ---
 
 ## How student funding works
@@ -59,46 +59,6 @@
 ---
 
 ## Oct–Dec 2026
-
-### IROS 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=mech,ee,cs,ai; region=north-america; funding=unpaid; citizenship=any; gates=; format=in-person -->
-> **Dates:** Sep 27–Oct 1, 2026 (ongoing) · 39th IROS | **Location:** Pittsburgh, USA | **Access:** Registration
-
-| Field | Details |
-|-------|---------|
-| Student angle | 2026 travel awards (IROS-SDC) closed Aug 14, 2026; IROS 2027 is in **Florence, Italy** |
-
-**What it is:** The IEEE/RSJ International Conference on Intelligent Robots and Systems, the other big general robotics conference besides ICRA.
-**Apply:** [2026.ieee-iros.org](https://2026.ieee-iros.org/)
-
----
-
-### SOSP 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=cs; region=europe; funding=unpaid; citizenship=any; gates=; format=in-person -->
-> **Dates:** Sep 29–Oct 2, 2026 (ongoing) | **Location:** Clarion Congress Hotel, Prague, Czechia | **Access:** Registration
-
-| Field | Details |
-|-------|---------|
-| Student angle | ACM SIGOPS student travel grants (closed for 2026); SOSP 2027 will be `~Oct 2027` (TBA) |
-| Visa | Schengen |
-
-**What it is:** The premier operating-systems conference, now held every year (OSDI is the other flagship).
-**Apply:** [sigops.org/s/conferences/sosp/2026](https://sigops.org/s/conferences/sosp/2026/)
-
----
-
-### COLM 2026
-<!-- tags: stage=hs,ug,pg,phd,grad; field=ai,cs; region=north-america; funding=unpaid; citizenship=any; gates=; format=in-person -->
-> **Dates:** Oct 6–9, 2026 (Oct 9 is the workshop day) | **Location:** Hilton Union Square, San Francisco, USA | **Access:** Registration (general registration sold out; waitlist open)
-
-| Field | Details |
-|-------|---------|
-| Visa | US B1/B2, only realistic if you already hold one |
-
-**What it is:** The Conference on Language Modeling, a young, fast-growing venue focused purely on LLMs.
-**Apply:** [colm.cc](https://colm.cc/)
-
----
 
 ### EMNLP 2026
 <!-- tags: stage=hs,ug,pg,phd,grad; field=ai,cs; region=europe; funding=unpaid; citizenship=any; gates=; format=in-person -->
@@ -517,6 +477,46 @@
 
 ---
 
+### IROS 2027
+<!-- tags: stage=hs,ug,pg,phd,grad; field=mech,ee,cs,ai; region=europe; funding=unpaid; citizenship=any; gates=; format=in-person -->
+> **Dates:** Sep 26–Oct 1, 2027 · 40th IROS | **Location:** Fortezza da Basso, Florence, Italy | **Access:** Registration
+
+| Field | Details |
+|-------|---------|
+| Student angle | Student registration rate; travel awards usually close ~3 months before the conference (2026's closed Aug 14). Papers due `~early Mar 2027`. |
+| Visa | Schengen |
+
+**What it is:** The IEEE/RSJ International Conference on Intelligent Robots and Systems, the other big general robotics conference besides ICRA.
+**Apply:** [ieee-iros.org](https://www.ieee-iros.org/)
+
+---
+
+### SOSP 2027
+<!-- tags: stage=hs,ug,pg,phd,grad; field=cs; region=global; funding=unpaid; citizenship=any; gates=; format=in-person -->
+> **Dates:** `~Oct 2027 (TBA)` | **Location:** TBA | **Access:** Registration
+
+| Field | Details |
+|-------|---------|
+| Student angle | ACM SIGOPS student travel grants, usually announced with the program (the 2026 conference ran Sep 29–Oct 2 in Prague) |
+
+**What it is:** The premier operating-systems conference, now held every year (OSDI is the other flagship).
+**Apply:** [sigops.org](https://sigops.org/)
+
+---
+
+### COLM 2027
+<!-- tags: stage=hs,ug,pg,phd,grad; field=ai,cs; region=global; funding=unpaid; citizenship=any; gates=; format=in-person -->
+> **Dates:** `~Oct 2027 (TBA)` | **Location:** TBA | **Access:** Registration (the 2026 edition in San Francisco sold out)
+
+| Field | Details |
+|-------|---------|
+| Student angle | Papers due `~late Mar 2027` (estimate); register early, since 2026 general registration sold out |
+
+**What it is:** The Conference on Language Modeling, a young, fast-growing venue focused purely on LLMs.
+**Apply:** [colm.cc](https://colm.cc/)
+
+---
+
 ## India circuit
 
 Cheap, no visa, and where Indian faculty and labs actually recruit: [CODS 2026](#cods-2026) (Dec) · [IndoML 2026](#indoml-2026) (Dec) · [ICON 2026](#icon-2026) (Dec) · [ICVGIP 2026](#icvgip-2026) (Dec) · [ACM India Annual Event](#acm-india-annual-event-2027) (Feb) · [NCC 2027](#ncc-2027) (Feb/Mar). Also see [india.md](india.md) for KubeCon India, IndiaFOSS and PyCon India, which are developer rather than research events.
@@ -525,4 +525,4 @@ Cheap, no visa, and where Indian faculty and labs actually recruit: [CODS 2026](
 
 *[← Back to Events](README.md) | [Tech & developer →](tech-global.md) | [India events →](india.md) | [Arts & culture →](arts-culture.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

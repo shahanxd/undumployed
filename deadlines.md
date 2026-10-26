@@ -2,7 +2,7 @@
 
 Every dated entry in this repo, in one place. **Generated** from the At-a-glance tables by `scripts/build_deadlines.py`. To change something, edit the source file and rerun the script.
 
-**Built:** Sep 29, 2026 · **Status key:** 🔴 ≤30 days · 🟠 31–60 · 🟡 61–90 · 🟢 later · `~` approximate window · ⚠️ could not be verified this cycle
+**Built:** Oct 26, 2026 · **Status key:** 🔴 ≤30 days · 🟠 31–60 · 🟡 61–90 · 🟢 later · `~` approximate window · ⚠️ could not be verified this cycle
 
 **Jump to:** [Exact deadlines](#exact-deadlines) · [Approximate windows](#approximate-windows-by-month) · [Rolling](#rolling--always-open) · [Next cycle](#next-cycle--watch)
 
@@ -12,87 +12,71 @@ Every dated entry in this repo, in one place. **Generated** from the At-a-glance
 
 | | Deadline | Opportunity | Type | Funded | Stage |
 |--|----------|-------------|------|--------|-------|
-| 🔴 | **Sep 30, 2026** | [Citi, Barclays, Deutsche Bank, BofA India](internships/finance-quant-consulting.md#citi-barclays-deutsche-bank-bofa-india) | Internship | ✅ Paid | UG / PG / MBA |
-| 🔴 | **Sep 30, 2026** | [Innohacks 4.0 (KIET, Ghaziabad)](hackathons/README.md#innohacks-40-kiet-ghaziabad) | Hackathon | ✅ Prize | UG |
-| 🔴 | **Sep 30, 2026** | [Kotak Kanya Scholarship](fellowships/india.md#kotak-kanya-scholarship) | Fellowship | ✅ Up to ₹1.5L/yr | UG |
-| 🔴 | **Sep 30, 2026** | [ML Reproducibility Challenge](competitions/case-business-and-research.md#ml-reproducibility-challenge) | Competition | ❌ Publication | UG / PG / PhD |
-| 🔴 | **Sep 30, 2026** | [Vidyarthi Vigyan Manthan](competitions/case-business-and-research.md#vidyarthi-vigyan-manthan-vvm) | Competition | ✅ Cash + camps | HS |
-| 🔴 | **Oct 3, 2026** | [IRIS National Fair 2026](competitions/case-business-and-research.md#iris-national-fair-india) | Competition | ✅ Fair travel; ISEF trip for winners | HS |
-| 🔴 | **Oct 3, 2026** | [Regeneron ISEF 2027](competitions/case-business-and-research.md#regeneron-isef) | Competition | ✅ $9M+ awards; trip funded by IRIS | HS |
-| 🔴 | **Oct 4, 2026** | [AWS Cloud Clubs: Captain](communities/ambassador-programs.md#aws-cloud-clubs-captain) | Community | ✅ Credits + cert vouchers + swag | UG / PG |
-| 🔴 | **Oct 5, 2026** | [ACM India Winter Schools 2026](fellowships/research-and-networking.md#acm-india-summer--winter-schools) | Research / grant | ❌ ₹177 to apply; ≤₹3,540 if selected (s… | UG / PG / PhD |
-| 🔴 | **Oct 5, 2026** | [Bloomberg Trading Challenge](competitions/competitive-programming.md#bloomberg-trading-challenge) | Competition | ✅ Prize | UG / PG |
-| 🔴 | **Oct 5, 2026** | [Entrepreneur First (EF) Bangalore](startups/README.md#entrepreneur-first-ef-bangalore) | Startup | ✅ Stipend + investment | UG-final / PG / PhD |
-| 🔴 | **Oct 5, 2026** | [GATE → M.Tech stipend](fellowships/india.md#gate--mtech-stipend) | Fellowship | ✅ ₹12,400/mo | UG → PG |
-| 🔴 | **Oct 5, 2026** | [MEA Internship Programme](internships/government-and-non-tech.md#mea-internship-programme) | Internship | ✅ ₹10,000/month + airfare | UG (final) / PG |
-| 🔴 | **Oct 5, 2026** | [Reliance Foundation PG Scholarship](fellowships/india.md#reliance-foundation-pg-scholarship) | Fellowship | ✅ Up to ₹6L | PG |
-| 🔴 | **Oct 5, 2026** | [Reliance Foundation UG Scholarship](fellowships/india.md#reliance-foundation-ug-scholarship) | Fellowship | ✅ Up to ₹2L | UG |
-| 🔴 | **Oct 6, 2026** | [Chevening](fellowships/study-abroad.md#chevening-scholarship) | Scholarship | ✅ Full | PG |
-| 🔴 | **Oct 6, 2026** | [Knight-Hennessy Scholars](fellowships/study-abroad.md#knight-hennessy-scholars) | Scholarship | ✅ Full | PG / PhD |
-| 🔴 | **Oct 6, 2026** | [Lindau Nobel Laureate Meeting 2027 (Physiology/Medicine)](fellowships/research-and-networking.md#lindau-nobel-laureate-meetings) | Research / grant | ✅ Stay + meals; travel usually via part… | UG / PG / PhD |
-| 🔴 | **Oct 6, 2026** | [NeurIPS 2026 Financial Assistance](fellowships/research-and-networking.md#neurips-financial-assistance) | Research / grant | ✅ Registration + hotel | UG / PG / PhD |
-| 🔴 | **Oct 9, 2026** | [Lester B. Pearson (UofT)](fellowships/study-abroad.md#lester-b-pearson-international-scholarship-university-of-toronto) | Scholarship | ✅ Full | HS |
-| 🔴 | **Oct 10, 2026** | [INSPIRE Awards MANAK](competitions/case-business-and-research.md#inspire-awards-manak) | Competition | ✅ ₹10,000 per selected idea | HS |
-| 🔴 | **Oct 10, 2026** | [NITI Aayog Internship](internships/government-and-non-tech.md#niti-aayog-internship) | Internship | ❌ Unpaid | UG / PG / PhD |
-| 🔴 | **Oct 10, 2026** | [Simon Marais Mathematics Competition](competitions/competitive-programming.md#simon-marais-mathematics-competition) | Competition | ✅ Prize (AUD) | UG |
-| 🔴 | **Oct 14, 2026** | [Topcoder](competitions/competitive-programming.md#topcoder) | Competition | ✅ Tournament cash prizes | any |
-| 🔴 | **Oct 15, 2026** | [ACM-W Scholarships](fellowships/research-and-networking.md#acm-w-scholarships-for-conference-attendance) | Research / grant | ✅ up to $1,200 | UG / PG / PhD |
-| 🔴 | **Oct 15, 2026** | [GSEA (Global Student Entrepreneur Awards)](competitions/case-business-and-research.md#gsea-global-student-entrepreneur-awards) | Competition | ✅ Cash + global final trip | UG / PG |
-| 🔴 | **Oct 15, 2026** | [OIST Research Internship](internships/research-global.md#oist-research-internship) | Research internship | ✅ Full | UG / PG |
-| 🔴 | **Oct 15, 2026** | [Wipro Santoor Women's Scholarship](fellowships/india.md#wipro-santoor-womens-scholarship) | Fellowship | ✅ ₹30k/yr | UG |
-| 🔴 | **Oct 20, 2026** | [Commonwealth Master's](fellowships/study-abroad.md#commonwealth-masters--phd-scholarships) | Scholarship | ✅ Full | PG |
-| 🔴 | **Oct 21, 2026** | [Formula Bharat 2027](competitions/case-business-and-research.md#formula-bharat) | Competition | ✅ Prizes | UG |
-| 🔴 | **Oct 25, 2026** | [Jane Street INSIGHT, WiSE, FOCUS, Bridge](internships/finance-quant-consulting.md#jane-street-insight-wise-focus-bridge) | Internship | ✅ Fully covered | HS / UG / PG |
-| 🔴 | **Oct 25, 2026** | [Junction (Helsinki)](hackathons/README.md#junction-helsinki) | Hackathon | ✅ Travel grants (2026 round closed Sep… | UG / PG |
-| 🔴 | **Oct 25, 2026** | [Vidyadhan Scholarship](fellowships/india.md#vidyadhan-scholarship) | Fellowship | ✅ ₹10k–75k/yr | HS / UG |
+| 🔴 | **Oct 27, 2026** | [Lindau Nobel Laureate Meeting 2027 (Physiology/Medicine)](fellowships/research-and-networking.md#lindau-nobel-laureate-meetings) | Research / grant | ✅ Stay + meals; travel usually via part… | UG / PG / PhD |
+| 🔴 | **Oct 28, 2026** | [IEEEXtreme 20.0](competitions/competitive-programming.md#ieeextreme) | Competition | ✅ Prize (trip to IEEE conf / cash) | UG / PG |
+| 🔴 | **Oct 28, 2026** | [UGC NET-JRF](fellowships/india.md#ugc-net-jrf) | Fellowship | ✅ ₹37k/mo | PG → PhD |
 | 🔴 | **Oct 29, 2026** | [Conrad Challenge](competitions/case-business-and-research.md#conrad-challenge) | Competition | ✅ Prizes/scholarships; aid for the stag… | HS |
-| 🟠 | **Oct 30, 2026** | [University Rover Challenge 2027](competitions/case-business-and-research.md#university-rover-challenge-urc) | Competition | ✅ Prize | UG / PG |
-| 🟠 | **Oct 31, 2026** | [Central Sector Scholarship (PM-USP CSSS)](fellowships/india.md#central-sector-scholarship-pm-usp-csss) | Fellowship | ✅ ₹12k–20k/yr | UG / PG |
-| 🟠 | **Oct 31, 2026** | [HDFC Parivartan ECSS](fellowships/india.md#hdfc-parivartan-ecss) | Fellowship | ✅ Up to ₹75k | HS / UG / PG |
-| 🟠 | **Oct 31, 2026** | [HRI Prayagraj: Visiting Students Programme (Physics)](internships/research-india.md#hri-prayagraj-visiting-students-programme-physics) | Research internship | ✅ Stipend + 3AC fare + hostel | UG / PG |
-| 🟠 | **Oct 31, 2026** | [Hacktoberfest](open-source/README.md#hacktoberfest) | Open source | ❌ Free to join | HS / UG / PG / PhD |
-| 🟠 | **Oct 31, 2026** | [Panini Linguistics Olympiad → IOL](competitions/case-business-and-research.md#panini-linguistics-olympiad-plo--iol) | Competition | ✅ IOL trip funded | HS |
-| 🟠 | **Oct 31, 2026** | [SAEINDIA Aerothon & Supra](competitions/case-business-and-research.md#saeindia-aerothon--supra) | Competition | ✅ Prizes | UG |
-| 🟠 | **Nov 1, 2026** | [EPFL E3](internships/research-global.md#epfl-e3) | Research internship | ✅ CHF 1,800–2,500/mo + travel | UG / PG |
-| 🟠 | **Nov 1, 2026** | [Max Planck Institutes](internships/research-global.md#max-planck-institutes) | Research internship | ✅ Varies | UG / PG |
-| 🟠 | **Nov 1, 2026** | [NYU Abu Dhabi UG](fellowships/study-abroad.md#nyu-abu-dhabi-undergraduate) | Scholarship | ✅ Full need | HS |
-| 🟠 | **Nov 1, 2026** | [Tata Scholarship at Cornell](fellowships/study-abroad.md#tata-scholarship-at-cornell) | Scholarship | ✅ Full need | HS |
-| 🟠 | **Nov 1, 2026** | [Teach For India Fellowship](fellowships/india.md#teach-for-india-fellowship) | Fellowship | ✅ ₹30k/mo + housing | UG+ |
-| 🟠 | **Nov 1, 2026** | [US need-blind full-need UG](fellowships/study-abroad.md#us-need-blind-full-need-universities) | Scholarship | ✅ Full need | HS |
-| 🟠 | **Nov 2, 2026** | [Imperial President's PhD](fellowships/study-abroad.md#imperial-college-presidents-phd-scholarships) | Scholarship | ✅ Full | PhD |
-| 🟠 | **Nov 2, 2026** | [Y Combinator (YC)](startups/README.md#y-combinator-yc) | Startup | ✅ $500k investment | UG / PG / PhD |
-| 🟠 | **Nov 13, 2026** | [Jane Street Graduate Research Fellowship](fellowships/research-and-networking.md#jane-street-graduate-research-fellowship) | Research / grant | ✅ Tuition + $50k | PhD |
-| 🟠 | **Nov 13, 2026** | [Solar Decathlon India](competitions/case-business-and-research.md#solar-decathlon-india) | Competition | ❌ Team fee ₹5,000–7,500; finalists get… | UG / PG |
-| 🟠 | **Nov 15, 2026** | [EPFL Life Sciences Summer Research](internships/research-global.md#epfl-life-sciences-summer-research-program) | Research internship | ✅ Stipend | UG / PG |
-| 🟠 | **Nov 15, 2026** | [Humboldt Research Fellowship](fellowships/research-and-networking.md#humboldt-research-fellowship-postdoc) | Research / grant | ✅ €3,000/mo | Postdoc |
-| 🟠 | **Nov 20, 2026** | [Jessup Moot](competitions/case-business-and-research.md#jessup-international-law-moot-court) | Competition | ✅ Travel for India winners to DC | UG / PG |
-| 🟡 | **Nov 29, 2026** | [AI Safety Camp](internships/research-global.md#ai-safety-camp) | Research internship | ❌ Unpaid, remote | UG / PG / PhD |
-| 🟡 | **Nov 29, 2026** | [Summer@EPFL](internships/research-global.md#summerepfl) | Research internship | ✅ CHF 1,800/mo + travel | UG / PG |
-| 🟡 | **Nov 30, 2026** | [DAAD RISE Germany](internships/research-global.md#daad-rise-germany) | Research internship | ✅ Stipend | UG |
-| 🟡 | **Nov 30, 2026** | [ETH Excellence (ESOP)](fellowships/study-abroad.md#eth-excellence-scholarship--opportunity-programme-esop) | Scholarship | ✅ CHF 13,500/sem + tuition | PG |
-| 🟡 | **Nov 30, 2026** | [Friedrich-Ebert-Stiftung](fellowships/study-abroad.md#friedrich-ebert-stiftung-fes-scholarship) | Scholarship | ✅ €992/mo (master's) / €1,500 (PhD) | PG / PhD |
-| 🟡 | **Nov 30, 2026** | [IAS–INSA–NASI Summer Research Fellowship](internships/research-india.md#iasinsanasi-summer-research-fellowship-srfp) | Research internship | ✅ Stipend + train fare | UG / PG |
-| 🟡 | **Nov 30, 2026** | [NCBS / inStem Bengaluru: summer research](internships/research-india.md#ncbs--instem-bengaluru-summer-research) | Research internship | ✅ Via SRFP / lab funds | UG / PG |
-| 🟡 | **Nov 30, 2026** | [Yenching Academy](fellowships/study-abroad.md#yenching-academy-peking-university) | Scholarship | ✅ Full | PG |
-| 🟡 | **Dec 1, 2026** | [Advent of Code](competitions/competitive-programming.md#advent-of-code) | Competition | ❌ Free | HS / UG / PG |
-| 🟡 | **Dec 1, 2026** | [HKPFS: Hong Kong PhD Fellowship](fellowships/study-abroad.md#hong-kong-phd-fellowship-scheme-hkpfs) | Scholarship | ✅ HK$344k/yr | PhD |
-| 🟡 | **Dec 5, 2026** | [IMF Fund Internship Program](internships/government-and-non-tech.md#imf-fund-internship-program) | Internship | ✅ Paid + travel | PG / PhD |
-| 🟡 | **Dec 5, 2026** | [Putnam](competitions/competitive-programming.md#putnam-competition) | Competition | ✅ Cash prizes | UG |
-| 🟡 | **Dec 8, 2026** | [Cambridge Trust / Nehru Trust](fellowships/study-abroad.md#cambridge-trust--jawaharlal-nehru-memorial-scholarships) | Scholarship | ✅ Full / partial | PG / PhD |
-| 🟡 | **Dec 8, 2026** | [Gates Cambridge](fellowships/study-abroad.md#gates-cambridge-scholarship) | Scholarship | ✅ Full | PG / PhD |
-| 🟡 | **Dec 8, 2026** | [Harding Distinguished Scholars (Cambridge)](fellowships/study-abroad.md#harding-distinguished-postgraduate-scholars-cambridge) | Scholarship | ✅ Full | PhD |
-| 🟡 | **Dec 8, 2026** | [Shell Eco-marathon](competitions/case-business-and-research.md#shell-eco-marathon) | Competition | ✅ Prizes | UG |
-| 🟡 | **Dec 15, 2026** | [EPFL Excellence Fellowship](fellowships/study-abroad.md#epfl-masters-excellence-fellowships) | Scholarship | ✅ CHF 10k/sem | PG |
-| 🟡 | **Dec 15, 2026** | [MBZUAI](fellowships/study-abroad.md#mbzuai-full-scholarship-abu-dhabi) | Scholarship | ✅ PhD funded; MSc only with an assistan… | PG / PhD |
-| 🟡 | **Dec 15, 2026** | [Non-Trivial Fellowship](startups/README.md#non-trivial-fellowship) | Startup | ✅ $10k scholarships + project grants | HS / gap year |
-| 🟢 | **Dec 31, 2026** | [DD Robocon India 2027](competitions/case-business-and-research.md#dd-abu-robocon-india) | Competition | ✅ Travel to ABU Robocon (Solo, Indonesi… | UG |
-| 🟢 | **Dec 31, 2026** | [Winter of Code programs (India)](open-source/README.md#winter-of-code-programs-india) | Open source | ❌ Certificates | HS / UG |
-| 🟢 | **Jan 8, 2027** | [FIRST Tech Challenge India](competitions/case-business-and-research.md#first-tech-challenge-india) | Competition | ❌ ₹46,020 per qualifier + kit | HS |
-| 🟢 | **Jan 8, 2027** | [Weidenfeld-Hoffmann (Oxford)](fellowships/study-abroad.md#weidenfeld-hoffmann-scholarships-oxford) | Scholarship | ✅ Full | PG |
-| 🟢 | **Jan 14, 2027** | [Diamond Challenge](competitions/case-business-and-research.md#diamond-challenge) | Competition | ✅ $100k pool | HS |
-| 🟢 | **Jan 15, 2027** | [TIIP: Academia Sinica](internships/research-global.md#tiip-academia-sinica-taiwan) | Research internship | ✅ Stipend + half airfare | UG / PG |
-| 🟢 | **Jan 21, 2027** | [ACM CHI Student Research Competition](competitions/case-business-and-research.md#acm-chi-student-competitions) | Competition | ❌ No travel funding; winners get US$500… | UG / PG / PhD |
-| 🟢 | **Jan 22, 2027** | [EMBO Postdoctoral Fellowship](fellowships/research-and-networking.md#embo-postdoctoral-fellowships) | Research / grant | ✅ Salary + relocation | Postdoc |
+| 🔴 | **Oct 30, 2026** | [NVIDIA Graduate Fellowship](fellowships/research-and-networking.md#nvidia-graduate-fellowship) | Research / grant | ✅ Up to $60k + paid internship | PhD |
+| 🔴 | **Oct 30, 2026** | [University Rover Challenge 2027](competitions/case-business-and-research.md#university-rover-challenge-urc) | Competition | ✅ Prize | UG / PG |
+| 🔴 | **Oct 31, 2026** | [Central Sector Scholarship (PM-USP CSSS)](fellowships/india.md#central-sector-scholarship-pm-usp-csss) | Fellowship | ✅ ₹12k–20k/yr | UG / PG |
+| 🔴 | **Oct 31, 2026** | [HDFC Parivartan ECSS](fellowships/india.md#hdfc-parivartan-ecss) | Fellowship | ✅ Up to ₹75k | HS / UG / PG |
+| 🔴 | **Oct 31, 2026** | [HRI Prayagraj: Visiting Students Programme (Physics)](internships/research-india.md#hri-prayagraj-visiting-students-programme-physics) | Research internship | ✅ Stipend + 3AC fare + hostel | UG / PG |
+| 🔴 | **Oct 31, 2026** | [Hacktoberfest](open-source/README.md#hacktoberfest) | Open source | ❌ Free to join | HS / UG / PG / PhD |
+| 🔴 | **Oct 31, 2026** | [Panini Linguistics Olympiad → IOL](competitions/case-business-and-research.md#panini-linguistics-olympiad-plo--iol) | Competition | ✅ IOL trip funded | HS |
+| 🔴 | **Oct 31, 2026** | [SAEINDIA Aerothon & Supra](competitions/case-business-and-research.md#saeindia-aerothon--supra) | Competition | ✅ Prizes | UG |
+| 🔴 | **Nov 1, 2026** | [EPFL E3](internships/research-global.md#epfl-e3) | Research internship | ✅ CHF 1,800–2,500/mo + travel | UG / PG |
+| 🔴 | **Nov 1, 2026** | [Max Planck Institutes](internships/research-global.md#max-planck-institutes) | Research internship | ✅ Varies | UG / PG |
+| 🔴 | **Nov 1, 2026** | [NYU Abu Dhabi UG](fellowships/study-abroad.md#nyu-abu-dhabi-undergraduate) | Scholarship | ✅ Full need | HS |
+| 🔴 | **Nov 1, 2026** | [Speedrun (a16z)](startups/README.md#speedrun-a16z) | Startup | ✅ Up to $1M | UG+ / any |
+| 🔴 | **Nov 1, 2026** | [Tata Scholarship at Cornell](fellowships/study-abroad.md#tata-scholarship-at-cornell) | Scholarship | ✅ Full need | HS |
+| 🔴 | **Nov 1, 2026** | [Teach For India Fellowship](fellowships/india.md#teach-for-india-fellowship) | Fellowship | ✅ ₹30k/mo + housing | UG+ |
+| 🔴 | **Nov 1, 2026** | [US need-blind full-need UG](fellowships/study-abroad.md#us-need-blind-full-need-universities) | Scholarship | ✅ Full need | HS |
+| 🔴 | **Nov 2, 2026** | [Imperial President's PhD](fellowships/study-abroad.md#imperial-college-presidents-phd-scholarships) | Scholarship | ✅ Full | PhD |
+| 🔴 | **Nov 2, 2026** | [Y Combinator (YC)](startups/README.md#y-combinator-yc) | Startup | ✅ $500k investment | UG / PG / PhD |
+| 🔴 | **Nov 5, 2026** | [CSIR-UGC NET-JRF](fellowships/india.md#csir-ugc-net-jrf) | Fellowship | ✅ ₹37k/mo | PG → PhD |
+| 🔴 | **Nov 5, 2026** | [Lexsi AI Safety & Alignment Hackathon](hackathons/README.md#lexsi-ai-safety--alignment-hackathon) | Hackathon | ✅ Credits + interviews | UG / PG / PhD |
+| 🔴 | **Nov 6, 2026** | [Lester B. Pearson (UofT)](fellowships/study-abroad.md#lester-b-pearson-international-scholarship-university-of-toronto) | Scholarship | ✅ Full | HS |
+| 🔴 | **Nov 8, 2026** | [Jane Street INSIGHT, WiSE, FOCUS, Bridge](internships/finance-quant-consulting.md#jane-street-insight-wise-focus-bridge) | Internship | ✅ Fully covered | HS / UG / PG |
+| 🔴 | **Nov 10, 2026** | [NITI Aayog Internship](internships/government-and-non-tech.md#niti-aayog-internship) | Internship | ❌ Unpaid | UG / PG / PhD |
+| 🔴 | **Nov 13, 2026** | [Jane Street Graduate Research Fellowship](fellowships/research-and-networking.md#jane-street-graduate-research-fellowship) | Research / grant | ✅ Tuition + $50k | PhD |
+| 🔴 | **Nov 13, 2026** | [Solar Decathlon India](competitions/case-business-and-research.md#solar-decathlon-india) | Competition | ❌ Team fee ₹5,000–7,500; finalists get… | UG / PG |
+| 🔴 | **Nov 15, 2026** | [EPFL Life Sciences Summer Research](internships/research-global.md#epfl-life-sciences-summer-research-program) | Research internship | ✅ Stipend | UG / PG |
+| 🔴 | **Nov 15, 2026** | [Humboldt Research Fellowship](fellowships/research-and-networking.md#humboldt-research-fellowship-postdoc) | Research / grant | ✅ €3,000/mo | Postdoc |
+| 🔴 | **Nov 18, 2026** | [Meta VR Start Developer Competition 2026](hackathons/README.md#meta-vr-start-developer-competition-2026) | Hackathon | ✅ $1M cash, 20 prizes | UG / PG |
+| 🔴 | **Nov 20, 2026** | [Jessup Moot](competitions/case-business-and-research.md#jessup-international-law-moot-court) | Competition | ✅ Travel for India winners to DC | UG / PG |
+| 🔴 | **Nov 21, 2026** | [Olympiad pathway (HBCSE)](fellowships/india.md#olympiad-pathway-hbcse) | Fellowship | ✅ Free; opens NIUS/IISER doors | HS |
+| 🔴 | **Nov 21, 2026** | [ZCO / INOI (Indian Computing Olympiad)](competitions/competitive-programming.md#indian-computing-olympiad-zco--zio--inoi) | Competition | ✅ Fully funded IOI trip | HS |
+| 🔴 | **Nov 25, 2026** | [Gemma 4 Developer Agent Competition (Kaggle)](competitions/case-business-and-research.md#gemma-4-developer-agent-competition-kaggle) | Competition | ✅ $110k prizes | UG / PG / PhD |
+| 🟠 | **Nov 29, 2026** | [AI Safety Camp](internships/research-global.md#ai-safety-camp) | Research internship | ❌ Unpaid, remote | UG / PG / PhD |
+| 🟠 | **Nov 29, 2026** | [Summer@EPFL](internships/research-global.md#summerepfl) | Research internship | ✅ CHF 1,800/mo + travel | UG / PG |
+| 🟠 | **Nov 30, 2026** | [DAAD RISE Germany](internships/research-global.md#daad-rise-germany) | Research internship | ✅ Stipend | UG |
+| 🟠 | **Nov 30, 2026** | [ETH Excellence (ESOP)](fellowships/study-abroad.md#eth-excellence-scholarship--opportunity-programme-esop) | Scholarship | ✅ CHF 13,500/sem + tuition | PG |
+| 🟠 | **Nov 30, 2026** | [Friedrich-Ebert-Stiftung](fellowships/study-abroad.md#friedrich-ebert-stiftung-fes-scholarship) | Scholarship | ✅ €992/mo (master's) / €1,500 (PhD) | PG / PhD |
+| 🟠 | **Nov 30, 2026** | [IAS–INSA–NASI Summer Research Fellowship](internships/research-india.md#iasinsanasi-summer-research-fellowship-srfp) | Research internship | ✅ Stipend + train fare | UG / PG |
+| 🟠 | **Nov 30, 2026** | [NCBS / inStem Bengaluru: summer research](internships/research-india.md#ncbs--instem-bengaluru-summer-research) | Research internship | ✅ Via SRFP / lab funds | UG / PG |
+| 🟠 | **Nov 30, 2026** | [Yenching Academy](fellowships/study-abroad.md#yenching-academy-peking-university) | Scholarship | ✅ Full | PG |
+| 🟠 | **Dec 1, 2026** | [Advent of Code](competitions/competitive-programming.md#advent-of-code) | Competition | ❌ Free | HS / UG / PG |
+| 🟠 | **Dec 1, 2026** | [HKPFS: Hong Kong PhD Fellowship](fellowships/study-abroad.md#hong-kong-phd-fellowship-scheme-hkpfs) | Scholarship | ✅ HK$344k/yr | PhD |
+| 🟠 | **Dec 2, 2026** | [Topcoder](competitions/competitive-programming.md#topcoder) | Competition | ✅ Tournament cash prizes | any |
+| 🟠 | **Dec 5, 2026** | [IMF Fund Internship Program](internships/government-and-non-tech.md#imf-fund-internship-program) | Internship | ✅ Paid + travel | PG / PhD |
+| 🟠 | **Dec 5, 2026** | [Putnam](competitions/competitive-programming.md#putnam-competition) | Competition | ✅ Cash prizes | UG |
+| 🟠 | **Dec 8, 2026** | [Cambridge Trust / Nehru Trust](fellowships/study-abroad.md#cambridge-trust--jawaharlal-nehru-memorial-scholarships) | Scholarship | ✅ Full / partial | PG / PhD |
+| 🟠 | **Dec 8, 2026** | [Gates Cambridge](fellowships/study-abroad.md#gates-cambridge-scholarship) | Scholarship | ✅ Full | PG / PhD |
+| 🟠 | **Dec 8, 2026** | [Harding Distinguished Scholars (Cambridge)](fellowships/study-abroad.md#harding-distinguished-postgraduate-scholars-cambridge) | Scholarship | ✅ Full | PhD |
+| 🟠 | **Dec 8, 2026** | [Shell Eco-marathon](competitions/case-business-and-research.md#shell-eco-marathon) | Competition | ✅ Prizes | UG |
+| 🟠 | **Dec 15, 2026** | [ACM-W Scholarships](fellowships/research-and-networking.md#acm-w-scholarships-for-conference-attendance) | Research / grant | ✅ up to $1,200 | UG / PG / PhD |
+| 🟠 | **Dec 15, 2026** | [EPFL Excellence Fellowship](fellowships/study-abroad.md#epfl-masters-excellence-fellowships) | Scholarship | ✅ CHF 10k/sem | PG |
+| 🟠 | **Dec 15, 2026** | [MBZUAI](fellowships/study-abroad.md#mbzuai-full-scholarship-abu-dhabi) | Scholarship | ✅ PhD funded; MSc only with an assistan… | PG / PhD |
+| 🟠 | **Dec 15, 2026** | [Non-Trivial Fellowship](startups/README.md#non-trivial-fellowship) | Startup | ✅ $10k scholarships + project grants | HS / gap year |
+| 🟡 | **Dec 31, 2026** | [DD Robocon India 2027](competitions/case-business-and-research.md#dd-abu-robocon-india) | Competition | ✅ Travel to ABU Robocon (Solo, Indonesi… | UG |
+| 🟡 | **Dec 31, 2026** | [Winter of Code programs (India)](open-source/README.md#winter-of-code-programs-india) | Open source | ❌ Certificates | HS / UG |
+| 🟡 | **Jan 8, 2027** | [FIRST Tech Challenge India](competitions/case-business-and-research.md#first-tech-challenge-india) | Competition | ❌ ₹46,020 per qualifier + kit | HS |
+| 🟡 | **Jan 8, 2027** | [Weidenfeld-Hoffmann (Oxford)](fellowships/study-abroad.md#weidenfeld-hoffmann-scholarships-oxford) | Scholarship | ✅ Full | PG |
+| 🟡 | **Jan 14, 2027** | [Diamond Challenge](competitions/case-business-and-research.md#diamond-challenge) | Competition | ✅ $100k pool | HS |
+| 🟡 | **Jan 15, 2027** | [GSEA (Global Student Entrepreneur Awards)](competitions/case-business-and-research.md#gsea-global-student-entrepreneur-awards) | Competition | ✅ Cash + global final trip | UG / PG |
+| 🟡 | **Jan 15, 2027** | [TIIP: Academia Sinica](internships/research-global.md#tiip-academia-sinica-taiwan) | Research internship | ✅ Stipend + half airfare | UG / PG |
+| 🟡 | **Jan 21, 2027** | [ACM CHI Student Research Competition](competitions/case-business-and-research.md#acm-chi-student-competitions) | Competition | ❌ No travel funding; winners get US$500… | UG / PG / PhD |
+| 🟡 | **Jan 22, 2027** | [EMBO Postdoctoral Fellowship](fellowships/research-and-networking.md#embo-postdoctoral-fellowships) | Research / grant | ✅ Salary + relocation | Postdoc |
 | 🟢 | **Jan 26, 2027** | [Reach Oxford](fellowships/study-abroad.md#reach-oxford-scholarship) | Scholarship | ✅ Full | HS |
 | 🟢 | **Jan 31, 2027** | [Aalto AScI Summer Research](internships/research-global.md#aalto-asci-summer-research) | Research internship | ✅ Paid €2,000+/mo | UG / PG |
 | 🟢 | **Jan 31, 2027** | [Kleiner Perkins Fellows](startups/README.md#kleiner-perkins-fellows) | Startup | ✅ Paid summer | UG / PG |
@@ -102,6 +86,7 @@ Every dated entry in this repo, in one place. **Generated** from the At-a-glance
 | 🟢 | **Feb 11, 2027** | [Heidelberg Laureate Forum 2027](fellowships/research-and-networking.md#heidelberg-laureate-forum) | Research / grant | ✅ Stay + meals; travel grant as fallback | UG / PG / PhD |
 | 🟢 | **Feb 15, 2027** | [NSS Space Settlement Contest](competitions/case-business-and-research.md#nss-gerard-k-oneill-space-settlement-contest) | Competition | ✅ Certificates; $5k scholarship at ISDC… | HS |
 | 🟢 | **Feb 21, 2027** | [Blue Ocean Student Entrepreneur Competition](competitions/case-business-and-research.md#blue-ocean-student-entrepreneur-competition) | Competition | ✅ Cash ($1,000 top prize) | HS |
+| 🟢 | **Feb 28, 2027** | [Twilio Champions](communities/ambassador-programs.md#twilio-champions) | Community | ❌ Free to join (perks) | UG / PG / PhD |
 | 🟢 | **Mar 1, 2027** | [Caltech SURF](internships/research-global.md#caltech-surf) | Research internship | ✅ $8,110 (2026) | UG |
 | 🟢 | **Mar 1, 2027** | [Heinrich Böll Foundation](fellowships/study-abroad.md#heinrich-böll-foundation-scholarship) | Scholarship | ✅ €992–1,300/mo | PG / PhD |
 | 🟢 | **May 14, 2027** | [CFA Research Challenge](competitions/case-business-and-research.md#cfa-institute-research-challenge) | Competition | ✅ Travel for advancing teams | UG / PG |
@@ -112,65 +97,47 @@ Every dated entry in this repo, in one place. **Generated** from the At-a-glance
 Expected from last cycle's pattern. Confirm on the official page once the call is out.
 
 
-### September 2026
-
-| Window | Opportunity | Type | Funded | Stage |
-|--------|-------------|------|--------|-------|
-| `~Fall 2026` (Jan 2027 start) | [Cohere Labs Scholars](internships/research-global.md#cohere-labs-scholars-program) | Research internship | ✅ Paid, remote | UG / PG / PhD |
-
 ### October 2026
 
 | Window | Opportunity | Type | Funded | Stage |
 |--------|-------------|------|--------|-------|
 | ⚠️ Unverified: ~Oct 2026–Jan 2027 | [8VC Fellowship](startups/README.md#8vc-fellowship) | Startup | ✅ Paid summer + housing | UG |
-| `~Oct 2026` launch expected (6.0 ran Sep 2025–F… | [EY Techathon](competitions/case-business-and-research.md#ey-techathon) | Competition | ✅ ₹3 lakh grand prize + PPI | UG / PG |
 | `~Oct 2026–Feb 2027` (per programme) | [Erasmus Mundus Joint Masters](fellowships/study-abroad.md#erasmus-mundus-joint-masters) | Scholarship | ✅ €1,400/mo + tuition | PG |
-| Register by `~mid-Oct 2026`; contest Oct 31, 20… | [IEEEXtreme 20.0](competitions/competitive-programming.md#ieeextreme) | Competition | ✅ Prize (trip to IEEE conf / cash) | UG / PG |
 | `~Oct 2026–Jan 2027` (summer 2027) | [IUSSTF programmes (Khorana / Viterbi)](fellowships/research-and-networking.md#iusstf-programmes) | Research / grant | ✅ Full | UG / PG |
-| `~Oct 2026` (2025: registration Oct 3, Round 1… | [Meta Hacker Cup 2026](competitions/competitive-programming.md#meta-hacker-cup) | Competition | ✅ Cash (1st $20,000; top 25 paid) | HS / UG / PG / PhD |
-| ~Oct 2026 (informatics registration opens); mat… | [Olympiad pathway (HBCSE)](fellowships/india.md#olympiad-pathway-hbcse) | Fellowship | ✅ Free; opens NIUS/IISER doors | HS |
-| ~Oct 2026 (NSP) | [PM YASASVI](fellowships/india.md#pm-yasasvi) | Fellowship | ✅ ₹75k–1.25L/yr | HS |
-| Apps open `~late Oct 2026` · event `~Jan–Feb 20… | [PennApps XXVII](hackathons/README.md#pennapps) | Hackathon | ❌ Limited travel | UG / PG |
-| Point72 Academy APAC `~mid-Oct 2026`; India: no… | [Squarepoint, Millennium, Point72: India tech offices](internships/finance-quant-consulting.md#squarepoint-millennium-point72-india-tech-offices) | Internship | ✅ Paid | UG / PG |
-| ~Sep–Oct 2026 (via Dean) | [Aditya Birla Group Scholarship](fellowships/india.md#aditya-birla-group-scholarship) | Fellowship | ✅ ₹1.5–3L/yr | UG / PG |
 | `~Sep–Oct 2026` (embassy, UG; check the notice… | [GKS: Undergraduate track](fellowships/study-abroad.md#gks-global-korea-scholarship) | Scholarship | ✅ Full | HS |
 | `⚠️ Unverified: ~Aug–Oct 2026` (Season 18 windo… | [HUL LIME](competitions/case-business-and-research.md#hul-lime) | Competition | ✅ ₹10 lakh + PPI | PG |
-| `~Aug–Oct 2026` | [Microsoft Explore India](internships/tech-companies.md#microsoft-explore-india) | Internship | ✅ Paid | UG |
 | `~Aug–Oct 2026` + rolling | [Qualcomm India Interim Engineering Intern](internships/tech-companies.md#qualcomm-india-interim-engineering-intern) | Internship | ✅ Paid | UG / PG |
-| `~Sep–Oct 2026` internal rounds · finale `~Dec… | [Smart India Hackathon 2026](hackathons/README.md#smart-india-hackathon-sih) | Hackathon | ✅ ₹1 lakh/PS (typical) | HS / UG / PG |
 | `~Aug–Oct 2026` (campus) | [Texas Instruments India](internships/tech-companies.md#texas-instruments-india) | Internship | ✅ Paid | UG / PG |
-| Registration via society `~Aug–Oct 2026` · tour… | [WUDC 2027 (Ottawa)](competitions/case-business-and-research.md#world-universities-debating-championship-wudc) | Competition | ❌ Self-funded via society | UG / PG |
-| ICO-2027 registration opens **Oct 2026**; ZCO `… | [ZCO / INOI (Indian Computing Olympiad)](competitions/competitive-programming.md#indian-computing-olympiad-zco--zio--inoi) | Competition | ✅ Fully funded IOI trip | HS |
 | `~Oct 31, 2026` (intl, for Feb–Jul 2027 start) | [Melbourne Graduate Research Scholarships](fellowships/study-abroad.md#university-of-melbourne-graduate-research-scholarships) | Scholarship | ✅ Full | PG / PhD |
-| ~Oct 31, 2026 (usual fresh-application close; v… | [National Scholarship Portal (NSP) schemes](fellowships/india.md#national-scholarship-portal-nsp-schemes) | Fellowship | ✅ Varies | HS / UG / PG |
+| `~Oct 31, 2026` (post-matric; pre-matric closed… | [National Scholarship Portal (NSP) schemes](fellowships/india.md#national-scholarship-portal-nsp-schemes) | Fellowship | ✅ Varies | HS / UG / PG |
+| `~Oct 31, 2026` (NSP post-matric close) | [PM YASASVI](fellowships/india.md#pm-yasasvi) | Fellowship | ✅ ₹75k–1.25L/yr | HS |
 
 ### November 2026
 
 | Window | Opportunity | Type | Funded | Stage |
 |--------|-------------|------|--------|-------|
-| ~Nov 2026 (for 2026-27 first-years) | [Amazon Future Engineer Scholarship](fellowships/india.md#amazon-future-engineer-scholarship) | Fellowship | ✅ ₹50k/yr + laptop | UG |
+| `~Nov 10, 2026` (India, per listings; confirm o… | [Swiss Government Excellence](fellowships/study-abroad.md#swiss-government-excellence-scholarships) | Scholarship | ✅ CHF 2,450/mo | PhD |
+| Registration open, closes `~Nov 13, 2026` · pre… | [TCS CodeVita Season 14](competitions/competitive-programming.md#tcs-codevita) | Competition | ✅ $20,000 top-3 + finale travel | UG / PG |
+| MoE/SAKSHAT nomination `~late Nov 2026` (only i… | [Commonwealth Master's](fellowships/study-abroad.md#commonwealth-masters--phd-scholarships) | Scholarship | ✅ Full | PG |
+| `~Nov 2026` (2027 call not posted yet; 2026 rou… | [Cooperative AI PhD Fellowship](fellowships/research-and-networking.md#cooperative-ai-phd-fellowship) | Research / grant | ✅ Research budgets; top ~1% get up to $… | UG / PG / PhD |
 | ~Nov 2026–Apr 2027 (2027-29 batch, starts ~Jul… | [Gandhi Fellowship](fellowships/india.md#gandhi-fellowship) | Fellowship | ✅ ₹24,500/mo | UG+ |
 | `~Nov 2026–Jan 2027` (with admission) | [Hong Kong UG entrance scholarships](fellowships/study-abroad.md#hong-kong-undergraduate-entrance-scholarships) | Scholarship | ✅ Full–partial | HS |
 | `~Nov 2026`, rolling; summer 2027 open | [Jane Street Internships (NY / London / HK)](internships/finance-quant-consulting.md#jane-street-internships-ny--london--hk) | Internship | ✅ Paid (~$20k+/month) | UG / PG / PhD |
-| `~Nov 2026–Jan 2027` | [Microsoft Imagine Cup 2027](hackathons/README.md#microsoft-imagine-cup) | Hackathon | ✅ Prize (2025: $100k) | UG / PG |
+| Apps `~Nov 2026` · event Jan 2027 | [MIT Reality Hack](hackathons/README.md#mit-reality-hack) | Hackathon | ❌ No travel (free entry) | UG / PG |
 | ~Nov 2026 | [PM Scholarship Scheme (KSB)](fellowships/india.md#pm-scholarship-scheme-ksb) | Fellowship | ✅ ₹2.5–3k/mo | UG |
-| ~Nov 2026 for SR008 (Jan–Apr 2027); off-cycle a… | [Speedrun (a16z)](startups/README.md#speedrun-a16z) | Startup | ✅ Up to $1M | UG+ / any |
+| Apps `~Nov 2026` · event spring 2027 | [PennApps XXVII](hackathons/README.md#pennapps) | Hackathon | ❌ Limited travel | UG / PG |
+| Apply now, closes `~mid-Nov 2026` · event Nov 2… | [hackaTUM (TU Munich)](hackathons/README.md#hackatum-tu-munich) | Hackathon | ❌ No travel; prizes | UG / PG |
 | Arm India opens **Nov 2026**; AMD campus Aug–Nov | [AMD, Arm & Micron India design centres](internships/tech-companies.md#amd-arm--micron-india-design-centres) | Internship | ✅ Paid | UG / PG |
-| `~Oct–Nov 2026` (2026 round closed Nov 16, 2025) | [Cooperative AI PhD Fellowship](fellowships/research-and-networking.md#cooperative-ai-phd-fellowship) | Research / grant | ✅ Research budgets; top ~1% get up to $… | UG / PG / PhD |
+| `~Sep–Nov 2026` (via your Dean; ask now) | [Aditya Birla Group Scholarship](fellowships/india.md#aditya-birla-group-scholarship) | Fellowship | ✅ ₹1.5–3L/yr | UG / PG |
+| ⚠️ Campus `~Aug–Nov 2026` (Citi, Barclays, DB);… | [Citi, Barclays, Deutsche Bank, BofA India](internships/finance-quant-consulting.md#citi-barclays-deutsche-bank-bofa-india) | Internship | ✅ Paid | UG / PG / MBA |
 | `~Aug–Nov 2026` campus; Ascend next `~Jul 2027` | [D. E. Shaw India + Ascend Educare](internships/finance-quant-consulting.md#d-e-shaw-india--ascend-educare) | Internship | ✅ Paid | UG / PG |
 | `~Oct–Nov 2026` (per country/portal) | [DAAD Research Grants (Doctoral)](fellowships/study-abroad.md#daad-research-grants-doctoral-programmes-in-germany) | Scholarship | ✅ €1,300/mo | PhD |
-| ~Oct–Nov 2026 (not yet announced; 2025 regular… | [Empresario (IIT Kharagpur)](startups/README.md#empresario-iit-kharagpur) | Startup | ✅ Prize pool ₹1.2Cr+ | UG / PG / any |
 | `~Oct–Nov 2026` · rolling since Jul 1; apply now | [Goldman Sachs Summer Analyst India](internships/finance-quant-consulting.md#goldman-sachs-summer-analyst-india) | Internship | ✅ Paid | UG / PG / MBA |
-| `~Sep–Nov 2026` | [Google SWE Intern India (Summer 2027)](internships/tech-companies.md#google-swe-intern-india-summer-2027) | Internship | ✅ Paid | UG / PG |
-| `~Oct–Nov 2026` (2025 ran online Nov 1–Dec 1) | [Hack This Fall](hackathons/README.md#hack-this-fall) | Hackathon | ✅ Prize | UG |
-| WorldMUN applications `~Sep–Nov 2026` (conferen… | [Harvard WorldMUN / HMUN India](competitions/case-business-and-research.md#model-un-worldmun--hmun-india) | Competition | ❌ Self-funded (some scholarships) | HS / UG |
-| Apps `~Oct–Nov 2026` · event `~late Jan 2027` | [MIT Reality Hack](hackathons/README.md#mit-reality-hack) | Hackathon | ❌ No travel (free entry) | UG / PG |
+| ⚠️ Unverified: `~Oct–Nov 2026` (not posted yet) | [Microsoft Explore India](internships/tech-companies.md#microsoft-explore-india) | Internship | ✅ Paid | UG |
 | ~Oct–Nov 2026 (state exam) | [NMMS](fellowships/india.md#nmms) | Fellowship | ✅ ₹12k/yr | HS |
 | `~Aug–Nov 2026` | [Salesforce, Oracle, Cisco, LinkedIn, Sprinklr: campus-cycle…](internships/tech-companies.md#salesforce-oracle-cisco-linkedin-sprinklr-campus-cycle-mncs) | Internship | ✅ Paid | UG / PG |
-| `~Oct–Nov 2026` (Swiss Embassy India sets the d… | [Swiss Government Excellence](fellowships/study-abroad.md#swiss-government-excellence-scholarships) | Scholarship | ✅ CHF 2,450/mo | PhD |
 | `~Aug–Nov 2026` campus + rolling | [Tower Research Capital India](internships/finance-quant-consulting.md#tower-research-capital-india) | Internship | ✅ Paid | UG / PG / PhD |
 | ⚠️ Unverified: `~Aug–Nov 2026` | [UBS, Nomura, HSBC, Wells Fargo India](internships/finance-quant-consulting.md#ubs-nomura-hsbc-wells-fargo-india) | Internship | ✅ Paid | UG / PG / MBA |
-| ~Oct–Nov 2026 (Dec 2026 cycle) | [UGC NET-JRF](fellowships/india.md#ugc-net-jrf) | Fellowship | ✅ ₹37k/mo | PG → PhD |
 | `~Aug–Nov 2026`; CodeHers `~Feb–Mar 2027` | [Walmart Global Tech & Target India](internships/tech-companies.md#walmart-global-tech--target-india) | Internship | ✅ Paid | UG / PG |
 
 ### December 2026
@@ -187,23 +154,25 @@ Expected from last cycle's pattern. Confirm on the official page once the call i
 | `~Dec 2026–Jan 15, 2027` (Aug 2027 intake, with… | [NUS / NTU Research Scholarships](fellowships/study-abroad.md#nus--ntu-research-scholarships) | Scholarship | ✅ S$2,200–3,000/mo + tuition | PhD |
 | `~Dec 2026–Jan 2027` (master's course deadline) | [Oxford-Pershing Square (1+1 MBA)](fellowships/study-abroad.md#oxford-pershing-square-graduate-scholarships) | Scholarship | ✅ Full | PG |
 | `~Dec 2026–Jan 2027` (Spring 2027 round) | [SPAR (AI safety, remote)](fellowships/research-and-networking.md#spar-supervised-program-for-alignment-research) | Research / grant | ❌ Unpaid (expenses covered) | HS / UG / PG / PhD |
+| Apps `~Dec 2026–Mar 2027` · event ~Mar 2027 | [START Hack (St. Gallen)](hackathons/README.md#start-hack-st-gallen) | Hackathon | ✅ Prizes | UG / PG |
+| Apps open now, close `~Dec 2026` · event Feb 12… | [TreeHacks 2027](hackathons/README.md#treehacks-stanford) | Hackathon | ✅ Flights (capped) + food | UG / PG |
 | `~Dec 2026` | [Viterbi-IUSSTF](internships/research-global.md#viterbi-iusstf-usc) | Research internship | ✅ Full | UG / PG |
 | `~Dec 2026` (2027 program; window not yet open) | [Yale World Fellows](fellowships/study-abroad.md#yale-world-fellows) | Scholarship | ✅ Full + stipend | PG |
 | `~Dec 16, 2026` (opens Nov 1) | [ETH Zurich SSRF](internships/research-global.md#eth-zurich-ssrf) | Research internship | ✅ CHF 4,000 + travel | UG / PG |
 | `~Dec 20, 2026` | [ICTS Bengaluru: S. N. Bhatt Summer Fellowship](internships/research-india.md#icts-bengaluru-s-n-bhatt-summer-fellowship) | Research internship | ✅ Stipend + accommodation | UG / PG |
 | ⚠️ Unverified: ~Nov–Dec 2026 (no 2026-27 call y… | [ATL Marathon](fellowships/india.md#atl-marathon) | Fellowship | ✅ Prize/internship | HS |
+| `~Nov–Dec 2026` (for 2026-27 first-years) | [Amazon Future Engineer Scholarship](fellowships/india.md#amazon-future-engineer-scholarship) | Fellowship | ✅ ₹50k/yr + laptop | UG |
 | ⚠️ Unverified: `~Sep–Dec 2026` campus; no BCG X… | [BCG Summer Associate / BCG X](internships/finance-quant-consulting.md#bcg-summer-associate--bcg-x) | Internship | ✅ Paid | UG / PG / MBA |
 | ⚠️ Unverified: `~Sep–Dec 2026` campus | [Bain Associate Consultant Intern](internships/finance-quant-consulting.md#bain-associate-consultant-intern) | Internship | ✅ Paid | UG / PG / MBA |
-| ~Nov–Dec 2026 (Dec 2026 cycle) | [CSIR-UGC NET-JRF](fellowships/india.md#csir-ugc-net-jrf) | Fellowship | ✅ ₹37k/mo | PG → PhD |
 | `~Sep–Dec 2026` (per course; some already close… | [DAAD EPOS](fellowships/study-abroad.md#daad-epos-development-related-postgraduate-courses) | Scholarship | ✅ €992–1,300/mo | PG / PhD |
+| Later rounds `~Nov–Dec 2026` (early round close… | [Entrepreneur First (EF) Bangalore](startups/README.md#entrepreneur-first-ef-bangalore) | Startup | ✅ Stipend + investment | UG-final / PG / PhD |
 | `~Nov–Dec 2026` | [Google STEP India](internships/tech-companies.md#google-step-india) | Internship | ✅ Paid | UG |
+| ⚠️ Unverified: `~Nov–Dec 2026` (BS/MS listing n… | [Google SWE Intern India (Summer 2027)](internships/tech-companies.md#google-swe-intern-india-summer-2027) | Internship | ✅ Paid | UG / PG |
 | `~Nov–Dec 2026`; rolling, open now | [HRT, Citadel, Jump, Two Sigma: global (no India intern prog…](internships/finance-quant-consulting.md#hrt-citadel-jump-two-sigma-global-no-india-intern-program) | Internship | ✅ Paid + housing | UG / PG / PhD |
 | Spring 2027: `~Oct–Dec 2026`, rolling (Fall 202… | [MLH Fellowship](open-source/README.md#mlh-fellowship) | Open source | ✅ "educational stipend" (historically u… | UG / PG |
 | `~Sep–Dec 2026` campus; off-campus rolling | [McKinsey Business Analyst Intern](internships/finance-quant-consulting.md#mckinsey-business-analyst-intern) | Internship | ✅ Paid | UG / PG / MBA |
 | Research: **Jul–Nov 2026** (Jan 2027 batch), th… | [RBI Summer Internship & Research Internship](internships/government-and-non-tech.md#rbi-summer-internship--research-internship) | Internship | ✅ Stipend (Research ₹45,000/month) | UG (law) / PG / PhD |
 | `~Oct–Dec 2026` (annual call) | [Raman-Charpak Fellowship](fellowships/research-and-networking.md#raman-charpak-fellowship-india--france-phd-exchange) | Research / grant | ✅ €1,710/mo + airfare | PhD |
-| Registration open; Round 1 `~Nov–Dec 2026` | [TCS CodeVita Season 14](competitions/competitive-programming.md#tcs-codevita) | Competition | ✅ $20,000 top-3 + finale travel | UG / PG |
-| Apps `~Nov–Dec 2026` · event Feb 12–14, 2027 | [TreeHacks 2027](hackathons/README.md#treehacks-stanford) | Hackathon | ✅ Flights (capped) + food | UG / PG |
 | Reuters `~Nov–Dec 2026`; AP plans due early 202… | [Wire services & foreign bureaus: Reuters, AP, AFP, BBC India](internships/government-and-non-tech.md#wire-services--foreign-bureaus-reuters-ap-afp-bbc-india) | Internship | ✅ Paid (Reuters/AP/BBC); AFP varies | UG / PG |
 
 ### January 2027
@@ -221,6 +190,7 @@ Expected from last cycle's pattern. Confirm on the official page once the call i
 | Entrance test `~Jan 2027` (2026: exam Jan 24, r… | [IESO (Earth Science Olympiad)](competitions/case-business-and-research.md#indian-earth-science-olympiad--ieso) | Competition | ✅ IESO trip | HS |
 | `~Jan 2027` (regular round; early round was ~Se… | [KAIST UG international scholarship](fellowships/study-abroad.md#kaist-undergraduate-international-scholarship) | Scholarship | ✅ Tuition + KRW 350k/mo | HS |
 | `~Jan 2027` (Fall 2027; check timeline page) | [KAUST Fellowship](fellowships/study-abroad.md#kaust-fellowship-saudi-arabia) | Scholarship | ✅ Full + $20–30k/yr | PG / PhD |
+| Registration open now · submissions `~Jan 2027` | [Microsoft Imagine Cup 2027](hackathons/README.md#microsoft-imagine-cup) | Hackathon | ✅ Prize (2025: $100k) | UG / PG |
 | `~late Jan 2027` (call opens Dec 2026; faculty-… | [NIMS Internship](internships/research-global.md#nims-internship) | Research internship | ✅ ¥2,560/day + housing | UG / PG / PhD |
 | `~mid-Jan 2027` | [NUS SoC Summer Research](internships/research-global.md#nus-soc-summer-research-internship) | Research internship | ✅ S$500/wk | UG / PG |
 | `~Jan 2027` | [PSI Summer Student](internships/research-global.md#psi-summer-student-programme) | Research internship | ✅ Stipend | UG / PG |
@@ -244,6 +214,7 @@ Expected from last cycle's pattern. Confirm on the official page once the call i
 | `~mid-Feb 2027` | [CUHK SURP](internships/research-global.md#cuhk-surp) | Research internship | ❌ Fee-paying (~US$2,700 incl. housing) | UG |
 | `~Feb 15, 2027` | [DESY Summer Student](internships/research-global.md#desy-summer-student-programme) | Research internship | ✅ €28.50/day + hostel | UG |
 | `~Feb 2027` registration | [GirlScript Summer of Code](open-source/README.md#girlscript-summer-of-code-gssoc) | Open source | ❌ Certificates, swag | HS / UG |
+| WorldMUN applications `~Feb 2027` (conference ~… | [Harvard WorldMUN / HMUN India](competitions/case-business-and-research.md#model-un-worldmun--hmun-india) | Competition | ❌ Self-funded (some scholarships) | HS / UG |
 | `~Feb 2027` (Window 1) / `~May 2027` (Window 2) | [JJ/WBGSP (World Bank)](fellowships/study-abroad.md#joint-japanworld-bank-graduate-scholarship-jjwbgsp) | Scholarship | ✅ Full | PG |
 | `~Feb 15, 2027` | [NTU Global Connect](internships/research-global.md#ntu-global-connect-programme) | Research internship | ✅ SGD 5,000 + housing | UG / PG |
 | May 2027 cohort: `~early Feb 2027` (Dec 2026 cl… | [Outreachy](open-source/README.md#outreachy) | Open source | ✅ $7,000 / 13 wks | UG / PG / PhD / non… |
@@ -413,6 +384,7 @@ Expected from last cycle's pattern. Confirm on the official page once the call i
 | [Sitaram Jindal Foundation Scholarship](fellowships/india.md#sitaram-jindal-foundation-scholarship) | Fellowship | ✅ ₹500–3,200/mo | Class 11 → PG, means-tested | `Rolling` |
 | [Tata Trusts Means Grant](fellowships/india.md#tata-trusts-means-grant) | Fellowship | ✅ Need-based grant | Std VIII → graduation | `Rolling` (2026-27 open) |
 | [Vigyan Jyoti](fellowships/india.md#vigyan-jyoti) | Fellowship | ✅ Free camps/visits | Girls, Class 9–12, JNV & partner schools | `Rolling` (Phase VII school registration open s… |
+| [Apart Research sprints (AI safety)](hackathons/README.md#apart-research-sprints-ai-safety) | Hackathon | ✅ Cash prizes + fellowship route | anyone, teams of 1–5, online | Rolling, monthly (next: Nov 6–8, Nov 13–15, Nov… |
 | [Adobe India (Engineering + Adobe Research)](internships/tech-companies.md#adobe-india-engineering--adobe-research) | Internship | ✅ Paid | Pre-final UG/PG in CS | `Rolling` (campus ~Aug–Oct) |
 | [Advertising & creative: Ogilvy, Dentsu, Leo Burnett, DDB Mu…](internships/government-and-non-tech.md#advertising--creative-ogilvy-dentsu-leo-burnett-ddb-mudra) | Internship | ✅ Small stipend | Any UG/PG with a portfolio | `Rolling` |
 | [Amazon SDE I Intern (2027 batch)](internships/tech-companies.md#amazon-sde-i-intern-2027-batch) | Internship | ✅ Paid | 2027 grads, CS/related | `Rolling`, **open now** |
@@ -440,6 +412,7 @@ Expected from last cycle's pattern. Confirm on the official page once the call i
 | [Sarvam AI & other Indian AI startups](internships/tech-companies.md#sarvam-ai--other-indian-ai-startups) | Internship | ✅ Paid | UG/PG, strong systems/ML | `Rolling` |
 | [Social-sector consulting: Dasra, Sattva, Bridgespan](internships/government-and-non-tech.md#social-sector-consulting-dasra-sattva-bridgespan) | Internship | ✅ Paid | UG/MBA | `Rolling` (Sattva; Dasra ad hoc); Bridgespan: n… |
 | [Sony India Software Centre](internships/tech-companies.md#sony-india-software-centre) | Internship | ✅ Paid | UG/PG CS/ECE | `Rolling` |
+| [Squarepoint, Millennium, Point72: India tech offices](internships/finance-quant-consulting.md#squarepoint-millennium-point72-india-tech-offices) | Internship | ✅ Paid | Pre-final CS; Point72 Academy = penultimate | Rolling (global reqs); India: no Bengaluru inte… |
 | [Supreme Court & High Court judge internships](internships/government-and-non-tech.md#supreme-court--high-court-judge-internships) | Internship | ❌ Unpaid | Law students (3rd yr+ of 5-yr, 2nd yr+ of 3-yr) | `Rolling` (apply 2–3 months ahead) |
 | [Think tanks: ORF, CPR, Carnegie India, Takshashila, CSEP](internships/government-and-non-tech.md#think-tanks-orf-cpr-carnegie-india-takshashila-csep) | Internship | ✅/❌ Mixed (CSEP/Takshashila pay; ORF/CP… | UG/PG in policy, econ, IR | `Rolling` |
 | [UN agencies in India: UNDP, UNICEF, WHO, ILO, UNEP](internships/government-and-non-tech.md#un-agencies-in-india-undp-unicef-who-ilo-unep) | Internship | ✅ Stipend (UNICEF/UNDP/ILO/WHO-means-te… | Enrolled or ≤2 yrs graduated | `Rolling` |
@@ -525,15 +498,20 @@ This cycle has closed, or no date is published. Watch the official site.
 
 | Opportunity | Type | Expected | Funded | Stage |
 |-------------|------|----------|--------|-------|
+| [Cohere Labs Scholars](internships/research-global.md#cohere-labs-scholars-program) | Research internship | `~Fall 2026` (Jan 2027 start) | ✅ Paid, remote | UG / PG / PhD |
 | [Indian Rover Challenge](competitions/case-business-and-research.md#indian-rover-challenge-irc) | Competition | Next: `~Oct 2026` registration (2027 edition no… | ✅ Prize; USD 195 + USD 329 fees | UG |
 | [BAJA SAEINDIA 2027](competitions/case-business-and-research.md#baja-saeindia) | Competition | Registration closed Apr 8, 2026 · physical roun… | ✅ Prizes | UG |
 | [BARC OCES / DGFS (career program)](internships/government-and-non-tech.md#barc-oces--dgfs-career-program) | Internship | Next: `~Dec 2026–Jan 2027` (2026 cycle closed J… | ✅ ₹74,000/month training stipend | UG (final) / PG |
 | [OpenAI Residency](internships/tech-companies.md#openai-residency) | Internship | Next: `~Dec 2026` | ✅ $18.3k/month | PG / PhD / early ca… |
 | [Apple Swift Student Challenge](communities/ambassador-programs.md#apple-swift-student-challenge) | Community | Next: `~Feb 2027` | ✅ Prize (WWDC trip for Distinguished Wi… | HS / UG / PG |
+| [MEA Internship Programme](internships/government-and-non-tech.md#mea-internship-programme) | Internship | Next: Term I call `~Jan–Feb 2027` (Apr–Sep; Ter… | ✅ ₹10,000/month + airfare | UG (final) / PG |
 | [World Bank Group Internship](internships/government-and-non-tech.md#world-bank-group-internship) | Internship | Next: `~Jan–Feb 2027` (spring/summer cycle; win… | ✅ Paid hourly | UG (final) / PG / P… |
 | [ADB Internship Program](internships/government-and-non-tech.md#adb-internship-program) | Internship | Next: `~Jan–Mar 2027` (2026 closed Mar 16) | ✅ Stipend + partial airfare | PG / PhD |
+| [HackUPC (Barcelona)](hackathons/README.md#hackupc-barcelona) | Hackathon | Next: apps `~Jan–Mar 2027` · event ~late Apr 20… | ✅ Partial travel (≤€200 from outside Eu… | HS / UG / PG |
 | [TCS Research Scholar Program](fellowships/india.md#tcs-research-scholar-program) | Fellowship | `Next: ~Jan–Mar 2027` (via institute) | ✅ ₹91k–1.27L/mo + ₹9L grants | PhD |
 | [Google Gemini Student Ambassador (India)](communities/ambassador-programs.md#google-gemini-student-ambassador-india) | Community | Next: `~Apr 2027` | ✅ Tiered rewards (Pixel, buds, vouchers) | UG / PG |
+| [OIST Research Internship](internships/research-global.md#oist-research-internship) | Research internship | Next: `~Apr 15, 2027` for Fall 2027 (Spring clo… | ✅ Full | UG / PG |
+| [ACM India Winter Schools 2026](fellowships/research-and-networking.md#acm-india-summer--winter-schools) | Research / grant | Next: Summer Schools `~Mar–Apr 2027` (Winter 20… | ❌ ₹177 to apply; ≤₹3,540 if selected (s… | UG / PG / PhD |
 | [Adobe India AI Research Fellowship](fellowships/research-and-networking.md#adobe-india-ai-research-fellowship) | Research / grant | Next: `~Mar–Apr 2027` | ✅ ₹12L stipend | PhD |
 | [Google Solution Challenge](hackathons/README.md#google-solution-challenge-gdg-on-campus) | Hackathon | Next: `~Mar–Apr 2027` (2026 India edition close… | ❌ No cash prizes in 2026; mentorship | UG |
 | [IMC Prosperity 5](competitions/competitive-programming.md#imc-prosperity) | Competition | Next: `~Mar–Apr 2027` (registration opens `~Feb… | ✅ $50,000 pool | UG / PG |
@@ -550,6 +528,7 @@ This cycle has closed, or no date is published. Watch the official site.
 | [Qualcomm Innovation Fellowship India](fellowships/research-and-networking.md#qualcomm-innovation-fellowship-india) | Research / grant | Next: `~Mar–May 2027` | ✅ ₹10L/team | PG / PhD |
 | [WorldQuant IQC 2027](competitions/competitive-programming.md#worldquant-international-quant-championship-iqc) | Competition | Next: `~Mar–May 2027` (Stage 1; 2026 ran Mar 17… | ✅ up to $20,000 + BRAIN consultancy | UG / PG / PhD |
 | [Neo Scholars](startups/README.md#neo-scholars) | Startup | Next: ~Jun 2027 (2026 closed Jun 14) | ✅ $40k grant | UG |
+| [Vidyadhan Scholarship](fellowships/india.md#vidyadhan-scholarship) | Fellowship | Next: state Class-11 rounds `~Jun 2027` (Mathur… | ✅ ₹10k–75k/yr | HS / UG |
 | [Lady Meherbai D Tata Scholarship](fellowships/india.md#lady-meherbai-d-tata-scholarship) | Fellowship | `Next: ~Apr–Jun 2027` (2026-27 closed) | ✅ Grant | PG |
 | [Polaris Fellowship](fellowships/india.md#polaris-fellowship) | Fellowship | `Next: ~May–Jun 2027` (2026 closed Jun 28) | ✅ ₹1L/mo × 6 + ₹4L credits | UG / PG / PhD |
 | [WRO India](competitions/case-business-and-research.md#world-robot-olympiad-wro-india) | Competition | Next: `~Mar–Jun 2027` registration (2026 nation… | ✅ International trip for national winne… | HS / UG |
@@ -558,6 +537,7 @@ This cycle has closed, or no date is published. Watch the official site.
 | [Apple Scholars in AI/ML](fellowships/research-and-networking.md#apple-scholars-in-aiml) | Research / grant | Next: `~Jul 2027` (internal university deadline… | ✅ Tuition + stipend + internship | PhD |
 | [GitHub Campus Experts](communities/ambassador-programs.md#github-campus-experts) | Community | Next: `~Jul 2027` | ✅ Swag + event support + training | UG / PG |
 | [HackMIT](hackathons/README.md#hackmit) | Hackathon | Next: apps due `~early Jul 2027`, event `~mid-S… | ✅ Travel reimbursement (regional cap) | UG |
+| [Simon Marais Mathematics Competition](competitions/competitive-programming.md#simon-marais-mathematics-competition) | Competition | Next: university sign-up `~Jul 2027` · exam ~Oc… | ✅ Prize (AUD) | UG |
 | [Amazon ML Summer School (India)](fellowships/research-and-networking.md#amazon-ml-summer-school-india) | Research / grant | Next: `~Jun–Jul 2027` (2026 edition done) | ✅ Free (virtual) | UG / PG |
 | [CNCF Ambassadors](communities/ambassador-programs.md#cncf-ambassadors) | Community | Next: `~May–Jul 2027` (2026 closed Jul 12) | ❌ Free to join (KubeCon perks) | UG / PG / PhD |
 | [Flipkart GRiD](hackathons/README.md#flipkart-grid) | Hackathon | Next: `~Jun–Jul 2027` (8.0 closed Jul 12, 2026) | ✅ Prizes + PPI | UG / PG / PhD |
@@ -576,33 +556,51 @@ This cycle has closed, or no date is published. Watch the official site.
 | [Hack the 6ix](hackathons/README.md#hack-the-6ix) | Hackathon | Next: `~Jul–Aug 2027` | ❌ No travel | UG |
 | [IRIS@NUS](internships/research-global.md#irisnus) | Research internship | Next: `~Jul–Aug 2027` | ✅ Full | UG / PG |
 | [Amazon ML Challenge](competitions/competitive-programming.md#amazon-ml-challenge) | Competition | Next: `~Sep 2027` (2026 registration closed Sep… | ✅ Prize + PPI | UG / PG |
+| [Bloomberg Trading Challenge](competitions/competitive-programming.md#bloomberg-trading-challenge) | Competition | Next: registration `~Sep 2027` (2026 closed Oct… | ✅ Prize | UG / PG |
 | [Cal Hacks](hackathons/README.md#cal-hacks-berkeley) | Hackathon | Next: `~Sep 2027` (13.0 apps closed Sep 20, 202… | ✅ Limited travel stipends | UG / PG |
 | [Claude Campus Ambassador (Anthropic)](communities/ambassador-programs.md#claude-campus-ambassador-anthropic) | Community | Next: `~Sep 2027` (2026 window: Sep 1–12) | ✅ US$3,600 stipend + API credits | UG / PG / PhD |
 | [MHacks](hackathons/README.md#mhacks-michigan) | Hackathon | Next: `~Sep 2027` (2026 apps closed Sep 12; eve… | ❌ Limited | UG / PG |
+| [ML Reproducibility Challenge](competitions/case-business-and-research.md#ml-reproducibility-challenge) | Competition | Next: TMLR-acceptance cutoff `~Sep 2027` (2026… | ❌ Publication | UG / PG / PhD |
 | [OPJEMS (OP Jindal)](fellowships/india.md#opjems-op-jindal) | Fellowship | `Next: ~Sep 2027` (2026 registration closed Sep… | ✅ ₹80k engg / ₹1.5L mgmt | UG / PG |
 | [Breakthrough Junior Challenge](competitions/case-business-and-research.md#breakthrough-junior-challenge) | Competition | 2026 closed Sep 15 · Next: `~May–Sep 2027` | ✅ $250k scholarship + $50k teacher + $1… | HS |
 | [ICPC 2026-27 India regionals](competitions/competitive-programming.md#icpc-india-regionals-2026-27) | Competition | Next: `~Jun–Sep 2027` (2026-27 registration clo… | ❌ Team fee + own travel; WF travel cove… | UG / PG |
 | [IIT Bombay: Research Internship Award (semester-long)](internships/research-india.md#iit-bombay-research-internship-award-semester-long) | Research internship | Next: `~Aug–Sep 2027` | ✅ ₹15,000/mo × 4–6 months | UG |
+| [INSPIRE Awards MANAK](competitions/case-business-and-research.md#inspire-awards-manak) | Competition | Next: `~Jun–Sep 2027` (2026 closed Oct 10) | ✅ ₹10,000 per selected idea | HS |
 | [Jane Street SEE India](internships/finance-quant-consulting.md#jane-street-see-india) | Internship | Next: `~Aug–Sep 2027` (closed **Sep 27, 2026**) | ✅ Fully covered | UG |
+| [Kotak Kanya Scholarship](fellowships/india.md#kotak-kanya-scholarship) | Fellowship | Next: `~Jul–Sep 2027` (2026 closed Sep 30) | ✅ Up to ₹1.5L/yr | UG |
 | [Mitacs Globalink](internships/research-global.md#mitacs-globalink) | Research internship | Next: `~Aug–Sep 2027` | ✅ Full | UG |
 | [Schwarzman Scholars](fellowships/study-abroad.md#schwarzman-scholars) | Scholarship | Next: `~Apr–Sep 2027` (Class of 2028-29) | ✅ Full | PG |
 | [Science Olympiads (NSE → INO → OCSC)](competitions/case-business-and-research.md#science-olympiads-2026-27-nse--ino--ocsc--iphoichoiboioaa) | Competition | Next: NSE 2027 enrolment `~Aug–Sep 2027` (2026… | ✅ Free; international trips funded | HS |
+| [Vidyarthi Vigyan Manthan](competitions/case-business-and-research.md#vidyarthi-vigyan-manthan-vvm) | Competition | Next: registration `~Apr–Sep 2027` (2026 closed… | ✅ Cash + camps | HS |
 | [Wharton Global HS Investment Competition](competitions/case-business-and-research.md#wharton-global-high-school-investment-competition) | Competition | 2026-27 closed **Sep 11, 2026** · Global Finale… | ❌ Free to enter; finalists self-fund tr… | HS |
+| [HackHarvard](hackathons/README.md#hackharvard) | Hackathon | Next: event `~Oct 2027` (2026 ran Oct 16–18) | ❌ Financial aid case-by-case | UG |
+| [Knight-Hennessy Scholars](fellowships/study-abroad.md#knight-hennessy-scholars) | Scholarship | Next: `~Oct 2027` (2027 KHS closed Oct 6; Stanf… | ✅ Full | PG / PhD |
+| [AWS Cloud Clubs: Captain](communities/ambassador-programs.md#aws-cloud-clubs-captain) | Community | Next: `~Sep–Oct 2027` (2026 closed Oct 4) | ✅ Credits + cert vouchers + swag | UG / PG |
+| [Chevening](fellowships/study-abroad.md#chevening-scholarship) | Scholarship | Next: `~Aug–Oct 2027` (2027-28 closed Oct 6) | ✅ Full | PG |
+| [GATE → M.Tech stipend](fellowships/india.md#gate--mtech-stipend) | Fellowship | Next: GATE 2028 registration `~Aug–Oct 2027` (G… | ✅ ₹12,400/mo | UG → PG |
 | [Haryana CM Good Governance Associates](fellowships/india.md#haryana-cm-good-governance-associates) | Fellowship | `Next: ~Aug–Oct 2027` | ✅ ₹90k/mo + travel | UG+ |
+| [IRIS National Fair 2026](competitions/case-business-and-research.md#iris-national-fair-india) | Competition | Next: registration `~Aug–Oct 2027` (2026 closed… | ✅ Fair travel; ISEF trip for winners | HS |
+| [Innohacks 4.0 (KIET, Ghaziabad)](hackathons/README.md#innohacks-40-kiet-ghaziabad) | Hackathon | Next: `~Sep–Oct 2027` (4.0 ran Oct 10–11, 2026) | ✅ Prize | UG |
+| [Junction (Helsinki)](hackathons/README.md#junction-helsinki) | Hackathon | Next: apps `~Sep–Oct 2027` (2026 closed Oct 25;… | ✅ Travel grants (2026 round closed Sep… | UG / PG |
+| [NeurIPS 2026 Financial Assistance](fellowships/research-and-networking.md#neurips-financial-assistance) | Research / grant | Next: `~Sep–Oct 2027` (2026 closed Oct 6) | ✅ Registration + hotel | UG / PG / PhD |
+| [Regeneron ISEF 2027](competitions/case-business-and-research.md#regeneron-isef) | Competition | Next: via IRIS `~Aug–Oct 2027` for ISEF 2028 (I… | ✅ $9M+ awards; trip funded by IRIS | HS |
+| [Reliance Foundation PG Scholarship](fellowships/india.md#reliance-foundation-pg-scholarship) | Fellowship | Next: `~Aug–Oct 2027` (2026 closed Oct 5) | ✅ Up to ₹6L | PG |
+| [Reliance Foundation UG Scholarship](fellowships/india.md#reliance-foundation-ug-scholarship) | Fellowship | Next: `~Aug–Oct 2027` (2026 closed Oct 5) | ✅ Up to ₹2L | UG |
+| [Smart India Hackathon 2026](hackathons/README.md#smart-india-hackathon-sih) | Hackathon | Next: `~Aug–Oct 2027` (SIH 2026 ideas closed Oc… | ✅ ₹1 lakh/PS (typical) | HS / UG / PG |
+| [WUDC 2027 (Ottawa)](competitions/case-business-and-research.md#world-universities-debating-championship-wudc) | Competition | Next: via society `~Aug–Oct 2027` (WUDC 2027: D… | ❌ Self-funded via society | UG / PG |
+| [Wipro Santoor Women's Scholarship](fellowships/india.md#wipro-santoor-womens-scholarship) | Fellowship | Next: `~Aug–Oct 2027` (2026 closed Oct 15) | ✅ ₹30k/yr | UG |
 | [BIRAC E-YUVA](startups/README.md#birac-e-yuva) | Startup | Next: not announced (last closed Dec 15, 2025) | ✅ Fellowship + research grant | UG / PG / PhD |
 | [ERA:AI Fellowship (Cambridge)](fellowships/research-and-networking.md#era-fellowship-cambridge) | Research / grant | Next: not announced (Winter 2027 closed) | ✅ Stipend + meals + travel + visa | UG / PG / PhD |
+| [Formula Bharat 2027](competitions/case-business-and-research.md#formula-bharat) | Competition | Next: FB2028 registration `~mid-2027` (FB2027 e… | ✅ Prizes | UG |
 | [Founders, Inc.](startups/README.md#founders-inc) | Startup | Next: ~mid-2027 (Blueprint II closed Sep 14, 20… | ✅ First check + SF campus | any |
 | [Karnataka Elevate](startups/README.md#karnataka-elevate) | Startup | Next: ~mid-2027 (2026 closed Jul 15) | ✅ Up to ₹50L grant | any |
 | [Tamil Nadu TANSEED](startups/README.md#tamil-nadu-tanseed) | Startup | Next: ~late 2026 (8.0 closed Dec 20, 2025) | ✅ ₹10L–₹15L for 3% stake | any |
 | [Tata Social Enterprise Challenge](startups/README.md#tata-social-enterprise-challenge) | Startup | Next: ~mid-2027 (2026 closed Sep 10) | ✅ Prize + incubation | UG / PG / any |
 | [WISE-KIRAN (DST)](fellowships/india.md#wise-kiran-dst) | Fellowship | Next call not announced (last closed Feb 28, 20… | ✅ ₹37k–67k/mo + HRA + grant | PG / PhD+ |
-| [Twilio Champions](communities/ambassador-programs.md#twilio-champions) | Community | ⚠️ Paused, reopening announced for Sep 2026; no… | ❌ Free to join (perks) | UG / PG / PhD |
-| [CSIR Innovation Award for School Children](competitions/case-business-and-research.md#csir-innovation-award-for-school-children-ciasc) | Competition | `⚠️ Unverified: dormant; no call since CIASC-20… | ✅ ₹1 lakh top prize | HS |
-| [KPMG Ideation Challenge](competitions/case-business-and-research.md#kpmg-ideation-challenge-kic) | Competition | `⚠️ Unverified: no 2026 edition found; last kno… | ✅ Prize + PPI | UG / PG |
-| [Mahindra War Room](competitions/case-business-and-research.md#mahindra-war-room) | Competition | `⚠️ Unverified: no 2026 season found; official… | ✅ Prize + PPI | PG |
+| [EY Techathon](competitions/case-business-and-research.md#ey-techathon) | Competition | ⚠️ Unverified: 7.0 not announced (6.0 launched… | ✅ ₹3 lakh grand prize + PPI | UG / PG |
+| [Meta Hacker Cup 2026](competitions/competitive-programming.md#meta-hacker-cup) | Competition | ⚠️ No 2026 season announced yet (2025: registra… | ✅ Cash (1st $20,000; top 25 paid) | HS / UG / PG / PhD |
 | [Bhumi Fellowship](fellowships/india.md#bhumi-fellowship) | Fellowship | **Open now** for the 2027 cohort; no published… | ✅ ₹30k/mo | UG+ |
 | [DBT/Wellcome Trust India Alliance](fellowships/india.md#dbtwellcome-trust-india-alliance) | Fellowship | ~Annual | ✅ Up to ₹3.6 Cr / 5 yr | PhD+ |
-| [Glow & Lovely Foundation Scholarship](fellowships/india.md#glow--lovely-foundation-scholarship) | Fellowship | ⚠️ Unverified: official portal now redirects to… | ✅ ₹25–50k | HS / UG / PG |
 | [INSPIRE Faculty Fellowship](fellowships/india.md#inspire-faculty-fellowship) | Fellowship | ~Annual call | ✅ ₹1.25L/mo + ₹7L/yr | Post-PhD |
 | [INSPIRE SHE](fellowships/india.md#inspire-she) | Fellowship | ⚠️ Unverified: no 2025/2026 call issued | ✅ ₹80k/yr | UG |
 | [Infosys Foundation STEM Stars](fellowships/india.md#infosys-foundation-stem-stars) | Fellowship | ⚠️ Unverified: no official 2026-27 dates | ✅ Up to ₹1L/yr | UG |
@@ -615,7 +613,7 @@ This cycle has closed, or no date is published. Watch the official site.
 | [Visvesvaraya PhD Scheme](fellowships/india.md#visvesvaraya-phd-scheme) | Fellowship | Via institute; no 2026-27 seat list yet (last:… | ✅ ₹38,750–43,750/mo | PhD |
 | [ETHGlobal](hackathons/README.md#ethglobal) | Hackathon | ETHGlobal Mumbai **Nov 6–8, 2026** · online hac… | ✅ Prizes ($100k+ pools) | UG / PG / PhD |
 | [Gen AI Exchange Hackathon (Google Cloud India)](hackathons/README.md#gen-ai-exchange-hackathon-google-cloud-india) | Hackathon | No 2026 edition announced; next `TBA` | ✅ Prize | UG / PG |
-| [HackHarvard](hackathons/README.md#hackharvard) | Hackathon | Event **Oct 16–18, 2026** (apply now; no deadli… | ❌ Financial aid case-by-case | UG |
+| [Hack This Fall](hackathons/README.md#hack-this-fall) | Hackathon | ⚠️ Unverified: no 2026 edition announced (2025… | ✅ Prize | UG |
 | [HackPrinceton](hackathons/README.md#hackprinceton) | Hackathon | Fall 2026 apps closed Sep 28, 2026 (event Nov 1… | ❌ Limited | UG / PG |
 | [LA Hacks 27](hackathons/README.md#la-hacks) | Hackathon | Event **Apr 16–18, 2027** | ❌ No travel | UG |
 | [NASA Space Apps 2026](hackathons/README.md#nasa-space-apps-challenge) | Hackathon | **Nov 14–15, 2026** (registration open) | ❌ Free; global award = invitation to NA… | HS / UG / PG |
@@ -623,19 +621,17 @@ This cycle has closed, or no date is published. Watch the official site.
 | [nwHacks 2027](hackathons/README.md#nwhacks-ubc) | Hackathon | Event **Jan 16–17, 2027** | ❌ No travel | UG |
 | [JPMorgan Summer Analyst India + Code for Good](internships/finance-quant-consulting.md#jpmorgan-summer-analyst-india--code-for-good) | Internship | ⚠️ No India application open (late Sep 2026), i… | ✅ Paid | UG / PG / MBA / PhD |
 | [Morgan Stanley Summer Analyst India](internships/finance-quant-consulting.md#morgan-stanley-summer-analyst-india) | Internship | ⚠️ No India listing open (late Sep 2026) | ✅ Paid | UG / PG |
-| [FOSSASIA Codeheat](open-source/README.md#fossasia-codeheat) | Open source | `⚠️ Unverified: no edition since 2023/24` | ✅ Trip to FOSSASIA Summit for winners | HS / UG / PG |
 | [FLI PhD Fellowship (AI existential safety)](fellowships/research-and-networking.md#fli-phd-fellowship-ai-existential-safety) | Research / grant | Paused; no fall 2026 round | ✅ Tuition + $40k (when running) | PhD |
-| [Google Research India AI Summer School](fellowships/research-and-networking.md#google-research-india-ai-summer-school) | Research / grant | ⚠️ Unverified: dormant since 2023 | ✅ Free | UG / PG |
 | [IBM PhD Fellowship](fellowships/research-and-networking.md#ibm-phd-fellowship) | Research / grant | Invite-only (faculty nominates) | ✅ $6–25k outside US | PhD |
-| [NVIDIA Graduate Fellowship](fellowships/research-and-networking.md#nvidia-graduate-fellowship) | Research / grant | ⚠️ No 2027-28 call posted yet, so keep watching | ✅ Up to $60k + paid internship | PhD |
 | [DAAD WISE](internships/research-global.md#daad-wise) | Research internship | ⚠️ Unverified: DAAD lists it as "not available… | ✅ Stipend + travel | UG / PG |
-| [Khorana Program](internships/research-global.md#khorana-program) | Research internship | ⚠️ Unverified: no call since Oct 2024 | ✅ Airfare + stipend | UG / PG |
+| [Khorana Program](internships/research-global.md#khorana-program) | Research internship | ⚠️ Paused: no call since Oct 2024 (described as… | ✅ Airfare + stipend | UG / PG |
 | [Samsung PRISM](internships/research-india.md#samsung-prism) | Research internship | ⚠️ Unverified: college-tied, no public deadline | ✅ Prize money (per worklet) | UG / PG |
 | [100X.VC](startups/README.md#100xvc) | Startup | ⚠️ Unverified: class windows not on site | ✅ iSAFE investment | any |
+| [Empresario (IIT Kharagpur)](startups/README.md#empresario-iit-kharagpur) | Startup | ⚠️ Unverified: 2026-27 not announced (2025 regu… | ✅ Prize pool ₹1.2Cr+ | UG / PG / any |
 | [IN-SPACe Seed Fund](startups/README.md#in-space-seed-fund) | Startup | Per call; 2025 round closed, next not announced | ✅ Up to ₹1Cr grant | any |
 | [MeitY Startup Hub: TIDE 2.0, SAMRIDH, GENESIS](startups/README.md#meity-startup-hub-tide-20-samridh-genesis) | Startup | Via incubators, no central deadline | ✅ ₹4L–₹1Cr | any |
 | [Startup World Cup](startups/README.md#startup-world-cup) | Startup | ⚠️ Unverified: India regional dates vary yearly | ✅ $1M investment prize | any |
 
 ---
 
-*541 entries across 14 files. Events have their own calendar in [events/README.md](events/README.md). Always verify on the official portal before submitting.*
+*542 entries across 14 files. Events have their own calendar in [events/README.md](events/README.md). Always verify on the official portal before submitting.*

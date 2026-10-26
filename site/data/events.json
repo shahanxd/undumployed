@@ -1,119 +1,5 @@
 [
 {
-"id": "events/tech-global.md#open-source-summit-europe-2026",
-"name": "Open Source Summit Europe 2026",
-"file": "events/tech-global.md",
-"anchor": "open-source-summit-europe-2026",
-"kind": "tech",
-"kindLabel": "Tech & developer",
-"section": "Oct–Dec 2026",
-"dates": "Oct 7–9, 2026",
-"startDate": "2026-10-07",
-"location": "Prague, Czechia",
-"access": "Ticketed",
-"cost": "Typically ~$700–1,100; academic rate ~$250; in person only",
-"studentAngle": "Academic pass tier. The 2026 scholarship (closed Sep 7) and travel fund (closed Aug 19) are shut; for a funded LF trip this year, see Open Source Summit Japan.",
-"visa": "Schengen",
-"register": "Open now",
-"what": "The Linux Foundation's umbrella conference: LinuxCon, Embedded Linux Conference, Open AI + Data, security and cloud. It's co-located with Linux Plumbers (Oct 5–7) and is the place to meet the maintainers of the projects you use.",
-"applyUrl": "https://events.linuxfoundation.org/open-source-summit-europe/",
-"unverified": false,
-"freeOrVirtual": false,
-"region": "europe",
-"field": [
-"cs"
-],
-"tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#open-source-summit-europe-2026",
-"alsoKinds": []
-},
-{
-"id": "events/tech-global.md#token2049-singapore-2026",
-"name": "TOKEN2049 Singapore 2026",
-"file": "events/tech-global.md",
-"anchor": "token2049-singapore-2026",
-"kind": "tech",
-"kindLabel": "Tech & developer",
-"section": "Oct–Dec 2026",
-"dates": "Oct 7–8, 2026",
-"startDate": "2026-10-07",
-"location": "Singapore",
-"access": "Ticketed (expensive)",
-"cost": "Main conference tickets are expensive ($600–2,000+). The 500+ side events across \"TOKEN2049 Week\" are mostly free.",
-"studentAngle": "Volunteer program (free access for shifts); the side-event ecosystem is where students actually go",
-"visa": "Singapore visa via VFS",
-"register": "Open",
-"what": "The largest crypto/Web3 conference in the world (~25,000 people, 160 countries). Founders, VCs, exchanges. Worth it only if you're building in crypto; the free side events and hackathons are the real student value.",
-"applyUrl": "https://www.token2049.com/singapore",
-"unverified": false,
-"freeOrVirtual": true,
-"region": "southeast-asia",
-"field": [
-"cs",
-"business"
-],
-"tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#token2049-singapore-2026",
-"alsoKinds": []
-},
-{
-"id": "events/tech-global.md#techcrunch-disrupt-2026",
-"name": "TechCrunch Disrupt 2026",
-"file": "events/tech-global.md",
-"anchor": "techcrunch-disrupt-2026",
-"kind": "tech",
-"kindLabel": "Tech & developer",
-"section": "Oct–Dec 2026",
-"dates": "Oct 13–15, 2026",
-"startDate": "2026-10-13",
-"location": "San Francisco, USA",
-"access": "Ticketed",
-"cost": "Attendee/founder passes ~$1,000–3,000; Student Pass tier is cheapest (verified against .edu/enrolment); 15% off for groups of 4+",
-"studentAngle": "Student Pass; Startup Battlefield 200 for early-stage founders (free exhibit space if selected)",
-"visa": "US B1/B2",
-"register": "Open (tickets non-refundable after Jul 31)",
-"what": "The startup-media conference: Startup Battlefield pitch competition, VC panels, Expo Hall. Good for founders and startup-curious students; not a developer conference.",
-"applyUrl": "https://techcrunch.com/events/techcrunch-disrupt/tickets/",
-"unverified": false,
-"freeOrVirtual": false,
-"region": "north-america",
-"field": [
-"business"
-],
-"tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#techcrunch-disrupt-2026",
-"alsoKinds": []
-},
-{
-"id": "events/tech-global.md#pytorch-conference-2026",
-"name": "PyTorch Conference 2026",
-"file": "events/tech-global.md",
-"anchor": "pytorch-conference-2026",
-"kind": "tech",
-"kindLabel": "Tech & developer",
-"section": "Oct–Dec 2026",
-"dates": "Oct 20–21, 2026",
-"startDate": "2026-10-20",
-"location": "San Jose, USA",
-"access": "Ticketed",
-"cost": "Students and researchers $249; in person only",
-"studentAngle": "Student rate only; the 2026 registration scholarship (closed Sep 6) and travel fund (closed Aug 23) are shut",
-"visa": "US B1/B2",
-"register": "",
-"what": "The PyTorch Foundation's annual conference on model training, compilers and inference. The new AGNTCon + MCPCon (agents and Model Context Protocol) runs Oct 22–23 at the same venue.",
-"applyUrl": "https://events.linuxfoundation.org/pytorch-conference/",
-"unverified": false,
-"freeOrVirtual": false,
-"region": "north-america",
-"field": [
-"ai",
-"cs"
-],
-"tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#pytorch-conference-2026",
-"alsoKinds": []
-},
-{
 "id": "events/tech-global.md#grace-hopper-celebration-2026",
 "name": "Grace Hopper Celebration 2026",
 "file": "events/tech-global.md",
@@ -138,6 +24,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#grace-hopper-celebration-2026",
 "alsoKinds": []
 },
@@ -166,6 +54,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#github-universe-2026",
 "alsoKinds": []
 },
@@ -194,6 +84,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#devcon-8-ethereum-2026",
 "alsoKinds": [
 "india"
@@ -225,6 +117,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#hackaday-supercon-2026",
 "alsoKinds": []
 },
@@ -253,6 +147,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#kubecon--cloudnativecon-na-2026",
 "alsoKinds": []
 },
@@ -282,6 +178,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#web-summit-2026",
 "alsoKinds": []
 },
@@ -311,6 +209,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#adobe-max-2026",
 "alsoKinds": []
 },
@@ -339,6 +239,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#microsoft-ignite-2026",
 "alsoKinds": []
 },
@@ -367,6 +269,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#slush-2026",
 "alsoKinds": []
 },
@@ -395,6 +299,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#aws-reinvent-2026",
 "alsoKinds": []
 },
@@ -424,6 +330,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#gitex-global-2026",
 "alsoKinds": []
 },
@@ -452,6 +360,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#open-source-summit-japan-2026",
 "alsoKinds": []
 },
@@ -480,6 +390,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#40c3-chaos-communication-congress",
 "alsoKinds": []
 },
@@ -511,6 +423,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#ces-2027",
 "alsoKinds": []
 },
@@ -539,6 +453,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#fosdem-2027",
 "alsoKinds": []
 },
@@ -568,6 +484,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#web-summit-qatar-2027",
 "alsoKinds": []
 },
@@ -596,6 +514,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#ethdenver-2027",
 "alsoKinds": []
 },
@@ -626,6 +546,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#mwc-barcelona-2027",
 "alsoKinds": []
 },
@@ -655,6 +577,8 @@
 "design"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#gdc-2027",
 "alsoKinds": []
 },
@@ -683,6 +607,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#sxsw-2027",
 "alsoKinds": []
 },
@@ -712,6 +638,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#nvidia-gtc-2027",
 "alsoKinds": []
 },
@@ -740,6 +668,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#kubecon--cloudnativecon-europe-2027",
 "alsoKinds": []
 },
@@ -769,6 +699,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#token2049-dubai-2027",
 "alsoKinds": []
 },
@@ -798,6 +730,8 @@
 "ai"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#google-cloud-next-2027",
 "alsoKinds": []
 },
@@ -826,6 +760,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#pycon-us-2027",
 "alsoKinds": []
 },
@@ -854,6 +790,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#open-source-summit-na-2027",
 "alsoKinds": []
 },
@@ -883,6 +821,8 @@
 "ai"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#google-io-2027",
 "alsoKinds": []
 },
@@ -912,6 +852,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#web-summit-vancouver-2027",
 "alsoKinds": []
 },
@@ -941,6 +883,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#computex-2027",
 "alsoKinds": []
 },
@@ -970,6 +914,8 @@
 "ai"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#microsoft-build-2027",
 "alsoKinds": []
 },
@@ -999,6 +945,8 @@
 "design"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#apple-wwdc-2027",
 "alsoKinds": []
 },
@@ -1028,6 +976,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#vivatech-2027",
 "alsoKinds": []
 },
@@ -1044,7 +994,7 @@
 "location": "San Francisco, USA",
 "access": "Ticketed + free stream",
 "cost": "",
-"studentAngle": "Recordings free. Config India (Oct 15, 2026, Bengaluru) is a separate one-day event: in-person places were by application and are closed, but its livestream is free with registration. See india.md",
+"studentAngle": "Recordings free. Figma also ran a first one-day Config India in Bengaluru on Oct 15, 2026; no 2027 India edition is announced yet",
 "visa": "US B1/B2",
 "register": "",
 "what": "Figma's main yearly Config conference in San Francisco, on product design and Figma's latest launches. Product and UX students: watch the recordings, and register for the free Config India livestream.",
@@ -1057,6 +1007,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#figma-config-2027",
 "alsoKinds": []
 },
@@ -1085,6 +1037,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#sxsw-london-2027",
 "alsoKinds": []
 },
@@ -1113,6 +1067,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#black-hat-usa-2027",
 "alsoKinds": []
 },
@@ -1142,6 +1098,8 @@
 "ee"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#def-con-35",
 "alsoKinds": []
 },
@@ -1171,6 +1129,8 @@
 "design"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#gamescom-2027",
 "alsoKinds": []
 },
@@ -1199,6 +1159,8 @@
 "ee"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#ifa-berlin-2027",
 "alsoKinds": []
 },
@@ -1227,6 +1189,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#rustconf-2027",
 "alsoKinds": []
 },
@@ -1258,6 +1222,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#ars-electronica-2027",
 "alsoKinds": []
 },
@@ -1287,6 +1253,8 @@
 "ai"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#agntcon--mcpcon-europe-2027",
 "alsoKinds": []
 },
@@ -1315,6 +1283,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#open-source-summit-europe-2027",
 "alsoKinds": []
 },
@@ -1344,6 +1314,8 @@
 "design"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#tokyo-game-show-2027",
 "alsoKinds": []
 },
@@ -1372,6 +1344,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#cppcon-2027",
 "alsoKinds": []
 },
@@ -1400,6 +1374,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#grace-hopper-celebration-2027",
 "alsoKinds": []
 },
@@ -1429,6 +1405,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#openai-devday-2027",
 "alsoKinds": []
 },
@@ -1457,6 +1435,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#kubecon--cloudnativecon-na-2027",
 "alsoKinds": []
 },
@@ -1485,88 +1465,92 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#kubecon--cloudnativecon-india-2027",
 "alsoKinds": [
 "india"
 ]
 },
 {
-"id": "events/research-conferences.md#iros-2026",
-"name": "IROS 2026",
-"file": "events/research-conferences.md",
-"anchor": "iros-2026",
-"kind": "research",
-"kindLabel": "Research conference",
-"section": "Oct–Dec 2026",
-"dates": "Sep 27–Oct 1, 2026 (ongoing)",
-"startDate": "2026-09-27",
-"location": "Pittsburgh, USA",
-"access": "Registration",
-"cost": "",
-"studentAngle": "2026 travel awards (IROS-SDC) closed Aug 14, 2026; IROS 2027 is in Florence, Italy",
-"visa": "",
+"id": "events/tech-global.md#token2049-singapore-2027",
+"name": "TOKEN2049 Singapore 2027",
+"file": "events/tech-global.md",
+"anchor": "token2049-singapore-2027",
+"kind": "tech",
+"kindLabel": "Tech & developer",
+"section": "Oct–Dec 2027 + recurring",
+"dates": "",
+"startDate": null,
+"location": "",
+"access": "",
+"cost": "Main conference tickets are expensive ($600–2,000+). The 500+ side events across \"TOKEN2049 Week\" are mostly free.",
+"studentAngle": "Volunteer program (free access for shifts); the side-event ecosystem is where students actually go",
+"visa": "Singapore visa via VFS",
 "register": "",
-"what": "The IEEE/RSJ International Conference on Intelligent Robots and Systems, the other big general robotics conference besides ICRA.",
-"applyUrl": "https://2026.ieee-iros.org/",
+"what": "The largest crypto/Web3 conference in the world (~25,000 people). Founders, VCs, exchanges. Worth it only if you're building in crypto; the free side events and hackathons are the real student value. A first New York edition is planned for June 2027.",
+"applyUrl": "https://www.token2049.com/singapore",
+"unverified": false,
+"freeOrVirtual": true,
+"region": "southeast-asia",
+"field": [
+"cs",
+"business"
+],
+"tagsInferred": false,
+"drop": false,
+"expires": null,
+"sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#token2049-singapore-2027",
+"alsoKinds": []
+},
+{
+"id": "events/tech-global.md#techcrunch-disrupt-2027",
+"name": "TechCrunch Disrupt 2027",
+"file": "events/tech-global.md",
+"anchor": "techcrunch-disrupt-2027",
+"kind": "tech",
+"kindLabel": "Tech & developer",
+"section": "Oct–Dec 2027 + recurring",
+"dates": "",
+"startDate": null,
+"location": "",
+"access": "",
+"cost": "Attendee/founder passes ~$1,000–3,000; the Student Pass tier is cheapest (checked against a .edu address or proof of enrolment)",
+"studentAngle": "Student Pass; Startup Battlefield 200 for early-stage founders (free exhibit space if selected)",
+"visa": "US B1/B2",
+"register": "",
+"what": "The startup-media conference: Startup Battlefield pitch competition, VC panels, Expo Hall. Good for founders and startup-curious students; not a developer conference.",
+"applyUrl": "https://techcrunch.com/events/",
 "unverified": false,
 "freeOrVirtual": false,
 "region": "north-america",
 "field": [
-"mech",
-"ee",
-"cs",
-"ai"
+"business"
 ],
 "tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#iros-2026",
+"drop": false,
+"expires": null,
+"sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#techcrunch-disrupt-2027",
 "alsoKinds": []
 },
 {
-"id": "events/research-conferences.md#sosp-2026",
-"name": "SOSP 2026",
-"file": "events/research-conferences.md",
-"anchor": "sosp-2026",
-"kind": "research",
-"kindLabel": "Research conference",
-"section": "Oct–Dec 2026",
-"dates": "Sep 29–Oct 2, 2026 (ongoing)",
-"startDate": "2026-09-29",
-"location": "Prague, Czechia",
-"access": "Registration",
-"cost": "",
-"studentAngle": "ACM SIGOPS student travel grants (closed for 2026); SOSP 2027 will be ~Oct 2027 (TBA)",
-"visa": "Schengen",
+"id": "events/tech-global.md#pytorch-conference-2027",
+"name": "PyTorch Conference 2027",
+"file": "events/tech-global.md",
+"anchor": "pytorch-conference-2027",
+"kind": "tech",
+"kindLabel": "Tech & developer",
+"section": "Oct–Dec 2027 + recurring",
+"dates": "",
+"startDate": null,
+"location": "",
+"access": "",
+"cost": "2026 student and researcher rate: $249",
+"studentAngle": "Student rate; a registration scholarship and a travel fund usually open in spring and close by ~Aug",
+"visa": "US B1/B2",
 "register": "",
-"what": "The premier operating-systems conference, now held every year (OSDI is the other flagship).",
-"applyUrl": "https://sigops.org/s/conferences/sosp/2026/",
-"unverified": false,
-"freeOrVirtual": false,
-"region": "europe",
-"field": [
-"cs"
-],
-"tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#sosp-2026",
-"alsoKinds": []
-},
-{
-"id": "events/research-conferences.md#colm-2026",
-"name": "COLM 2026",
-"file": "events/research-conferences.md",
-"anchor": "colm-2026",
-"kind": "research",
-"kindLabel": "Research conference",
-"section": "Oct–Dec 2026",
-"dates": "Oct 6–9, 2026",
-"startDate": "2026-10-06",
-"location": "San Francisco, USA",
-"access": "Waitlist (sold out)",
-"cost": "",
-"studentAngle": "Student rate",
-"visa": "US B1/B2, only realistic if you already hold one",
-"register": "",
-"what": "The Conference on Language Modeling, a young, fast-growing venue focused purely on LLMs.",
-"applyUrl": "https://colm.cc/",
+"what": "The PyTorch Foundation's annual conference on model training, compilers and inference. In 2026 the new AGNTCon + MCPCon (agents and Model Context Protocol) ran alongside it.",
+"applyUrl": "https://events.linuxfoundation.org/pytorch-conference/",
 "unverified": false,
 "freeOrVirtual": false,
 "region": "north-america",
@@ -1575,7 +1559,9 @@
 "cs"
 ],
 "tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#colm-2026",
+"drop": false,
+"expires": null,
+"sourceUrl": "https://github.com/{repo}/blob/master/events/tech-global.md#pytorch-conference-2027",
 "alsoKinds": []
 },
 {
@@ -1604,6 +1590,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#emnlp-2026",
 "alsoKinds": []
 },
@@ -1633,6 +1621,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#micro-59-2026",
 "alsoKinds": []
 },
@@ -1662,6 +1652,8 @@
 "math"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#focs-2026",
 "alsoKinds": []
 },
@@ -1690,6 +1682,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#acm-ccs-2026",
 "alsoKinds": []
 },
@@ -1719,6 +1713,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#neurips-2026",
 "alsoKinds": [
 "tech"
@@ -1751,6 +1747,8 @@
 "bio"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#agu-fall-meeting-2026",
 "alsoKinds": []
 },
@@ -1780,6 +1778,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#cods-2026",
 "alsoKinds": []
 },
@@ -1809,6 +1809,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#indoml-2026",
 "alsoKinds": [
 "india"
@@ -1840,6 +1842,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#icon-2026",
 "alsoKinds": []
 },
@@ -1869,6 +1873,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#icvgip-2026",
 "alsoKinds": []
 },
@@ -1897,6 +1903,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#acm-india-annual-event-2027",
 "alsoKinds": []
 },
@@ -1926,6 +1934,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#aaai-27",
 "alsoKinds": []
 },
@@ -1955,6 +1965,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#ncc-2027",
 "alsoKinds": []
 },
@@ -1983,6 +1995,8 @@
 "physics"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#aps-global-physics-summit-2027",
 "alsoKinds": []
 },
@@ -2012,6 +2026,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#iclr-2027",
 "alsoKinds": []
 },
@@ -2042,6 +2058,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#aistats-2027",
 "alsoKinds": []
 },
@@ -2071,6 +2089,8 @@
 "design"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#chi-2027",
 "alsoKinds": []
 },
@@ -2099,6 +2119,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#nsdi-2027",
 "alsoKinds": []
 },
@@ -2127,6 +2149,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#ieee-sp-2027",
 "alsoKinds": []
 },
@@ -2158,6 +2182,8 @@
 "ee"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#icra-2027",
 "alsoKinds": []
 },
@@ -2187,6 +2213,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#naacl-2027",
 "alsoKinds": []
 },
@@ -2216,6 +2244,8 @@
 "ee"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#isca-2027",
 "alsoKinds": []
 },
@@ -2245,6 +2275,8 @@
 "math"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#stoc-2027",
 "alsoKinds": []
 },
@@ -2274,6 +2306,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#cvpr-2027",
 "alsoKinds": []
 },
@@ -2304,6 +2338,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#rss-2027",
 "alsoKinds": []
 },
@@ -2332,6 +2368,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#osdi-2027",
 "alsoKinds": []
 },
@@ -2361,6 +2399,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#icml-2027",
 "alsoKinds": []
 },
@@ -2390,6 +2430,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#kdd-2027",
 "alsoKinds": []
 },
@@ -2419,6 +2461,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#ijcai-2027",
 "alsoKinds": []
 },
@@ -2447,6 +2491,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#sigcomm-2027",
 "alsoKinds": []
 },
@@ -2477,6 +2523,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#siggraph-2027",
 "alsoKinds": []
 },
@@ -2505,6 +2553,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#usenix-security-2027",
 "alsoKinds": []
 },
@@ -2534,6 +2584,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#acl-2027",
 "alsoKinds": []
 },
@@ -2563,6 +2615,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#iccv-2027",
 "alsoKinds": []
 },
@@ -2593,121 +2647,103 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#siggraph-asia-2027",
 "alsoKinds": []
 },
 {
-"id": "events/india.md#designup-2026",
-"name": "DesignUp 2026",
-"file": "events/india.md",
-"anchor": "designup-2026",
-"kind": "india",
-"kindLabel": "India",
-"section": "Oct–Dec 2026",
-"dates": "Oct 1–4, 2026 (conf Oct 3–4)",
-"startDate": "2026-10-01",
-"location": "Whitefield, Bengaluru",
-"access": "Ticketed",
+"id": "events/research-conferences.md#iros-2027",
+"name": "IROS 2027",
+"file": "events/research-conferences.md",
+"anchor": "iros-2027",
+"kind": "research",
+"kindLabel": "Research conference",
+"section": "Aug–Dec 2027",
+"dates": "",
+"startDate": null,
+"location": "",
+"access": "",
 "cost": "",
-"studentAngle": "Student passes",
-"visa": "",
+"studentAngle": "Student registration rate; travel awards usually close ~3 months before the conference (2026's closed Aug 14). Papers due ~early Mar 2027.",
+"visa": "Schengen",
 "register": "",
-"what": "Design and tech conference (product/UX), now in its tenth year. Student passes offered (restrictions apply).",
-"applyUrl": "https://26.designup.io/",
+"what": "The IEEE/RSJ International Conference on Intelligent Robots and Systems, the other big general robotics conference besides ICRA.",
+"applyUrl": "https://www.ieee-iros.org/",
 "unverified": false,
 "freeOrVirtual": false,
-"region": "india",
+"region": "europe",
 "field": [
-"design"
-],
-"tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#designup-2026",
-"alsoKinds": []
-},
-{
-"id": "events/india.md#c0c0n-2026",
-"name": "c0c0n 2026",
-"file": "events/india.md",
-"anchor": "c0c0n-2026",
-"kind": "india",
-"kindLabel": "India",
-"section": "Oct–Dec 2026",
-"dates": "Oct 6–13, 2026 (conf Oct 9–10)",
-"startDate": "2026-10-06",
-"location": "Grand Hyatt, Kochi",
-"access": "Ticketed",
-"cost": "",
-"studentAngle": "Student conference pass (Oct 9–10): ₹4,999 + taxes, student ID required; DomeCTF and hands-on villages; hosted by Kerala Police and ISRA (Information Security Research Association)",
-"visa": "",
-"register": "c0c0n.org/register",
-"what": "Long-running hacking and cyber-security conference (19th edition in 2026) with trainings, talks, a CTF and a big police/government presence.",
-"applyUrl": "https://c0c0n.org/",
-"unverified": false,
-"freeOrVirtual": false,
-"region": "india",
-"field": [
-"cs"
-],
-"tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#c0c0n-2026",
-"alsoKinds": []
-},
-{
-"id": "events/india.md#india-mobile-congress-2026",
-"name": "India Mobile Congress 2026",
-"file": "events/india.md",
-"anchor": "india-mobile-congress-2026",
-"kind": "india",
-"kindLabel": "India",
-"section": "Oct–Dec 2026",
-"dates": "Oct 7–10, 2026",
-"startDate": "2026-10-07",
-"location": "Yashobhoomi, New Delhi",
-"access": "**Free visitor pass**",
-"cost": "Visitor: free · Conference: ₹15k/₹20k early bird",
-"studentAngle": "Free expo access; student innovation/startup zone; hackathons announced via DoT/COAI",
-"visa": "",
-"register": "Open at indiamobilecongress.com",
-"what": "The big annual telecom and tech expo, run by the Department of Telecommunications and COAI. It covers 5G/6G, satcom, semiconductors and AI. The expo floor is free with a visitor pass.",
-"applyUrl": "https://www.indiamobilecongress.com/",
-"unverified": false,
-"freeOrVirtual": true,
-"region": "india",
-"field": [
+"mech",
 "ee",
 "cs",
 "ai"
 ],
 "tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#india-mobile-congress-2026",
+"drop": false,
+"expires": null,
+"sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#iros-2027",
 "alsoKinds": []
 },
 {
-"id": "events/india.md#thomso-2026-iit-roorkee",
-"name": "Thomso 2026 (IIT Roorkee)",
-"file": "events/india.md",
-"anchor": "thomso-2026-iit-roorkee",
-"kind": "india",
-"kindLabel": "India",
-"section": "Oct–Dec 2026",
-"dates": "Oct 9–11, 2026",
-"startDate": "2026-10-09",
-"location": "Roorkee",
-"access": "Open to students",
+"id": "events/research-conferences.md#sosp-2027",
+"name": "SOSP 2027",
+"file": "events/research-conferences.md",
+"anchor": "sosp-2027",
+"kind": "research",
+"kindLabel": "Research conference",
+"section": "Aug–Dec 2027",
+"dates": "",
+"startDate": null,
+"location": "",
+"access": "",
 "cost": "",
-"studentAngle": "Competitions, prizes",
+"studentAngle": "ACM SIGOPS student travel grants, usually announced with the program (the 2026 conference ran Sep 29–Oct 2 in Prague)",
 "visa": "",
 "register": "",
-"what": "IIT Roorkee's cultural fest: dance, music, drama and pro-nights, with competitions open to students from other colleges.",
-"applyUrl": "https://thomso.in/",
+"what": "The premier operating-systems conference, now held every year (OSDI is the other flagship).",
+"applyUrl": "https://sigops.org/",
 "unverified": false,
 "freeOrVirtual": false,
-"region": "india",
+"region": "global",
 "field": [
-"any"
+"cs"
 ],
 "tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#thomso-2026-iit-roorkee",
+"drop": false,
+"expires": null,
+"sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#sosp-2027",
+"alsoKinds": []
+},
+{
+"id": "events/research-conferences.md#colm-2027",
+"name": "COLM 2027",
+"file": "events/research-conferences.md",
+"anchor": "colm-2027",
+"kind": "research",
+"kindLabel": "Research conference",
+"section": "Aug–Dec 2027",
+"dates": "",
+"startDate": null,
+"location": "",
+"access": "",
+"cost": "",
+"studentAngle": "Papers due ~late Mar 2027 (estimate); register early, since 2026 general registration sold out",
+"visa": "",
+"register": "",
+"what": "The Conference on Language Modeling, a young, fast-growing venue focused purely on LLMs.",
+"applyUrl": "https://colm.cc/",
+"unverified": false,
+"freeOrVirtual": false,
+"region": "global",
+"field": [
+"ai",
+"cs"
+],
+"tagsInferred": false,
+"drop": false,
+"expires": null,
+"sourceUrl": "https://github.com/{repo}/blob/master/events/research-conferences.md#colm-2027",
 "alsoKinds": []
 },
 {
@@ -2735,63 +2771,9 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#comic-con-india-202627",
-"alsoKinds": []
-},
-{
-"id": "events/india.md#figma-config-india-2026",
-"name": "Figma Config India 2026",
-"file": "events/india.md",
-"anchor": "figma-config-india-2026",
-"kind": "india",
-"kindLabel": "India",
-"section": "Oct–Dec 2026",
-"dates": "Oct 15, 2026",
-"startDate": "2026-10-15",
-"location": "BIEC, Bengaluru",
-"access": "Free virtual (in-person closed)",
-"cost": "",
-"studentAngle": "Free livestream registration",
-"visa": "",
-"register": "",
-"what": "Figma's first Config in India, a one-day conference in Bengaluru with talks and product launches for designers and product teams. It is a separate event from Figma's main Config in San Francisco ([Figma Config 2027](tech-global.md#figma-config-2027)).",
-"applyUrl": "https://config.figma.com/india/",
-"unverified": false,
-"freeOrVirtual": false,
-"region": "india",
-"field": [
-"design"
-],
-"tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#figma-config-india-2026",
-"alsoKinds": []
-},
-{
-"id": "events/india.md#vedanta-delhi-half-marathon-2026",
-"name": "Vedanta Delhi Half Marathon 2026",
-"file": "events/india.md",
-"anchor": "vedanta-delhi-half-marathon-2026",
-"kind": "india",
-"kindLabel": "India",
-"section": "Oct–Dec 2026",
-"dates": "Oct 18, 2026",
-"startDate": "2026-10-18",
-"location": "New Delhi",
-"access": "Registration closed",
-"cost": "",
-"studentAngle": "Full for 2026; next window ~Jul 2027",
-"visa": "",
-"register": "",
-"what": "",
-"applyUrl": "https://www.vedantadelhihalfmarathon.procam.in/",
-"unverified": false,
-"freeOrVirtual": false,
-"region": "india",
-"field": [
-"any"
-],
-"tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#vedanta-delhi-half-marathon-2026",
 "alsoKinds": []
 },
 {
@@ -2819,6 +2801,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#mami-mumbai-film-festival-2026",
 "alsoKinds": []
 },
@@ -2847,6 +2831,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#react-india-2026",
 "alsoKinds": []
 },
@@ -2875,6 +2861,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#oasis-2026-bits-pilani",
 "alsoKinds": []
 },
@@ -2903,6 +2891,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#dharamshala-international-film-festival-2026",
 "alsoKinds": []
 },
@@ -2931,6 +2921,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#rann-utsav-202627",
 "alsoKinds": []
 },
@@ -2960,6 +2952,8 @@
 "ai"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#bengaluru-tech-summit-2026",
 "alsoKinds": []
 },
@@ -2988,6 +2982,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#iffi-goa-2026",
 "alsoKinds": []
 },
@@ -3016,6 +3012,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#wordcamp-bengaluru-2026",
 "alsoKinds": []
 },
@@ -3044,6 +3042,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#hornbill-festival-2026",
 "alsoKinds": []
 },
@@ -3072,6 +3072,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#tiecon-mumbai--delhi-2027",
 "alsoKinds": []
 },
@@ -3101,6 +3103,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#bangalore-literature-festival-2026",
 "alsoKinds": []
 },
@@ -3129,6 +3133,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#wordcamp-delhi-2026",
 "alsoKinds": []
 },
@@ -3158,6 +3164,8 @@
 "design"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#serendipity-arts-festival-2026",
 "alsoKinds": []
 },
@@ -3186,6 +3194,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#sunburn-festival-2026",
 "alsoKinds": []
 },
@@ -3217,6 +3227,8 @@
 "mech"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#techfest-2026-iit-bombay",
 "alsoKinds": []
 },
@@ -3245,6 +3257,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#mood-indigo-2026-iit-bombay",
 "alsoKinds": []
 },
@@ -3273,6 +3287,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#shaastra--saarang-2027-iit-madras",
 "alsoKinds": []
 },
@@ -3303,6 +3319,8 @@
 "policy"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#vibrant-gujarat-global-summit-2027",
 "alsoKinds": []
 },
@@ -3332,6 +3350,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#jaipur-literature-festival-2027",
 "alsoKinds": []
 },
@@ -3360,6 +3380,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#tata-mumbai-marathon-2027",
 "alsoKinds": []
 },
@@ -3388,6 +3410,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#kshitij--spring-fest-2027-iit-kharagpur",
 "alsoKinds": []
 },
@@ -3416,6 +3440,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#lollapalooza-india-2027",
 "alsoKinds": []
 },
@@ -3448,6 +3474,8 @@
 "policy"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#india-energy-week-2027",
 "alsoKinds": []
 },
@@ -3478,6 +3506,8 @@
 "edu"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#new-delhi-world-book-fair-2027",
 "alsoKinds": []
 },
@@ -3507,6 +3537,8 @@
 "design"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#kala-ghoda-arts-festival-2027",
 "alsoKinds": []
 },
@@ -3536,6 +3568,8 @@
 "ee"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#bharat-mobility-global-expo-2027",
 "alsoKinds": []
 },
@@ -3565,6 +3599,8 @@
 "design"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#india-art-fair-2027",
 "alsoKinds": []
 },
@@ -3594,6 +3630,8 @@
 "ee"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#aero-india-2027",
 "alsoKinds": []
 },
@@ -3623,6 +3661,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#microsoft-ai-tour-india",
 "alsoKinds": []
 },
@@ -3652,6 +3692,8 @@
 "humanities"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#surajkund-international-crafts-mela-2027",
 "alsoKinds": []
 },
@@ -3680,6 +3722,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#magnetic-fields-nomads",
 "alsoKinds": []
 },
@@ -3708,6 +3752,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#nullcon-goa-2027",
 "alsoKinds": []
 },
@@ -3739,6 +3785,8 @@
 "mech"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#tryst--techkriti--cognizance--apogee-2027",
 "alsoKinds": []
 },
@@ -3770,6 +3818,8 @@
 "civil"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#convergence-india-2027",
 "alsoKinds": []
 },
@@ -3798,6 +3848,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#startup-mahakumbh-2027",
 "alsoKinds": []
 },
@@ -3827,6 +3879,8 @@
 "ai"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#google-io-extended-india-2027",
 "alsoKinds": []
 },
@@ -3855,6 +3909,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#open-source-summit-india-2027",
 "alsoKinds": []
 },
@@ -3884,6 +3940,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#the-fifth-elephant-2027",
 "alsoKinds": []
 },
@@ -3913,6 +3971,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#global-fintech-fest-2027",
 "alsoKinds": []
 },
@@ -3941,6 +4001,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#pycon-india-2027",
 "alsoKinds": []
 },
@@ -3969,6 +4031,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#indiafoss-2027",
 "alsoKinds": []
 },
@@ -3997,7 +4061,161 @@
 "humanities"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#ziro-festival-of-music-2027",
+"alsoKinds": []
+},
+{
+"id": "events/india.md#designup-2027",
+"name": "DesignUp 2027",
+"file": "events/india.md",
+"anchor": "designup-2027",
+"kind": "india",
+"kindLabel": "India",
+"section": "Oct–Dec 2027",
+"dates": "",
+"startDate": null,
+"location": "",
+"access": "",
+"cost": "",
+"studentAngle": "",
+"visa": "",
+"register": "",
+"what": "Design and tech conference (product/UX), past its tenth year. Student passes offered (restrictions apply).",
+"applyUrl": "https://designup.io/",
+"unverified": false,
+"freeOrVirtual": false,
+"region": "india",
+"field": [
+"design"
+],
+"tagsInferred": false,
+"drop": false,
+"expires": null,
+"sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#designup-2027",
+"alsoKinds": []
+},
+{
+"id": "events/india.md#c0c0n-2027",
+"name": "c0c0n 2027",
+"file": "events/india.md",
+"anchor": "c0c0n-2027",
+"kind": "india",
+"kindLabel": "India",
+"section": "Oct–Dec 2027",
+"dates": "",
+"startDate": null,
+"location": "",
+"access": "",
+"cost": "",
+"studentAngle": "2026 student conference pass: ₹4,999 + taxes, student ID required; DomeCTF and hands-on villages; hosted by Kerala Police and ISRA (Information Security Research Association)",
+"visa": "",
+"register": "",
+"what": "Long-running hacking and cyber-security conference (19th edition in 2026) with trainings, talks, a CTF and a big police/government presence.",
+"applyUrl": "https://c0c0n.org/",
+"unverified": false,
+"freeOrVirtual": false,
+"region": "india",
+"field": [
+"cs"
+],
+"tagsInferred": false,
+"drop": false,
+"expires": null,
+"sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#c0c0n-2027",
+"alsoKinds": []
+},
+{
+"id": "events/india.md#india-mobile-congress-2027",
+"name": "India Mobile Congress 2027",
+"file": "events/india.md",
+"anchor": "india-mobile-congress-2027",
+"kind": "india",
+"kindLabel": "India",
+"section": "Oct–Dec 2027",
+"dates": "",
+"startDate": null,
+"location": "",
+"access": "",
+"cost": "Visitor: free · Conference: ~₹15k–20k early bird (2026)",
+"studentAngle": "Free expo access; student innovation/startup zone; hackathons announced via DoT/COAI",
+"visa": "",
+"register": "",
+"what": "The big annual telecom and tech expo, run by the Department of Telecommunications and COAI. It covers 5G/6G, satcom, semiconductors and AI. The expo floor is free with a visitor pass.",
+"applyUrl": "https://www.indiamobilecongress.com/",
+"unverified": false,
+"freeOrVirtual": true,
+"region": "india",
+"field": [
+"ee",
+"cs",
+"ai"
+],
+"tagsInferred": false,
+"drop": false,
+"expires": null,
+"sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#india-mobile-congress-2027",
+"alsoKinds": []
+},
+{
+"id": "events/india.md#thomso-2027-iit-roorkee",
+"name": "Thomso 2027 (IIT Roorkee)",
+"file": "events/india.md",
+"anchor": "thomso-2027-iit-roorkee",
+"kind": "india",
+"kindLabel": "India",
+"section": "Oct–Dec 2027",
+"dates": "",
+"startDate": null,
+"location": "",
+"access": "",
+"cost": "",
+"studentAngle": "",
+"visa": "",
+"register": "",
+"what": "IIT Roorkee's cultural fest: dance, music, drama and pro-nights, with competitions open to students from other colleges.",
+"applyUrl": "https://thomso.in/",
+"unverified": false,
+"freeOrVirtual": false,
+"region": "india",
+"field": [
+"any"
+],
+"tagsInferred": false,
+"drop": false,
+"expires": null,
+"sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#thomso-2027-iit-roorkee",
+"alsoKinds": []
+},
+{
+"id": "events/india.md#vedanta-delhi-half-marathon-2027",
+"name": "Vedanta Delhi Half Marathon 2027",
+"file": "events/india.md",
+"anchor": "vedanta-delhi-half-marathon-2027",
+"kind": "india",
+"kindLabel": "India",
+"section": "Oct–Dec 2027",
+"dates": "",
+"startDate": null,
+"location": "",
+"access": "",
+"cost": "",
+"studentAngle": "",
+"visa": "",
+"register": "",
+"what": "",
+"applyUrl": "https://www.vedantadelhihalfmarathon.procam.in/",
+"unverified": false,
+"freeOrVirtual": false,
+"region": "india",
+"field": [
+"any"
+],
+"tagsInferred": false,
+"drop": false,
+"expires": null,
+"sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#vedanta-delhi-half-marathon-2027",
 "alsoKinds": []
 },
 {
@@ -4008,8 +4226,8 @@
 "kind": "india",
 "kindLabel": "India",
 "section": "Recurring & community",
-"dates": "Mumbai Oct 3, 2026; Delhi 2026 (TBA); Bangalore ~Jul 2027",
-"startDate": "2026-10-03",
+"dates": "Delhi 2026 (TBA); Bangalore ~Jul 2027; Mumbai ~Oct 2027",
+"startDate": "2027-07-01",
 "location": "Mumbai / Bengaluru / Delhi",
 "access": "Cheap ticketed",
 "cost": "",
@@ -4025,6 +4243,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#bsides-mumbai--bangalore--delhi",
 "alsoKinds": []
 },
@@ -4054,6 +4274,8 @@
 "ai"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#devfest-india-2026-gdg",
 "alsoKinds": []
 },
@@ -4082,6 +4304,8 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#hasgeek-rootconf--jsfoo",
 "alsoKinds": []
 },
@@ -4093,7 +4317,7 @@
 "kind": "india",
 "kindLabel": "India",
 "section": "Recurring & community",
-"dates": "Next: Mumbai Oct 17, 2026; other cities through the year",
+"dates": "One city at a time through the year (Mumbai was Oct 17, 2026)",
 "startDate": "2026-10-17",
 "location": "Multiple cities",
 "access": "Cheap ticketed",
@@ -4110,38 +4334,9 @@
 "cs"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/india.md#aws-community-day-india",
-"alsoKinds": []
-},
-{
-"id": "events/arts-culture.md#iac-2026",
-"name": "IAC 2026",
-"file": "events/arts-culture.md",
-"anchor": "iac-2026",
-"kind": "arts",
-"kindLabel": "Arts, culture & sport",
-"section": "Oct–Dec 2026",
-"dates": "Oct 5–9, 2026",
-"startDate": "2026-10-05",
-"location": "Antalya, Türkiye",
-"access": "Delegate",
-"cost": "Student registration is a fraction of full (~€300–400 vs €1,000+)",
-"studentAngle": "Student registration rate. The 2026 Emerging Space Leaders grants and Space Generation Congress (SGAC) scholarships closed months ago; aim for the 2027 round (see IAC 2027).",
-"visa": "Türkiye e-Visa only with a valid US, UK, Schengen or Ireland visa or residence permit; otherwise a sticker visa (2–4 weeks)",
-"register": "",
-"what": "The International Astronautical Congress: a week of technical sessions and exhibits with the world's space agencies (ISRO included), primes and startups.",
-"applyUrl": "https://www.iafastro.org/events/iac/",
-"unverified": false,
-"freeOrVirtual": false,
-"region": "middle-east",
-"field": [
-"mech",
-"ee",
-"physics",
-"policy"
-],
-"tagsInferred": false,
-"sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#iac-2026",
 "alsoKinds": []
 },
 {
@@ -4169,6 +4364,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#sundance-film-festival-2027",
 "alsoKinds": []
 },
@@ -4197,6 +4394,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#rio-carnival-2027",
 "alsoKinds": []
 },
@@ -4225,6 +4424,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#berlinale-2027",
 "alsoKinds": []
 },
@@ -4253,6 +4454,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#songkran-2027",
 "alsoKinds": []
 },
@@ -4282,6 +4485,8 @@
 "civil"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#salone-del-mobile--milan-design-week-2027",
 "alsoKinds": []
 },
@@ -4310,6 +4515,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#cannes-film-festival-2027",
 "alsoKinds": []
 },
@@ -4339,6 +4546,8 @@
 "design"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#venice-biennale-architecture-2027",
 "alsoKinds": []
 },
@@ -4367,6 +4576,8 @@
 "humanities"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#documenta-16",
 "alsoKinds": []
 },
@@ -4396,6 +4607,8 @@
 "ee"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#paris-air-show-2027",
 "alsoKinds": []
 },
@@ -4424,6 +4637,8 @@
 "humanities"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#art-basel-2027",
 "alsoKinds": []
 },
@@ -4454,6 +4669,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#cannes-lions-2027",
 "alsoKinds": []
 },
@@ -4482,6 +4699,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#wimbledon-2027",
 "alsoKinds": []
 },
@@ -4510,6 +4729,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#tour-de-france-2027",
 "alsoKinds": []
 },
@@ -4538,6 +4759,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#edinburgh-fringe-2027",
 "alsoKinds": []
 },
@@ -4566,6 +4789,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#burning-man-2027",
 "alsoKinds": []
 },
@@ -4594,6 +4819,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#venice-film-festival-2027",
 "alsoKinds": []
 },
@@ -4622,6 +4849,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#tiff-2027",
 "alsoKinds": []
 },
@@ -4653,6 +4882,8 @@
 "policy"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#iac-2027",
 "alsoKinds": []
 },
@@ -4683,6 +4914,8 @@
 "business"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#dubai-airshow-2027",
 "alsoKinds": []
 },
@@ -4712,6 +4945,8 @@
 "ee"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#farnborough-international-airshow-2028",
 "alsoKinds": []
 },
@@ -4740,6 +4975,8 @@
 "any"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#la-2028-olympics",
 "alsoKinds": []
 },
@@ -4768,6 +5005,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#sony-world-photography-awards-student",
 "alsoKinds": []
 },
@@ -4797,6 +5036,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#dad-new-blood-awards-2027",
 "alsoKinds": []
 },
@@ -4826,6 +5067,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#one-show-young-ones-2027",
 "alsoKinds": []
 },
@@ -4855,6 +5098,8 @@
 "civil"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#if-design-talent-award-2027",
 "alsoKinds": []
 },
@@ -4889,6 +5134,8 @@
 "design"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#james-dyson-award-2027",
 "alsoKinds": []
 },
@@ -4917,6 +5164,8 @@
 "design"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#red-dot-design-concept--junior-prize-2027",
 "alsoKinds": []
 },
@@ -4945,6 +5194,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#world-press-photo-contest-2027",
 "alsoKinds": []
 },
@@ -4973,6 +5224,8 @@
 "media"
 ],
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "sourceUrl": "https://github.com/{repo}/blob/master/events/arts-culture.md#wildlife-photographer-of-the-year-63",
 "alsoKinds": []
 }

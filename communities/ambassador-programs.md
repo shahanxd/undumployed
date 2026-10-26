@@ -8,7 +8,7 @@
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [AWS Cloud Clubs: Captain](#aws-cloud-clubs-captain) | **Oct 4, 2026** | ✅ Credits + cert vouchers + swag | 18+, 12+ months left in college | UG / PG |
+| [AWS Cloud Clubs: Captain](#aws-cloud-clubs-captain) | Next: `~Sep–Oct 2027` (2026 closed Oct 4) | ✅ Credits + cert vouchers + swag | 18+, 12+ months left in college | UG / PG |
 | [Cursor Campus Leads](#cursor-campus-leads) | `~Jan 2027` | ✅ SF trip + 6 mo Cursor Ultra + event budget | Current university students | UG / PG |
 | [AWS Community Builders](#aws-community-builders) | `~Jan 2027` | ✅ AWS credits + swag | 18+, public AWS content | UG / PG / PhD |
 | [Google Developer Groups on Campus: Organizer](#google-developer-groups-on-campus-organizer) | `~Apr–Jun 2027` | ✅ Event support + swag + Google credits | Students 1+ yr left | UG / PG |
@@ -28,7 +28,7 @@
 | [OpenAI Student Collective: Campus Lead](#openai-student-collective-campus-lead) | Next: `~Jun–Jul 2027` (India cohort closed) | ✅ Cash stipend/semester + ChatGPT + Codex credits | UG in India/US/CA/UK/FR/DE/JP/KR, 18+ | UG |
 | [GitHub Campus Experts](#github-campus-experts) | Next: `~Jul 2027` | ✅ Swag + event support + training | Students 1+ yr left, community track record | UG / PG |
 | [Claude Campus Ambassador (Anthropic)](#claude-campus-ambassador-anthropic) | Next: `~Sep 2027` (2026 window: Sep 1–12) | ✅ US$3,600 stipend + API credits | 18+, worldwide, UG / grad / PhD tracks | UG / PG / PhD |
-| [Twilio Champions](#twilio-champions) | ⚠️ Paused, reopening announced for Sep 2026; no deadline yet | ❌ Free to join (perks) | Devs who teach/speak | UG / PG / PhD |
+| [Twilio Champions](#twilio-champions) | Rolling, open through **Feb 28, 2027** (2027 cohort) | ❌ Free to join (perks) | Devs who teach/speak | UG / PG / PhD |
 
 ---
 
@@ -222,7 +222,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 4, 2026** (11:59 PM PST) for Group Leader applications to start a group on your campus |
+| Deadline | Group Leader applications for 2026 closed Oct 4, 2026. Next: `~Sep–Oct 2027`. Meanwhile, join an existing group from the directory below. |
 | Duration | 12-month captain term |
 | Who | 18+, enrolled in college/university with at least 12 months left; commit to 6+ events in 12 months. No prior AWS experience required. Written + video application; faculty support recommended |
 | Stipend | AWS credits, certification vouchers, QA.com learning licence, swag points; no cash |
@@ -282,7 +282,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | Applications paused. Twilio says they reopen in September 2026; no form or deadline is up yet |
+| Deadline | 2027 cohort applications are open now on a rolling basis through **Feb 28, 2027**. |
 | Duration | 1 year |
 | Who | 18+, fluent in English. Developers who already share Twilio knowledge (talks, hackathons, content). Not student-specific |
 | Stipend | None |
@@ -494,4 +494,4 @@ Join these on campus; they're the pipeline for most of the programs above.
 
 ---
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

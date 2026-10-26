@@ -10,9 +10,9 @@
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [Citi, Barclays, Deutsche Bank, BofA India](#citi-barclays-deutsche-bank-bofa-india) | BofA Mumbai IB **Sep 30, 2026**; others campus `~Aug–Nov 2026` | ✅ Paid | Penultimate year | UG / PG / MBA |
+| [Citi, Barclays, Deutsche Bank, BofA India](#citi-barclays-deutsche-bank-bofa-india) | ⚠️ Campus `~Aug–Nov 2026` (Citi, Barclays, DB); BofA Mumbai IB closed Sep 30 | ✅ Paid | Penultimate year | UG / PG / MBA |
 | [Jane Street INSIGHT, WiSE, FOCUS, Bridge](#jane-street-insight-wise-focus-bridge) | INSIGHT: Hong Kong **Nov 8, 2026**, New York **Oct 25, 2026**; FOCUS, Bridge, FTTP close Nov 2026–Jan 2027 | ✅ Fully covered | Women/gender-expansive, 1st–2nd years, HS grads | HS / UG / PG |
-| [Squarepoint, Millennium, Point72: India tech offices](#squarepoint-millennium-point72-india-tech-offices) | Point72 Academy APAC `~mid-Oct 2026`; India: no Bengaluru intern reqs posted | ✅ Paid | Pre-final CS; Point72 Academy = penultimate | UG / PG |
+| [Squarepoint, Millennium, Point72: India tech offices](#squarepoint-millennium-point72-india-tech-offices) | Rolling (global reqs); India: no Bengaluru intern reqs posted · Point72 Academy next `~Jan–Jun 2027` | ✅ Paid | Pre-final CS; Point72 Academy = penultimate | UG / PG |
 | [Jane Street Internships (NY / London / HK)](#jane-street-internships-ny--london--hk) | `~Nov 2026`, rolling; summer 2027 open | ✅ Paid (~$20k+/month) | Any year; 2028 grads for summer | UG / PG / PhD |
 | [Goldman Sachs Summer Analyst India](#goldman-sachs-summer-analyst-india) | `~Oct–Nov 2026` · rolling since Jul 1; apply now | ✅ Paid | Penultimate year (2028 grads) | UG / PG / MBA |
 | [UBS, Nomura, HSBC, Wells Fargo India](#ubs-nomura-hsbc-wells-fargo-india) | ⚠️ Unverified: `~Aug–Nov 2026` | ✅ Paid | Penultimate year; MBA | UG / PG / MBA |
@@ -102,7 +102,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **BofA** Global Investment Banking Summer Analyst 2027, Mumbai (penultimate-year UG/Master's): **Sep 30, 2026**. Citi, Barclays and Deutsche Bank have no India 2027 internship posted on their portals in late Sep 2026; their India interns come through campus drives `~Aug–Nov 2026` (⚠️ campus timing unverified) |
+| Deadline | **BofA** Global Investment Banking Summer Analyst 2027, Mumbai (penultimate-year UG/Master's): closed Sep 30, 2026; next `~Aug–Sep 2027`. Citi, Barclays and Deutsche Bank have no India 2027 internship posted on their portals in late Sep 2026; their India interns come through campus drives `~Aug–Nov 2026` (⚠️ campus timing unverified) |
 | Duration | 8–10 weeks summer 2027; 6-month final-year variants |
 | Who | Penultimate year UG/PG; Technology tracks want CS/IT/ECE; Ops/Finance any discipline; MBA-1 for markets/banking |
 | Stipend | Paid (₹50k–1L/month typical) |
@@ -304,7 +304,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | India: no Bengaluru intern reqs posted on any of the three sites; watch campus placement drives. Global intern reqs are `Rolling`: Squarepoint (2027 SWE: London/Montreal/Singapore; QR: London/Paris/NY/Singapore/HK), Millennium's 2027 program (**opened Aug 3, 2026**; no India roles). **Point72 Academy Summer Internship 2027** (grads Dec 2027–Jul 2028): winter–early-summer 2026 window closed; Hong Kong/Singapore/Tokyo reqs open to a "mid Fall" deadline (`~mid-Oct 2026`) |
+| Deadline | India: no Bengaluru intern reqs posted on any of the three sites; watch campus placement drives. Global intern reqs are `Rolling`: Squarepoint (2027 SWE: London/Montreal/Singapore; QR: London/Paris/NY/Singapore/HK), Millennium's 2027 program (**opened Aug 3, 2026**; no India roles). **Point72 Academy Summer Internship 2027** (grads Dec 2027–Jul 2028): winter–early-summer 2026 window closed; Hong Kong/Singapore/Tokyo reqs closed "mid Fall" (~mid-Oct 2026). The 2028 Academy window should open `~Jan–Jun 2027` |
 | Duration | 8–12 weeks summer 2027; 6-month variants |
 | Who | Pre-final year CS for tech roles; Academy: penultimate-year students (any discipline) with finance interest |
 | Stipend | Paid |
@@ -488,4 +488,4 @@ RBI and SEBI internships are in [government-and-non-tech.md](government-and-non-
 
 *[← Back to README](../README.md) | [All Deadlines](../deadlines.md) | [Tech Companies](tech-companies.md) | [Government & Non-Tech](government-and-non-tech.md)*
 
-*Last verified: September 2026. ⚠️ marks what could not be confirmed on the official site. Deadlines shift, so always confirm there before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). ⚠️ marks what could not be confirmed on the official site. Deadlines shift, so always confirm there before applying.*

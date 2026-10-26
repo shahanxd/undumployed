@@ -2,27 +2,33 @@
 
 > Student hackathons worth a weekend: India's national and corporate hackathons, the flagship US, Canada and Europe ones, Web3 and space, and which ones actually help with travel from India. Open-source programs are in [`open-source/`](../open-source/README.md); coding contests and case/research competitions in [`competitions/`](../competitions/).
 
-**Jump to:** [India: national & community](#india-national--community) · [India: corporate hackathons](#india-corporate-hackathons) · [US flagships](#us-flagships) · [Canada](#canada) · [Europe](#europe) · [Global online & themed](#global-online--themed) · [Web3](#web3) · [Travel reimbursement: who flies Indian students](#hackathon-travel-reimbursement-who-flies-indian-students) · [Sources, not entries](#sources-not-entries) · [Defunct / paused](#defunct--paused)
+**Jump to:** [Drops](#drops-one-off--limited-editions) · [India: national & community](#india-national--community) · [India: corporate hackathons](#india-corporate-hackathons) · [US flagships](#us-flagships) · [Canada](#canada) · [Europe](#europe) · [Global online & themed](#global-online--themed) · [Web3](#web3) · [Travel reimbursement: who flies Indian students](#hackathon-travel-reimbursement-who-flies-indian-students) · [Sources, not entries](#sources-not-entries) · [Defunct / paused](#defunct--paused)
 
 ## At a glance
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [Innohacks 4.0 (KIET, Ghaziabad)](#innohacks-40-kiet-ghaziabad) | **Sep 30, 2026** (idea deck) · event Oct 10–11 | ✅ Prize | students, Ghaziabad (in person) | UG |
+| [hackaTUM (TU Munich)](#hackatum-tu-munich) | Apply now, closes `~mid-Nov 2026` · event Nov 27–29, 2026 | ❌ No travel; prizes | anyone, teams of 2–4 | UG / PG |
+| [START Hack (St. Gallen)](#start-hack-st-gallen) | Apps `~Dec 2026–Mar 2027` · event ~Mar 2027 | ✅ Prizes | students, individually or in teams | UG / PG |
+| [HackUPC (Barcelona)](#hackupc-barcelona) | Next: apps `~Jan–Mar 2027` · event ~late Apr 2027 | ✅ Partial travel (≤€200 from outside Europe) | students 14+ | HS / UG / PG |
+| [Apart Research sprints (AI safety)](#apart-research-sprints-ai-safety) | Rolling, monthly (next: Nov 6–8, Nov 13–15, Nov 27–29, 2026) | ✅ Cash prizes + fellowship route | anyone, teams of 1–5, online | UG / PG / PhD |
+| [Lexsi AI Safety & Alignment Hackathon](#lexsi-ai-safety--alignment-hackathon) | **Nov 5, 2026** (register) · submit Nov 14 · Demo Day Nov 22 | ✅ Credits + interviews | anyone, teams of 1–3, online | UG / PG / PhD |
+| [Meta VR Start Developer Competition 2026](#meta-vr-start-developer-competition-2026) | **Nov 18, 2026** (submit) | ✅ $1M cash, 20 prizes | 18+, Meta VR Start members, online | UG / PG |
+| [Innohacks 4.0 (KIET, Ghaziabad)](#innohacks-40-kiet-ghaziabad) | Next: `~Sep–Oct 2027` (4.0 ran Oct 10–11, 2026) | ✅ Prize | students, Ghaziabad (in person) | UG |
 | [Hacktoberfest](../open-source/README.md#hacktoberfest) | **Oct 1–31, 2026** | ❌ Free | anyone | HS / UG / PG |
-| [HackHarvard](#hackharvard) | Event **Oct 16–18, 2026** (apply now; no deadline posted) | ❌ Financial aid case-by-case | undergrads | UG |
-| [Junction (Helsinki)](#junction-helsinki) | **Oct 25, 2026** · event **Nov 13–15, 2026** | ✅ Travel grants (2026 round closed Sep 6) | anyone, mostly 18+ | UG / PG |
+| [HackHarvard](#hackharvard) | Next: event `~Oct 2027` (2026 ran Oct 16–18) | ❌ Financial aid case-by-case | undergrads | UG |
+| [Junction (Helsinki)](#junction-helsinki) | Next: apps `~Sep–Oct 2027` (2026 closed Oct 25; event Nov 13–15) | ✅ Travel grants (2026 round closed Sep 6) | anyone, mostly 18+ | UG / PG |
 | [ETHGlobal](#ethglobal) | ETHGlobal Mumbai **Nov 6–8, 2026** · online hackathons year-round | ✅ Prizes ($100k+ pools) | builders, 18+ | UG / PG / PhD |
 | [NASA Space Apps 2026](#nasa-space-apps-challenge) | **Nov 14–15, 2026** (registration open) | ❌ Free; global award = invitation to NASA | anyone, India local events | HS / UG / PG |
 | [UofTHacks 2027](#uofthacks) | Event **Jan 15–17, 2027** | ❌ No travel | students | UG |
 | [nwHacks 2027](#nwhacks-ubc) | Event **Jan 16–17, 2027** | ❌ No travel | students | UG |
 | [LA Hacks 27](#la-hacks) | Event **Apr 16–18, 2027** | ❌ No travel | students | UG |
-| [Smart India Hackathon 2026](#smart-india-hackathon-sih) | `~Sep–Oct 2026` internal rounds · finale `~Dec 2026` (SIH 2026 live on sih.gov.in; exact dates via your SPOC) | ✅ ₹1 lakh/PS (typical) | Indian college + school teams via institution | HS / UG / PG |
-| [PennApps XXVII](#pennapps) | Apps open `~late Oct 2026` · event `~Jan–Feb 2027` | ❌ Limited travel | college students | UG / PG |
-| [Hack This Fall](#hack-this-fall) | `~Oct–Nov 2026` (2025 ran online Nov 1–Dec 1) | ✅ Prize | anyone; online + India city events | UG |
-| [MIT Reality Hack](#mit-reality-hack) | Apps `~Oct–Nov 2026` · event `~late Jan 2027` | ❌ No travel (free entry) | students + professionals, XR | UG / PG |
-| [TreeHacks 2027](#treehacks-stanford) | Apps `~Nov–Dec 2026` · event Feb 12–14, 2027 | ✅ Flights (capped) + food | enrolled college students worldwide | UG / PG |
-| [Microsoft Imagine Cup 2027](#microsoft-imagine-cup) | `~Nov 2026–Jan 2027` | ✅ Prize (2025: $100k) | student founders/teams, 18+ | UG / PG |
+| [Smart India Hackathon 2026](#smart-india-hackathon-sih) | Next: `~Aug–Oct 2027` (SIH 2026 ideas closed Oct 9; finale ~Dec 2026) | ✅ ₹1 lakh/PS (typical) | Indian college + school teams via institution | HS / UG / PG |
+| [PennApps XXVII](#pennapps) | Apps `~Nov 2026` · event spring 2027 | ❌ Limited travel | college students | UG / PG |
+| [Hack This Fall](#hack-this-fall) | ⚠️ Unverified: no 2026 edition announced (2025 ran online Nov 1–Dec 1) | ✅ Prize | anyone; online + India city events | UG |
+| [MIT Reality Hack](#mit-reality-hack) | Apps `~Nov 2026` · event Jan 2027 | ❌ No travel (free entry) | students + professionals, XR | UG / PG |
+| [TreeHacks 2027](#treehacks-stanford) | Apps open now, close `~Dec 2026` · event Feb 12–14, 2027 | ✅ Flights (capped) + food | enrolled college students worldwide | UG / PG |
+| [Microsoft Imagine Cup 2027](#microsoft-imagine-cup) | Registration open now · submissions `~Jan 2027` | ✅ Prize (2025: $100k) | student founders, teams of up to 4, 18+ | UG / PG |
 | [IIT fest hackathons](#iit-fest-hackathons) | Techfest `~Dec 2026` · Shaastra/Kshitij `~Jan 2027` · Tryst/Cognizance `~Mar 2027` | ✅ Prize | school + college students, India | HS / UG / PG |
 | [HackWithInfy](#hackwithinfy-infosys) | `~Jan–Mar 2027` | ✅ Prize + PPI | final/pre-final year, India | UG |
 | [FOSS Hack](../open-source/README.md#foss-united-grants--foss-hack) | `~Feb 2027` | ✅ ₹ prizes | FOSS builders, India | UG / PG |
@@ -44,6 +50,49 @@
 
 ---
 
+## Drops: one-off & limited editions
+
+One-off hackathons that clear the [quality bar](../CONTRIBUTING.md#drops-one-off-opportunities). They're also listed in [drops.md](../drops.md) and leave this file once they're over.
+
+### Lexsi AI Safety & Alignment Hackathon
+<!-- tags: stage=ug,pg,phd,grad; field=ai,cs; region=remote; funding=prize; citizenship=any; gates=team; format=remote; edition=one-off; expires=2026-11-22 -->
+> **Type:** Online AI-safety and post-training hackathon (Lexsi Labs with Cohere Labs and Hugging Face) | **Location:** Online; kickoff (Oct 31) and Demo Day (Nov 22) in Bengaluru, with an online option | **Funded:** ✅ Prizes, almost all as credits ("$30,000+ in prizes and credits") + interviews
+
+| Field | Details |
+|-------|---------|
+| Deadline | Register by **Nov 5, 2026** (end of day AoE) · build Nov 1–14, submit by **Nov 14** · up to 20 teams named Nov 16 for Demo Day on **Nov 22** |
+| Duration | Two weeks of building; finalists get Nov 16–21 to push further |
+| Who | Anyone worldwide, beginners included; teams of 1–3, one team per person; free |
+| Prize | Top 5 teams: $1,162–$3,662 each, paid as Lexsi Labs and Cohere credits plus 6 months of Hugging Face Pro per teammate. $20 in HF GPU credits for up to 800 teams that join the Discord, $200 for each finalist. Interviews for DevRel/research-intern and research roles for standouts. |
+| Stage | UG / PG / PhD |
+
+**What it is:** Teams post-train a small open-weights Cohere model (Tiny Aya or Aya Expanse) with Lexsi Labs' open-source toolkits (AlignTune, CuratorKIT, AuditKIT, SafeTune, CircuitKIT, AgentTune) and report before-and-after metrics. Three tracks: fine-tuning and data curation, red teaming and safety, and agentic fine-tuning. Models, datasets and logs go on Hugging Face, with a write-up as an HF article.
+
+**Reality check:** The headline money is credits, not cash, so the real prizes are the interview invites and a public, metric-backed post-training project for your CV. You must chain at least two of Lexsi's repos, so spend the first day learning the stack. The free compute is small; pick the small models.
+
+**Apply:** [hackathon.lexsi.ai](https://hackathon.lexsi.ai/)
+
+---
+
+### Meta VR Start Developer Competition 2026
+<!-- tags: stage=ug,pg,grad; field=cs,design; region=remote; funding=prize; citizenship=any; gates=age-limit; format=remote; edition=one-off; expires=2026-11-18 -->
+> **Type:** Online VR app competition (Meta, run on Devpost) | **Location:** Online | **Funded:** ✅ $1M in cash prizes (20 prizes of $20,000–$100,000)
+
+| Field | Details |
+|-------|---------|
+| Deadline | Submit by **Nov 18, 2026** (12:00 PM PT, so 1:30 AM IST on Nov 19) · winners ~Dec 11 |
+| Who | 18+, solo or as a team. You need a Meta developer account and membership of the Meta VR Start program (apply before you submit). Open to India; Brazil, Quebec and sanctioned countries are excluded. |
+| Prize | $1M across 20 cash prizes: Entertainment, Gaming and Productivity tracks plus special awards for social/multiplayer, agentic interaction and accessibility |
+| Stage | UG / PG |
+
+**What it is:** Build a new hands-first app, or a big update to one you have, for Meta Quest or Meta's VR glasses. It must work fully without controllers. Meta is after seated experiences that start fast and feel good within ten minutes.
+
+**Reality check:** You need a Quest to build and test properly, and Start membership is an application, so apply today. Three weeks is tight for a new VR app; people with a Unity or Unreal prototype already in hand have the edge. Only 20 prizes, but each one is big.
+
+**Apply:** [start-developer-competition-26.devpost.com](https://start-developer-competition-26.devpost.com/)
+
+---
+
 ## India: national & community
 
 ### Smart India Hackathon (SIH)
@@ -52,7 +101,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | SIH 2026 is open: problem statements are up and SPOC login is live on sih.gov.in. Expected: internal hackathons `~Sep–Oct 2026`, idea submission by your SPOC `~Oct 2026`, grand finale `~Dec 2026`. Your SPOC has the exact dates, so ask now. |
+| Deadline | SIH 2026: team nomination and idea submission closed **Oct 9, 2026** (extended), after college internal rounds. Grand finale `~Dec 2026` at nodal centres; your SPOC has the exact dates. Next: SIH 2027 problem statements and internal rounds `~Aug–Oct 2027`. |
 | Duration | Internal round (1 day) → 36-hour grand finale |
 | Who | Teams of 6 (at least one woman) from AICTE/UGC-recognised institutions, nominated by your college's SPOC; **you cannot enter directly**. Also a **SIH Junior** school track (classes 6–12) via school SPOC. |
 | Prize | ₹1 lakh per PS (software/hardware); student-innovation PS prizes tiered |
@@ -72,7 +121,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | Idea deck (PPT) due **Sep 30, 2026**; shortlist by Oct 3; hackathon **Oct 10–11, 2026** (24 h, in person at KIET) |
+| Deadline | Next: Innohacks 5.0 `~Sep–Oct 2027`. The 2026 edition (4.0) took idea decks until Sep 30 and ran Oct 10–11, 2026 (24 h, in person at KIET). |
 | Who | Students; teams up to 4 |
 | Stage | UG |
 
@@ -90,7 +139,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | `~Oct–Nov 2026`, though the events page has no 2026 edition yet. The 2025 edition ran online **Nov 1–Dec 1, 2025** (applications opened Oct 3), with invite-only Build Stations in Mumbai, Ahmedabad, Delhi NCR, Kolkata and Hyderabad, and a Hacker House & Demo Day in Bengaluru on Dec 27–28. |
+| Deadline | ⚠️ Unverified: no 2026 edition announced as of Oct 26, 2026 (the site and events page show nothing new). The 2025 edition ran online Nov 1–Dec 1, 2025 (applications opened Oct 3), with invite-only Build Stations in Mumbai, Ahmedabad, Delhi NCR, Kolkata and Hyderabad, and a Hacker House & Demo Day in Bengaluru on Dec 27–28. |
 | Who | Anyone, from anywhere; beginners welcome; solo or teams of up to 3; free |
 | Stage | UG |
 
@@ -298,7 +347,7 @@ Most of these are hiring funnels disguised as hackathons: winners get pre-placem
 
 | Field | Details |
 |-------|---------|
-| Deadline | Event **Feb 12–14, 2027** (13th edition). Apps `~Nov–Dec 2026` (Stanford students have a priority deadline; everyone else regular). |
+| Deadline | Event **Feb 12–14, 2027** (13th edition). Applications are open now on trunk.treehacks.com with no closing date posted; expect it `~Dec 2026` (Stanford students have a separate priority deadline). |
 | Who | Any enrolled college student (undergrad or grad) worldwide; 1,000+ hackers from 500+ universities |
 | Prize | $1M+ in prizes across 8 tracks (AI, Cloud, Edge, Education, Healthcare, Flourishing, Inference, Sustainability) |
 | Stage | UG / PG |
@@ -315,7 +364,7 @@ Most of these are hiring funnels disguised as hackathons: winners get pre-placem
 
 | Field | Details |
 |-------|---------|
-| Deadline | PennApps XXVII: event `~Jan–Feb 2027` (spring semester); applications open `~late Oct 2026` |
+| Deadline | PennApps XXVII: event in the spring 2027 semester (dates not posted). The site said applications open "later in October"; expect them `~Nov 2026`. |
 | Who | College students; teams up to 4 |
 | Stage | UG / PG |
 
@@ -347,7 +396,7 @@ Most of these are hiring funnels disguised as hackathons: winners get pre-placem
 
 | Field | Details |
 |-------|---------|
-| Deadline | HackHarvard 2026: event **Oct 16–18, 2026** (36 h); apps are open with no closing date posted, so apply early. Next: `~Oct 2027`. |
+| Deadline | Next: HackHarvard 2027 `~Oct 2027`, apps opening `~Aug–Sep 2027`. The 2026 edition ran Oct 16–18, 2026. |
 | Who | Undergraduates; mixed-school teams allowed |
 | Stage | UG |
 
@@ -411,7 +460,7 @@ Most of these are hiring funnels disguised as hackathons: winners get pre-placem
 
 | Field | Details |
 |-------|---------|
-| Deadline | Apps `~Oct–Nov 2026` · event `~late Jan 2027` (2026 edition: Jan 22–26; decisions by Dec 28, 2025) |
+| Deadline | Apps `~Nov 2026` · event January 2027 (the site says "See you January 2027"; 2026 ran Jan 22–26 with decisions by Dec 28, 2025). A hybrid Reality Hack at AWE follows, online then Long Beach, in May/June 2027. |
 | Who | Students and professionals: developers, designers, artists, hardware people |
 | Stage | UG / PG |
 
@@ -511,13 +560,70 @@ Most of these are hiring funnels disguised as hackathons: winners get pre-placem
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 25, 2026** (midnight GMT+3) · event **Nov 13–15, 2026** |
+| Deadline | Applications for Junction 2026 closed Oct 25, 2026; the event runs Nov 13–15, 2026. Next: apps `~Sep–Oct 2027`, travel-grant round `~Aug–Sep 2027`. |
 | Who | Anyone who builds: students, professionals, self-taught; mostly 18+; ~2,000 builders |
 | Stage | UG / PG |
 
 **Reality check:** Schengen visa needed, and invitation letters go out only after acceptance, in batches on Oct 11, Oct 25 and Nov 1, so apply early. No sleeping area at the venue (discounted partner hotels nearby).
 
 **Apply:** [hackjunction.com](https://www.hackjunction.com/)
+
+---
+
+### hackaTUM (TU Munich)
+<!-- tags: stage=hs,ug,pg,phd,grad; field=cs,ai; region=europe; funding=prize; citizenship=any; gates=team; format=in-person -->
+> **Type:** Student-run hackathon at the Technical University of Munich | **Location:** Garching, near Munich, Germany | **Funded:** ✅ Partner challenge prizes; free entry, food and drinks; no travel reimbursement
+
+| Field | Details |
+|-------|---------|
+| Deadline | hackaTUM 2026: event **Nov 27–29, 2026**; applications are open now (individual applications). No closing date is posted; last year applicants heard back by mid-November, so apply now. Next: `~Oct 2027`. |
+| Duration | 36 hours |
+| Who | Anyone, international participants included; you don't have to be a student. Teams of 2–4, formed on the first day if you like. |
+| Stage | UG / PG |
+
+**What it is:** A student-run hackathon at TUM's Garching campus. Companies set the challenges (the partner list changes each year) and teams pitch on the final day. There are sleeping rooms on site; bring a mat and a sleeping bag.
+
+**Reality check:** No travel money, and a Schengen visa from India takes weeks, so this one is realistic mainly if you're already studying in Europe. For everyone else, it's worth knowing for next year: apply for the visa early.
+
+**Apply:** [hack.tum.de](https://hack.tum.de/)
+
+---
+
+### HackUPC (Barcelona)
+<!-- tags: stage=hs,ug,pg; field=cs,ai; region=europe; funding=prize; citizenship=any; gates=age-limit; format=in-person -->
+> **Type:** Student hackathon at Universitat Politècnica de Catalunya | **Location:** UPC North Campus, Barcelona, Spain | **Funded:** ✅ Partial travel reimbursement (50% of fares, capped by region: €120–200 from outside Europe), free food and swag
+
+| Field | Details |
+|-------|---------|
+| Deadline | Next: HackUPC 2027, event `~late Apr 2027`, applications `~Jan–Mar 2027` on my.hackupc.com. The 2026 edition ran Apr 24–26, 2026. |
+| Duration | 36 hours |
+| Who | Students worldwide aged 14+ (under-18s need a signed parental letter); recent graduates up to a year out can also apply |
+| Stage | HS / UG / PG |
+
+**What it is:** A long-running student hackathon in Barcelona built around sponsor challenges. Reimbursement is paid by PayPal about two months after the event, and only if you upload receipts before the event, demo a project and meet the attendance rules.
+
+**Reality check:** €200 at most won't cover a flight from India, and the travel fund runs out first come, first served. It's a real option if you're on an exchange semester in Europe, or if you can pair it with a trip you're already making.
+
+**Apply:** [hackupc.com](https://hackupc.com/)
+
+---
+
+### START Hack (St. Gallen)
+<!-- tags: stage=ug,pg,grad; field=cs,ai,business; region=europe; funding=prize; citizenship=any; gates=; format=in-person -->
+> **Type:** Entrepreneurial hackathon run by the START Global student association | **Location:** St. Gallen, Switzerland | **Funded:** ✅ Sponsor case prizes; free admission
+
+| Field | Details |
+|-------|---------|
+| Deadline | Next: START Hack 2027, event `~Mar 2027`, applications `~Dec 2026–Mar 2027` (individual or team). START Hack 2026 ran Mar 18–20, 2026. |
+| Duration | 36 hours |
+| Who | Students and young builders; apply individually or as a team |
+| Stage | UG / PG |
+
+**What it is:** Companies bring business problems as "cases" and teams build and pitch a product for them, so it rewards a pitch and a business model as much as code. It's tied to the START Summit, a big student-run startup conference in the same city.
+
+**Reality check:** Switzerland is expensive and needs a Schengen visa; check the official FAQ for what's covered before you plan around it. Strongest for founders-in-the-making who like pitching.
+
+**Apply:** [startglobal.org/start-hack](https://startglobal.org/start-hack/about)
 
 ---
 
@@ -545,13 +651,33 @@ Most of these are hiring funnels disguised as hackathons: winners get pre-placem
 
 | Field | Details |
 |-------|---------|
-| Deadline | Imagine Cup 2027 isn't open yet. Expected: registration `~Nov 2026`, submissions `~Jan 2027`, semifinals ~Mar, World Championship ~May 2027. |
-| Who | Student founders/teams (18+), building on Microsoft AI/Azure |
+| Deadline | Imagine Cup 2027 registration is **open now** (Launch track for prototypes and MVPs, Scale track for startups with traction). Submissions `~Jan 2027` (some listings say Jan 8; not on the official page yet), semifinals in spring, World Championship `~May 2027`. |
+| Who | Student founders/teams of up to 4, 18+, enrolled at an accredited institution, building on Microsoft AI/Azure. Registrants can unlock up to $5,000 in Azure credits. |
 | Stage | UG / PG |
 
 **Reality check:** Now explicitly startup-flavoured ("Innovate. Validate. Accelerate."). A working product with users beats a demo.
 
 **Apply:** [imaginecup.microsoft.com](https://imaginecup.microsoft.com/)
+
+---
+
+### Apart Research sprints (AI safety)
+<!-- tags: stage=ug,pg,phd,grad; field=ai,cs,policy; region=remote; funding=prize; citizenship=any; gates=team; format=hybrid -->
+> **Type:** Weekend AI-safety research hackathons, about one a month | **Location:** Online, plus in-person hubs (New York, Hong Kong and others) | **Funded:** ✅ Cash prizes (typically $2,000 per sprint) + an invitation route into the funded Apart Fellowship
+
+| Field | Details |
+|-------|---------|
+| Deadline | Rolling, about one sprint a month. Coming up: Swarm Alignment Hackathon (Nov 6–8, 2026), AI x Epistemics Research Sprint (Nov 13–15) and Agent Attribution Hackathon (Nov 27–29). Submissions close Sunday 11:59 PM AoE. |
+| Duration | One weekend |
+| Who | Anyone; no AI-safety background needed. Teams of 1–5. Free. |
+| Prize | Typically $1,000 / $500 / $300 / $100 / $100 per sprint; standout teams are invited to Apart Studio and then the Apart Fellowship (part-time, remote, funded research) |
+| Stage | UG / PG / PhD |
+
+**What it is:** Each sprint takes one open AI-safety question (agent collusion, multi-agent alignment, evaluations, epistemics) and asks teams to build something others can check in a weekend: an experiment, an evaluation, a dataset or a tool, plus a short write-up. Co-organisers have included AE Studio and Poseidon Research.
+
+**Reality check:** The cash is small; the point is the path. Apart's own pipeline runs sprint → Studio → Fellowship → published research, and the fellowship has no separate application: your sprint project is the application. Pick a narrow question and finish the write-up, which is what judges score.
+
+**Apply:** [apartresearch.com/sprints](https://apartresearch.com/sprints)
 
 ---
 
@@ -577,7 +703,7 @@ Devcon 8 (Mumbai, Nov 3–6, 2026) is a conference, not a hackathon: see [`event
 
 ## Hackathon travel reimbursement: who flies Indian students
 
-| Hackathon | Policy (Sep 2026) | Realistic coverage from India |
+| Hackathon | Policy (Oct 2026) | Realistic coverage from India |
 |-----------|-------------------|-------------------------------|
 | **TreeHacks** | Flights with regional caps, food, swag | Partial (cap < India→SFO fare); still the best deal |
 | **HackMIT** | Travel reimbursement up to a regional cap for every attendee; must submit a project | Partial; historically some full international reimbursements |
@@ -586,8 +712,9 @@ Devcon 8 (Mumbai, Nov 3–6, 2026) is a conference, not a hackathon: see [`event
 | **PennApps** | Limited reimbursement, not guaranteed | Unlikely |
 | **JPMorgan Code for Good (India)** | Travel + stay covered for selected students | Full (domestic) |
 | **SIH grand finale** | Travel/stay handled by nodal centre/institution | Full (domestic) |
+| **HackUPC** | 50% of fares, capped by region (€120–200 from outside Europe); receipts before the event, paid ~2 months later | Small share of an India–Spain fare |
 | **Junction** | Limited travel grants for the strongest applications; separate deadline (Sep 6 in 2026) | Rare |
-| **HackHarvard, nwHacks, UofTHacks, Hack the 6ix, LA Hacks, ETHGlobal, MIT Reality Hack** | No travel support | Self-funded |
+| **HackHarvard, nwHacks, UofTHacks, Hack the 6ix, LA Hacks, ETHGlobal, MIT Reality Hack, hackaTUM** | No travel support | Self-funded |
 
 Rule of thumb: apply to TreeHacks, HackMIT and Hack the North every year, and get a 10-year US B-1/B-2 early. A first US interview takes 7–12 months to get and a Canadian visitor visa 1–4+ months (see the [visa guide](../guides/visas-for-indian-passport.md)); without one in hand, the US and Canadian events here are out of reach.
 
@@ -622,4 +749,4 @@ Rule of thumb: apply to TreeHacks, HackMIT and Hack the North every year, and ge
 
 *[← Back to README](../README.md) | [All Deadlines](../deadlines.md) | [Open Source](../open-source/README.md) | [Competitions](../competitions/)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*
