@@ -8,15 +8,15 @@
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [Bloomberg Trading Challenge](#bloomberg-trading-challenge) | **Oct 5, 2026** (registration) · trading Oct 12–Nov 13 | ✅ Prize | university teams via faculty advisor | UG / PG |
-| [Simon Marais Mathematics Competition](#simon-marais-mathematics-competition) | **Oct 10, 2026** (exam day; entries for India closed Sep 4) | ✅ Prize (AUD) | UG at participating universities (India incl.) | UG |
+| [Bloomberg Trading Challenge](#bloomberg-trading-challenge) | Next: registration `~Sep 2027` (2026 closed Oct 5) | ✅ Prize | university teams via faculty advisor | UG / PG |
+| [Simon Marais Mathematics Competition](#simon-marais-mathematics-competition) | Next: university sign-up `~Jul 2027` · exam ~Oct 2027 | ✅ Prize (AUD) | UG at participating universities (India incl.) | UG |
 | [Topcoder](#topcoder) | Marathon Matches **Oct 7–Oct 14, 2026** · **Nov 25–Dec 2, 2026** (SRMs ended 2023) | ✅ Tournament cash prizes | Topcoder members | any |
 | [Advent of Code](#advent-of-code) | **Dec 1, 2026** (daily puzzles until mid-Dec) | ❌ Free | anyone | HS / UG / PG |
 | [Putnam](#putnam-competition) | **Dec 5, 2026** (first Sat of Dec) | ✅ Cash prizes | UG at US/Canadian universities | UG |
-| [IEEEXtreme 20.0](#ieeextreme) | Register by `~mid-Oct 2026`; contest Oct 31, 2026 (24 h) | ✅ Prize (trip to IEEE conf / cash) | IEEE student members, teams of 3 | UG / PG |
-| [Meta Hacker Cup 2026](#meta-hacker-cup) | `~Oct 2026` (2025: registration Oct 3, Round 1 Oct 18, online final Dec 20; 2026 not yet announced) | ✅ Cash (1st $20,000; top 25 paid) | anyone | HS / UG / PG / PhD |
-| [ZCO / INOI (Indian Computing Olympiad)](#indian-computing-olympiad-zco--zio--inoi) | ICO-2027 registration opens **Oct 2026**; ZCO `~Nov/Dec 2026`; INOI `~Jan/Feb 2027` | ✅ Fully funded IOI trip | school students up to class 12 | HS |
-| [TCS CodeVita Season 14](#tcs-codevita) | Registration open; Round 1 `~Nov–Dec 2026` | ✅ $20,000 top-3 + finale travel | students graduating 2027–2030 | UG / PG |
+| [IEEEXtreme 20.0](#ieeextreme) | **Oct 28, 2026** (registration, extended) · contest Oct 31 | ✅ Prize (trip to IEEE conf / cash) | IEEE student members, teams of 3 | UG / PG |
+| [Meta Hacker Cup 2026](#meta-hacker-cup) | ⚠️ No 2026 season announced yet (2025: registration Oct 3, Round 1 Oct 18) | ✅ Cash (1st $20,000; top 25 paid) | anyone | HS / UG / PG / PhD |
+| [ZCO / INOI (Indian Computing Olympiad)](#indian-computing-olympiad-zco--zio--inoi) | ZIO **Nov 21, 2026** · ZCO Dec 12 · INOI ~Feb 2027 (register now) | ✅ Fully funded IOI trip | school students up to class 12 | HS |
+| [TCS CodeVita Season 14](#tcs-codevita) | Registration open, closes `~Nov 13, 2026` · pre-qualifier ~Dec 11–12 | ✅ $20,000 top-3 + finale travel | students graduating 2027–2030 | UG / PG |
 | [HackWithInfy](../hackathons/README.md#hackwithinfy-infosys) | `~Jan–Mar 2027` | ✅ Prize + PPI | pre-final/final year, India | UG |
 | [International Mathematics Competition (IMC)](#international-mathematics-competition-for-university-students) | University registration `~Apr–Jun 2027`; contest `~late Jul–early Aug 2027` | ✅ Medals/prizes | UG teams from universities | UG |
 | [Universal Cup](#universal-cup) | `Rolling` (weekly, seasonal) | ❌ Free | ICPC-style teams | UG / PG |
@@ -44,7 +44,7 @@ ZCO (coding) or ZIO (pen-and-paper), `~Nov–Dec 2026` → INOI, `~Jan–Feb 202
 
 | Field | Details |
 |-------|---------|
-| Deadline | ICO-2027 registration opens **Oct 2026** on iarcs.org.in. Expected: ZCO/ZIO `~late Nov–Dec 2026`, INOI `~Jan–Feb 2027`. |
+| Deadline | ICO-2027 registration is open on iarcs.org.in. **ZIO-2027 (written): Nov 21, 2026** · **ZCO-2027 (programming): Dec 12, 2026** · INOI-2027 `~Feb 2027` (INOI-2026 was Feb 14). |
 | Who | Any student registered in school up to class 12 in 2026-27 (no minimum age; you're ineligible once you've finished class 12). Small registration fee. |
 | Stage | HS |
 
@@ -82,7 +82,7 @@ ZCO (coding) or ZIO (pen-and-paper), `~Nov–Dec 2026` → INOI, `~Jan–Feb 202
 
 | Field | Details |
 |-------|---------|
-| Deadline | IEEEXtreme 20.0: **Oct 31, 2026** (24 h from 00:00 UTC). PreXtreme warm-up was Sep 27 (registration closed Sep 24). Main registration typically closes `~mid-Oct`, so register now. |
+| Deadline | IEEEXtreme 20.0: registration extended to **Oct 28, 2026** (23:59:59) · contest **Oct 31, 2026** (24 h from 00:00 UTC). IEEE Student Membership is required to register. Next: `~Oct 2027`. |
 | Who | Teams of up to 3 **IEEE Student members** (membership required, ~$27/yr student rate in India), proctored by an IEEE member; all levels |
 | Stage | UG / PG |
 
@@ -120,7 +120,7 @@ ZCO (coding) or ZIO (pen-and-paper), `~Nov–Dec 2026` → INOI, `~Jan–Feb 202
 
 | Field | Details |
 |-------|---------|
-| Deadline | `~Oct–Dec 2026`, going by 2025: registration opened Oct 3; practice round Oct 10 (5 days); Round 1 Oct 18 (open to all, top 5,000 advance); Round 2 Nov 15; Round 3 Nov 29 (top 25 go to the final); online final Dec 20. 2025 had no separate qualification round, and registration stays open until the end of Round 1. |
+| Deadline | ⚠️ No 2026 season announced as of Oct 26, 2026, a month past when the 2025 season opened, so it may be paused. If it runs, expect the 2025 pattern: registration opened Oct 3; Round 1 Oct 18 (open to all, top 5,000 advance); Round 2 Nov 15; Round 3 Nov 29 (top 25 go to the final); online final Dec 20. |
 | Who | Anyone, any age/country; individual |
 | Stage | HS / UG / PG / PhD |
 
@@ -138,7 +138,7 @@ ZCO (coding) or ZIO (pen-and-paper), `~Nov–Dec 2026` → INOI, `~Jan–Feb 202
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Season 14: registration open now** (no published cutoff; register before Round 1). Pattern: MockVita ~Oct/Nov, Round 1 `~Nov–Dec 2026`, Round 2 `~Jan 2027`, Finale `~Mar–Apr 2027`. |
+| Deadline | **Season 14: registration open now.** Third-party listings give registration until `~Nov 13, 2026`, MockVita 2 on Nov 13–14 and the pre-qualifier on Dec 11–12; the official portal doesn't publish the cutoff, so register early. Round 2 `~Jan 2027`, Grand Finale `~Mar–Apr 2027`. |
 | Who | Students pursuing graduation/post-graduation in science/engineering, expected to complete **between 2027 and 2030**, any recognised institute worldwide. Languages: C, C++, Java, Python only. 3-hour rounds. |
 | Stage | UG / PG |
 
@@ -304,7 +304,7 @@ ZCO (coding) or ZIO (pen-and-paper), `~Nov–Dec 2026` → INOI, `~Jan–Feb 202
 
 | Field | Details |
 |-------|---------|
-| Deadline | 2026 Global Trading Challenge: registration **Aug 31–Oct 5, 2026** · trading **Oct 12–Nov 13, 2026** (starting positions by Oct 16) · winners announced Nov 20 |
+| Deadline | 2026 Global Trading Challenge: registration closed Oct 5; trading runs Oct 12–Nov 13, 2026, winners announced Nov 20. Next: registration `~Sep 2027`. |
 | Who | Teams of 3–5 students with a faculty advisor at a university with Terminal access (IIMs, ISB, some IITs/DU colleges) |
 | Stage | UG / PG |
 
@@ -380,7 +380,7 @@ Not open-entry: **Jane Street ETC (Electronic Trading Challenge)** runs by invit
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 10, 2026** (Sat): two 3-hour papers, 7:30–10:30 and 12:00–15:00 IST. Entry is only through your university's local coordinator: universities had to sign up by Jul 31, and East Division (India) student lists closed Sep 4. Next: university sign-up `~Jul 2027`. |
+| Deadline | The 2026 papers were sat on Oct 10, 2026. Entry is only through your university's local coordinator. Next: universities sign up by `~Jul 2027`, East Division (India) student lists `~early Sep 2027`, exam `~Oct 2027`. |
 | Who | UG students at registered universities in Asia-Pacific; several Indian institutions (IISc, IITs, CMI, ISI) participate |
 | Stage | UG |
 
