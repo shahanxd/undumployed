@@ -619,4 +619,4 @@ Anthropic doesn't run a student internship, so this fellowship is the way in, an
 
 *[← Back to README](../README.md) | [All Deadlines](../deadlines.md) | [Finance, Quant & Consulting](finance-quant-consulting.md) | [Government & Non-Tech](government-and-non-tech.md) | [Research (India)](research-india.md) | [Research (Global)](research-global.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

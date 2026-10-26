@@ -358,4 +358,4 @@ Most are free or low-fee (each entry gives the cost) and judged by working profe
 
 *[← Back to Events](README.md) | [Tech & developer →](tech-global.md) | [Research conferences →](research-conferences.md) | [India events →](india.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

@@ -43,7 +43,8 @@ function prepOpp(o) {
   o.expiresDate = o.expires ? parseISO(o.expires) : null;
   if (o.drop && o.expiresDate && o.expiresDate < TODAY) {
     o.kind = 'closed';
-    if (!o.date) { o.date = o.expiresDate; o.days = Math.round((o.date - TODAY) / DAY); }
+    o.date = o.expiresDate;
+    o.days = Math.round((o.date - TODAY) / DAY);
   }
   o.sourceUrl = (o.sourceUrl || '').replace('{repo}', REPO).replace('/blob/master/', `/blob/${BRANCH}/`);
   o.search = [o.name, o.type, o.location, o.who, o.what, o.section, o.categoryLabel, o.stipend, o.stageText]

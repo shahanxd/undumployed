@@ -488,4 +488,4 @@ RBI and SEBI internships are in [government-and-non-tech.md](government-and-non-
 
 *[← Back to README](../README.md) | [All Deadlines](../deadlines.md) | [Tech Companies](tech-companies.md) | [Government & Non-Tech](government-and-non-tech.md)*
 
-*Last verified: September 2026. ⚠️ marks what could not be confirmed on the official site. Deadlines shift, so always confirm there before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). ⚠️ marks what could not be confirmed on the official site. Deadlines shift, so always confirm there before applying.*

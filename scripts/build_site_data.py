@@ -594,7 +594,7 @@ def main():
     guides = guides_meta()
     meta = {
         "builtOn": TODAY.isoformat(),
-        "lastVerified": "September 2026",
+        "lastVerified": "October 2026",
         "counts": {"opportunities": len(opps), "events": len(events), "perks": len(perks),
                    "inferredTags": sum(1 for o in opps if o["tagsInferred"]),
                    "unverified": sum(1 for o in opps if o["unverified"]),

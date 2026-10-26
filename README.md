@@ -34,26 +34,30 @@ Built from Delhi, for students in India at any stage (Class 9 → PhD) in any fi
 
 | Deadline | Opportunity | What | For |
 |----------|-------------|------|-----|
-| **Sep 30** | [Vidyarthi Vigyan Manthan](competitions/case-business-and-research.md#vidyarthi-vigyan-manthan-vvm) | National science talent test and camps, ₹200 to register | Class 6–11 |
-| **Sep 30** | [Kotak Kanya Scholarship](fellowships/india.md#kotak-kanya-scholarship) | Up to ₹1.5L/yr for a first-year professional degree | Women UG |
-| **Oct 3** | [IRIS National Fair](competitions/case-business-and-research.md#iris-national-fair-india) | Science fair → Regeneron ISEF | Class 5–12 |
-| **Oct 5** | [GATE 2027 registration](fellowships/india.md#gate--mtech-stipend) | The exam behind the ₹12,400/mo M.Tech stipend (late fee to Oct 12) | Final-year UG |
-| **Oct 5** | [MEA Internship Programme](internships/government-and-non-tech.md#mea-internship-programme) | ₹10,000/month + airfare, Oct–Mar term | Graduates ≤25 |
-| **Oct 5** | [Entrepreneur First Bangalore](startups/README.md#entrepreneur-first-ef-bangalore) | Talent investor, no idea needed (early deadline) | Final-year+ |
-| **Oct 5** | [Reliance Foundation Scholarships](fellowships/india.md#reliance-foundation-ug-scholarship) | Up to ₹2L (UG) / ₹6L (PG) | UG / PG |
-| **Oct 6** | [Chevening](fellowships/study-abroad.md#chevening-scholarship) | Fully funded UK master's | 2+ yrs work exp |
-| **Oct 6** | [Knight-Hennessy Scholars](fellowships/study-abroad.md#knight-hennessy-scholars) | Fully funded Stanford graduate degree | PG / PhD |
-| **Oct 6** | [Lindau Nobel Meeting 2027](fellowships/research-and-networking.md#lindau-nobel-laureate-meetings) | Physiology/Medicine, open application | PG / PhD |
-| **Oct 6** | [NeurIPS 2026 financial assistance](fellowships/research-and-networking.md#neurips-financial-assistance) | Registration + hotel | Students |
-| **Oct 9** | [Lester B. Pearson (UofT)](fellowships/study-abroad.md#lester-b-pearson-international-scholarship-university-of-toronto) | Full-ride undergrad, school nomination | Class 12 |
-| **Oct 10** | [INSPIRE Awards MANAK](competitions/case-business-and-research.md#inspire-awards-manak) | ₹10k per selected idea | Class 6–10 |
-| **Oct 15** | [OIST Research Internship](internships/research-global.md#oist-research-internship) | Fully funded, Japan, Spring 2027 | UG / PG |
-| **Oct 15** | [Wipro Santoor Women's Scholarship](fellowships/india.md#wipro-santoor-womens-scholarship) | ₹30k/yr | Women UG |
-| **Oct 20** | [Commonwealth Master's](fellowships/study-abroad.md#commonwealth-masters--phd-scholarships) | Fully funded UK master's | PG |
+| **Oct 28** | [UGC-NET December 2026](fellowships/india.md#ugc-net-jrf) | The exam behind the ₹37k/month JRF (late fee to Oct 31) | PG holders |
+| **Oct 28** | [IEEEXtreme 20.0](competitions/competitive-programming.md#ieeextreme) | 24-hour team coding contest on Oct 31 (registration, extended) | IEEE student members |
+| **Oct 30** | [NVIDIA Graduate Fellowship](fellowships/research-and-networking.md#nvidia-graduate-fellowship) | Up to $60k + a summer internship at NVIDIA Research | PhD, after year 1 |
+| **Oct 31** | [Central Sector Scholarship](fellowships/india.md#central-sector-scholarship-pm-usp-csss) | ₹12k–20k/yr via NSP | Top-20-percentile Class 12 |
+| **Oct 31** | [HDFC Parivartan ECSS](fellowships/india.md#hdfc-parivartan-ecss) | Up to ₹75k for students from low-income families | Class 1 → PG |
+| **Nov 1** | [Teach For India](fellowships/india.md#teach-for-india-fellowship) | Two-year fellowship, ₹30k/month + housing | Graduates by Jun 2027 |
+| **Nov 1** | [EPFL E3](internships/research-global.md#epfl-e3) | Funded summer research in Lausanne | UG (2 yrs done) / MSc |
+| **Nov 1** | [a16z speedrun SR008](startups/README.md#speedrun-a16z) | Up to $1M, Feb–Apr 2027 in San Francisco | Very early startups |
+| **Nov 2** | [Y Combinator W27](startups/README.md#y-combinator-yc) | $500k for any startup, any country | Founders |
+| **Nov 5** | [CSIR-UGC NET December 2026](fellowships/india.md#csir-ugc-net-jrf) | The science JRF exam (late fee to Nov 9) | M.Sc / final-year science |
+| **Nov 5** | ⚡ [Lexsi AI Safety & Alignment Hackathon](hackathons/README.md#lexsi-ai-safety--alignment-hackathon) | Online post-training hackathon with Cohere Labs and Hugging Face; credits + interviews | Anyone, teams of 1–3 |
+| **Nov 8** | [Jane Street INSIGHT, WiSE, FOCUS](internships/finance-quant-consulting.md#jane-street-insight-wise-focus-bridge) | Fully covered early-career programs | 1st–2nd years, women in tech |
+| **Nov 10** | [NITI Aayog Internship](internships/government-and-non-tech.md#niti-aayog-internship) | Monthly window, Nov 1–10 | UG (2 yrs done), PG |
+| **Nov 13** | [Jane Street Graduate Research Fellowship](fellowships/research-and-networking.md#jane-street-graduate-research-fellowship) | Tuition + $50k stipend | PhD |
+| **Nov 15** | [Humboldt Research Fellowship](fellowships/research-and-networking.md#humboldt-research-fellowship-postdoc) | €3,000/month in Germany | Postdocs |
+| **Nov 18** | ⚡ [Meta VR Start Developer Competition](hackathons/README.md#meta-vr-start-developer-competition-2026) | $1M in cash prizes for hands-first VR apps | 18+ |
+| **Nov 21** | [ZIO (Indian Computing Olympiad)](competitions/competitive-programming.md#indian-computing-olympiad-zco--zio--inoi) | First round of the path to IOI (ZCO Dec 12) | School students |
+| **Nov 25** | ⚡ [Gemma 4 Developer Agent Competition](competitions/case-business-and-research.md#gemma-4-developer-agent-competition-kaggle) | $110k Kaggle competition from Google DeepMind (join by Nov 25) | 18+, teams of up to 5 |
 
-Also open right now, rolling: [Y Combinator W27 (Nov 2)](startups/README.md#y-combinator-yc) · [IAS–INSA–NASI Summer Research Fellowship (Nov 30)](internships/research-india.md#iasinsanasi-summer-research-fellowship-srfp) · [Summer@EPFL (Nov 29)](internships/research-global.md#summerepfl) · [Amazon SDE Intern 2027](internships/tech-companies.md#amazon-sde-i-intern-2027-batch) · [Goldman Sachs Summer Analyst](internships/finance-quant-consulting.md#goldman-sachs-summer-analyst-india) · [Teach For India (Nov 1)](fellowships/india.md#teach-for-india-fellowship) · [Hacktoberfest (all October)](open-source/README.md#hacktoberfest).
+⚡ = a [drop](drops.md): a one-off that won't come round again.
 
-→ Full list, 541 entries: **[deadlines.md](deadlines.md)**
+Also open right now: [IAS–INSA–NASI Summer Research Fellowship (Nov 30)](internships/research-india.md#iasinsanasi-summer-research-fellowship-srfp) · [Summer@EPFL (Nov 29)](internships/research-global.md#summerepfl) · [Microsoft Imagine Cup 2027 (registration open)](hackathons/README.md#microsoft-imagine-cup) · [TreeHacks 2027 (apps open)](hackathons/README.md#treehacks-stanford) · [hackaTUM (Munich, Nov 27–29)](hackathons/README.md#hackatum-tu-munich) · [Goldman Sachs Summer Analyst](internships/finance-quant-consulting.md#goldman-sachs-summer-analyst-india) · [Twilio Champions (to Feb 28)](communities/ambassador-programs.md#twilio-champions) · [Hacktoberfest (ends Oct 31)](open-source/README.md#hacktoberfest).
+
+→ Full list: **[deadlines.md](deadlines.md)**
 
 ---
 
@@ -62,13 +66,13 @@ Also open right now, rolling: [Y Combinator W27 (Nov 2)](startups/README.md#y-co
 | Folder | Entries | Contents |
 |--------|--------:|----------|
 | [internships/](internships/README.md) | 173 | Research (India + global), tech companies, finance/quant/consulting, government & non-tech |
-| [open-source/](open-source/README.md) | 19 | Paid open-source programs |
-| [fellowships/](fellowships/README.md) | 169 | Study abroad, India, research & networking |
+| [open-source/](open-source/README.md) | 18 | Paid open-source programs |
+| [fellowships/](fellowships/README.md) | 167 | Study abroad, India, research & networking |
 | [startups/](startups/README.md) | 55 | Accelerators, talent investors, grants, government schemes |
-| [hackathons/](hackathons/README.md) | 31 | With a table of which ones fly Indian students in |
-| [competitions/](competitions/README.md) | 70 | Competitive programming, case/business, science/research, olympiads, robotics |
-| [events/](events/README.md) | 173 | Tech, research conferences, India (incl. college fests), arts & culture, student design awards |
-| [communities/](communities/README.md) | 39 | Ambassador programs, brand insider & beta programs |
+| [hackathons/](hackathons/README.md) | 37 | Including one-off drops, and a table of which ones fly Indian students in |
+| [competitions/](competitions/README.md) | 68 | Competitive programming, case/business, science/research, olympiads, robotics |
+| [events/](events/README.md) | 170 | Tech, research conferences, India (incl. college fests), arts & culture, student design awards |
+| [communities/](communities/README.md) | 38 | Ambassador programs, brand insider & beta programs |
 | [student-perks/](student-perks/README.md) | 94 | Free & discounted tools, credits, subscriptions, travel |
 | [drops.md](drops.md) | n/a | One-off and limited-edition opportunities, generated from the entries tagged `edition=one-off` in every folder |
 | [sources/](sources/watchlist.md) | n/a | Where we look for new entries and drops. Sources, never apply links |
@@ -87,7 +91,7 @@ Deadline conventions: **bold** = exact date from the official page · `~Jan 2027
 
 ## Verification & disclaimer
 
-Every file was re-verified in **September 2026** against official pages. Deadlines move, programs pause, portals break. Always confirm on the official site before you submit. If something is wrong, [open an issue](.github/ISSUE_TEMPLATE) or a PR (see [CONTRIBUTING.md](CONTRIBUTING.md)). Changes are logged in [CHANGELOG.md](CHANGELOG.md).
+Every file was re-verified in **September 2026** against official pages, and the **October 2026** sweep re-checked every deadline that had passed or newly opened since. Deadlines move, programs pause, portals break. Always confirm on the official site before you submit. If something is wrong, [open an issue](.github/ISSUE_TEMPLATE) or a PR (see [CONTRIBUTING.md](CONTRIBUTING.md)). Changes are logged in [CHANGELOG.md](CHANGELOG.md).
 
 Maintainers: after editing entries, run `python scripts/build_deadlines.py`, `python scripts/build_drops.py` and `python scripts/build_site_data.py` to regenerate the calendar, the drops list and the site data. CI checks both on every PR, checks internal links, runs a monthly external link check, and deploys the site on every push to `master`.
 

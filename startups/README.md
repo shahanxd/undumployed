@@ -1118,4 +1118,4 @@ Real programs, but gated in a way that excludes most readers here.
 | Rise for the World | Closed to new applicants; its official FAQ said in 2025, "There are no plans for additional cycles." Last cohort 2024 ([risefortheworld.org](https://www.risefortheworld.org/)). |
 | Nirmaan (IIT Madras), IIT Bombay SINE, CIIE.CO (IIM-A), Wadhwani Ignite | Not tracked as separate entries: intake is rolling or campus-run; ask your institute's incubator directly. |
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

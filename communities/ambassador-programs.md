@@ -494,4 +494,4 @@ Join these on campus; they're the pipeline for most of the programs above.
 
 ---
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*
