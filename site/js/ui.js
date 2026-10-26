@@ -108,7 +108,7 @@ export function oppRow(o, params) {
   return `<li class="row ${w.cls}">
   <div class="row-when"><span class="when-main">${esc(w.main)}</span><span class="when-sub">${esc(w.sub)}</span></div>
   <div class="row-body"><a class="row-title" href="${esc(hashFor('o', params, o.id))}">${esc(o.name)}</a><p class="row-meta">${esc(meta)}</p></div>
-  <div class="row-end">${saveButton(o.id, o.name)}</div>
+  <div class="row-end">${o.drop ? '<span class="row-tag row-drop" title="One-off: this edition isn’t expected to come round again">Drop</span>' : ''}${saveButton(o.id, o.name)}</div>
 </li>`;
 }
 
@@ -121,7 +121,7 @@ export function eventRow(e, params) {
   return `<li class="row ${e.past ? 'is-past' : ''}">
   <div class="row-when"><span class="when-main">${esc(main)}</span><span class="when-sub">${esc(sub)}</span></div>
   <div class="row-body"><a class="row-title" href="${esc(hashFor('e', params, e.id))}">${esc(e.name)}</a><p class="row-meta">${esc(meta)}</p></div>
-  <div class="row-end">${e.freeOrVirtual ? '<span class="row-tag">Free option</span>' : ''}</div>
+  <div class="row-end">${e.drop ? '<span class="row-tag row-drop">Drop</span>' : ''}${e.freeOrVirtual ? '<span class="row-tag">Free option</span>' : ''}</div>
 </li>`;
 }
 

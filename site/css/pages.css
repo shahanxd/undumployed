@@ -20,6 +20,7 @@
 .section { padding-top: 72px; }
 .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 14px; }
 .section-head h2 { font-size: clamp(24px, 2.6vw, 30px); }
+.section-note { margin: -6px 0 10px; font-size: 15px; color: var(--ink-3); }
 .more-link { display: inline-flex; align-items: center; gap: 4px; font-size: 15px; font-weight: 600; text-decoration: none; white-space: nowrap; }
 .more-link:hover { text-decoration: underline; }
 .more-link .ico { width: 17px; height: 17px; transition: transform .15s var(--ease); }

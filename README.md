@@ -13,6 +13,7 @@ Built from Delhi, for students in India at any stage (Class 9 → PhD) in any fi
 | If you are… | Go to |
 |-------------|-------|
 | **In a hurry** | [📋 deadlines.md](deadlines.md): everything with a date, soonest first |
+| **After one-off hackathons and sprints** | [⚡ drops.md](drops.md): well-run one-offs from labs and companies (Kaggle, Meta, Hugging Face…), here for a few weeks and then gone |
 | **Not sure what fits you** | [🗺 What to apply for, by where you are](guides/timeline-by-year.md): Class 9–10 through PhD and "graduated & unemployed" |
 | **Looking for a research summer** | [🔬 Research: India](internships/research-india.md) · [🌍 Research: Global](internships/research-global.md) |
 | **Looking for a paid internship** | [💻 Tech companies](internships/tech-companies.md) · [📈 Finance, quant & consulting](internships/finance-quant-consulting.md) · [🏛 Government, policy, law, media, design, social sector](internships/government-and-non-tech.md) |
@@ -69,6 +70,8 @@ Also open right now, rolling: [Y Combinator W27 (Nov 2)](startups/README.md#y-co
 | [events/](events/README.md) | 173 | Tech, research conferences, India (incl. college fests), arts & culture, student design awards |
 | [communities/](communities/README.md) | 39 | Ambassador programs, brand insider & beta programs |
 | [student-perks/](student-perks/README.md) | 94 | Free & discounted tools, credits, subscriptions, travel |
+| [drops.md](drops.md) | n/a | One-off and limited-edition opportunities, generated from the entries tagged `edition=one-off` in every folder |
+| [sources/](sources/watchlist.md) | n/a | Where we look for new entries and drops. Sources, never apply links |
 | [guides/](guides/README.md) | 6 | Timeline by year, application kit, cold email, interviews & tests, visas |
 | [site/](site/README.md) | n/a | The website. Static, no build step; reads JSON generated from the markdown by `scripts/build_site_data.py` |
 
@@ -86,7 +89,7 @@ Deadline conventions: **bold** = exact date from the official page · `~Jan 2027
 
 Every file was re-verified in **September 2026** against official pages. Deadlines move, programs pause, portals break. Always confirm on the official site before you submit. If something is wrong, [open an issue](.github/ISSUE_TEMPLATE) or a PR (see [CONTRIBUTING.md](CONTRIBUTING.md)). Changes are logged in [CHANGELOG.md](CHANGELOG.md).
 
-Maintainers: after editing entries, run `python scripts/build_deadlines.py` and `python scripts/build_site_data.py` to regenerate the calendar and the site data. CI checks both on every PR, checks internal links, runs a monthly external link check, and deploys the site on every push to `master`.
+Maintainers: after editing entries, run `python scripts/build_deadlines.py`, `python scripts/build_drops.py` and `python scripts/build_site_data.py` to regenerate the calendar, the drops list and the site data. CI checks both on every PR, checks internal links, runs a monthly external link check, and deploys the site on every push to `master`.
 
 ---
 

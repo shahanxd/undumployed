@@ -1,12 +1,13 @@
 {
-"builtOn": "2026-09-29",
+"builtOn": "2026-10-26",
 "lastVerified": "September 2026",
 "counts": {
-"opportunities": 556,
+"opportunities": 560,
 "events": 173,
 "perks": 94,
 "inferredTags": 0,
-"unverified": 61
+"unverified": 61,
+"drops": 3
 },
 "categories": [
 {
@@ -193,6 +194,10 @@
 "in-person",
 "remote",
 "hybrid"
+],
+"edition": [
+"recurring",
+"one-off"
 ]
 },
 "guides": [
