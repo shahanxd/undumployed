@@ -15,24 +15,24 @@
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
-| [Kotak Kanya Scholarship](#kotak-kanya-scholarship) | **Sep 30, 2026** | ✅ Up to ₹1.5L/yr | Girls, first-year professional degree, income <₹6L | UG |
-| [Reliance Foundation UG Scholarship](#reliance-foundation-ug-scholarship) | **Oct 5, 2026** | ✅ Up to ₹2L | First-year UG, any stream, income <₹15L | UG |
-| [Reliance Foundation PG Scholarship](#reliance-foundation-pg-scholarship) | **Oct 5, 2026** | ✅ Up to ₹6L | First-year PG in engg/tech/energy/life sci | PG |
-| [GATE → M.Tech stipend](#gate--mtech-stipend) | **Oct 5, 2026** (GATE 2027; late fee to Oct 12) | ✅ ₹12,400/mo | Final-year UG engg/science | UG → PG |
-| [Wipro Santoor Women's Scholarship](#wipro-santoor-womens-scholarship) | **Oct 15, 2026** | ✅ ₹30k/yr | Girls from govt schools, AP & Maharashtra | UG |
-| [Vidyadhan Scholarship](#vidyadhan-scholarship) | **Oct 25, 2026** (women in STEM, Mathura district only); state Class-11 rounds `Next: ~Jun 2027` | ✅ ₹10k–75k/yr | Low-income, after Class 10/12 | HS / UG |
+| [Kotak Kanya Scholarship](#kotak-kanya-scholarship) | Next: `~Jul–Sep 2027` (2026 closed Sep 30) | ✅ Up to ₹1.5L/yr | Girls, first-year professional degree, income <₹6L | UG |
+| [Reliance Foundation UG Scholarship](#reliance-foundation-ug-scholarship) | Next: `~Aug–Oct 2027` (2026 closed Oct 5) | ✅ Up to ₹2L | First-year UG, any stream, income <₹15L | UG |
+| [Reliance Foundation PG Scholarship](#reliance-foundation-pg-scholarship) | Next: `~Aug–Oct 2027` (2026 closed Oct 5) | ✅ Up to ₹6L | First-year PG in engg/tech/energy/life sci | PG |
+| [GATE → M.Tech stipend](#gate--mtech-stipend) | Next: GATE 2028 registration `~Aug–Oct 2027` (GATE 2027 exams Feb 6–21) | ✅ ₹12,400/mo | Final-year UG engg/science | UG → PG |
+| [Wipro Santoor Women's Scholarship](#wipro-santoor-womens-scholarship) | Next: `~Aug–Oct 2027` (2026 closed Oct 15) | ✅ ₹30k/yr | Girls from govt schools, AP & Maharashtra | UG |
+| [Vidyadhan Scholarship](#vidyadhan-scholarship) | Next: state Class-11 rounds `~Jun 2027` (Mathura STEM closed Oct 25) | ✅ ₹10k–75k/yr | Low-income, after Class 10/12 | HS / UG |
 | [Central Sector Scholarship (PM-USP CSSS)](#central-sector-scholarship-pm-usp-csss) | **Oct 31, 2026** (renewals only; no fresh 2026-27 call yet) | ✅ ₹12k–20k/yr | Top-20-percentile Class 12, income <₹4.5L | UG / PG |
 | [Teach For India Fellowship](#teach-for-india-fellowship) | **Nov 1, 2026** (further rounds to ~Mar 2027) | ✅ ₹30k/mo + housing | Graduates by Jun 2027 | UG+ |
-| [Aditya Birla Group Scholarship](#aditya-birla-group-scholarship) | ~Sep–Oct 2026 (via Dean) | ✅ ₹1.5–3L/yr | Top-20 rankers at IITs/IIMs/BITS/XLRI/NLUs | UG / PG |
-| [PM YASASVI](#pm-yasasvi) | ~Oct 2026 (NSP) | ✅ ₹75k–1.25L/yr | OBC/EBC/DNT, Class 9 & 11 | HS |
-| [Olympiad pathway (HBCSE)](#olympiad-pathway-hbcse) | ~Oct 2026 (informatics registration opens); maths/science closed till ~Jun 2027 | ✅ Free; opens NIUS/IISER doors | Class 8–12 | HS |
+| [Aditya Birla Group Scholarship](#aditya-birla-group-scholarship) | `~Sep–Nov 2026` (via your Dean; ask now) | ✅ ₹1.5–3L/yr | Top-20 rankers at IITs/IIMs/BITS/XLRI/NLUs | UG / PG |
+| [PM YASASVI](#pm-yasasvi) | `~Oct 31, 2026` (NSP post-matric close) | ✅ ₹75k–1.25L/yr | OBC/EBC/DNT, Class 9 & 11 | HS |
+| [Olympiad pathway (HBCSE)](#olympiad-pathway-hbcse) | Informatics: ZIO **Nov 21, 2026** · ZCO Dec 12; maths/science Next ~Jun 2027 | ✅ Free; opens NIUS/IISER doors | Class 8–12 | HS |
 | [HDFC Parivartan ECSS](#hdfc-parivartan-ecss) | **Oct 31, 2026** | ✅ Up to ₹75k | Class 1 → PG, income ≤₹2.5L | HS / UG / PG |
-| [National Scholarship Portal (NSP) schemes](#national-scholarship-portal-nsp-schemes) | ~Oct 31, 2026 (usual fresh-application close; varies by scheme) | ✅ Varies | SC/ST/OBC/minority/PwD/EWS students | HS / UG / PG |
+| [National Scholarship Portal (NSP) schemes](#national-scholarship-portal-nsp-schemes) | `~Oct 31, 2026` (post-matric; pre-matric closed Aug 31) | ✅ Varies | SC/ST/OBC/minority/PwD/EWS students | HS / UG / PG |
 | [NMMS](#nmms) | ~Oct–Nov 2026 (state exam) | ✅ ₹12k/yr | Class 8, income <₹3.5L | HS |
-| [UGC NET-JRF](#ugc-net-jrf) | ~Oct–Nov 2026 (Dec 2026 cycle) | ✅ ₹37k/mo | PG holders, humanities/social sci/commerce | PG → PhD |
+| [UGC NET-JRF](#ugc-net-jrf) | **Oct 28, 2026** (Dec 2026 cycle; late fee to Oct 31) | ✅ ₹37k/mo | PG holders, humanities/social sci/commerce | PG → PhD |
 | [PM Scholarship Scheme (KSB)](#pm-scholarship-scheme-ksb) | ~Nov 2026 | ✅ ₹2.5–3k/mo | Wards of ex-servicemen/CAPF | UG |
-| [Amazon Future Engineer Scholarship](#amazon-future-engineer-scholarship) | ~Nov 2026 (for 2026-27 first-years) | ✅ ₹50k/yr + laptop | Women, first-year CS/IT, income <₹4L | UG |
-| [CSIR-UGC NET-JRF](#csir-ugc-net-jrf) | ~Nov–Dec 2026 (Dec 2026 cycle) | ✅ ₹37k/mo | M.Sc/final-year science students | PG → PhD |
+| [Amazon Future Engineer Scholarship](#amazon-future-engineer-scholarship) | `~Nov–Dec 2026` (for 2026-27 first-years) | ✅ ₹50k/yr + laptop | Women, first-year CS/IT, income <₹4L | UG |
+| [CSIR-UGC NET-JRF](#csir-ugc-net-jrf) | **Nov 5, 2026** (Dec 2026 cycle; late fee to Nov 9) | ✅ ₹37k/mo | M.Sc/final-year science students | PG → PhD |
 | [ATL Marathon](#atl-marathon) | ⚠️ Unverified: ~Nov–Dec 2026 (no 2026-27 call yet) | ✅ Prize/internship | Class 6–12, any school | HS |
 | [Gandhi Fellowship](#gandhi-fellowship) | ~Nov 2026–Apr 2027 (2027-29 batch, starts ~Jul 2027) | ✅ ₹24,500/mo | Graduates ≤25 (≤29 with work exp) | UG+ |
 | [LAMP Fellowship](#lamp-fellowship) | ~Dec 2026 (2027-28 cycle) | ✅ ₹23k/mo | Graduates ≤25, Indian citizens | UG+ |
@@ -70,7 +70,6 @@
 | [Punjab Good Governance Fellowship](#punjab-good-governance-fellowship) | ⚠️ Unverified: no open call (2025 intake closed) | ✅ ₹1.2L/mo | Graduates with work experience | UG+ |
 | [L'Oréal India For Young Women in Science](#loréal-india-for-young-women-in-science) | ⚠️ Unverified: no 2026-27 dates on loreal.com | ✅ ₹2.5L | Girls after Class 12, science UG, low income | UG |
 | [Infosys Foundation STEM Stars](#infosys-foundation-stem-stars) | ⚠️ Unverified: no official 2026-27 dates | ✅ Up to ₹1L/yr | Girls in STEM/medical UG, low income | UG |
-| [Glow & Lovely Foundation Scholarship](#glow--lovely-foundation-scholarship) | ⚠️ Unverified: official portal now redirects to GlowUp Academy | ✅ ₹25–50k | Women 15–30, low income | HS / UG / PG |
 
 ---
 
@@ -102,7 +101,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | ~Oct 2026 (NSP fresh-application window; check portal) |
+| Deadline | `~Oct 31, 2026`: the usual NSP close for post-matric fresh applications (Class 11); check the scheme on scholarships.gov.in, since ministries sometimes extend. |
 | Duration | Class 9–10 or Class 11–12 |
 | Who | OBC / EBC / DNT students admitted to Class 9 or 11 in listed "top class" schools; parental income <₹2.5L/yr |
 | Stipend | Covers fees + hostel at approved schools |
@@ -142,7 +141,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | ~Oct 31, 2026 usual fresh close (portal open since Jun 1, 2026); varies by scheme, with some ministries extending to Nov–Dec |
+| Deadline | `~Oct 31, 2026` for most post-matric and higher-education schemes (portal open since Jun 1, 2026). Pre-matric schemes and NMMSS closed Aug 31. Some ministries and state portals extend to Nov–Dec (Goa: Nov 30), so check your scheme. |
 | Duration | Annual, renewable |
 | Who | Post-Matric SC/ST/OBC; Minority (Pre/Post-Matric, Merit-cum-Means); PwD (Top Class Education for SwD); Top Class Education for SC; state schemes |
 | Stipend | From ₹230/month maintenance to full fees at top institutes (Top Class schemes) |
@@ -182,7 +181,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 25, 2026** for Vidyadhan Mathura "Women in STEM" (Mathura district, UP only; Class 12 ≥70%, 60% PwD; income <₹3L; first-year degree in 2026-27). State Class-11 programs: closed for 2026, `Next: ~Jun 2027` after Class 10 results |
+| Deadline | Vidyadhan Mathura "Women in STEM" closed Oct 25, 2026. State Class-11 programs: closed for 2026. Next: `~Jun 2027`, after Class 10 results. |
 | Duration | Class 11 through degree |
 | Who | Class 10 passers (typically ≥90%/A grade), family income <₹2–3L; state-specific windows |
 | Stipend | ₹10k/yr (Class 11–12) rising to ₹15k–75k/yr for degree, renewed on performance |
@@ -262,7 +261,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | Maths and science stage 1 for 2026-27 has closed (IOQM held Sep 6, 2026; NSE enrolment closed Sep 14, 2026); next ~Jun–Sep 2027. Informatics is still open: ICO registration opens Oct 2026 (ZCO/ZIO ~Nov–Dec 2026, INOI ~Jan–Feb 2027) |
+| Deadline | Maths and science stage 1 for 2026-27 has closed (IOQM held Sep 6, 2026; NSE enrolment closed Sep 14, 2026); next `~Jun–Sep 2027`. Informatics is open: register on iarcs.org.in for **ZIO on Nov 21, 2026** and ZCO on Dec 12, 2026; INOI `~Feb 2027`. |
 | Duration | Stage 1 in Sep–Dec → international rounds ~Jul |
 | Who | Class 8–12 (junior science: Class 8–10; physics/chem/bio/astro: up to Class 12; maths via IOQM) |
 | Stipend | Camp travel + stay covered; INOI/IOI for informatics |
@@ -344,7 +343,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 5, 2026**, 11:59 PM IST |
+| Deadline | The 2026-27 round closed Oct 5, 2026. Next: `~Aug–Oct 2027`, for students in the first year of a degree in 2027-28. |
 | Duration | Full UG course |
 | Who | Resident Indian; Class 12 ≥60%; first-year of a regular full-time UG degree in 2026-27 (any stream); household income <₹15L/yr |
 | Stipend | Up to ₹2L, disbursed across years; 5,000 awards |
@@ -364,7 +363,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 5, 2026** |
+| Deadline | The 2026-27 round closed Oct 5, 2026. Next: `~Aug–Oct 2027`. |
 | Duration | Full PG course |
 | Who | First-year full-time PG students in engineering, technology, energy or life sciences; household income <₹15L; strong UG record |
 | Stipend | Up to ₹6L; 100 awards |
@@ -384,7 +383,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | ~Sep–Oct 2026 ("announced only in September"); your Dean's office forwards nominations |
+| Deadline | `~Sep–Nov 2026` ("announced only in September"); your Dean's office forwards nominations, so ask now if your institute hasn't circulated it. |
 | Duration | Full course |
 | Who | Top 20 entrance-rank students at admission in: IIT Bombay/Delhi/Madras/Kanpur/Kharagpur/Roorkee/Guwahati; IIM A/B/C/L/K/Shillong; XLRI; BITS campuses; NLSIU, NALSAR, NUJS, GNLU, NLU Jodhpur, NLU Delhi |
 | Stipend | 16 engineering + 16 management + 8 law awards a year |
@@ -444,7 +443,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Sep 30, 2026** (2026-27 cycle; opened Jul 14, 2026) |
+| Deadline | The 2026-27 round closed Sep 30, 2026 (it opened Jul 14). Next: `~Jul–Sep 2027`. |
 | Duration | Full course |
 | Who | Girl students; Class 12 ≥75%; admitted in 2026-27 to the first year of a professional degree (engineering, MBBS, 5-yr integrated LLB, BS-MS/BS-Research at IISERs/IISc, architecture, design, etc.) at an NIRF/NAAC-accredited institute; at most one gap year after Class 12; family income <₹6L/yr |
 | Stipend | Up to ₹1.5L/yr till graduation; renewal needs ≥6 CGPA (or promotion) each year |
@@ -484,7 +483,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 15, 2026** |
+| Deadline | The 2026-27 round closed Oct 15, 2026. Next: `~Aug–Oct 2027`. |
 | Duration | Full UG course |
 | Who | Girls who passed Class 10 from a local government school and Class 12 from a govt school/junior college in 2025-26; enrolled in a UG program in 2026-27; from AP or Maharashtra |
 | Stipend | ₹30,000/yr |
@@ -504,7 +503,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | ~Nov 2026 for students who started first year in 2026-27. This is FFE's 2026-27 round, which usually opens in August (last year's round closed Nov 30, 2025). Results by Mar 31, 2027 |
+| Deadline | `~Dec 2026` for students who started first year in 2026-27: FFE's round usually opens Oct–Nov (last year's closed Nov 30, 2025; aggregators list Dec 31, 2026 for this one, not yet on FFE's portal). Amazon added 500 places for 2026. Results by Mar 31, 2027. |
 | Duration | Until graduation |
 | Who | Women in the first year of a B.E./B.Tech/Integrated M.Tech, preferably CS/IT; Indian citizens; family income under ₹4L/yr; first-generation graduates preferred |
 | Stipend | ₹50k/yr until graduation, plus a laptop, mentoring and skill-building |
@@ -584,7 +583,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | **Oct 5, 2026**: GATE 2027 registration (extended; **Oct 12, 2026** with late fee). Exams Feb 6–21, 2027; results Mar 19, 2027 |
+| Deadline | GATE 2027 registration closed Oct 12, 2026 (with late fee); exams Feb 6–21, 2027, results Mar 19, 2027. Next: GATE 2028 registration `~Aug–Oct 2027`. |
 | Duration | 2 years of M.Tech |
 | Who | Final-year or completed UG in engineering/science; any nationality |
 | Stipend | ₹12,400/month (MoE scale) for qualified GATE scores at institutes accepting the scholarship |
@@ -924,26 +923,6 @@
 
 ---
 
-### Glow & Lovely Foundation Scholarship
-<!-- tags: stage=hs,ug,pg; field=any; region=india; funding=stipend; citizenship=indian-only; gates=women-only,age-limit,enrolled-only; format=in-person -->
-> **Type:** Scholarship: Women | **Location:** India | **Funded:** ✅ ₹25,000–50,000
-
-| Field | Details |
-|-------|---------|
-| Deadline | ⚠️ Unverified: no 2026 dates from HUL; glowandlovelycareers.in now redirects to GlowUp Academy (a creator programme) and its scholarships page is down (Sep 2026) |
-| Duration | One-time/annual |
-| Who | Women aged ~15–30, low family income, pursuing Class 11+ / UG / PG / professional courses |
-| Stipend | ₹25k–50k |
-| Stage | HS / UG / PG |
-
-**What it is:** Formerly the Fair & Lovely Foundation scholarship (HUL); also runs free online career courses.
-
-**Reality check:** Broad eligibility, modest money, big applicant pool. With the official portal gone, treat third-party "2026" listings as unconfirmed until HUL announces a cycle.
-
-**Apply:** [glowandlovelycareers.in/en/scholarships](https://www.glowandlovelycareers.in/en/scholarships)
-
----
-
 ### Lady Meherbai D Tata Scholarship
 <!-- tags: stage=pg,grad; field=policy,edu,med,humanities; region=global; funding=stipend; citizenship=indian-only; gates=women-only,work-experience; format=in-person -->
 > **Type:** Scholarship: Women, overseas master's in social sciences | **Location:** Abroad | **Funded:** ✅ Grant (up to 10 women/yr)
@@ -1032,7 +1011,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | ~Oct–Nov 2026 applications for the Dec 2026 exam (NTA bulletin pending); June 2027 cycle ~Apr–May 2027 |
+| Deadline | UGC-NET December 2026: apply by **Oct 28, 2026** (11:50 PM; late fee Oct 29–31), corrections ~Nov 2–4, exam **Dec 14–19, 2026** (CBT). The application form is live on ugcnet.nta.nic.in; read the corrigendum too. June 2027 cycle `~Apr–May 2027`. |
 | Duration | 5 years total |
 | Who | Master's (≥55%) in humanities, social sciences, commerce, languages, management etc.; final-year PG can sit; JRF age ≤30 (relaxations) |
 | Stipend | Paid via university once PhD-enrolled |
@@ -1052,7 +1031,7 @@
 
 | Field | Details |
 |-------|---------|
-| Deadline | ~Nov–Dec 2026 for the Dec 2026 exam (NTA); June 2027 cycle ~Apr–May 2027 |
+| Deadline | Joint CSIR-UGC NET December 2026: apply by **Nov 5, 2026** (late fee of ₹500 Nov 6–9), corrections Nov 10–12, exam **Dec 19, 22 and 27, 2026**. The application is live on csirnet.nta.nic.in. June 2027 cycle `~Apr–May 2027`. |
 | Duration | 5 years |
 | Who | M.Sc/Int. M.Sc/B.Tech-equivalent in life, chemical, physical, mathematical, earth sciences; final-year students; JRF age ≤28 (relaxations) |
 | Stipend | Same scale as UGC JRF |
@@ -1203,6 +1182,14 @@
 **Reality check:** Final-year PhD students *can* apply for ECF, which is worth knowing in year 4.
 
 **Apply:** [indiaalliance.org](https://indiaalliance.org)
+
+---
+
+## Removed this cycle
+
+| Program | Why |
+|---------|-----|
+| **Glow & Lovely Foundation Scholarship** | Removed Oct 2026: glowandlovelycareers.in now redirects to GlowUp Academy (a creator programme), the scholarships page is down, and HUL has announced no 2026 round. |
 
 ---
 
