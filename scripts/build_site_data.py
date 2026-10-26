@@ -71,7 +71,9 @@ VOCAB = {
     "gates": ["nomination", "faculty-first", "campus-only", "women-only", "diversity", "noc", "team", "age-limit",
               "work-experience", "enrolled-only", "invite-only"],
     "format": ["in-person", "remote", "hybrid"],
+    "edition": ["recurring", "one-off"],
 }
+ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 ROW_RE = re.compile(r"^\|\s*\[(?P<name>[^\]]+)\]\(#(?P<anchor>[^)]+)\)\s*\|(?P<rest>.*)\|\s*$")
 HEADER_RE = re.compile(r"\*\*([A-Za-z ]+):\*\*\s*([^|]*)")
@@ -120,6 +122,8 @@ def parse_tags(block: str) -> dict | None:
         vals = [x.strip() for x in v.split(",") if x.strip()]
         if k in ("stage", "field", "gates"):
             tags[k] = [x for x in vals if x in VOCAB[k]]
+        elif k == "expires":
+            tags[k] = vals[0] if vals and ISO_DATE_RE.match(vals[0]) else None
         elif k in VOCAB:
             tags[k] = vals[0] if vals and vals[0] in VOCAB[k] else None
     return tags
@@ -432,6 +436,8 @@ def build_opportunities():
                 "sourceUrl": f"https://github.com/{{repo}}/blob/master/{rel}#{anchor}",
                 "table": {k: v for k, v in table.items() if k not in ("Deadline",)},
                 "tagsInferred": inferred,
+                "drop": (tags or {}).get("edition") == "one-off",
+                "expires": (tags or {}).get("expires"),
                 "stubOf": bd.stub_target(rel, block),
                 **facets,
             })
@@ -486,6 +492,8 @@ def build_events():
                 "region": (tags or {}).get("region") or infer_region(header.get("location", ""), ""),
                 "field": (tags or {}).get("field") or infer_fields(" ".join([heading, sections.get("What it is", ""), section])),
                 "tagsInferred": tags is None,
+                "drop": (tags or {}).get("edition") == "one-off",
+                "expires": (tags or {}).get("expires"),
                 "sourceUrl": f"https://github.com/{{repo}}/blob/master/{rel}#{anchor}",
                 "stubOf": bd.stub_target(rel, block),
             })
@@ -589,7 +597,8 @@ def main():
         "lastVerified": "September 2026",
         "counts": {"opportunities": len(opps), "events": len(events), "perks": len(perks),
                    "inferredTags": sum(1 for o in opps if o["tagsInferred"]),
-                   "unverified": sum(1 for o in opps if o["unverified"])},
+                   "unverified": sum(1 for o in opps if o["unverified"]),
+                   "drops": sum(1 for o in opps + events if o["drop"])},
         "categories": [{"id": c, "label": l, "group": g, "file": f} for f, (c, l, g) in CATEGORIES.items()],
         "eventKinds": [{"id": k, "label": l, "file": f} for f, (k, l) in EVENT_FILES.items()],
         "vocab": VOCAB,

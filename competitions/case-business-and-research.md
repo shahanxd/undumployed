@@ -2,12 +2,13 @@
 
 > Business/case competitions (Hult, Brandstorm, CFA, corporate challenges), school science fairs and the ISEF route from India, the HBCSE olympiad pathway with 2026-27 dates, data-science/quant competitions, and engineering, robotics and space challenges. Coding contests are in [`competitive-programming.md`](competitive-programming.md); hackathons in [`../hackathons/`](../hackathons/README.md).
 
-**Jump to:** [Business & entrepreneurship](#business--entrepreneurship) · [Corporate case & brand challenges (India)](#corporate-case--brand-challenges-india) · [Finance & consulting](#finance--consulting) · [Essays, debate, MUN, moots](#essays-debate-mun-moots) · [School science fairs & research (HS)](#school-science-fairs--research-hs) · [Olympiads: the HBCSE pathway](#olympiads-the-hbcse-pathway) · [Data science & quant](#data-science--quant) · [Engineering, robotics & motorsport](#engineering-robotics--motorsport) · [Space](#space) · [Aggregators worth following](#aggregators-worth-following) · [Defunct / unclear](#defunct--unclear)
+**Jump to:** [Drops](#drops-one-off--limited-editions) · [Business & entrepreneurship](#business--entrepreneurship) · [Corporate case & brand challenges (India)](#corporate-case--brand-challenges-india) · [Finance & consulting](#finance--consulting) · [Essays, debate, MUN, moots](#essays-debate-mun-moots) · [School science fairs & research (HS)](#school-science-fairs--research-hs) · [Olympiads: the HBCSE pathway](#olympiads-the-hbcse-pathway) · [Data science & quant](#data-science--quant) · [Engineering, robotics & motorsport](#engineering-robotics--motorsport) · [Space](#space) · [Aggregators worth following](#aggregators-worth-following) · [Defunct / unclear](#defunct--unclear)
 
 ## At a glance
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
+| [Gemma 4 Developer Agent Competition (Kaggle)](#gemma-4-developer-agent-competition-kaggle) | **Nov 25, 2026** (join) · final submissions Dec 2 | ✅ $110k prizes | 18+, teams of up to 5, online | UG / PG / PhD |
 | [Vidyarthi Vigyan Manthan](#vidyarthi-vigyan-manthan-vvm) | **Sep 30, 2026** (registration) · exams Nov 16–21 | ✅ Cash + camps | classes 6–11, India | HS |
 | [ML Reproducibility Challenge](#ml-reproducibility-challenge) | **Sep 30, 2026** (TMLR-acceptance cutoff; next `~2027`) | ❌ Publication | ML students | UG / PG / PhD |
 | [IRIS National Fair 2026](#iris-national-fair-india) | **Oct 3, 2026** (registration closes) | ✅ Fair travel; ISEF trip for winners | classes 5–12, India | HS |
@@ -58,6 +59,29 @@
 | [KPMG Ideation Challenge](#kpmg-ideation-challenge-kic) | `⚠️ Unverified: no 2026 edition found; last known registration ~Dec` | ✅ Prize + PPI | students, India | UG / PG |
 | [Mahindra War Room](#mahindra-war-room) | `⚠️ Unverified: no 2026 season found; official site offline` | ✅ Prize + PPI | MBA students, India | PG |
 | [CSIR Innovation Award for School Children](#csir-innovation-award-for-school-children-ciasc) | `⚠️ Unverified: dormant; no call since CIASC-2022 (closed Apr 30, 2022)` | ✅ ₹1 lakh top prize | up to class 12, under 18, India | HS |
+
+---
+
+## Drops: one-off & limited editions
+
+One-off competitions that clear the [quality bar](../CONTRIBUTING.md#drops-one-off-opportunities). They're also listed in [drops.md](../drops.md) and leave this file once they're over.
+
+### Gemma 4 Developer Agent Competition (Kaggle)
+<!-- tags: stage=ug,pg,phd,grad; field=ai,cs; region=remote; funding=prize; citizenship=any; gates=age-limit; format=remote; edition=one-off; expires=2026-12-02 -->
+> **Type:** Kaggle featured competition (Google DeepMind; sponsor Google LLC) | **Location:** Online | **Funded:** ✅ $110,000 in prizes
+
+| Field | Details |
+|-------|---------|
+| Deadline | Join (accept the rules) by **Nov 25, 2026** · final submissions **Dec 2, 2026** · optional paper track due Nov 12, 2026 (all 11:59 PM UTC) |
+| Who | 18+ with a Kaggle account; teams of up to 5. Open to India. |
+| Prize | Leaderboard: $37,000 / $18,000 / $10,000. Paper track: $35,000. A $10,000 bonus for the best entry built on the small Gemma E2B or E4B. Winning code is released under Apache 2.0. |
+| Stage | UG / PG / PhD |
+
+**What it is:** Post-train Gemma 4 into an offline coding agent that finds its way around real repositories and writes patches, scored SWE-bench style on whether each patch passes the issue's tests. You submit an agent config (prompts, tools, skills, LoRA adapters) that runs in Kaggle's sandbox on L4 GPUs with a 12-hour budget. Top entries are shown at a Google-hosted event such as a NeurIPS expo workshop.
+
+**Reality check:** Close to 4,000 teams are already in, many of them seasoned Kagglers, so leaderboard cash is a long shot. The small-model bonus and the paper track are the more realistic routes, and a clear public notebook here is solid proof of agent and fine-tuning skill whatever your rank.
+
+**Apply:** [kaggle.com/competitions/gemma-4-developer-agent](https://www.kaggle.com/competitions/gemma-4-developer-agent)
 
 ---
 

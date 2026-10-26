@@ -15,6 +15,7 @@ on:
       - "guides/**"
       - "CONTRIBUTING.md"
       - "deadlines.md"
+      - "drops.md"
       - "site/data/**"
       - "scripts/**"
 
@@ -28,6 +29,8 @@ jobs:
           python-version: "3.12"
       - name: deadlines.md matches the At-a-glance tables
         run: python scripts/build_deadlines.py --check
+      - name: drops.md matches the one-off entries
+        run: python scripts/build_drops.py --check
       - name: site/data matches the markdown
         run: python scripts/build_site_data.py --check
       - name: Relative links and anchors resolve

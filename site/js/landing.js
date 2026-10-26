@@ -59,7 +59,13 @@ function closingSoon() {
   return soon.concat(next).slice(0, 8);
 }
 
+function openDrops() {
+  return db.opps.filter((o) => o.drop && o.kind !== 'closed')
+    .sort((a, b) => (a.date || a.expiresDate) - (b.date || b.expiresDate));
+}
+
 function restHtml() {
+  const drops = openDrops();
   const byCat = {};
   for (const o of db.opps) for (const c of new Set([o.category, ...(o.alsoIn || [])])) byCat[c] = (byCat[c] || 0) + 1;
   const guides = db.meta.guides.filter((g) => g.slug !== 'contributing').length;
@@ -75,6 +81,12 @@ function restHtml() {
   </form>
 </section>
 
+${drops.length ? `<section class="section container" aria-labelledby="drops-h">
+  <div class="section-head"><h2 id="drops-h">Drops</h2><a class="more-link" href="#/browse?drops=1">All drops ${icon('i-arrow')}</a></div>
+  <p class="section-note">One-off hackathons and programs from people worth knowing. Here for a few weeks, then gone.</p>
+  <ul class="list">${drops.slice(0, 5).map((o) => oppRow(o, from)).join('')}</ul>
+</section>` : ''}
+
 <section class="section container" aria-labelledby="soon-h">
   <div class="section-head"><h2 id="soon-h">Closing soon</h2><a class="more-link" href="#/deadlines">All deadlines ${icon('i-arrow')}</a></div>
   <ul class="list">${closingSoon().map((o) => oppRow(o, from)).join('')}</ul>
@@ -85,6 +97,7 @@ function restHtml() {
   <div class="index">
     ${INDEX.map(([title, cats]) => `<div><h3>${esc(title)}</h3><ul>${cats.map(([id, label]) => link(`#/browse?cat=${id}`, label, byCat[id] || 0)).join('')}</ul></div>`).join('')}
     <div><h3>Also here</h3><ul>
+      ${link('#/browse?drops=1', 'One-off drops', drops.length)}
       ${link('#/events', 'Events, conferences and fests', db.events.length)}
       ${link('#/perks', 'Free tools and discounts', db.perks.length)}
       ${link('#/guides', 'Guides for applying', guides)}

@@ -33,6 +33,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -92,6 +94,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -142,6 +146,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -196,6 +202,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -252,6 +260,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -301,6 +311,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -353,6 +365,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -403,6 +417,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -453,6 +469,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -502,6 +520,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -552,6 +572,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -602,6 +624,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -654,6 +678,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -705,6 +731,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -764,6 +792,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -814,6 +844,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -873,6 +905,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -931,6 +965,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -981,6 +1017,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1032,6 +1070,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1083,6 +1123,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1140,6 +1182,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1193,6 +1237,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1252,6 +1298,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1307,6 +1355,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1360,6 +1410,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1420,6 +1472,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -1476,6 +1530,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1531,6 +1587,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1583,6 +1641,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1634,6 +1694,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1684,6 +1746,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1735,6 +1799,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -1786,6 +1852,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1837,6 +1905,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1890,6 +1960,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1940,6 +2012,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -1990,6 +2064,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -2041,6 +2117,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -2092,6 +2170,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -2144,6 +2224,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -2198,6 +2280,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -2250,6 +2334,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -2302,6 +2388,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -2354,6 +2442,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -2406,6 +2496,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -2460,6 +2552,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -2519,6 +2613,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -2572,6 +2668,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -2628,6 +2726,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -2680,6 +2780,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -2734,6 +2836,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -2783,6 +2887,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -2832,6 +2938,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -2887,6 +2995,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -2942,6 +3052,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -2994,6 +3106,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -3045,6 +3159,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3100,6 +3216,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3154,6 +3272,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3212,6 +3332,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3266,6 +3388,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3318,6 +3442,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3371,6 +3497,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3424,6 +3552,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3483,6 +3613,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -3540,6 +3672,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3591,6 +3725,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -3643,6 +3779,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3693,6 +3831,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3749,6 +3889,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -3805,6 +3947,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -3857,6 +4001,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -3909,6 +4055,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -3964,6 +4112,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -4024,6 +4174,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -4076,6 +4228,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -4127,6 +4281,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -4177,6 +4333,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -4227,6 +4385,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -4285,6 +4445,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -4335,6 +4497,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -4385,6 +4549,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -4444,6 +4610,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -4503,6 +4671,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -4552,6 +4722,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -4603,6 +4775,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -4658,6 +4832,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -4710,6 +4886,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -4768,6 +4946,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -4828,6 +5008,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -4882,6 +5064,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -4937,6 +5121,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -4987,6 +5173,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -5037,6 +5225,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -5094,6 +5284,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -5147,6 +5339,8 @@
 "Stage": "PG / PhD (strong final-year UG possible)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -5179,7 +5373,7 @@
 "funded": "✅ Paid, remote",
 "status": "",
 "deadline": "~Fall 2026 (Jan 2027 start)",
-"deadlineKind": "approx",
+"deadlineKind": "next",
 "deadlineDate": "2026-09-15",
 "unverified": false,
 "duration": "Multi-month full-time (cohort starts January annually; runs toward publication)",
@@ -5198,6 +5392,8 @@
 "Stage": "UG (graduating) / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -5249,6 +5445,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -5301,6 +5499,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -5351,6 +5551,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -5401,6 +5603,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -5451,6 +5655,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -5502,6 +5708,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -5552,6 +5760,8 @@
 "Stage": "UG / PG (post-degree)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -5601,6 +5811,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -5652,6 +5864,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -5705,6 +5919,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -5758,6 +5974,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -5808,6 +6026,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -5860,6 +6080,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -5913,6 +6135,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -5966,6 +6190,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6018,6 +6244,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6069,6 +6297,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6121,6 +6351,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6170,6 +6402,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6220,6 +6454,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6270,6 +6506,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -6323,6 +6561,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6374,6 +6614,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6425,6 +6667,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug"
@@ -6473,6 +6717,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -6523,6 +6769,8 @@
 "Stage": "PG / PhD / early career (exceptional UG)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -6577,6 +6825,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -6629,6 +6879,8 @@
 "Stage": "UG / PG / MBA"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6679,6 +6931,8 @@
 "Stage": "UG / PG / MBA / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -6730,6 +6984,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6761,8 +7017,8 @@
 "funded": "✅ Paid",
 "status": "",
 "deadline": "BofA Mumbai IB Sep 30, 2026; others campus ~Aug–Nov 2026",
-"deadlineKind": "exact",
-"deadlineDate": "2026-09-30",
+"deadlineKind": "approx",
+"deadlineDate": "2026-11-28",
 "unverified": true,
 "duration": "8–10 weeks summer 2027; 6-month final-year variants",
 "who": "Penultimate year UG/PG; Technology tracks want CS/IT/ECE; Ops/Finance any discipline; MBA-1 for markets/banking",
@@ -6780,6 +7036,8 @@
 "Stage": "UG / PG / MBA"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6830,6 +7088,8 @@
 "Stage": "UG / PG / MBA"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -6880,6 +7140,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -6934,6 +7196,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -6968,7 +7232,7 @@
 "status": "",
 "deadline": "INSIGHT: Hong Kong Nov 8, 2026, New York Oct 25, 2026; FOCUS, Bridge, FTTP close Nov 2026–Jan 2027",
 "deadlineKind": "exact",
-"deadlineDate": "2026-10-25",
+"deadlineDate": "2026-11-08",
 "unverified": false,
 "duration": "1–5 days",
 "who": "INSIGHT: women, transgender and gender-expansive students (UG/PG). WiSE: same, for students about to enter university. FOCUS: 1st-years facing barriers to STEM. Bridge: 1st–2nd-years. FTTP: 1st-years. Preview: any current university student. AMP: same-year high-school graduates (5-week summer)",
@@ -6986,6 +7250,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -7040,6 +7306,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -7095,6 +7363,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -7149,6 +7419,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -7202,6 +7474,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -7256,6 +7530,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -7308,6 +7584,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -7360,6 +7638,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -7411,6 +7691,8 @@
 "Stage": "UG / PG / MBA"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -7461,6 +7743,8 @@
 "Stage": "UG / PG / MBA"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -7511,6 +7795,8 @@
 "Stage": "UG / PG / MBA"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -7562,6 +7848,8 @@
 "Stage": "UG / PG / MBA"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -7612,6 +7900,8 @@
 "Stage": "PG / MBA (some UG)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -7665,6 +7955,8 @@
 "Stage": "UG / PG / MBA"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -7708,6 +8000,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/internships/finance-quant-consulting.md#practical-routes-if-youre-not-on-a-target-campus",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -7740,8 +8034,8 @@
 "funded": "❌ Unpaid",
 "status": "",
 "deadline": "Oct 10, 2026 (window Oct 1–10; reopens 1st–10th every month)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-10",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "6 weeks minimum, up to 6 months",
 "who": "Bona fide UG students who have completed at least 2 years with ≥85% in Class 12, PG students with ≥70% in graduation, research scholars; any discipline incl. engineering, economics, law, social sciences. NOC/bona fide letter from your institution is mandatory",
@@ -7759,6 +8053,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -7811,6 +8107,8 @@
 "Stage": "UG (law) / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -7847,8 +8145,8 @@
 "funded": "✅ ₹10,000/month + airfare",
 "status": "",
 "deadline": "Oct 5, 2026 (Term II, Oct–Mar); Next: ~Jan–Feb 2027 (Term I, Apr–Sep)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-05",
+"deadlineKind": "next",
+"deadlineDate": "2027-02-28",
 "unverified": false,
 "duration": "1–3 months within the term",
 "who": "Indian citizens with a graduate degree when applying (final-year UG only if an internship is a compulsory part of the course); age ≤ 25 on Dec 31 of the internship year; state-wise merit lists on Class 12 and graduation marks, priority to aspirational (TADP) districts at screening and to SC/ST/OBC/EWS at interview, at least 30% women; up to 30 interns per term. NOC/bona fide required",
@@ -7866,6 +8164,8 @@
 "Stage": "UG (final year) / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -7918,6 +8218,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -7974,6 +8276,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -8030,6 +8334,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -8087,6 +8393,8 @@
 "Stage": "UG (final year) / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -8144,6 +8452,8 @@
 "Stage": "UG (final year) / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -8202,6 +8512,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -8255,6 +8567,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -8309,6 +8623,8 @@
 "Stage": "UG (final yr) / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -8364,6 +8680,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -8415,6 +8733,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -8467,6 +8787,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -8516,6 +8838,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -8567,6 +8891,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -8615,6 +8941,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -8669,6 +8997,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -8720,6 +9050,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -8770,6 +9102,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -8822,6 +9156,8 @@
 "Stage": "UG / PG / MBA"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -8870,6 +9206,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -8919,6 +9257,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -8967,6 +9307,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -9015,6 +9357,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -9063,6 +9407,8 @@
 "Stage": "UG / PG / MBA"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -9112,6 +9458,8 @@
 "Stage": "UG / PG / PhD / recent grads"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -9164,6 +9512,8 @@
 "Stage": "UG / PG / PhD / non-students"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -9217,6 +9567,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -9268,6 +9620,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -9319,6 +9673,8 @@
 "Stage": "UG / PG / PhD / early-career"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -9371,6 +9727,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -9422,6 +9780,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -9471,6 +9831,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -9521,6 +9883,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -9569,6 +9933,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -9619,6 +9985,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug"
@@ -9666,6 +10034,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -9715,6 +10085,8 @@
 "Stage": "UG / PG / PhD / non-students"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -9767,6 +10139,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -9818,6 +10192,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -9866,6 +10242,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -9916,6 +10294,8 @@
 "Stage": "HS / UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -9966,6 +10346,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -10016,6 +10398,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10066,6 +10450,8 @@
 "Stage": "Final-year UG / recent grad"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10117,6 +10503,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10167,6 +10555,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10199,8 +10589,8 @@
 "funded": "✅ Full",
 "status": "",
 "deadline": "Oct 6, 2026 (1 PM PT)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-06",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "Funds up to 3 years of any Stanford graduate degree (MS, MBA, JD, MD, PhD, etc.)",
 "who": "Any nationality; bachelor's earned in Jan 2020 or later (≤7 years before enrolment); must apply to and be admitted by a Stanford graduate program",
@@ -10218,6 +10608,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10270,6 +10662,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10300,8 +10694,8 @@
 "funded": "✅ Full",
 "status": "",
 "deadline": "Oct 6, 2026 (11:00 UTC / 4:30 PM IST)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-06",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "1-year master's, Sep/Oct 2027 start",
 "who": "Indian citizen; 2,800+ hours (≈2 years) of work experience gained after your bachelor's, by the time you apply; undergraduate degree equivalent to UK 2:1; must return to India for 2 years after; apply to 3 UK courses, get 1 unconditional offer by Jul 2027",
@@ -10319,6 +10713,8 @@
 "Stage": "PG (post-work)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "grad"
 ],
@@ -10368,6 +10764,8 @@
 "Stage": "PG (post-work)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "grad"
 ],
@@ -10424,6 +10822,8 @@
 "Stage": "Mid-career"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "grad"
 ],
@@ -10473,6 +10873,8 @@
 "Stage": "PG (post-work)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "grad"
 ],
@@ -10524,6 +10926,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug"
@@ -10557,8 +10961,8 @@
 "funded": "✅ Full",
 "status": "",
 "deadline": "Oct 20, 2026 (CSC) + MoE/SAKSHAT ~late Nov 2026 (UK offer needed)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-20",
+"deadlineKind": "approx",
+"deadlineDate": "2026-11-15",
 "unverified": false,
 "duration": "1-year taught master's (MBAs not funded), Sep–Oct 2027 start",
 "who": "Indian citizen permanently resident in India; first degree at 2:1 or above (MoE reads this as ≥60%; 50–59% only with a relevant master's); unable to afford UK study without it; developmental relevance of subject; no age limit. Commonwealth PhD Scholarships are not open to India: CSC limits them to least-developed and vulnerable Commonwealth countries",
@@ -10576,6 +10980,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10627,6 +11033,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10678,6 +11086,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10728,6 +11138,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10780,6 +11192,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -10827,6 +11241,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10878,6 +11294,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10930,6 +11348,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -10980,6 +11400,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -11030,6 +11452,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -11079,6 +11503,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -11126,6 +11552,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -11183,6 +11611,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -11235,6 +11665,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -11284,6 +11716,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -11331,6 +11765,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -11389,6 +11825,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -11437,6 +11875,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -11484,6 +11924,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -11530,6 +11972,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -11577,6 +12021,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -11642,6 +12088,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -11690,6 +12138,8 @@
 "Stage": "PhD / postdoc"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd",
 "grad"
@@ -11741,6 +12191,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -11800,6 +12252,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -11856,6 +12310,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -11904,6 +12360,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -11960,6 +12418,8 @@
 "Stage": "HS / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "pg",
@@ -12009,6 +12469,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -12055,6 +12517,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd",
 "grad"
@@ -12102,6 +12566,8 @@
 "Stage": "HS / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "pg",
@@ -12151,6 +12617,8 @@
 "Stage": "HS / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -12203,6 +12671,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "grad"
@@ -12264,6 +12734,8 @@
 "Stage": "PG (post-work)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "grad"
@@ -12319,6 +12791,8 @@
 "Stage": "HS / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "pg",
@@ -12369,6 +12843,8 @@
 "Stage": "HS / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "pg",
@@ -12419,6 +12895,8 @@
 "Stage": "HS / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "pg",
@@ -12467,6 +12945,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -12520,6 +13000,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -12566,6 +13048,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -12612,6 +13096,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -12667,6 +13153,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -12718,6 +13206,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -12765,6 +13255,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -12820,6 +13312,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -12867,6 +13361,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -12914,6 +13410,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -12963,6 +13461,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -13013,6 +13513,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13058,6 +13560,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13087,7 +13591,7 @@
 "status": "",
 "deadline": "Oct 9, 2026 (school nom.) → Oct 16, 2026 (UofT application) → Nov 6, 2026",
 "deadlineKind": "exact",
-"deadlineDate": "2026-10-09",
+"deadlineDate": "2026-11-06",
 "unverified": false,
 "duration": "",
 "who": "International students needing a study permit; in final year of school (or graduated after Jun 2026); starting at UofT Sep 2027; one nominee per school",
@@ -13103,6 +13607,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13150,6 +13656,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13195,6 +13703,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13240,6 +13750,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13297,6 +13809,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13347,6 +13861,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13398,6 +13914,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -13448,6 +13966,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -13500,6 +14020,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -13539,8 +14061,8 @@
 "funded": "✅ ₹10k–75k/yr",
 "status": "",
 "deadline": "Oct 25, 2026 (women in STEM, Mathura district only); state Class-11 rounds Next: ~Jun 2027",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-25",
+"deadlineKind": "next",
+"deadlineDate": "2027-06-15",
 "unverified": false,
 "duration": "Class 11 through degree",
 "who": "Class 10 passers (typically ≥90%/A grade), family income <₹2–3L; state-specific windows",
@@ -13558,6 +14080,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug"
@@ -13606,6 +14130,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -13659,6 +14185,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13718,6 +14246,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13770,6 +14300,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13823,6 +14355,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -13874,6 +14408,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -13925,6 +14461,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug"
@@ -13956,8 +14494,8 @@
 "funded": "✅ Up to ₹2L",
 "status": "",
 "deadline": "Oct 5, 2026",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-05",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "Full UG course",
 "who": "Resident Indian; Class 12 ≥60%; first-year of a regular full-time UG degree in 2026-27 (any stream); household income <₹15L/yr",
@@ -13975,6 +14513,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -14005,8 +14545,8 @@
 "funded": "✅ Up to ₹6L",
 "status": "",
 "deadline": "Oct 5, 2026",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-05",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "Full PG course",
 "who": "First-year full-time PG students in engineering, technology, energy or life sciences; household income <₹15L; strong UG record",
@@ -14024,6 +14564,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -14079,6 +14621,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -14139,6 +14683,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -14199,6 +14745,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -14235,8 +14783,8 @@
 "funded": "✅ Up to ₹1.5L/yr",
 "status": "",
 "deadline": "Sep 30, 2026",
-"deadlineKind": "exact",
-"deadlineDate": "2026-09-30",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "Full course",
 "who": "Girl students; Class 12 ≥75%; admitted in 2026-27 to the first year of a professional degree (engineering, MBBS, 5-yr integrated LLB, BS-MS/BS-Research at IISERs/IISc, architecture, design, etc.) at an NIRF/NAAC-accredited institute; at most one gap year after Class 12; family income <₹6L/yr",
@@ -14254,6 +14802,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -14315,6 +14865,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -14347,8 +14899,8 @@
 "funded": "✅ ₹30k/yr",
 "status": "",
 "deadline": "Oct 15, 2026",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-15",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "Full UG course",
 "who": "Girls who passed Class 10 from a local government school and Class 12 from a govt school/junior college in 2025-26; enrolled in a UG program in 2026-27; from AP or Maharashtra",
@@ -14366,6 +14918,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -14417,6 +14971,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -14473,6 +15029,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -14524,6 +15082,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -14576,6 +15136,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -14610,8 +15172,8 @@
 "funded": "✅ ₹12,400/mo",
 "status": "",
 "deadline": "Oct 5, 2026 (GATE 2027; late fee to Oct 12)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-05",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "2 years of M.Tech",
 "who": "Final-year or completed UG in engineering/science; any nationality",
@@ -14629,6 +15191,8 @@
 "Stage": "UG → PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -14686,6 +15250,8 @@
 "Stage": "UG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -14735,6 +15301,8 @@
 "Stage": "UG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -14786,6 +15354,8 @@
 "Stage": "UG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -14835,6 +15405,8 @@
 "Stage": "UG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -14886,6 +15458,8 @@
 "Stage": "UG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -14937,6 +15511,8 @@
 "Stage": "UG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -14988,6 +15564,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -15042,6 +15620,8 @@
 "Stage": "UG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -15094,6 +15674,8 @@
 "Stage": "UG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -15145,6 +15727,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug"
@@ -15197,6 +15781,8 @@
 "Stage": "UG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -15248,6 +15834,8 @@
 "Stage": "UG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "grad"
@@ -15299,6 +15887,8 @@
 "Stage": "UG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "grad"
@@ -15349,6 +15939,8 @@
 "Stage": "PG+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -15408,6 +16000,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug"
@@ -15468,6 +16062,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -15527,6 +16123,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -15580,6 +16178,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "grad"
@@ -15634,6 +16234,8 @@
 "Stage": "PG / PhD+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -15695,6 +16297,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -15753,6 +16357,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -15812,6 +16418,8 @@
 "Stage": "PG → PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -15870,6 +16478,8 @@
 "Stage": "PG → PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -15925,6 +16535,8 @@
 "Stage": "PG → PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -15976,6 +16588,8 @@
 "Stage": "PG → PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -16029,6 +16643,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -16090,6 +16706,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -16145,6 +16763,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -16198,6 +16818,8 @@
 "Stage": "Post-PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd",
 "grad"
@@ -16257,6 +16879,8 @@
 "Stage": "PhD+"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd",
 "grad"
@@ -16305,6 +16929,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -16339,7 +16965,7 @@
 "status": "",
 "deadline": "Oct 6, 2026 (open application) · Oct 27, 2026 (partner nomination)",
 "deadlineKind": "exact",
-"deadlineDate": "2026-10-06",
+"deadlineDate": "2026-10-27",
 "unverified": false,
 "duration": "1 week",
 "who": "Undergraduates (top of class), master's, PhD students, and postdocs under 35 with no permanent position; strong research record; not previously attended",
@@ -16356,6 +16982,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -16411,6 +17039,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd",
 "grad"
@@ -16470,6 +17100,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -16519,6 +17151,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -16567,6 +17201,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -16617,6 +17253,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -16667,6 +17305,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -16718,6 +17358,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -16769,6 +17411,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -16818,6 +17462,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -16868,6 +17514,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -16930,6 +17578,8 @@
 "Vaiseshika / other older fellowships": "Vaiseshika isn't on iusstf.org; RISE, GROW, IRIS, BHAVAN, the APS fellowship and the SERB Indo-US postdoc are archived there, so treat all as discontinued"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -16990,6 +17640,8 @@
 "Stage": "Postdoc (final-year PhD students can apply near completion)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd",
 "grad"
@@ -17039,6 +17691,8 @@
 "Stage": "Postdoc"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd",
 "grad"
@@ -17088,6 +17742,8 @@
 "Stage": "Postdoc"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "grad"
 ],
@@ -17136,6 +17792,8 @@
 "Stage": "Postdoc"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "grad"
 ],
@@ -17185,6 +17843,8 @@
 "Stage": "Postdoc"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "grad"
 ],
@@ -17237,6 +17897,8 @@
 "Stage": "PhD → Postdoc"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd"
 ],
@@ -17292,6 +17954,8 @@
 "Stage": "Postdoc"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "grad"
 ],
@@ -17339,6 +18003,8 @@
 "Stage": "PhD (and master's students with accepted papers, via their institution)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -17397,6 +18063,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd",
 "grad"
@@ -17454,6 +18122,8 @@
 "Stage": "PhD / MD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -17504,6 +18174,8 @@
 "Stage": "PG / PhD / Postdoc"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "phd",
 "grad"
@@ -17536,8 +18208,8 @@
 "funded": "✅ Registration + hotel",
 "status": "",
 "deadline": "Oct 6, 2026 (AoE)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-06",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "",
 "who": "Priority to students and junior postdocs who are primary contributors to accepted work; others considered on hardship / first-time attendance",
@@ -17553,6 +18225,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -17602,6 +18276,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -17651,6 +18327,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -17701,6 +18379,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -17751,6 +18431,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -17802,6 +18484,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -17835,7 +18519,7 @@
 "status": "",
 "deadline": "Oct 15, 2026 · Dec 15, 2026 · Feb 15, 2027, then the 15th of every even month",
 "deadlineKind": "exact",
-"deadlineDate": "2026-10-15",
+"deadlineDate": "2026-12-15",
 "unverified": false,
 "duration": "",
 "who": "Women students (UG or graduate) in computing, worldwide; conference must be within ~4 months of the deadline",
@@ -17851,6 +18535,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -17902,6 +18588,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -17951,6 +18639,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18002,6 +18692,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18051,6 +18743,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/fellowships/research-and-networking.md#institute-travel-funds",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18101,6 +18795,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18150,6 +18846,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18198,6 +18896,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18248,6 +18948,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18300,6 +19002,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -18353,6 +19057,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -18398,6 +19104,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/fellowships/research-and-networking.md#google-research-india-ai-summer-school",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18449,6 +19157,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18507,6 +19217,8 @@
 "Stage": "HS / UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -18563,6 +19275,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18619,6 +19333,8 @@
 "Stage": "PG / PhD / Postdoc"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -18673,6 +19389,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18725,6 +19443,8 @@
 "Stage": "PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18775,6 +19495,8 @@
 "Stage": "PG / PhD / professionals"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -18811,8 +19533,8 @@
 "funded": "✅ Stipend + investment",
 "status": "",
 "deadline": "Oct 5, 2026 (early; 3 rounds, cohort Jan–Feb 2027)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-05",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "Winter 27 cohort starts Jan–Feb 2027; full-time, in person; ~3-month FORM then LAUNCH",
 "who": "Exceptional individuals: strong researchers, engineers, ex-founders, top competitive programmers. No idea, no co-founder, no company required. Final-year students who can go full-time at start are fine.",
@@ -18830,6 +19552,8 @@
 "Stage": "UG-final / PG / PhD / working"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18880,6 +19604,8 @@
 "Stage": "UG-final / PG / working"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18929,6 +19655,8 @@
 "Stage": "PG / PhD / experienced builders; exceptional final-year UGs occasionally"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -18979,6 +19707,8 @@
 "Stage": "PG / working"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -19027,6 +19757,8 @@
 "Stage": "PG / working; final-year UGs with serious shipped work"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -19076,6 +19808,8 @@
 "Stage": "HS / UG / PG / working"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19126,6 +19860,8 @@
 "Stage": "HS / UG / PG / PhD / any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19175,6 +19911,8 @@
 "Stage": "HS / UG / dropouts / any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19227,6 +19965,8 @@
 "Stage": "UG / PG / PhD / any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19277,6 +20017,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19327,6 +20069,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19377,6 +20121,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19427,6 +20173,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19477,6 +20225,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19526,6 +20276,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19580,6 +20332,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19632,6 +20386,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -19680,6 +20436,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19730,6 +20488,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -19782,6 +20542,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -19832,6 +20594,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -19880,6 +20644,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -19928,6 +20694,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/startups/README.md#yc-startup-school-and-co-founder-matching",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -19974,6 +20742,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/startups/README.md#microsoft-for-startups-founders-hub",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20020,6 +20790,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/startups/README.md#aws-activate",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20066,6 +20838,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/startups/README.md#nvidia-inception",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20116,6 +20890,8 @@
 "Stage": "any (you need a company)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20166,6 +20942,8 @@
 "Stage": "UG / PG / PhD / any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20216,6 +20994,8 @@
 "Stage": "UG-final / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -20260,6 +21040,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/startups/README.md#nidhi-seed-support-scheme",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20312,6 +21094,8 @@
 "Stage": "PG / PhD / any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20363,6 +21147,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -20413,6 +21199,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20467,6 +21255,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20518,6 +21308,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20570,6 +21362,8 @@
 "Stage": "UG / PG / any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20619,6 +21413,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20670,6 +21466,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20719,6 +21517,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20765,6 +21565,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/startups/README.md#t-hub-telangana",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -20814,6 +21616,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -20861,6 +21665,8 @@
 "Stage": "UG / PG / any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -20907,6 +21713,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/startups/README.md#icreate",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -20955,6 +21763,8 @@
 "Stage": "PG / PhD / any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -21005,6 +21815,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/startups/README.md#villgro",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -21056,6 +21868,8 @@
 "Stage": "UG / PG / any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -21105,6 +21919,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -21152,6 +21968,8 @@
 "Stage": "UG / PG / any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -21201,6 +22019,8 @@
 "Stage": "UG / PG / any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -21248,6 +22068,8 @@
 "Stage": "HS / gap year"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "grad"
@@ -21296,6 +22118,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -21345,6 +22169,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -21393,6 +22219,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/startups/README.md#interact-fellowship",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -21442,6 +22270,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/startups/README.md#manifund",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -21488,6 +22318,8 @@
 "sourceUrl": "https://github.com/{repo}/blob/master/startups/README.md#acx-grants",
 "table": {},
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -21502,6 +22334,114 @@
 "funding": "stipend",
 "citizenship": "any",
 "gates": [],
+"format": "remote",
+"alsoIn": []
+},
+{
+"id": "hackathons/README.md#lexsi-ai-safety--alignment-hackathon",
+"name": "Lexsi AI Safety & Alignment Hackathon",
+"file": "hackathons/README.md",
+"anchor": "lexsi-ai-safety--alignment-hackathon",
+"isNote": false,
+"category": "hackathon",
+"categoryLabel": "Hackathon",
+"group": "competition",
+"section": "Drops: one-off & limited editions",
+"type": "",
+"location": "",
+"funded": "✅ Credits + interviews",
+"status": "",
+"deadline": "Nov 5, 2026 (register) · submit Nov 14 · Demo Day Nov 22",
+"deadlineKind": "exact",
+"deadlineDate": "2026-11-05",
+"unverified": false,
+"duration": "Two weeks of building; finalists get Nov 16–21 to push further",
+"who": "Anyone worldwide, beginners included; teams of 1–3, one team per person; free",
+"stipend": "Top 5 teams: $1,162–$3,662 each, paid as Lexsi Labs and Cohere credits plus 6 months of Hugging Face Pro per teammate. $20 in HF GPU credits for up to 800 teams that join the Discord, $200 for each finalist. Interviews for DevRel/research-intern and research roles for standouts.",
+"stageText": "UG / PG / PhD",
+"what": "Teams post-train a small open-weights Cohere model (Tiny Aya or Aya Expanse) with Lexsi Labs' open-source toolkits (AlignTune, CuratorKIT, AuditKIT, SafeTune, CircuitKIT, AgentTune) and report before-and-after metrics. Three tracks: fine-tuning and data curation, red teaming and safety, and agentic fine-tuning. Models, datasets and logs go on Hugging Face, with a write-up as an HF article.",
+"reality": "The headline money is credits, not cash, so the real prizes are the interview invites and a public, metric-backed post-training project for your CV. You must chain at least two of Lexsi's repos, so spend the first day learning the stack. The free compute is small; pick the small models.",
+"prep": "",
+"applyUrl": "https://hackathon.lexsi.ai/",
+"sourceUrl": "https://github.com/{repo}/blob/master/hackathons/README.md#lexsi-ai-safety--alignment-hackathon",
+"table": {
+"Duration": "Two weeks of building; finalists get Nov 16–21 to push further",
+"Who": "Anyone worldwide, beginners included; teams of 1–3, one team per person; free",
+"Prize": "Top 5 teams: $1,162–$3,662 each, paid as Lexsi Labs and Cohere credits plus 6 months of Hugging Face Pro per teammate. $20 in HF GPU credits for up to 800 teams that join the Discord, $200 for each finalist. Interviews for DevRel/research-intern and research roles for standouts.",
+"Stage": "UG / PG / PhD"
+},
+"tagsInferred": false,
+"drop": true,
+"expires": "2026-11-22",
+"stage": [
+"ug",
+"pg",
+"phd",
+"grad"
+],
+"field": [
+"ai",
+"cs"
+],
+"region": "remote",
+"funding": "prize",
+"citizenship": "any",
+"gates": [
+"team"
+],
+"format": "remote",
+"alsoIn": []
+},
+{
+"id": "hackathons/README.md#meta-vr-start-developer-competition-2026",
+"name": "Meta VR Start Developer Competition 2026",
+"file": "hackathons/README.md",
+"anchor": "meta-vr-start-developer-competition-2026",
+"isNote": false,
+"category": "hackathon",
+"categoryLabel": "Hackathon",
+"group": "competition",
+"section": "Drops: one-off & limited editions",
+"type": "",
+"location": "",
+"funded": "✅ $1M cash, 20 prizes",
+"status": "",
+"deadline": "Nov 18, 2026 (submit)",
+"deadlineKind": "exact",
+"deadlineDate": "2026-11-18",
+"unverified": false,
+"duration": "",
+"who": "18+, solo or as a team. You need a Meta developer account and membership of the Meta VR Start program (apply before you submit). Open to India; Brazil, Quebec and sanctioned countries are excluded.",
+"stipend": "$1M across 20 cash prizes: Entertainment, Gaming and Productivity tracks plus special awards for social/multiplayer, agentic interaction and accessibility",
+"stageText": "UG / PG",
+"what": "Build a new hands-first app, or a big update to one you have, for Meta Quest or Meta's VR glasses. It must work fully without controllers. Meta is after seated experiences that start fast and feel good within ten minutes.",
+"reality": "You need a Quest to build and test properly, and Start membership is an application, so apply today. Three weeks is tight for a new VR app; people with a Unity or Unreal prototype already in hand have the edge. Only 20 prizes, but each one is big.",
+"prep": "",
+"applyUrl": "https://start-developer-competition-26.devpost.com/",
+"sourceUrl": "https://github.com/{repo}/blob/master/hackathons/README.md#meta-vr-start-developer-competition-2026",
+"table": {
+"Who": "18+, solo or as a team. You need a Meta developer account and membership of the Meta VR Start program (apply before you submit). Open to India; Brazil, Quebec and sanctioned countries are excluded.",
+"Prize": "$1M across 20 cash prizes: Entertainment, Gaming and Productivity tracks plus special awards for social/multiplayer, agentic interaction and accessibility",
+"Stage": "UG / PG"
+},
+"tagsInferred": false,
+"drop": true,
+"expires": "2026-11-18",
+"stage": [
+"ug",
+"pg",
+"grad"
+],
+"field": [
+"cs",
+"design"
+],
+"region": "remote",
+"funding": "prize",
+"citizenship": "any",
+"gates": [
+"age-limit"
+],
 "format": "remote",
 "alsoIn": []
 },
@@ -21539,6 +22479,8 @@
 "Stage": "HS (Junior) / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -21577,8 +22519,8 @@
 "funded": "✅ Prize",
 "status": "",
 "deadline": "Sep 30, 2026 (idea deck) · event Oct 10–11",
-"deadlineKind": "exact",
-"deadlineDate": "2026-09-30",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "",
 "who": "Students; teams up to 4",
@@ -21594,6 +22536,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -21643,6 +22587,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -21691,6 +22637,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -21743,6 +22691,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -21793,6 +22743,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -21842,6 +22794,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -21892,6 +22846,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -21941,6 +22897,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -21990,6 +22948,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -22037,6 +22997,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -22084,6 +23046,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -22132,6 +23096,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -22183,6 +23149,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -22232,6 +23200,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -22282,6 +23252,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -22331,6 +23303,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -22379,6 +23353,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -22427,6 +23403,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -22476,6 +23454,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -22525,6 +23505,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -22572,6 +23554,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -22622,6 +23606,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -22670,6 +23656,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -22720,6 +23708,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -22767,6 +23757,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -22814,6 +23806,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "grad"
@@ -22843,8 +23837,8 @@
 "funded": "✅ Travel grants (2026 round closed Sep 6)",
 "status": "",
 "deadline": "Oct 25, 2026 · event Nov 13–15, 2026",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-25",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "",
 "who": "Anyone who builds: students, professionals, self-taught; mostly 18+; ~2,000 builders",
@@ -22860,6 +23854,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -22908,6 +23904,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -22960,6 +23958,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -22976,6 +23976,62 @@
 "gates": [
 "enrolled-only",
 "age-limit"
+],
+"format": "hybrid",
+"alsoIn": []
+},
+{
+"id": "hackathons/README.md#apart-research-sprints-ai-safety",
+"name": "Apart Research sprints (AI safety)",
+"file": "hackathons/README.md",
+"anchor": "apart-research-sprints-ai-safety",
+"isNote": false,
+"category": "hackathon",
+"categoryLabel": "Hackathon",
+"group": "competition",
+"section": "Global online & themed",
+"type": "",
+"location": "",
+"funded": "✅ Cash prizes + fellowship route",
+"status": "",
+"deadline": "Rolling, monthly (next: Nov 6–8, Nov 13–15, Nov 27–29, 2026)",
+"deadlineKind": "rolling",
+"deadlineDate": null,
+"unverified": false,
+"duration": "One weekend",
+"who": "Anyone; no AI-safety background needed. Teams of 1–5. Free.",
+"stipend": "Typically $1,000 / $500 / $300 / $100 / $100 per sprint; standout teams are invited to Apart Studio and then the Apart Fellowship (part-time, remote, funded research)",
+"stageText": "UG / PG / PhD",
+"what": "Each sprint takes one open AI-safety question (agent collusion, multi-agent alignment, evaluations, epistemics) and asks teams to build something others can check in a weekend: an experiment, an evaluation, a dataset or a tool, plus a short write-up. Co-organisers have included AE Studio and Poseidon Research.",
+"reality": "The cash is small; the point is the path. Apart's own pipeline runs sprint → Studio → Fellowship → published research, and the fellowship has no separate application: your sprint project is the application. Pick a narrow question and finish the write-up, which is what judges score.",
+"prep": "",
+"applyUrl": "https://apartresearch.com/sprints",
+"sourceUrl": "https://github.com/{repo}/blob/master/hackathons/README.md#apart-research-sprints-ai-safety",
+"table": {
+"Duration": "One weekend",
+"Who": "Anyone; no AI-safety background needed. Teams of 1–5. Free.",
+"Prize": "Typically $1,000 / $500 / $300 / $100 / $100 per sprint; standout teams are invited to Apart Studio and then the Apart Fellowship (part-time, remote, funded research)",
+"Stage": "UG / PG / PhD"
+},
+"tagsInferred": false,
+"drop": false,
+"expires": null,
+"stage": [
+"ug",
+"pg",
+"phd",
+"grad"
+],
+"field": [
+"ai",
+"cs",
+"policy"
+],
+"region": "remote",
+"funding": "prize",
+"citizenship": "any",
+"gates": [
+"team"
 ],
 "format": "hybrid",
 "alsoIn": []
@@ -23012,6 +24068,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -23062,6 +24120,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -23109,6 +24169,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -23159,6 +24221,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -23208,6 +24272,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -23257,6 +24323,8 @@
 "Stage": "HS / UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -23306,6 +24374,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -23354,6 +24424,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -23386,7 +24458,7 @@
 "status": "",
 "deadline": "Marathon Matches Oct 7–Oct 14, 2026 · Nov 25–Dec 2, 2026 (SRMs ended 2023)",
 "deadlineKind": "exact",
-"deadlineDate": "2026-10-14",
+"deadlineDate": "2026-12-02",
 "unverified": false,
 "duration": "",
 "who": "Topcoder members (sign-up is free)",
@@ -23402,6 +24474,8 @@
 "Stage": "any"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -23451,6 +24525,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -23500,6 +24576,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -23549,6 +24627,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -23598,6 +24678,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -23647,6 +24729,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -23700,6 +24784,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -23736,8 +24822,8 @@
 "funded": "✅ Prize",
 "status": "",
 "deadline": "Oct 5, 2026 (registration) · trading Oct 12–Nov 13",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-05",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "",
 "who": "Teams of 3–5 students with a faculty advisor at a university with Terminal access (IIMs, ISB, some IITs/DU colleges)",
@@ -23753,6 +24839,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -23805,6 +24893,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -23855,6 +24945,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -23903,6 +24995,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -23935,8 +25029,8 @@
 "funded": "✅ Prize (AUD)",
 "status": "",
 "deadline": "Oct 10, 2026 (exam day; entries for India closed Sep 4)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-10",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "",
 "who": "UG students at registered universities in Asia-Pacific; several Indian institutions (IISc, IITs, CMI, ISI) participate",
@@ -23952,6 +25046,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -24000,6 +25096,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -24049,6 +25147,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -24064,6 +25164,60 @@
 "funding": "free",
 "citizenship": "any",
 "gates": [],
+"format": "remote",
+"alsoIn": []
+},
+{
+"id": "competitions/case-business-and-research.md#gemma-4-developer-agent-competition-kaggle",
+"name": "Gemma 4 Developer Agent Competition (Kaggle)",
+"file": "competitions/case-business-and-research.md",
+"anchor": "gemma-4-developer-agent-competition-kaggle",
+"isNote": false,
+"category": "case-research",
+"categoryLabel": "Case, business & research competition",
+"group": "competition",
+"section": "Drops: one-off & limited editions",
+"type": "",
+"location": "",
+"funded": "✅ $110k prizes",
+"status": "",
+"deadline": "Nov 25, 2026 (join) · final submissions Dec 2",
+"deadlineKind": "exact",
+"deadlineDate": "2026-11-25",
+"unverified": false,
+"duration": "",
+"who": "18+ with a Kaggle account; teams of up to 5. Open to India.",
+"stipend": "Leaderboard: $37,000 / $18,000 / $10,000. Paper track: $35,000. A $10,000 bonus for the best entry built on the small Gemma E2B or E4B. Winning code is released under Apache 2.0.",
+"stageText": "UG / PG / PhD",
+"what": "Post-train Gemma 4 into an offline coding agent that finds its way around real repositories and writes patches, scored SWE-bench style on whether each patch passes the issue's tests. You submit an agent config (prompts, tools, skills, LoRA adapters) that runs in Kaggle's sandbox on L4 GPUs with a 12-hour budget. Top entries are shown at a Google-hosted event such as a NeurIPS expo workshop.",
+"reality": "Close to 4,000 teams are already in, many of them seasoned Kagglers, so leaderboard cash is a long shot. The small-model bonus and the paper track are the more realistic routes, and a clear public notebook here is solid proof of agent and fine-tuning skill whatever your rank.",
+"prep": "",
+"applyUrl": "https://www.kaggle.com/competitions/gemma-4-developer-agent",
+"sourceUrl": "https://github.com/{repo}/blob/master/competitions/case-business-and-research.md#gemma-4-developer-agent-competition-kaggle",
+"table": {
+"Who": "18+ with a Kaggle account; teams of up to 5. Open to India.",
+"Prize": "Leaderboard: $37,000 / $18,000 / $10,000. Paper track: $35,000. A $10,000 bonus for the best entry built on the small Gemma E2B or E4B. Winning code is released under Apache 2.0.",
+"Stage": "UG / PG / PhD"
+},
+"tagsInferred": false,
+"drop": true,
+"expires": "2026-12-02",
+"stage": [
+"ug",
+"pg",
+"phd",
+"grad"
+],
+"field": [
+"ai",
+"cs"
+],
+"region": "remote",
+"funding": "prize",
+"citizenship": "any",
+"gates": [
+"age-limit"
+],
 "format": "remote",
 "alsoIn": []
 },
@@ -24100,6 +25254,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -24136,7 +25292,7 @@
 "status": "",
 "deadline": "Oct 15, 2026 to Jan 15, 2027, by India city",
 "deadlineKind": "exact",
-"deadlineDate": "2026-10-15",
+"deadlineDate": "2027-01-15",
 "unverified": false,
 "duration": "",
 "who": "Enrolled UG/PG students aged 18–30 who own a business that has run for 6+ consecutive months, with US$500+ in revenue or US$1,000+ raised. One founder per company. Rounds are run by Entrepreneurs' Organization (EO) chapters, and Delhi, Mumbai, Bengaluru and Hyderabad have none this season, so pick “Other” on the application if your city isn't listed",
@@ -24152,6 +25308,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -24203,6 +25361,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -24252,6 +25412,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -24300,6 +25462,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -24347,6 +25511,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -24396,6 +25562,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -24446,6 +25614,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -24495,6 +25665,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -24544,6 +25716,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -24594,6 +25768,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -24643,6 +25819,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -24692,6 +25870,8 @@
 "Stage": "PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg"
 ],
@@ -24741,6 +25921,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -24794,6 +25976,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -24844,6 +26028,8 @@
 "Stage": "PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd"
@@ -24893,6 +26079,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "grad"
@@ -24939,6 +26127,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -24989,6 +26179,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -25039,6 +26231,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -25088,6 +26282,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -25120,8 +26316,8 @@
 "funded": "✅ Fair travel; ISEF trip for winners",
 "status": "",
 "deadline": "Oct 3, 2026 (registration closes)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-03",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "National Fair Nov 2026; ISEF May 8–14, 2027",
 "who": "Indian-origin students in classes 5–12 studying in schools in India",
@@ -25138,6 +26334,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -25174,8 +26372,8 @@
 "funded": "✅ $9M+ awards; trip funded by IRIS",
 "status": "",
 "deadline": "Register via IRIS by Oct 3, 2026 · fair May 8–14, 2027, Los Angeles",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-03",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "",
 "who": "High-school students (grades 9–12 equivalent)",
@@ -25191,6 +26389,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -25246,6 +26446,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -25278,8 +26480,8 @@
 "funded": "✅ ₹10,000 per selected idea",
 "status": "",
 "deadline": "Oct 10, 2026 (extended)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-10",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "",
 "who": "Classes 6–12, any school in India; you go through your school's nodal teacher",
@@ -25295,6 +26497,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -25347,6 +26551,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -25382,8 +26588,8 @@
 "funded": "✅ Cash + camps",
 "status": "",
 "deadline": "Sep 30, 2026 (registration) · exams Nov 16–21",
-"deadlineKind": "exact",
-"deadlineDate": "2026-09-30",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "",
 "who": "Classes 6–11, India",
@@ -25399,6 +26605,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -25447,6 +26655,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -25499,6 +26709,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -25546,6 +26758,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -25595,6 +26809,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -25641,6 +26857,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -25690,6 +26908,8 @@
 "Stage": "HS / UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -25740,6 +26960,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -25772,8 +26994,8 @@
 "funded": "❌ Publication",
 "status": "",
 "deadline": "Sep 30, 2026 (TMLR-acceptance cutoff; next ~2027)",
-"deadlineKind": "exact",
-"deadlineDate": "2026-09-30",
+"deadlineKind": "approx",
+"deadlineDate": "2027-06-15",
 "unverified": false,
 "duration": "",
 "who": "Anyone, including industry, with a reproducibility study accepted at TMLR (double-blind, code required); undergrad teams frequently accepted",
@@ -25789,6 +27011,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -25838,6 +27062,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -25886,6 +27112,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -25918,8 +27146,8 @@
 "funded": "✅ Prizes",
 "status": "",
 "deadline": "Registrations closed · event Jan 19–24, 2027 · Dynamix 2027 register by Oct 21, 2026",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-21",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "",
 "who": "University Formula Student teams worldwide; 80+ institutes, 3,000+ participants",
@@ -25935,6 +27163,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -25984,6 +27214,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -26034,6 +27266,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -26085,6 +27319,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -26135,6 +27371,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug"
@@ -26186,6 +27424,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -26236,6 +27476,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -26289,6 +27531,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -26341,6 +27585,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -26392,6 +27638,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -26443,6 +27691,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -26493,6 +27743,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -26544,6 +27796,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -26596,6 +27850,8 @@
 "Stage": "UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug"
 ],
@@ -26646,6 +27902,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -26696,6 +27954,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -26746,6 +28006,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -26801,6 +28063,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -26852,6 +28116,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -26902,6 +28168,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -26952,6 +28220,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -26985,8 +28255,8 @@
 "funded": "✅ Credits + cert vouchers + swag",
 "status": "",
 "deadline": "Oct 4, 2026",
-"deadlineKind": "exact",
-"deadlineDate": "2026-10-04",
+"deadlineKind": "next",
+"deadlineDate": null,
 "unverified": false,
 "duration": "12-month captain term",
 "who": "18+, enrolled in college/university with at least 12 months left; commit to 6+ events in 12 months. No prior AWS experience required. Written + video application; faculty support recommended",
@@ -27004,6 +28274,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -27055,6 +28327,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -27105,6 +28379,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -27155,6 +28431,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -27205,6 +28483,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -27255,6 +28535,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -27304,6 +28586,8 @@
 "Stage": "UG / PG / PhD (most members are working professionals)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -27354,6 +28638,8 @@
 "Stage": "HS"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs"
 ],
@@ -27404,6 +28690,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -27456,6 +28744,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -27510,6 +28800,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -27562,6 +28854,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg"
@@ -27618,6 +28912,8 @@
 "Stage": "HS (18+) / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -27671,6 +28967,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -27722,6 +29020,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -27773,6 +29073,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -27823,6 +29125,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -27874,6 +29178,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -27925,6 +29231,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -27974,6 +29282,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -28023,6 +29333,8 @@
 "Stage": "HS (18+) / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -28074,6 +29386,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -28123,6 +29437,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -28171,6 +29487,8 @@
 "Stage": "UG / PG / PhD"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -28222,6 +29540,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",
@@ -28270,6 +29590,8 @@
 "Stage": "PG / PhD (working professionals mostly)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -28320,6 +29642,8 @@
 "Stage": "PG / PhD (professionals)"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "pg",
 "phd",
@@ -28370,6 +29694,8 @@
 "Stage": "HS / UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -28421,6 +29747,8 @@
 "Stage": "HS / UG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "hs",
 "ug",
@@ -28470,6 +29798,8 @@
 "Stage": "UG / PG"
 },
 "tagsInferred": false,
+"drop": false,
+"expires": null,
 "stage": [
 "ug",
 "pg",

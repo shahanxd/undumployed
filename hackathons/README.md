@@ -2,12 +2,15 @@
 
 > Student hackathons worth a weekend: India's national and corporate hackathons, the flagship US, Canada and Europe ones, Web3 and space, and which ones actually help with travel from India. Open-source programs are in [`open-source/`](../open-source/README.md); coding contests and case/research competitions in [`competitions/`](../competitions/).
 
-**Jump to:** [India: national & community](#india-national--community) · [India: corporate hackathons](#india-corporate-hackathons) · [US flagships](#us-flagships) · [Canada](#canada) · [Europe](#europe) · [Global online & themed](#global-online--themed) · [Web3](#web3) · [Travel reimbursement: who flies Indian students](#hackathon-travel-reimbursement-who-flies-indian-students) · [Sources, not entries](#sources-not-entries) · [Defunct / paused](#defunct--paused)
+**Jump to:** [Drops](#drops-one-off--limited-editions) · [India: national & community](#india-national--community) · [India: corporate hackathons](#india-corporate-hackathons) · [US flagships](#us-flagships) · [Canada](#canada) · [Europe](#europe) · [Global online & themed](#global-online--themed) · [Web3](#web3) · [Travel reimbursement: who flies Indian students](#hackathon-travel-reimbursement-who-flies-indian-students) · [Sources, not entries](#sources-not-entries) · [Defunct / paused](#defunct--paused)
 
 ## At a glance
 
 | Program | Deadline / Window | Funded | Who | Stage |
 |---------|-------------------|--------|-----|-------|
+| [Apart Research sprints (AI safety)](#apart-research-sprints-ai-safety) | Rolling, monthly (next: Nov 6–8, Nov 13–15, Nov 27–29, 2026) | ✅ Cash prizes + fellowship route | anyone, teams of 1–5, online | UG / PG / PhD |
+| [Lexsi AI Safety & Alignment Hackathon](#lexsi-ai-safety--alignment-hackathon) | **Nov 5, 2026** (register) · submit Nov 14 · Demo Day Nov 22 | ✅ Credits + interviews | anyone, teams of 1–3, online | UG / PG / PhD |
+| [Meta VR Start Developer Competition 2026](#meta-vr-start-developer-competition-2026) | **Nov 18, 2026** (submit) | ✅ $1M cash, 20 prizes | 18+, Meta VR Start members, online | UG / PG |
 | [Innohacks 4.0 (KIET, Ghaziabad)](#innohacks-40-kiet-ghaziabad) | **Sep 30, 2026** (idea deck) · event Oct 10–11 | ✅ Prize | students, Ghaziabad (in person) | UG |
 | [Hacktoberfest](../open-source/README.md#hacktoberfest) | **Oct 1–31, 2026** | ❌ Free | anyone | HS / UG / PG |
 | [HackHarvard](#hackharvard) | Event **Oct 16–18, 2026** (apply now; no deadline posted) | ❌ Financial aid case-by-case | undergrads | UG |
@@ -41,6 +44,49 @@
 | [Cal Hacks](#cal-hacks-berkeley) | Next: `~Sep 2027` (13.0 apps closed Sep 20, 2026) | ✅ Limited travel stipends | UG/PG/new grads | UG / PG |
 | [MHacks](#mhacks-michigan) | Next: `~Sep 2027` (2026 apps closed Sep 12; event Oct 3–4) | ❌ Limited | UG/PG students | UG / PG |
 | [Gen AI Exchange Hackathon (Google Cloud India)](#gen-ai-exchange-hackathon-google-cloud-india) | No 2026 edition announced; next `TBA` | ✅ Prize | developers/students, India | UG / PG |
+
+---
+
+## Drops: one-off & limited editions
+
+One-off hackathons that clear the [quality bar](../CONTRIBUTING.md#drops-one-off-opportunities). They're also listed in [drops.md](../drops.md) and leave this file once they're over.
+
+### Lexsi AI Safety & Alignment Hackathon
+<!-- tags: stage=ug,pg,phd,grad; field=ai,cs; region=remote; funding=prize; citizenship=any; gates=team; format=remote; edition=one-off; expires=2026-11-22 -->
+> **Type:** Online AI-safety and post-training hackathon (Lexsi Labs with Cohere Labs and Hugging Face) | **Location:** Online; kickoff (Oct 31) and Demo Day (Nov 22) in Bengaluru, with an online option | **Funded:** ✅ Prizes, almost all as credits ("$30,000+ in prizes and credits") + interviews
+
+| Field | Details |
+|-------|---------|
+| Deadline | Register by **Nov 5, 2026** (end of day AoE) · build Nov 1–14, submit by **Nov 14** · up to 20 teams named Nov 16 for Demo Day on **Nov 22** |
+| Duration | Two weeks of building; finalists get Nov 16–21 to push further |
+| Who | Anyone worldwide, beginners included; teams of 1–3, one team per person; free |
+| Prize | Top 5 teams: $1,162–$3,662 each, paid as Lexsi Labs and Cohere credits plus 6 months of Hugging Face Pro per teammate. $20 in HF GPU credits for up to 800 teams that join the Discord, $200 for each finalist. Interviews for DevRel/research-intern and research roles for standouts. |
+| Stage | UG / PG / PhD |
+
+**What it is:** Teams post-train a small open-weights Cohere model (Tiny Aya or Aya Expanse) with Lexsi Labs' open-source toolkits (AlignTune, CuratorKIT, AuditKIT, SafeTune, CircuitKIT, AgentTune) and report before-and-after metrics. Three tracks: fine-tuning and data curation, red teaming and safety, and agentic fine-tuning. Models, datasets and logs go on Hugging Face, with a write-up as an HF article.
+
+**Reality check:** The headline money is credits, not cash, so the real prizes are the interview invites and a public, metric-backed post-training project for your CV. You must chain at least two of Lexsi's repos, so spend the first day learning the stack. The free compute is small; pick the small models.
+
+**Apply:** [hackathon.lexsi.ai](https://hackathon.lexsi.ai/)
+
+---
+
+### Meta VR Start Developer Competition 2026
+<!-- tags: stage=ug,pg,grad; field=cs,design; region=remote; funding=prize; citizenship=any; gates=age-limit; format=remote; edition=one-off; expires=2026-11-18 -->
+> **Type:** Online VR app competition (Meta, run on Devpost) | **Location:** Online | **Funded:** ✅ $1M in cash prizes (20 prizes of $20,000–$100,000)
+
+| Field | Details |
+|-------|---------|
+| Deadline | Submit by **Nov 18, 2026** (12:00 PM PT, so 1:30 AM IST on Nov 19) · winners ~Dec 11 |
+| Who | 18+, solo or as a team. You need a Meta developer account and membership of the Meta VR Start program (apply before you submit). Open to India; Brazil, Quebec and sanctioned countries are excluded. |
+| Prize | $1M across 20 cash prizes: Entertainment, Gaming and Productivity tracks plus special awards for social/multiplayer, agentic interaction and accessibility |
+| Stage | UG / PG |
+
+**What it is:** Build a new hands-first app, or a big update to one you have, for Meta Quest or Meta's VR glasses. It must work fully without controllers. Meta is after seated experiences that start fast and feel good within ten minutes.
+
+**Reality check:** You need a Quest to build and test properly, and Start membership is an application, so apply today. Three weeks is tight for a new VR app; people with a Unity or Unreal prototype already in hand have the edge. Only 20 prizes, but each one is big.
+
+**Apply:** [start-developer-competition-26.devpost.com](https://start-developer-competition-26.devpost.com/)
 
 ---
 
@@ -552,6 +598,26 @@ Most of these are hiring funnels disguised as hackathons: winners get pre-placem
 **Reality check:** Now explicitly startup-flavoured ("Innovate. Validate. Accelerate."). A working product with users beats a demo.
 
 **Apply:** [imaginecup.microsoft.com](https://imaginecup.microsoft.com/)
+
+---
+
+### Apart Research sprints (AI safety)
+<!-- tags: stage=ug,pg,phd,grad; field=ai,cs,policy; region=remote; funding=prize; citizenship=any; gates=team; format=hybrid -->
+> **Type:** Weekend AI-safety research hackathons, about one a month | **Location:** Online, plus in-person hubs (New York, Hong Kong and others) | **Funded:** ✅ Cash prizes (typically $2,000 per sprint) + an invitation route into the funded Apart Fellowship
+
+| Field | Details |
+|-------|---------|
+| Deadline | Rolling, about one sprint a month. Coming up: Swarm Alignment Hackathon (Nov 6–8, 2026), AI x Epistemics Research Sprint (Nov 13–15) and Agent Attribution Hackathon (Nov 27–29). Submissions close Sunday 11:59 PM AoE. |
+| Duration | One weekend |
+| Who | Anyone; no AI-safety background needed. Teams of 1–5. Free. |
+| Prize | Typically $1,000 / $500 / $300 / $100 / $100 per sprint; standout teams are invited to Apart Studio and then the Apart Fellowship (part-time, remote, funded research) |
+| Stage | UG / PG / PhD |
+
+**What it is:** Each sprint takes one open AI-safety question (agent collusion, multi-agent alignment, evaluations, epistemics) and asks teams to build something others can check in a weekend: an experiment, an evaluation, a dataset or a tool, plus a short write-up. Co-organisers have included AE Studio and Poseidon Research.
+
+**Reality check:** The cash is small; the point is the path. Apart's own pipeline runs sprint → Studio → Fellowship → published research, and the fellowship has no separate application: your sprint project is the application. Pick a narrow question and finish the write-up, which is what judges score.
+
+**Apply:** [apartresearch.com/sprints](https://apartresearch.com/sprints)
 
 ---
 

@@ -43,4 +43,14 @@ eq('and still matches its own category', catNames(['study-abroad']), ['F']);
 eq('and appears once when both are picked', catNames(['startup', 'study-abroad']), ['F']);
 const catCounts = F.facetCounts(withAlso, { ...F.DEFAULT }, [['tech', 'Tech'], ['study-abroad', 'Study abroad'], ['startup', 'Startups']]).cat;
 eq('category counts include cross-referenced entries', [catCounts['study-abroad'], catCounts.startup, catCounts.tech], [1, 1, 4]);
+// One-off drops: the drops toggle keeps only them, and an expired drop (kind closed) stays hidden by default.
+const withDrops = [...items, mk({ name: 'G lexsi', search: 'g lexsi', category: 'hackathon', drop: true, kind: 'exact', days: 20, date: new Date(2026, 10, 15) }),
+  mk({ name: 'H old drop', search: 'h old drop', category: 'hackathon', drop: true, kind: 'closed', days: -5, date: new Date(2026, 9, 21) })];
+const dropNames = (f) => F.apply(withDrops, { ...F.DEFAULT, ...f }).map((o) => o.name[0]);
+eq('drops toggle keeps only open drops', dropNames({ drops: true }), ['G']);
+eq('expired drops show when closed ones are included', dropNames({ drops: true, closed: true }), ['G', 'H']);
+eq('drops also show in their normal category', dropNames({ cat: ['hackathon'] }), ['G']);
+eq('drops count respects closed', F.facetCounts(withDrops, { ...F.DEFAULT }, [['tech', 'Tech']]).drops, 1);
+const pd = F.toParams({ ...F.DEFAULT, drops: true });
+eq('drops survives the URL', [pd.toString(), F.fromParams(pd).drops, F.activeCount(F.fromParams(pd))], ['drops=1', true, 1]);
 if (fails) { console.log(`${fails} failing`); process.exit(1); } else console.log('all filter tests passed');

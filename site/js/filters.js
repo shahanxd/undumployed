@@ -78,10 +78,10 @@ export const SORTS = [
 
 export const DEFAULT = Object.freeze({
   q: '', group: [], cat: [], stage: [], field: [], region: [], fund: [], when: '',
-  nogate: [], women: false, verified: false, closed: false, sort: 'deadline', view: 'cards',
+  nogate: [], women: false, verified: false, closed: false, drops: false, sort: 'deadline', view: 'cards',
 });
 const LISTS = ['group', 'cat', 'stage', 'field', 'region', 'fund', 'nogate'];
-const BOOLS = ['women', 'verified', 'closed'];
+const BOOLS = ['women', 'verified', 'closed', 'drops'];
 
 export function fromParams(p) {
   const f = { ...DEFAULT };
@@ -104,10 +104,10 @@ export function toParams(f) {
   return p;
 }
 export function isEmpty(f) {
-  return !f.q && !f.when && !f.women && !f.verified && LISTS.every((k) => !f[k].length);
+  return !f.q && !f.when && !f.women && !f.verified && !f.drops && LISTS.every((k) => !f[k].length);
 }
 export function activeCount(f) {
-  return LISTS.reduce((n, k) => n + f[k].length, 0) + (f.q ? 1 : 0) + (f.when ? 1 : 0) + (f.women ? 1 : 0) + (f.verified ? 1 : 0);
+  return LISTS.reduce((n, k) => n + f[k].length, 0) + (f.q ? 1 : 0) + (f.when ? 1 : 0) + (f.women ? 1 : 0) + (f.verified ? 1 : 0) + (f.drops ? 1 : 0);
 }
 
 function tokens(q) { return q.toLowerCase().split(/\s+/).filter(Boolean); }
@@ -141,6 +141,7 @@ export function matches(o, f, skip) {
   if (skip !== 'nogate' && f.nogate.length && f.nogate.some((g) => o.gates.includes(g))) return false;
   if (skip !== 'women' && f.women && !o.gates.includes('women-only')) return false;
   if (skip !== 'verified' && f.verified && o.unverified) return false;
+  if (skip !== 'drops' && f.drops && !o.drop) return false;
   return true;
 }
 
@@ -206,5 +207,6 @@ export function facetCounts(items, f, cats) {
   out.women = items.filter((o) => matches(o, f, 'women') && o.gates.includes('women-only')).length;
   out.verified = items.filter((o) => matches(o, f, 'verified') && !o.unverified).length;
   out.closed = items.filter((o) => matches(o, f, 'closed') && o.kind === 'closed').length;
+  out.drops = items.filter((o) => matches(o, f, 'drops') && o.drop).length;
   return out;
 }
