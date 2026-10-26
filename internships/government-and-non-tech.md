@@ -588,4 +588,4 @@ Pre-doc and RA-style roles for economics and statistics students. Most pay, and 
 
 *[← Back to README](../README.md) | [All Deadlines](../deadlines.md) | [Tech Companies](tech-companies.md) | [Finance, Quant & Consulting](finance-quant-consulting.md) | [Fellowships: India](../fellowships/india.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

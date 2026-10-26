@@ -455,4 +455,4 @@ Fallbacks if you miss: [LFX Summer term](#lfx-mentorship) (May), [OSPP](#open-so
 
 *[← Back to README](../README.md) | [All Deadlines](../deadlines.md) | [Hackathons](../hackathons/README.md) | [Competitive Programming](../competitions/competitive-programming.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

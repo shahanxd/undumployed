@@ -525,4 +525,4 @@ Cheap, no visa, and where Indian faculty and labs actually recruit: [CODS 2026](
 
 *[← Back to Events](README.md) | [Tech & developer →](tech-global.md) | [India events →](india.md) | [Arts & culture →](arts-culture.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

@@ -851,4 +851,4 @@ The largest machine-learning research conference, with a big industry expo; from
 
 *[← Back to Events](README.md) | [Research conferences →](research-conferences.md) | [India events →](india.md) | [Arts & culture →](arts-culture.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

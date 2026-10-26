@@ -983,4 +983,4 @@ What *does* work from an Indian campus, ranked by ease: KAUST VSRP → SIPGA/IRI
 
 *[← Back to README](../README.md) | [Research (India) →](research-india.md) | [All Deadlines](../deadlines.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*

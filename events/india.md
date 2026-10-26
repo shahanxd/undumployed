@@ -609,4 +609,4 @@ These have their own entries above: [Thomso](#thomso-2027-iit-roorkee), [Oasis](
 
 *[← Back to Events](README.md) | [Tech & developer →](tech-global.md) | [Research conferences →](research-conferences.md) | [Arts & culture →](arts-culture.md)*
 
-*Last verified: September 2026. Deadlines shift, so always confirm on the official site before applying.*
+*Last verified: October 2026 (deadline sweep; every entry fully re-checked in September 2026). Deadlines shift, so always confirm on the official site before applying.*
