@@ -2,7 +2,7 @@
 
 > Where we look for new entries, and for [drops](../drops.md) above all: one-off hackathons, sprints and cohorts that are announced a few weeks ahead and gone a month later. These are **sources, never apply links**. Every entry still links the organiser's own page and has to clear the [quality bar](../CONTRIBUTING.md#drops-one-off-opportunities).
 
-Checked on the 1st and 15th of each month. Add a source here when a good drop turns up somewhere we weren't looking.
+Checked on the 1st and 15th of each month (the scout's instructions are in [scout-prompt.md](scout-prompt.md)). Add a source here when a good drop turns up somewhere we weren't looking.
 
 ---
 
