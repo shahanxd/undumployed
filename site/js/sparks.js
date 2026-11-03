@@ -39,12 +39,11 @@ function burst(el, kind) {
   }
 }
 
-// The verse writes itself in the first time it's seen, and the light only runs while it's on screen.
+// The light over the verse only runs while it's on screen.
 export function lightDedication(root = document) {
   const el = root.querySelector('.dedication');
   if (!el) return () => {};
   const io = new IntersectionObserver(([entry]) => {
-    if (entry.isIntersecting) el.classList.add('is-lit');
     el.classList.toggle('is-away', !entry.isIntersecting);
   }, { threshold: 0.35 });
   io.observe(el);
