@@ -1,9 +1,9 @@
-// Home: the bay, one sentence to find what fits, what's closing soon, and the whole index.
+// Home: the bay, one sentence to find what fits, what's closing soon, the whole index, and the bay again to end on.
 import { wireSparks, lightDedication } from './sparks.js';
 import { db, loadAll } from './data.js';
 import { esc, icon, oppRow, stateHtml, loadingHtml } from './ui.js';
 import { hashFor, go } from './state.js';
-import { heroMarkup, mountHero } from './hero.js';
+import { mountHero } from './hero.js';
 
 const STAGE_WORDS = [['hs', 'in school'], ['ug', 'an undergrad'], ['pg', 'doing a master’s'], ['phd', 'doing a PhD'], ['grad', 'out of college']];
 const FIELD_WORDS = [
@@ -19,19 +19,21 @@ const INDEX = [
   ['Communities', [['ambassador', 'Ambassador programs'], ['insider', 'Brand communities']]],
 ];
 
-const copy = `
-<div class="hero-copy container">
-  <h1 class="hero-title" id="hero-title">undumployed</h1>
-  <p class="hero-lede">everything you wanna apply to. put together.</p>
-  <form class="hero-search" id="hero-search" role="search">
-    <label class="sr-only" for="hero-q">Search the list</label>
-    <div class="search-field">
-      ${icon('i-search')}
-      <input id="hero-q" type="search" name="q" placeholder="Try “CERN”, “design” or “Delhi”" autocomplete="off" enterkeyhint="search" spellcheck="false">
-      <button class="search-go" type="submit" aria-label="Search">${icon('i-arrow')}</button>
-    </div>
-  </form>
-</div>`;
+const hero = `
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container">
+    <h1 class="hero-title" id="hero-title" aria-label="undumployed">${[...'undumployed'].map((c) => `<span aria-hidden="true">${c}</span>`).join('')}</h1>
+    <p class="hero-lede">everything you wanna apply to. put together.</p>
+    <form class="hero-search" id="hero-search" role="search">
+      <label class="sr-only" for="hero-q">Search the list</label>
+      <div class="search-field">
+        ${icon('i-search')}
+        <input id="hero-q" type="search" name="q" placeholder="Try “CERN”, “design” or “Delhi”" autocomplete="off" enterkeyhint="search" spellcheck="false">
+        <button class="search-go" type="submit">Search</button>
+      </div>
+    </form>
+  </div>
+</section>`;
 
 /** Selects that are only as wide as the chosen option (native in newer browsers, measured elsewhere).
     Returns a function that re-measures, or null when the browser does it itself. */
@@ -73,11 +75,11 @@ function restHtml() {
   const from = { from: 'home' };
   return `
 <section class="fit container" aria-labelledby="fit-h">
-  <h2 id="fit-h" class="sr-only">Find what fits you</h2>
+  <div class="section-head"><h2 id="fit-h">Find what fits you</h2></div>
   <form class="fit-form" id="fit">
     <p class="fit-line">I’m <span class="fit-pick"><select name="stage" aria-label="Where you are">${STAGE_WORDS.map(([v, l]) => `<option value="${v}"${v === 'ug' ? ' selected' : ''}>${esc(l)}</option>`).join('')}</select>${icon('i-down')}</span>
     and I’m into <span class="fit-pick"><select name="field" aria-label="What you study">${FIELD_WORDS.map(([v, l]) => `<option value="${v}">${esc(l)}</option>`).join('')}</select>${icon('i-down')}</span>.
-    <button class="btn btn-primary fit-go" type="submit">Show me</button></p>
+    <button class="fit-go" type="submit">Show me</button></p>
   </form>
 </section>
 
@@ -103,19 +105,20 @@ ${drops.length ? `<section class="section container" aria-labelledby="drops-h">
       ${link('#/guides', 'Guides for applying', guides)}
     </ul></div>
   </div>
-</section>
-
-<section class="section container about-wrap" aria-labelledby="about-h">
-  <div class="about-split">
-    <div class="about">
-      <div class="section-head"><h2 id="about-h">What’s undumployed</h2></div>
-      <p>An <a href="https://github.com/shahanxd/undumployed" rel="noopener">open-source</a> list of opportunities for all em friends who’re ready to get out there for something better.<br>
-        Checked and verified in ${esc(db.meta.lastVerified)}.<br>
-        Something off? <a href="https://github.com/shahanxd/undumployed/issues/new/choose" rel="noopener">Open an issue</a> or <a href="#/guide/contributing">fix the file</a>.</p>
-    </div>
-    ${dedicationHtml()}
-  </div>
 </section>`;
+}
+
+function codaHtml() {
+  return `
+<div class="container about-split">
+  <div class="about">
+    <div class="section-head"><h2 id="about-h">What’s undumployed</h2></div>
+    <p>An <a href="https://github.com/shahanxd/undumployed" rel="noopener">open-source</a> list of opportunities for all em friends who’re ready to get out there for something better.<br>
+      Checked and verified in ${esc(db.meta.lastVerified)}.<br>
+      Something off? <a href="https://github.com/shahanxd/undumployed/issues/new/choose" rel="noopener">Open an issue</a> or <a href="#/guide/contributing">fix the file</a>.</p>
+  </div>
+  ${dedicationHtml()}
+</div>`;
 }
 
 const DEDICATION = ['Made with love and coffee,', 'in memory of the one', 'who was always there', 'to guide me'];
@@ -139,18 +142,20 @@ let teardown = [];
 export const landingPage = {
   route: 'home',
   async mount(main) {
-    main.innerHTML = `${heroMarkup(copy)}<div id="home-rest">${loadingHtml()}</div>`;
-    const track = main.querySelector('#hero-track');
-    teardown.push(mountHero(track));
+    main.innerHTML = `${hero}<div class="sheet" id="home-rest">${loadingHtml()}</div><section class="coda" id="coda" aria-labelledby="about-h" hidden></section>`;
+    const rest = main.querySelector('#home-rest'), coda = main.querySelector('#coda');
+    const input = main.querySelector('#hero-q');
+    if (window.innerWidth < 480) input.placeholder = 'Try “CERN” or “Delhi”';
+    teardown.push(mountHero({ title: main.querySelector('#hero-title'), search: main.querySelector('#hero-search .search-field'), input, sheet: rest, coda }));
 
     // "What’s undumployed" already says what the footer says, so the home page goes without it
     const footer = document.querySelector('.footer');
     footer.hidden = true;
     teardown.push(() => { footer.hidden = false; });
 
-    // the bar sits on the sky until the bay scrolls away
+    // the bar sits on the sky, except while the sheet is under it
     const bar = document.getElementById('topbar');
-    const setBar = () => bar.classList.toggle('is-over', window.scrollY < track.offsetHeight - bar.offsetHeight - 8);
+    const setBar = () => { const s = rest.getBoundingClientRect(); bar.classList.toggle('is-over', !(s.top <= 44 && s.bottom > bar.offsetHeight)); };
     let raf = 0;
     const onScroll = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(setBar); };
     setBar();
@@ -160,11 +165,10 @@ export const landingPage = {
 
     main.querySelector('#hero-search').addEventListener('submit', (e) => {
       e.preventDefault();
-      const q = main.querySelector('#hero-q').value.trim();
+      const q = input.value.trim();
       go(hashFor('browse', q ? { q, sort: 'relevance' } : {}));
     });
 
-    const rest = main.querySelector('#home-rest');
     try {
       await loadAll();
     } catch (err) {
@@ -173,8 +177,10 @@ export const landingPage = {
     }
     if (!document.body.contains(rest)) return; // navigated away while loading
     rest.innerHTML = restHtml();
-    wireSparks(rest);
-    teardown.push(lightDedication(rest));
+    coda.innerHTML = codaHtml();
+    coda.hidden = false;
+    wireSparks(coda);
+    teardown.push(lightDedication(coda));
     const form = rest.querySelector('#fit');
     const fits = [...form.querySelectorAll('select')].map(autosize).filter(Boolean);
     if (fits.length) {

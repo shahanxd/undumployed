@@ -53,7 +53,7 @@ ul, ol { margin: 0; }
 .ico-s { width: 16px; height: 16px; }
 
 .main { min-height: 72vh; padding-top: var(--topbar-h); outline: none; }
-body.is-home .main { padding-top: 0; }
+html[data-home] .main { position: relative; z-index: 1; padding-top: 0; }
 
 .noscript { max-width: 36rem; margin: 120px auto; padding: 0 var(--gutter); }
 
@@ -76,13 +76,14 @@ body.is-home .main { padding-top: 0; }
 /* Printing: students print checklists and guides. Keep the words, drop the chrome. */
 @media print {
   .topbar, .footer, .scrim, .toast, .filterbar, .browse-search, .result-bar, .more, .save, .d-actions, .d-bar,
-  .monthbar, .toc, .back-link, .saved-tools, .hero .scene, .hero-search, .ev-bar, .toolbar, .skip { display: none !important; }
+  .monthbar, .toc, .back-link, .saved-tools, .scene, .hero-search, .ev-bar, .toolbar, .skip { display: none !important; }
   body { background: #fff; color: #000; font-size: 11pt; }
   .main { padding-top: 0; }
   html.is-locked .main { display: none; }
   html.is-locked .drawer { position: static; width: auto; height: auto; transform: none; opacity: 1; box-shadow: none; overflow: visible; }
-  .hero { height: auto; background: none; color: #000; }
-  .hero-title, .hero-lede { color: #000; text-shadow: none; }
+  .hero { min-height: 0; padding-block: 0 24px; color: #000; }
+  .hero-title span, .hero-lede, .coda, .coda p, .coda h2 { color: #000; text-shadow: none; }
+  .sheet { min-height: 0; padding-block: 0 24px; box-shadow: none; }
   .prose a[href^="http"]::after, .d-inner a[href^="http"]::after { content: " (" attr(href) ")"; font-size: .8em; color: #555; word-break: break-all; }
   .row, .perk, h2, h3 { break-inside: avoid; }
 }

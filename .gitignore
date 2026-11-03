@@ -11,3 +11,6 @@ node_modules/
 
 .vercel
 .env*
+
+# raw renders; the finished pictures live in site/assets/scene
+scripts/scene/plates/

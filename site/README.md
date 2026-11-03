@@ -26,7 +26,7 @@ Vercel tells browsers to check for a fresh copy of every file on each visit, so 
 | `js/landing.js`, `browse.js`, `deadlines.js`, `events.js`, `perks.js`, `guides.js`, `saved.js` | One module per page. Each mounts into a fresh `<main>`. The URL hash carries all state, so every view can be linked. |
 | `js/menus.js` | The filter dropdowns. Native Popover API, with a small fallback. They become bottom sheets on phones. |
 | `js/drawer.js` | The detail panel: official link, save, add to calendar, copy link, report a problem. Keeps focus inside while open and returns it on close. |
-| `js/hero.js`, `css/hero.css` | The bay (see below). |
+| `js/hero.js`, `css/hero.css`, `assets/scene/` | The bay (see below). The pictures are made by the tools in `scripts/scene/`. |
 | `css/tokens.css` | Colours and type for the two themes: golden (light) and storm (dark). |
 
 `js/vendor/marked.min.js` (MIT) renders the guides.
@@ -37,7 +37,7 @@ The list comes first: plain rows with the deadline on the left, and the detail i
 
 The Life is Strange part is kept to a few places where it earns its keep:
 
-- **The bay.** The home page opens on Arcadia Bay an hour before sunset, drawn by hand in SVG. It has the headland, the lighthouse, the bench, the firs, the town across the water, and sunlight broken on the sea. The scene holds still for the first stretch of scrolling, and that stretch is the evening: the sun goes down, the lamp flickers on and its beam starts turning, the town lights and the stars come out, then storm clouds roll in. Scrolling up rewinds it. Each layer only ever changes `transform` or `opacity`, so the compositor does the work. It stops when it's off screen. With reduced motion it neither holds nor moves. It shows one still frame instead, just after sunset, with the lamp already lit.
+- **The bay.** The home page opens on Arcadia Bay: the headland, the lighthouse, the keeper's cottage, the firs and the town across the water. The world is rendered ahead of time into three pictures (dusk, night, storm), so it's on screen at once. One small WebGL2 shader runs on top and looks things up in those pictures instead of computing a world: the water, the wind in the clouds, the surf, the chimney smoke and the beam, which turns on its own and swings toward your cursor or the search box. Theme and scroll both glide between the moods. Golden goes from dusk to night as you scroll, storm from night into the storm, and the page always ends on the night sea. The list sits on a solid sheet, and the scene stops drawing while that covers it. With reduced motion, no WebGL or no real GPU, you get the still picture. A machine that can't keep up drops resolution once, then falls back to the picture.
 - **The blue morpho.** It's the logo. It folds its wings once when you hover it.
 - **"This action will have consequences."** When you save something, that line appears with the butterfly, the way the game marks a choice.
 - **Storm.** Dark mode is the same bay after nightfall.

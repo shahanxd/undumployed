@@ -1,6 +1,6 @@
 /* ================================================================== home */
-.fit { padding: 76px 0 4px; }
-.fit-form { max-width: 23em; font-family: var(--font-serif); font-size: clamp(25px, 3.3vw, 38px); line-height: 1.55; color: var(--ink); }
+.fit { padding: 0 0 4px; }
+.fit-form { max-width: 34em; font-family: var(--font-serif); font-size: clamp(22px, 2.5vw, 28px); line-height: 1.5; color: var(--ink); }
 .fit-form .fit-line { text-wrap: balance; }
 .fit-pick { position: relative; display: inline-block; white-space: nowrap; }
 .fit-pick select {
@@ -14,7 +14,8 @@
 .fit-pick select:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
 .fit-pick select option { font-family: var(--font-sans); font-style: normal; font-size: 16px; color: var(--ink); background: var(--surface); }
 .fit-pick .ico { position: absolute; right: 0; top: 50%; width: .8em; height: .8em; translate: 0 -40%; color: var(--accent); pointer-events: none; }
-.fit-go { margin-left: .25em; vertical-align: .32em; font-family: var(--font-sans); }
+.fit-go { padding: 0; border: 0; border-bottom: 2px solid currentColor; background: none; color: var(--accent); font-style: italic; line-height: 1.2; }
+.fit-go:hover { color: color-mix(in srgb, var(--accent) 80%, var(--ink)); }
 .fit-note { margin-top: 12px; font-size: 15px; color: var(--ink-3); }
 
 .section { padding-top: 72px; }
@@ -34,7 +35,6 @@
 .index a .n { font-size: 14px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
 .index a:hover .t { color: var(--accent); text-decoration: underline; text-underline-offset: .18em; }
 
-.about-wrap { padding-bottom: 96px; }
 .about-split { display: grid; grid-template-columns: minmax(0, 38rem) max-content; justify-content: space-between; align-items: center; gap: 36px clamp(40px, 7vw, 96px); }
 .about p { color: var(--ink-2); font-size: 16px; line-height: 1.65; }
 @media (max-width: 880px) {
@@ -44,13 +44,11 @@
 /* The dedication. A slow light passes over the verse, like the lighthouse in the hero,
    and comes to rest on the full stop, which never quite goes dark. */
 @property --w { syntax: '<color>'; inherits: false; initial-value: #888; }
-.dedication { font-family: var(--font-serif); font-style: italic; font-size: clamp(25px, 2.7vw, 31px); line-height: 1.34; letter-spacing: -.005em; }
+.dedication { --rest: 0 1px 20px rgba(4, 6, 12, .9); font-family: var(--font-serif); font-style: italic; font-size: clamp(25px, 2.7vw, 31px); line-height: 1.34; letter-spacing: -.005em; text-shadow: var(--rest); }
 .ded-line { display: block; white-space: nowrap; }
 .ded-w { --w: var(--ink-2); display: inline-block; color: var(--w); transition: --w .4s var(--ease); }
-.dedication .spark-love:hover { --w: #cf4f69; }
-.dedication .spark-coffee:hover { --w: #86552f; }
-:root[data-theme="storm"] .dedication .spark-love:hover { --w: #f291a6; }
-:root[data-theme="storm"] .dedication .spark-coffee:hover { --w: #cfa07a; }
+.dedication .spark-love:hover { --w: #f291a6; }
+.dedication .spark-coffee:hover { --w: #cfa07a; }
 .ded-dot { color: var(--beam); text-shadow: 0 0 12px var(--beam-glow); }
 @media screen and (prefers-reduced-motion: no-preference) {
   .ded-w { animation: ded-beam 12s ease-in-out calc(2s + var(--i) * 130ms) infinite; }
@@ -58,7 +56,7 @@
   .dedication.is-away .ded-w { animation-play-state: paused; }
 }
 @keyframes ded-beam {
-  0%, 18%, 100% { color: var(--w); text-shadow: 0 0 0 transparent; }
+  0%, 18%, 100% { color: var(--w); text-shadow: var(--rest); }
   8% { color: var(--beam); text-shadow: 0 0 16px var(--beam-glow); }
 }
 @keyframes ded-keep {
@@ -148,7 +146,6 @@
   .browse-bar { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: calc(-1 * var(--gutter)); padding: 2px var(--gutter) 4px; }
   .browse-bar::-webkit-scrollbar { display: none; }
   .perk { grid-template-columns: minmax(0, 1fr); }
-  .fit { padding-top: 56px; }
   .section { padding-top: 60px; }
   .page { padding-top: 32px; }
 }

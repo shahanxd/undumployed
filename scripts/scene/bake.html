@@ -1,0 +1,997 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bake</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#efe9dc; --ink2:#b9b5ab; --line:rgba(239,233,220,.14); --lamp:#f6cf8c; }
+  * { box-sizing:border-box; margin:0; }
+  html { background:#05070c; color:var(--ink); font-family:'Schibsted Grotesk',system-ui,sans-serif; -webkit-font-smoothing:antialiased; }
+  #gl { position:fixed; inset:0; width:100%; height:100%; display:block; opacity:0; transition:opacity 1.6s ease; }
+  #gl.on { opacity:1; }
+  body { background:linear-gradient(180deg,#0d1226 0%,#2a2340 38%,#6d3f4c 54%,#c9744d 60%,#3a2c33 61%,#0a0d15 100%) fixed; min-height:100vh; }
+  .nav { position:fixed; z-index:5; inset:0 0 auto 0; display:flex; align-items:center; justify-content:space-between; padding:20px clamp(16px,4vw,48px); font-size:15px; }
+  .nav { transition:background .5s, backdrop-filter .5s; }
+  .nav.solid { background:rgba(6,8,14,.55); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); }
+  .nav b { font-family:'Newsreader',serif; font-style:italic; font-weight:500; font-size:22px; letter-spacing:-.01em; }
+  .nav div { display:flex; gap:26px; color:rgba(239,233,220,.78); }
+  @media (max-width:760px){ .nav div { display:none; } }
+  .sr { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+  .hero { position:fixed; z-index:3; left:clamp(16px,4vw,48px); top:41vh; width:min(92vw,520px); will-change:opacity,transform; }
+  .tag { font-size:clamp(17px,1.5vw,20px); color:rgba(239,233,220,.92); text-shadow:0 1px 18px rgba(0,0,0,.35); }
+  .search { margin-top:20px; display:flex; align-items:center; height:54px; padding:0 8px 0 20px; border-radius:15px; color:var(--ink);
+    background:rgba(8,11,20,.5); border:1px solid rgba(239,233,220,.16); backdrop-filter:blur(16px) saturate(1.25); -webkit-backdrop-filter:blur(16px) saturate(1.25);
+    box-shadow:0 24px 60px -24px rgba(0,0,0,.7), inset 0 1px 0 rgba(255,255,255,.07); }
+  .search span { flex:1; color:rgba(239,233,220,.62); font-size:16px; }
+  .search i { width:38px; height:38px; border-radius:10px; background:var(--lamp); color:#14161c; display:grid; place-items:center; font-style:normal; font-size:18px; box-shadow:0 0 calc(var(--lit,0)*34px + 6px) rgba(246,207,140,.6); }
+  .hint { position:fixed; z-index:4; left:50%; bottom:22px; translate:-50% 0; font-size:13px; letter-spacing:.01em; color:rgba(239,233,220,.68); white-space:nowrap; transition:opacity .8s; }
+  .moods { position:fixed; z-index:6; right:clamp(16px,4vw,48px); bottom:18px; display:flex; gap:4px; padding:4px; border-radius:99px; background:rgba(8,11,18,.5); border:1px solid var(--line); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); }
+  .moods button { all:unset; cursor:pointer; padding:6px 12px; font-size:13px; border-radius:99px; color:rgba(239,233,220,.72); }
+  .moods button.on { background:rgba(239,233,220,.14); color:var(--ink); }
+  .moods button:focus-visible { outline:2px solid var(--lamp); }
+  @media (max-width:760px){ .hint { display:none; } .moods { left:16px; right:16px; justify-content:space-between; } }
+
+  main { position:relative; z-index:2; pointer-events:none; }
+  .spacer { height:300vh; }
+  .water { max-width:1120px; margin:0 auto; padding:10vh clamp(16px,4vw,32px) 22vh; pointer-events:auto; }
+  .water h2 { font-family:'Newsreader',serif; font-weight:400; font-size:clamp(36px,4.6vw,60px); letter-spacing:-.022em; line-height:1.02; text-shadow:0 2px 30px rgba(0,0,0,.5); }
+  .water h2 em { color:var(--lamp); }
+  .lead { margin-top:12px; color:var(--ink2); font-size:17px; max-width:34rem; text-shadow:0 1px 16px rgba(0,0,0,.6); }
+  .rows { list-style:none; padding:0; margin-top:44px; border-top:1px solid var(--line); }
+  .rows li { --lit:0; position:relative; display:grid; grid-template-columns:18px 118px minmax(0,1fr) auto; gap:18px; align-items:center; padding:22px 6px; border-bottom:1px solid var(--line);
+    background:linear-gradient(90deg, rgba(246,207,140,calc(var(--lit)*.13)), rgba(246,207,140,0) 70%); }
+  .buoy { width:9px; height:9px; border-radius:50%; background:var(--c); box-shadow:0 0 14px 3px var(--c); animation:buoy var(--r) ease-in-out infinite; }
+  @keyframes buoy { 0%,100%{opacity:.35; transform:scale(.8)} 50%{opacity:1; transform:scale(1)} }
+  .when { font-size:14px; color:var(--ink2); font-variant-numeric:tabular-nums; }
+  .name { font-family:'Newsreader',serif; font-size:clamp(21px,2.3vw,28px); letter-spacing:-.012em; color:color-mix(in srgb, var(--lamp) calc(var(--lit)*70%), var(--ink)); text-shadow:0 0 calc(var(--lit)*26px) rgba(246,207,140,.55), 0 1px 16px rgba(0,0,0,.65); }
+  .meta { font-size:14px; color:var(--ink2); text-shadow:0 1px 12px rgba(0,0,0,.7); }
+  @media (max-width:760px){ .rows li { grid-template-columns:14px minmax(0,1fr); gap:6px 12px; } .when { grid-column:2; grid-row:1; } .name { grid-column:2; } .meta { grid-column:2; } .buoy { grid-row:1 / 3; } }
+  .ded { margin-top:18vh; text-align:right; font-family:'Newsreader',serif; font-style:italic; font-size:clamp(25px,2.7vw,31px); line-height:1.34; color:var(--ink2); text-shadow:0 1px 18px rgba(0,0,0,.6); }
+  .ded span { display:block; }
+  .ded u { text-decoration:none; color:var(--lamp); text-shadow:0 0 16px rgba(246,207,140,.8); }
+  #err { position:fixed; inset:auto 16px 70px 16px; z-index:9; font:13px/1.4 ui-monospace,monospace; white-space:pre-wrap; color:#ffb4a3; max-height:60vh; overflow:auto; }
+</style>
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<nav class="nav"><b>undumployed</b><div><span>Opportunities</span><span>Deadlines</span><span>Events</span><span>Perks</span><span>Guides</span></div></nav>
+<section class="hero" id="hero">
+  <h1 class="sr">undumployed</h1>
+  <p class="tag">everything you wanna apply to. put together.</p>
+  <div class="search"><span>Try “CERN”, “design” or “Delhi”</span><i>→</i></div>
+</section>
+<p class="hint" id="hint">Move your cursor and the light follows it. Click the water. Scroll and time passes.</p>
+<div class="moods" id="moods" role="group" aria-label="Time of day">
+  <button data-p="0">Dusk</button><button data-p=".5">Night</button><button data-p=".86">Storm</button><button data-p="1.62">The list</button>
+</div>
+<main>
+  <div class="spacer"></div>
+  <section class="water" id="water">
+    <h2>Closing soon, <em>on the water.</em></h2>
+    <p class="lead">Every deadline is a buoy. The closer it is, the faster it blinks. The lighthouse keeps sweeping, and whatever it crosses lights up.</p>
+    <ul class="rows" id="rows">
+      <li style="--c:#ff8f73;--r:1.1s"><i class="buoy"></i><span class="when">Nov 5 · in 2 days</span><span class="name">Lexsi AI Safety &amp; Alignment Hackathon</span><span class="meta">Remote · Prizes</span></li>
+      <li style="--c:#ffb36b;--r:1.6s"><i class="buoy"></i><span class="when">Nov 6 · in 3 days</span><span class="name">Lester B. Pearson Scholarship</span><span class="meta">Canada · Fully funded</span></li>
+      <li style="--c:#f6cf8c;--r:2.4s"><i class="buoy"></i><span class="when">Nov 8 · in 5 days</span><span class="name">Jane Street INSIGHT, WiSE, FOCUS</span><span class="meta">Anywhere · Fully funded</span></li>
+      <li style="--c:#a9d7c4;--r:3.6s"><i class="buoy"></i><span class="when">Nov 13 · in 10 days</span><span class="name">Jane Street Graduate Research Fellowship</span><span class="meta">Anywhere · Fully funded</span></li>
+      <li style="--c:#9dc3ff;--r:5s"><i class="buoy"></i><span class="when">Nov 18 · in 2 weeks</span><span class="name">Meta VR Start Developer Competition</span><span class="meta">Remote · Prizes</span></li>
+    </ul>
+    <p class="ded"><span>Made with love and coffee,</span><span>in memory of the one</span><span>who was always there</span><span>to guide me<u>.</u></span></p>
+  </section>
+</main>
+<pre id="err"></pre>
+
+<script id="vs" type="x-shader">#version 300 es
+void main(){ vec2 p=vec2((gl_VertexID<<1)&2,gl_VertexID&2); gl_Position=vec4(p*2.-1.,0.,1.); }
+</script>
+
+<script id="fs-lut" type="x-shader">#version 300 es
+precision highp float;
+// Sky: real single scattering (Rayleigh + Mie) integrated through a spherical atmosphere, baked each frame to a small table.
+uniform vec2 uRes; uniform vec3 uSun; out vec4 o;
+const vec3 BR=vec3(5.8e-6,13.5e-6,33.1e-6); const float BM=21e-6; const vec3 BO=vec3(3.426e-6,8.298e-6,.356e-6)*.62;
+float oz(float h){ return max(0.,1.-abs(h-25e3)/15e3); }
+void main(){
+  vec2 q=gl_FragCoord.xy/uRes;
+  float az=(q.x-.5)*6.2831853, el=q.y*q.y*1.5707963;
+  vec3 dir=vec3(sin(az)*cos(el),max(sin(el),.0015),cos(az)*cos(el)); dir=normalize(dir);
+  const float Re=6371e3,Ra=6471e3; vec3 p0=vec3(0.,Re+10.,0.);
+  float b=dot(p0,dir),c=dot(p0,p0)-Ra*Ra,tm=-b+sqrt(b*b-c),ds=tm/10.;
+  float mu=dot(dir,uSun),pR=.0596831*(1.+mu*mu),g=.76,pM=.1193662*(1.-g*g)*(1.+mu*mu)/((2.+g*g)*pow(1.+g*g-2.*g*mu,1.5));
+  vec3 sr=vec3(0.),sm=vec3(0.); float oR=0.,oM=0.,oO=0.;
+  for(int i=0;i<10;i++){
+    vec3 p=p0+dir*(ds*(float(i)+.5)); float h=length(p)-Re,hr=exp(-h/8e3)*ds,hm=exp(-h/1.2e3)*ds; oR+=hr; oM+=hm; oO+=oz(h)*hr*0.+oz(h)*ds;
+    float b2=dot(p,uSun),d2=b2*b2-(dot(p,p)-Re*Re);
+    if(b2<0.&&d2>0.)continue;
+    float tl=-b2+sqrt(b2*b2-(dot(p,p)-Ra*Ra)),dl=tl/8.,lr=0.,lm=0.,lo=0.;
+    for(int j=0;j<8;j++){ vec3 x=p+uSun*(dl*(float(j)+.5)); float hq=max(length(x)-Re,0.); lr+=exp(-hq/8e3)*dl; lm+=exp(-hq/1.2e3)*dl; lo+=oz(hq)*dl; }
+    vec3 att=exp(-(BR*(oR+lr)+BM*1.1*(oM+lm)+BO*(oO+lo))); sr+=att*hr; sm+=att*hm;
+  }
+  o=vec4(20.*(sr*BR*pR+sm*BM*pM),1.);
+}
+</script>
+
+<script id="fs-scene" type="x-shader">#version 300 es
+precision highp float;
+uniform int uZ; uniform vec2 uJit; uniform float uMaskMode;
+uniform vec2 uRes; uniform float uT,uEve,uStorm,uShift,uFlash,uLamp,uExposure,uHist,uFrame,uCamX,uTextA,uSeaAmp;
+uniform vec3 uSun,uMoon,uBeam,uLampPos; uniform vec4 uRip[4]; uniform vec2 uLampUv;
+uniform sampler2D uLut,uText,uPrev;
+out vec4 O;
+const float PI=3.14159265,F=1.25;
+float K; vec3 RO;
+vec3 gSunCol,gCloudSun,gAmbUp,gAmbHor,gMoonCol; float gS,gFlash;
+
+float h21(vec2 p){ vec3 q=fract(vec3(p.xyx)*.1031); q+=dot(q,q.yzx+33.33); return fract((q.x+q.y)*q.z); }
+float h31(vec3 p){ p=fract(p*.1031); p+=dot(p,p.zyx+31.32); return fract((p.x+p.y)*p.z); }
+float vn(vec2 p){ vec2 i=floor(p),f=fract(p); f=f*f*(3.-2.*f); return mix(mix(h21(i),h21(i+vec2(1,0)),f.x),mix(h21(i+vec2(0,1)),h21(i+vec2(1,1)),f.x),f.y); }
+float vn3(vec3 p){ vec3 i=floor(p),f=fract(p); f=f*f*(3.-2.*f);
+  return mix(mix(mix(h31(i),h31(i+vec3(1,0,0)),f.x),mix(h31(i+vec3(0,1,0)),h31(i+vec3(1,1,0)),f.x),f.y),
+             mix(mix(h31(i+vec3(0,0,1)),h31(i+vec3(1,0,1)),f.x),mix(h31(i+vec3(0,1,1)),h31(i+vec3(1,1,1)),f.x),f.y),f.z); }
+const mat2 M2=mat2(1.6,1.2,-1.2,1.6);
+float fbm(vec2 p,int n){ float a=.5,s=0.,w=0.; for(int i=0;i<(n)+uZ;i++){ s+=a*vn(p); w+=a; a*=.5; p=M2*p+7.3; } return s/w; }
+
+/* ---------- sky ---------- */
+vec3 lut(vec3 d){ float el=asin(clamp(d.y,0.,1.)); return textureLod(uLut,vec2(atan(d.x,d.z)/6.2831853+.5,sqrt(el/1.5707963)),0.).rgb; }
+vec3 transmittance(float s){ float e=degrees(asin(clamp(s,-1.,1.))); float am=1./(max(s,0.)+.15*pow(max(e+3.885,.2),-1.253)); return exp(-vec3(.046,.108,.265)*am*.85-.021*am*.5); }
+
+float hillTop(float az,float seed,float b,float a){ return b+a*(fbm(vec2(az*2.6+seed,seed),4)-.32); }
+vec3 hills(vec3 d,vec3 c,vec3 hz){
+  if(d.y>.09||d.y<0.) return c;
+  float az=d.x/d.z;
+  float mask=smoothstep(.72,.2,az)*smoothstep(-2.2,-1.,az);
+  float h1=hillTop(az,3.1,.008,.055)*mask;
+  if(d.y<h1) c=mix(hz*.72,hz*.55,smoothstep(0.,h1,d.y));
+  float h2=hillTop(az,11.7,.002,.038)*mask;
+  if(d.y<h2){
+    c=hz*.26+vec3(.0015,.002,.004);
+    float g=smoothstep(.34,.62,uEve);
+    vec2 q=vec2(az*520.,d.y*760.); vec2 id=floor(q),f=fract(q)-.5;
+    float r=h21(id+3.);
+    float bandMask=smoothstep(h2*.9,h2*.2,d.y);
+    if(r>.87) c+=vec3(1.,.72,.42)*g*bandMask*3.6*smoothstep(.34,.0,length(f))*(.5+.5*h21(id));
+  }
+  return c;
+}
+vec3 stars(vec3 d){
+  float night=smoothstep(.34,.8,uEve)*(1.-uStorm);
+  if(night<=0.||d.y<0.) return vec3(0.);
+  vec3 q=d*230.; vec3 id=floor(q),f=fract(q)-.5;
+  float r=h31(id);
+  vec3 c=vec3(0.);
+  if(r>.991){ float m=(r-.991)/.009; c=mix(vec3(.75,.85,1.),vec3(1.,.8,.6),h31(id+2.))*m*m*m*1.5*smoothstep(.3,.0,length(f))*(.72+.28*sin(uT*(1.+3.*h31(id+5.))+r*40.)); }
+  // the milky way: a tilted band of dense, unresolved stars
+  vec3 axis=normalize(vec3(.62,.34,-.7)); float band=exp(-pow(dot(d,axis)*4.2,2.));
+  float dust=fbm(d.xz*7./(.35+d.y)+3.,5);
+  c+=vec3(.62,.66,.82)*band*(.018+.11*smoothstep(.42,.75,dust))*(.65+.35*vn3(d*90.));
+  return c*night*smoothstep(0.,.12,d.y);
+}
+vec3 skyBase(vec3 d){
+  vec3 dd=normalize(vec3(d.x,max(d.y,.0015),d.z));
+  vec3 s=lut(dd);
+  float n=smoothstep(.3,.95,uEve);
+  s+=vec3(.0012,.0024,.0058)*(1.+2.6*exp(-dd.y*5.))*n;     // airglow and scattered starlight
+  float mu=max(dot(dd,uMoon),0.), mv=smoothstep(.45,.85,uEve);
+  s+=vec3(.42,.5,.66)*(.018*pow(mu,18.)+.08*pow(mu,180.)+.5*pow(mu,1600.))*mv*(1.-uStorm);  // the moon's aureole
+  float st=uStorm; float l=dot(s,vec3(.3,.5,.2));
+  s=mix(s,vec3(l)*vec3(.46,.55,.7),st*.9);
+  return s;
+}
+vec3 skyDiscs(vec3 d){
+  vec3 c=vec3(0.);
+  float m=dot(d,uSun); if(m>.99989) c+=gSunCol*38.*smoothstep(.99989,.99995,m)*(1.-uStorm);
+  float mm=dot(d,uMoon); float mv=smoothstep(.45,.85,uEve)*(1.-uStorm);
+  if(mm>.9998&&mv>0.){ vec2 q=(d.xy-uMoon.xy)*220.; float sh=smoothstep(.9998,.99985,mm); float mare=.62+.5*fbm(q*2.1,4); c+=vec3(1.,.97,.9)*1.5*sh*mare*mv; }
+  return c;
+}
+
+/* ---------- clouds: a short raymarch through a real layer, lit by the sun that still reaches that altitude ---------- */
+float cloudShape(vec2 q,int n){ vec2 w=vec2(fbm(q*.9+11.,3),fbm(q*.9+5.,3)); return fbm(q+w*1.15,n); }
+const float CY0=1500.,CY1=2700.;
+float cloudD(vec3 p,int n,float cov){
+  float h=clamp((p.y-CY0)/(CY1-CY0),0.,1.);
+  vec2 q=p.xz*.00036+vec2(.0768,.024);
+  float s=cloudShape(q,n);
+  if(n>4) s+=(fbm(q*6.1+3.,5)-.5)*.24;
+  return smoothstep(cov,cov+.1,s-.26*h)*smoothstep(0.,.14,h)*smoothstep(1.,.5,h);
+}
+vec4 clouds(vec3 rd,float jit){
+  if(rd.y<.012) return vec4(0.);
+  float t0=(CY0-RO.y)/rd.y,t1=min((CY1-RO.y)/rd.y,t0+5200.);
+  float far=exp(-t0/68000.);
+  if(far<.01) return vec4(0.);
+  float cov=mix(.575,.2,uStorm);
+  const int N=26;
+  float dt=(t1-t0)/float(N),t=t0+dt*jit,Tr=1.;
+  vec3 acc=vec3(0.);
+  float mu=dot(rd,uSun),g=.72,hg=(1.-g*g)/pow(1.+g*g-2.*g*mu,1.5)*.0796;
+  vec3 L=uSun.y>-.2?normalize(vec3(uSun.x,max(uSun.y,.02),uSun.z)):uMoon;
+  for(int i=0;i<(N)+uZ;i++){
+    vec3 p=RO+rd*t;
+    float d=cloudD(p,t0>26000.?4:6,cov);
+    if(d>.01){
+      float od=d*1.1;
+      float tl=0.; for(int j=1;j<=(2)+uZ;j++){ tl+=cloudD(p+L*(float(j)*170.),3,cov); }
+      float h=(p.y-CY0)/(CY1-CY0);
+      float beer=exp(-tl*2.1),powder=1.-exp(-d*5.);
+      float nearSun=pow(mu*.5+.5,34.);
+      vec3 tint=mix(vec3(.2,.085,.2)*length(gCloudSun)*.75,gCloudSun,nearSun);
+      vec3 sunl=tint*(beer*powder*(.3+hg*2.2))+tint*(.25+.95*nearSun)*pow(1.-h,4.)*exp(-tl*.5);
+      vec3 ml=gMoonCol*1.55*beer*powder;
+      vec3 amb=gAmbUp*(.8+.6*h)+gAmbHor*.14*nearSun+vec3(.0065,.0075,.0105)*uStorm*(.35+h);
+      vec3 flash=vec3(.7,.78,1.)*gFlash*5.*(.3+beer)*vn(p.xz*.0006+uT);
+      vec3 c=sunl+ml+amb+flash;
+      float a=1.-exp(-od*dt*.02);
+      acc+=c*a*Tr; Tr*=1.-a;
+      if(Tr<.03) break;
+    }
+    t+=dt;
+  }
+  float fd=far*smoothstep(.018,.085,rd.y);
+  return vec4(acc*fd,(1.-Tr)*fd);
+}
+vec4 cloudsCheap(vec3 d){
+  if(d.y<.012) return vec4(0.);
+  float t=(CY0+300.-RO.y)/d.y; if(t>68000.) return vec4(0.);
+  vec2 q=(RO+d*t).xz*.00036+vec2(.0768,.024);
+  float cov=mix(.575,.2,uStorm),s=fbm(q,3);
+  float a=smoothstep(cov,cov+.16,s)*exp(-t/68000.)*smoothstep(.018,.085,d.y);
+  float m=smoothstep(cov+.25,cov,s);
+  float ns=pow(max(dot(d,uSun),0.)*.5+.5,34.);
+  vec3 c=mix(vec3(.2,.085,.2)*length(gCloudSun)*.75,gCloudSun,ns)*(.3+.7*m)*.8+gAmbUp*1.1+gMoonCol*1.2+vec3(.7,.78,1.)*gFlash*3.;
+  return vec4(c*a,a);
+}
+
+/* ---------- the headland: a heightfield of eroded rock, firs, and the tower ---------- */
+float sdSeg(vec2 p,vec2 a,vec2 b){ vec2 pa=p-a,ba=b-a; return length(pa-ba*clamp(dot(pa,ba)/dot(ba,ba),0.,1.)); }
+const vec2 LH2=vec2(150.,330.);
+const float LHY=68.;
+float terrain(vec2 p,float det){
+  float n1=fbm(p*.0085+4.,3);
+  float dA=sdSeg(p,vec2(190.,362.),vec2(900.,420.));
+  float d=108.-dA+(n1-.5)*130.+(fbm(p*.05,3)-.5)*34.;
+  float s=clamp(d/58.,0.,1.); gS=s;
+  float top=1.-pow(1.-s,3.);
+  float wall=smoothstep(.0,.3,s)*smoothstep(1.,.5,s);
+  float h=-8.+76.*top+(fbm(p*.016,3)-.5)*16.*top;
+  // erosion: broad buttresses, then horizontal beds of rock that weather into ledges
+  h+=(fbm(p*.042+n1*3.,4)-.5)*42.*wall;
+  float crag=1.-abs(2.*vn(p*.085+n1*6.)-1.);
+  h+=crag*crag*crag*17.*wall;
+  float bedN=vn(p*.011)*1.6;
+  float tt=h/8.5+bedN, fr=fract(tt);
+  float terr=(floor(tt)+smoothstep(.1,.72,fr)-bedN)*8.5;
+  h=mix(h,terr,(.25+.45*vn(p*.02+9.))*wall);
+  if(det>0.) h+=(fbm(p*.33,6)-.5)*3.8*det*(wall*.9+.1);
+  // a skirt of fallen rock where the wall meets the sea
+  float apron=smoothstep(.14,.0,s)*smoothstep(-.14,.02,d/58.);
+  if(det>0.) h+=apron*(pow(vn(p*.42),2.)*4.);
+  // low foreground ledges, near the camera on the right
+  float dC=sdSeg(p,vec2(310.,118.),vec2(760.,70.));
+  float d2=62.-dC+(n1-.5)*72.;
+  if(d2>-30.){
+    float s2=clamp(d2/22.,0.,1.);
+    float h2=-8.+34.*(1.-pow(1.-s2,2.4))+(fbm(p*.07,3)-.5)*14.*s2;
+    float t2=h2/5.;h2=mix(h2,(floor(t2)+smoothstep(.15,.7,fract(t2)))*5.,.65);
+    if(det>0.) h2+=(fbm(p*.45,5)-.5)*2.2*det;
+    h=max(h,h2);
+  }
+  // sea stacks off the point
+  float st=max(26.*(1.-length(p-vec2(92.,300.))/20.),17.*(1.-length(p-vec2(72.,352.))/15.));
+  st+=(vn(p*.2)-.5)*4.;
+  h=max(h,st-3.);
+  h=mix(h,min(h,LHY+1.5+(vn(p*.03)-.5)*4.),smoothstep(250.,70.,length(p-LH2)));
+  float m=smoothstep(30.,44.,length(p-LH2-vec2(-8.,-3.)));
+  return mix(LHY,h,m);
+}
+float firs(vec2 p){
+  const float C=7.5;
+  vec2 g=p/C-.5,id0=floor(g);
+  float res=0.;
+  for(int j=0;j<(2)+uZ;j++) for(int i=0;i<(2)+uZ;i++){
+    vec2 id=id0+vec2(i,j);
+    float r=h21(id+.5);
+    if(r<.12) continue;
+    vec2 c=(id+.5+.5*(vec2(h21(id+7.),h21(id+13.))-.5)*1.3+.5)*C;
+    float H=19.+20.*pow(h21(id+21.),1.2),R=H*.17;
+    float dd=length(p-c);
+    float cone=H*(1.-dd/R);
+    if(cone>0.){ float ang=atan(p.y-c.y,p.x-c.x); float bough=.55*sin(cone*2.6+r*9.+3.*sin(ang*3.+r*20.))+.4*sin(ang*7.+cone*.8); res=max(res,cone+bough*smoothstep(0.,3.,cone)*smoothstep(H,H*.72,cone)); }
+  }
+  float forest=smoothstep(.12,.32,vn(p*.0095+2.))*smoothstep(44.,74.,length(p-LH2));
+  return res*forest;
+}
+float sdLH(vec3 p){
+  vec3 q=p-vec3(LH2.x,LHY,LH2.y);
+  float bound=length(q-vec3(0.,20.,0.));
+  if(bound>58.) return bound-34.;
+  float rr=length(q.xz),y=q.y;
+  float base=max(rr-8.2,abs(y-1.5)-3.);
+  float rad=mix(7.,4.2,clamp(y/38.,0.,1.));
+  rad+=.25*smoothstep(.25,0.,abs(y-37.));
+  float tower=max(rr-rad,abs(y-19.)-19.);
+  float gal=max(rr-6.1,abs(y-38.3)-.35);
+  float lan=max(rr-3.05,abs(y-41.)-2.6);
+  float dome=length(vec3(q.x,(y-43.4)*1.2,q.z))-3.3; dome=max(dome,43.4-y);
+  float fin=max(rr-.28,abs(y-47.4)-1.2);
+  float rail=max(abs(rr-5.95)-.09,abs(y-39.6)-.75);
+  rail=max(rail,-(abs(fract(atan(q.z,q.x)*7.)-.5)-.33)*1.+0.*y);
+  vec3 cq=q-vec3(-20.,0.,-6.);
+  vec3 cb=abs(cq-vec3(0.,3.,0.))-vec3(7.5,3.,4.5);
+  float cot=length(max(cb,0.))+min(max(cb.x,max(cb.y,cb.z)),0.);
+  float roof=max(abs(cq.x)-8.2,max(abs(cq.z)*.72+(cq.y-6.)*.7-3.6,5.8-cq.y));
+  float chim=max(max(abs(cq.x-4.5)-.8,abs(cq.z-1.)-.8),abs(cq.y-9.)-3.);
+  return min(min(min(min(base,tower),min(gal,lan)),min(dome,fin)),min(rail,min(min(cot,roof),chim)));
+}
+float mapLand(vec3 p,float det,bool tr){
+  float h=terrain(p.xz,det),s=gS;
+  float hh=h;
+  if(tr&&s>.62&&p.y<h+34.) hh+=firs(p.xz)*smoothstep(.62,.9,s);
+  float d=(p.y-hh)*.36;
+  return min(d,sdLH(p));
+}
+float marchLand(vec3 ro,vec3 rd,float tmax,int N,float det,bool tr){
+  float t=0.;
+  if(ro.x<58.){ if(rd.x<=0.0005) return -1.; t=(58.-ro.x)/rd.x; }
+  if(rd.y>0.&&ro.y<140.) tmax=min(tmax,(140.-ro.y)/rd.y);
+  if(ro.y>=140.&&rd.y>=0.) return -1.;
+  for(int i=0;i<(N)+uZ;i++){
+    if(t>tmax) return -1.;
+    vec3 p=ro+rd*t;
+    float d=mapLand(p,det,tr);
+    if(d<.0005*t+.012) return t;
+    t+=max(d,.1+t*.0014);
+  }
+  return t<tmax?t:-1.;
+}
+vec3 landNormal(vec3 p,float e){
+  vec2 k=vec2(1,-1);
+  return normalize(k.xyy*mapLand(p+k.xyy*e,1.,true)+k.yyx*mapLand(p+k.yyx*e,1.,true)+k.yxy*mapLand(p+k.yxy*e,1.,true)+k.xxx*mapLand(p+k.xxx*e,1.,true));
+}
+
+/* ---------- the lamp ---------- */
+float coneOf(vec3 v,vec3 dir,float sig){ float c=dot(v,dir); if(c<=0.) return 0.; float x2=(1.-c)*2./(sig*sig); return exp(-x2)+.45*exp(-x2*7.); }
+float lampSig(){ return mix(.078,.11,uShift); }
+vec3 beam2(){ return vec3(-uBeam.x,uBeam.y,-uBeam.z); }
+const vec3 LAMPC=vec3(1.,.83,.58);
+vec3 lampIrr(vec3 p,vec3 n){
+  vec3 v=p-uLampPos; float r2=dot(v,v),r=sqrt(r2); vec3 l=v/r;
+  float c=0.;
+  float nl=max(dot(n,-l),0.);
+  return LAMPC*uLamp*(5200.*c+90.)*nl/(r2+40.)*exp(-r*.0009);
+}
+float fogD(vec3 p){
+  float b=.55+.9*vn3(p*.0075+vec3(uT*.05,0.,uT*.03));
+  b*=.6+.8*vn3(p*.031+vec3(-uT*.09,uT*.03,0.));
+  return b*(1.+uStorm*.55);
+}
+// one beam: find where the view ray runs closest to the beam's axis, then equiangular-sample that stretch
+vec3 beamOne(vec3 ro,vec3 rd,float tmax,vec3 dir,int N,float jit){
+  vec3 w0=ro-uLampPos;
+  float b=dot(rd,dir),d=dot(rd,w0),e=dot(dir,w0),den=max(1.-b*b,.0004);
+  float t=(b*e-d)/den,s=(e-b*d)/den;
+  if(s<0.){ t=-d; s=0.; }
+  float sig=lampSig();
+  float hw=(sig*3.2*max(s,28.)+10.)/sqrt(den);
+  float ta=max(t-hw,0.),tb=min(t+hw,tmax);
+  if(tb<=ta) return vec3(0.);
+  float tc=-d,D=max(length(w0+rd*tc),1.5);
+  float a=atan((ta-tc)/D),z=atan((tb-tc)/D),sum=0.;
+  for(int i=0;i<(N)+uZ;i++){
+    float th=mix(a,z,(float(i)+jit)/float(N));
+    vec3 p=ro+rd*(tc+D*tan(th));
+    vec3 v=p-uLampPos; float r=length(v); vec3 l=v/r;
+    float c=coneOf(l,dir,sig);
+    if(c<.002) continue;
+    float mu=dot(l,-rd),g=.58;
+    float ph=(1.-g*g)/pow(1.+g*g-2.*g*mu,1.5)*.0796+.05;
+    sum+=c*fogD(p)*ph*exp(-r*.00085);
+  }
+  return LAMPC*sum/float(N)*(z-a)/D;
+}
+vec3 beamVol(vec3 ro,vec3 rd,float tmax,int N,float jit){
+  return vec3(0.);
+  return (beamOne(ro,rd,tmax,uBeam,N,jit)+.75*beamOne(ro,rd,tmax,beam2(),N,fract(jit+.5)))*uLamp*520.;
+}
+vec3 lampGlare(vec3 rd,float tmax){
+  return vec3(0.);
+  vec3 tl=uLampPos-RO; float dist=length(tl); tl/=dist;
+  if(tmax<dist-16.) return vec3(0.);
+  float a=acos(clamp(dot(rd,tl),-1.,1.));
+  vec3 toCam=normalize(RO-uLampPos);
+  float az=abs(atan(uBeam.x*toCam.z-uBeam.z*toCam.x,uBeam.x*toCam.x+uBeam.z*toCam.z));
+  az=min(az,PI-az);
+  float face=exp(-az*az/.03);
+  float g=.000006/(a*a+.0000045)+.00016/(a+.012);
+  g*=(1.+16.*face);
+  float halo=exp(-pow((a-.07)/.006,2.))*.0014*(1.+7.*face);
+  return (LAMPC*g+vec3(.75,.85,1.)*halo)*uLamp*5.;
+}
+
+/* ---------- the sea: waves with real deep-water dispersion, each one dragging the next ---------- */
+float waveN(vec2 p,int it){
+  float fr=.11,a=1.,w=0.,ws=0.,an=.7;
+  for(int i=0;i<(it)+uZ;i++){
+    vec2 d=vec2(sin(an),cos(an));
+    float ph=dot(d,p)*fr+uT*sqrt(9.81*fr);
+    float x=exp(sin(ph)-1.),dx=x*cos(ph);
+    p+=d*dx*a*.18/max(fr,.2);
+    w+=x*a; ws+=a;
+    a*=.83; fr*=1.19; an+=1.2354;
+  }
+  return w/ws;
+}
+float ripple(vec2 p){
+  float h=0.;
+  for(int i=0;i<(4)+uZ;i++){
+    vec4 r=uRip[i]; float age=uT-r.z;
+    if(r.w<=0.||age<0.||age>10.) continue;
+    float s=r.w,dd=length(p-r.xy)/s;
+    float c=3.3,env=exp(-pow((dd-c*age)/(1.7+age*.9),2.))*exp(-age*.42);
+    h+=.75*s*env*sin(dd*2.5-age*8.5);
+  }
+  return h;
+}
+float seaH(vec2 p,int it){ return uSeaAmp*(waveN(p,it)-.33)+ripple(p); }
+
+vec3 shadeWater(vec3 p,vec3 rd,float t,float jit,vec2 suvShift){
+  int it=t<140.?20:(t<520.?13:8);
+  float e=clamp(t*.0028,.035,2.8);
+  float h0=seaH(p.xz,it);
+  vec3 n=vec3(h0-seaH(p.xz+vec2(e,0.),it),e,h0-seaH(p.xz+vec2(0.,e),it));
+  n.xz*=1.35/(1.+t*.0022);
+  // capillary sparkle the wave sum can't reach
+  if(t<900.){ vec2 q=p.xz*vec2(2.1,1.5)+uT*vec2(.5,.9); float a=vn(q),bb=vn(q+vec2(.13,0.)),cc=vn(q+vec2(0.,.13)); n.xz+=(vec2(a-bb,a-cc))*.1*e*exp(-t*.0024); }
+  n=normalize(n);
+  vec3 R=reflect(rd,n); R.y=abs(R.y)+.002; R=normalize(R);
+  float fres=.02+.98*pow(1.-max(dot(n,-rd),0.),5.);
+  fres=min(fres,1.);
+
+  vec3 hz=lut(normalize(vec3(R.x,.02,R.z)));
+  vec3 refl=hills(R,skyBase(R)*1.25+stars(R)*.5,hz);
+  vec4 cl=cloudsCheap(R); refl=refl*(1.-cl.a)+cl.rgb;
+
+  // the sun's and the moon's glitter paths
+  float m=max(dot(R,uSun),0.); refl+=gSunCol*(pow(m,1400.)*42.+pow(m,90.)*.16)*(1.-uStorm);
+  float mm=max(dot(R,uMoon),0.); refl+=vec3(.75,.82,1.)*(pow(mm,1600.)*1.5+pow(mm,120.)*.022)*smoothstep(.45,.85,uEve)*(1.-uStorm);
+
+  // the headland, truly mirrored
+  float tr=marchLand(p+vec3(0.,.6,0.),R,1600.,70,.5,true);
+  float tt=1e9;
+  if(tr>0.){ vec3 q=p+R*tr; tt=tr;
+    float lanternH=step(sdLH(q),.7)*smoothstep(39.,39.5,q.y-LHY)*smoothstep(44.,43.,q.y-LHY);
+    refl=mix(gAmbUp*.7+gAmbHor*.12,hz,1.-exp(-tr*.00045))*vec3(.7,.72,.8)+LAMPC*lanternH*uLamp*5.; }
+  refl+=lampGlare(R,tt)*1.15;
+  refl+=beamVol(p,R,min(tt,3000.),4,jit)*.9;
+  refl+=vec3(.7,.78,1.)*gFlash*.9;
+
+  float crest=smoothstep(.1,.85,(h0/max(uSeaAmp,.01))+.15);
+  vec3 ambi=gAmbUp*.55+gAmbHor*.3;
+  vec3 deep=vec3(.006,.024,.036)*(ambi*4.+.002)+vec3(.02,.1,.085)*crest*crest*(gSunCol*.35*max(uSun.y+.08,0.)*4.+ambi*2.);
+  vec3 light=lampIrr(p+vec3(0.,1.,0.),vec3(0.,1.,0.));
+  deep+=light*vec3(.16,.32,.3);
+
+  vec3 c=mix(deep,refl,fres);
+
+  // foam, where the sea meets rock and where a storm breaks the crests
+  float gnd=terrain(p.xz,0.);
+  float sh=smoothstep(-7.,-.8,gnd);
+  float fn=fbm(p.xz*.28+vec2(uT*.11,-uT*.07),3);
+  float surge=.55+.45*sin(uT*.8+p.x*.05+p.z*.03+fn*5.);
+  float foam=sh*smoothstep(.62-.3*sh*surge,.92,fn+sh*.42);
+  float st=uStorm*smoothstep(.56,.8,h0/max(uSeaAmp,.01))*smoothstep(.3,.62,fbm(p.xz*.09+uT*.12,3));
+  foam=clamp(foam+st*1.3,0.,1.);
+  vec3 foamL=ambi*1.4+gSunCol*max(uSun.y+.06,0.)*.7+gMoonCol*.7+light*.7+vec3(.7,.78,1.)*gFlash*1.2;
+  c=mix(c,foamL,foam*.8);
+
+  // atmospheric perspective over the water
+  c=mix(c,lut(normalize(vec3(rd.x,.012,rd.z))),1.-exp(-t*.00011*(1.+uStorm*4.)));
+  return c;
+}
+
+vec3 shadeLand(vec3 p,vec3 rd,float t){
+  float e=max(.02,t*.0006);
+  vec3 n=landNormal(p,e);
+  float h=terrain(p.xz,1.),s=gS;
+  float dL=sdLH(p),above=p.y-h;
+  vec3 lh=p-vec3(LH2.x,LHY,LH2.y);
+  vec3 alb; float emit=0.;
+  if(dL<.5){
+    float yy=lh.y;
+    alb=vec3(.74,.72,.66)*(.8+.2*vn(lh.xy*vec2(3.,.8)));
+    vec3 cq=lh-vec3(-20.,0.,-6.);
+    bool inCot=abs(cq.x)<8.4&&abs(cq.z)<5.5&&cq.y<13.;
+    if(inCot){
+      alb=vec3(.52,.47,.4);
+      if(cq.y>5.9) alb=vec3(.05,.045,.05);
+      if(cq.z<-4.2&&cq.y>1.8&&cq.y<4.4){ float wx=abs(abs(cq.x)-3.6); if(wx<1.05&&abs(fract(cq.y*.9)-.5)>.05&&wx>.06) emit=.3; }
+    } else {
+      float az=atan(lh.x,-lh.z);
+      for(int w=0;w<3;w++){ float wy=9.+float(w)*10.; if(abs(lh.y-wy)<1.3&&abs(az-.15*sin(float(w)*2.))<.11) emit=.16; }
+    }
+    if(yy>38.&&yy<38.7) alb=vec3(.05);
+    if(yy>38.7){ alb=vec3(.035,.04,.05); }
+    if(yy>38.7&&yy<43.6){
+      float bars=smoothstep(.72,.9,abs(sin(atan(lh.z,lh.x)*5.)));
+      emit=1.-bars;
+    }
+  } else if(above>1.3){
+    alb=vec3(.016,.027,.019)*(.65+.8*vn(p.xz*1.4+p.y*.6));
+  } else {
+    float rock=.45+.7*vn(vec2(p.x*.05+p.z*.05,p.y*.6));
+    alb=vec3(.082,.074,.072)*rock*(.6+.8*fbm(p.xz*.7+p.y*.5,4));
+    float gr=smoothstep(.72,.93,n.y)*smoothstep(38.,55.,p.y);
+    alb=mix(alb,vec3(.05,.052,.04)*(.7+.6*vn(p.xz*.4)),gr);
+    alb=mix(alb,alb*vec3(.5,.52,.58),smoothstep(10.,0.,p.y));
+  }
+  vec3 c=alb*(gAmbUp*(.55+.45*n.y)*5.+gAmbHor*(.65-.35*n.y)*(dL<.5?.8:3.4));
+  c+=alb*gSunCol*max(dot(n,uSun),0.)*3.2*(1.-uStorm);
+  // backlit rim: light wrapping the silhouette from the bright horizon behind it
+  float rim=pow(1.-max(dot(n,-rd),0.),4.);
+  c+=gAmbHor*rim*(dL<.5?.06:(above>1.3?.14:.3))+gSunCol*rim*.25*max(dot(rd,uSun)*.5+.5,0.)*(1.-uStorm);
+  if(dL>=.5&&above<=1.3) c+=alb*gAmbHor*pow(max(dot(n,normalize(vec3(-.9,.15,-.2))),0.),1.5)*5.;
+  c+=alb*gMoonCol*max(dot(n,uMoon),0.)*1.5;
+  c+=alb*lampIrr(p+n*.3,n)*(dL<.5?.35:1.);
+  c+=alb*vec3(.7,.78,1.)*gFlash*1.3;
+  c+=LAMPC*emit*uLamp*3.2;
+  c=mix(c,lut(normalize(vec3(rd.x,.016,rd.z))),1.-exp(-t*.00016*(1.+uStorm*3.)));
+  return c;
+}
+
+vec2 toSuv(vec3 d){ float a=uRes.x/uRes.y; return vec2((d.x/d.z*F)/a+.5,d.y/d.z*F-K+.5); }
+
+void main(){
+  vec2 fc=gl_FragCoord.xy,suv=fc/uRes,uv=(fc+uJit-.5*uRes)/uRes.y;
+  K=mix(.1,-.8,uShift);
+  RO=vec3(uCamX,mix(6.5,38.,uShift),0.);
+  vec3 rd=normalize(vec3(uv.x,uv.y+K,F));
+  float jit=fract(52.9829189*fract(dot(fc+uFrame*vec2(5.588,3.13),vec2(.06711056,.00583715))));
+
+  gFlash=uFlash*.8/uExposure;
+  float sunS=uSun.y;
+  gSunCol=transmittance(sunS)*smoothstep(-.03,.0,sunS)*9.;
+  gCloudSun=transmittance(sunS+.05)*smoothstep(-.11,-.02,sunS)*1.25*(1.-.92*uStorm);
+  gAmbUp=lut(vec3(0.,1.,0.))+vec3(.0011,.0018,.0036);
+  gAmbHor=lut(normalize(vec3(.2,.02,1.)))*.72+vec3(.001,.0016,.003);
+  gMoonCol=vec3(.0175,.021,.03)*smoothstep(.45,.85,uEve)*(1.-uStorm*.85);
+  gAmbUp=mix(gAmbUp,vec3(dot(gAmbUp,vec3(.33)))*vec3(.5,.56,.7),uStorm*.9);
+  gAmbHor=mix(gAmbHor,vec3(dot(gAmbHor,vec3(.33)))*vec3(.5,.56,.7),uStorm*.9);
+
+  float tW=1e9;
+  if(rd.y<-.0002){
+    tW=RO.y/-rd.y;
+    if(tW<9000.) for(int i=0;i<(5)+uZ;i++){ vec3 p=RO+rd*tW; tW+=(p.y-seaH(p.xz,t_it(tW)))/-rd.y*.75; }
+  }
+  float tL=-1.;
+  if(uShift<.97) tL=marchLand(RO,rd,min(tW,1600.),280,1.,true);
+
+  if(uMaskMode>.5){ float w=(tL<=0.&&rd.y<-.0002&&tW<60000.)?1.:0.,l=tL>0.?1.:0.; O=mix(vec4(w,1.-w-l,l,1.),textureLod(uPrev,suv,0.),uHist); return; }
+  vec3 c; float tmax;
+  if(tL>0.){
+    tmax=tL; c=shadeLand(RO+rd*tL,rd,tL);
+  } else if(tW<60000.&&rd.y<-.0002){
+    tmax=tW; c=shadeWater(RO+rd*tW,rd,tW,jit,suv);
+  } else {
+    tmax=3000.;
+    vec3 hz=lut(normalize(vec3(rd.x,.02,rd.z)));
+    vec3 s=skyBase(rd)+skyDiscs(rd)+stars(rd);
+    vec4 cl=clouds(rd,jit);
+    s=s*(1.-cl.a)+cl.rgb;
+    s=hills(rd,s,hz);
+    // lightning: a jagged channel far over the water
+    if(gFlash>.02&&rd.y>0.){ float az=rd.x/rd.z+.2; float xx=az-.34*(fbm(vec2(rd.y*26.+floor(uT),2.),4)-.5)-(rd.y*.3); float ch=.0009/(abs(xx)+.0009); s+=vec3(.75,.85,1.)*ch*gFlash*8.*smoothstep(.34,.05,rd.y); }
+    s+=vec3(.7,.78,1.)*gFlash*.05;
+    c=s;
+  }
+
+  vec3 beam=beamVol(RO,rd,tmax,10,jit);
+
+  // the title stands in the same air as the beam: it blocks the light behind it, so its shadow streams through the fog
+  float occ=0.;
+  float tA=uTextA;
+  if(tA>.01&&dot(beam,vec3(1.))>.0005){
+    vec2 a=suv,bb=uLampUv; vec2 stp=(bb-a)/12.; vec2 q=a+stp*jit;
+    for(int i=0;i<(12)+uZ;i++){ occ+=textureLod(uText,q,0.).r; q+=stp; }
+    occ=clamp(occ/12.*3.2,0.,1.)*tA;
+  }
+  beam*=1.-.8*occ;
+  c+=beam;
+
+  // ...and the water mirrors it
+  if(tA>.01&&tL<=0.&&rd.y<-.0002&&tW<60000.){
+    vec3 p=RO+rd*tW;
+    float e=clamp(tW*.0028,.035,2.8),h0=seaH(p.xz,8);
+    vec3 n=normalize(vec3((h0-seaH(p.xz+vec2(e,0.),8))*2.6,e,(h0-seaH(p.xz+vec2(0.,e),8))*2.6));
+    vec3 R=reflect(rd,n); R.y=abs(R.y);
+    vec2 ruv=toSuv(R);
+    if(ruv.x>0.&&ruv.x<1.&&ruv.y>0.&&ruv.y<1.){
+      vec2 tm=textureLod(uText,ruv,0.).rg; float m=tm.r*.75+tm.g*.2;
+      c+=vec3(1.,.93,.8)*m*tA*(.0022+.06*min(dot(beam,vec3(.33))*3.,1.));
+    }
+  }
+
+  // the rest of the title glows into the hdr buffer so bloom can catch it (the crisp letters are drawn in the final pass)
+  float lit=clamp(dot(beam,vec3(.3,.5,.2))*2.6,0.,1.);
+  if(tA>.01){ float ta=textureLod(uText,suv,0.).r*tA; c+=vec3(1.,.9,.72)*ta*lit*.35; }
+
+  c*=uExposure;
+  c=min(c,vec3(60.));
+  vec4 prev=textureLod(uPrev,suv,0.);
+  vec4 cur=vec4(c,lit);
+  // light temporal accumulation: tames the stochastic steps, and softens sparkle into glitter
+  O=mix(cur,prev,uHist);
+}
+</script>
+
+<script id="fs-down" type="x-shader">#version 300 es
+precision highp float; uniform sampler2D uTex; uniform vec2 uTexel; uniform float uThresh; out vec4 O; in vec4 _;
+void main(){ vec2 s=vec2(textureSize(uTex,0)); vec2 uv=gl_FragCoord.xy*uTexel;
+  vec2 t=1./s;
+  vec3 c=texture(uTex,uv).rgb*.5+.125*(texture(uTex,uv+t).rgb+texture(uTex,uv-t).rgb+texture(uTex,uv+vec2(t.x,-t.y)).rgb+texture(uTex,uv+vec2(-t.x,t.y)).rgb);
+  if(uThresh>0.){ float l=max(c.r,max(c.g,c.b)); c*=smoothstep(uThresh*.55,uThresh*1.5,l); c=min(c,vec3(30.)); }
+  O=vec4(c,1.); }
+</script>
+<script id="fs-up" type="x-shader">#version 300 es
+precision highp float; uniform sampler2D uTex; uniform vec2 uTexel; out vec4 O;
+void main(){ vec2 uv=gl_FragCoord.xy*uTexel; vec2 t=1.5/vec2(textureSize(uTex,0));
+  vec3 c=texture(uTex,uv+vec2(-t.x,0)).rgb+texture(uTex,uv+vec2(t.x,0)).rgb+texture(uTex,uv+vec2(0,t.y)).rgb+texture(uTex,uv+vec2(0,-t.y)).rgb;
+  c=c*.25; O=vec4(c,1.); }
+</script>
+<script id="fs-final" type="x-shader">#version 300 es
+precision highp float;
+uniform sampler2D uScene,uBloom,uText; uniform vec2 uRes,uLampUv; uniform float uT,uStorm,uTextA,uFlash,uShift,uGrade,uRaw; out vec4 O;
+float h21(vec2 p){ vec3 q=fract(vec3(p.xyx)*.1031); q+=dot(q,q.yzx+33.33); return fract((q.x+q.y)*q.z); }
+vec3 aces(vec3 x){ return clamp((x*(2.51*x+.03))/(x*(2.43*x+.59)+.14),0.,1.); }
+float rain(vec2 uv,float s,float sp,float sk){
+  uv.x+=uv.y*sk; uv*=vec2(s*1.0,s*.075); uv.y+=uT*sp;
+  vec2 id=floor(uv),f=fract(uv);
+  float r=h21(id); if(r<.76) return 0.;
+  float x=abs(f.x-.2-.6*h21(id+3.));
+  return smoothstep(.09,.0,x)*smoothstep(0.,.25,f.y)*smoothstep(1.,.6,f.y)*(r-.76)*4.;
+}
+void main(){
+  vec2 uv=gl_FragCoord.xy/uRes;
+  vec4 sc=texture(uScene,uv);
+  if(uRaw>.5){ O=vec4(sc.rgb,1.); return; }
+  vec3 bl=texture(uBloom,uv).rgb;
+  vec3 c=sc.rgb+bl*.16;
+  float lit=sc.a;
+  if(uStorm>.01){
+    float a=uRes.x/uRes.y; vec2 p=vec2(uv.x*a,uv.y);
+    float rn=rain(p,70.,1.5,.16)+.7*rain(p+.3,120.,1.9,.19)+.4*rain(p+.7,210.,2.4,.22);
+    c+=vec3(.55,.62,.75)*rn*uStorm*(.018+.5*lit+.5*uFlash+bl.g*.14);
+  }
+  vec2 q=uv-.5; c*=1.-dot(q,q)*.62;
+  c=aces(c);
+  c=pow(c,vec3(1./2.2));
+  // a restrained film grade: cool shadows, warm highlights
+  float l=dot(c,vec3(.3,.59,.11));
+  c=mix(c,c*vec3(.94,.99,1.08),(1.-l)*.5);
+  c=mix(c,c*vec3(1.05,1.0,.94),l*.42);
+  c=mix(vec3(l),c,1.08);
+
+  // the crisp title, lit by whatever the beam is doing at that exact spot, brightest on the side that faces the lamp
+  if(uTextA>.01){
+    vec2 px=1./vec2(textureSize(uText,0));
+    float a=texture(uText,uv).r;
+    if(a>.002||texture(uText,uv).g>.002){
+      float gx=texture(uText,uv+vec2(px.x*3.,0.)).g-texture(uText,uv-vec2(px.x*3.,0.)).g;
+      float gy=texture(uText,uv+vec2(0.,px.y*3.)).g-texture(uText,uv-vec2(0.,px.y*3.)).g;
+      vec2 toL=normalize(uLampUv-uv);
+      float rim=clamp(-dot(vec2(gx,gy),toL)*8.,0.,1.);
+      vec3 base=vec3(.97,.95,.9);
+      vec3 hot=vec3(1.,.87,.62);
+      vec3 tc=mix(base,mix(vec3(1.,.97,.9),hot,.55),smoothstep(.0,.55,lit))+hot*rim*lit*.65;
+      // a thin drop of darkness below the letters so they always read
+      float halo=texture(uText,uv).g;
+      c*=1.-halo*.28*uTextA;
+      c=mix(c,tc,a*uTextA);
+    }
+  }
+  c+=(bl*.05);
+  
+  O=vec4(c,1.);
+}
+</script>
+
+<script>
+const qs = new URLSearchParams(location.search);
+const num = (k, d) => (qs.has(k) ? parseFloat(qs.get(k)) : d);
+const errEl = document.getElementById('err');
+const canvas = document.getElementById('gl');
+const BW = 2560, BH = 1440, N = qs.get('bake') === 'mask' ? 48 : 220, PLATE = qs.get('bake');
+const gl = canvas.getContext('webgl2', { antialias: false, alpha: false, powerPreference: 'high-performance', preserveDrawingBuffer: true });
+if (!gl) { errEl.textContent = 'This browser has no WebGL2.'; throw new Error('no webgl2'); }
+const floatOk = gl.getExtension('EXT_color_buffer_float') || gl.getExtension('EXT_color_buffer_half_float');
+gl.getExtension('OES_texture_float_linear');
+
+const src = (id) => document.getElementById(id).textContent.trim();
+const parallel = gl.getExtension('KHR_parallel_shader_compile');
+function prog(vsSrc, fsSrc, name) {
+  const mk = (t, c) => { const o = gl.createShader(t); gl.shaderSource(o, c); gl.compileShader(o); return o; };
+  const p = gl.createProgram(); gl.attachShader(p, mk(gl.VERTEX_SHADER, vsSrc)); gl.attachShader(p, mk(gl.FRAGMENT_SHADER, fsSrc)); gl.linkProgram(p);
+  return { p, u: {}, name };
+}
+function finishProgram(pr) {
+  if (!gl.getProgramParameter(pr.p, gl.LINK_STATUS)) { const m = pr.name + ': ' + gl.getProgramInfoLog(pr.p); errEl.textContent += m + '\n'; console.error(m); }
+  const n = gl.getProgramParameter(pr.p, gl.ACTIVE_UNIFORMS);
+  for (let i = 0; i < n; i++) { const a = gl.getActiveUniform(pr.p, i); pr.u[a.name.replace('[0]', '')] = gl.getUniformLocation(pr.p, a.name); }
+}
+const vs = src('vs');
+// the sea's iteration count depends on distance; a tiny helper the scene shader calls during tracing
+let sceneSrc = src('fs-scene').replace('/* ---------- sky ---------- */', 'int t_it(float t){ return t<200.?9:6; }\n/* ---------- sky ---------- */');
+// measurement only: ?noland stubs the headland out, to see how much of the compile and frame cost it is
+if (qs.has('noland')) sceneSrc = sceneSrc
+  .replace('float marchLand(vec3 ro,vec3 rd,float tmax,int N,float det,bool tr){', 'float marchLand(vec3 ro,vec3 rd,float tmax,int N,float det,bool tr){ return -1.;')
+  .replace('float terrain(vec2 p,float det){', 'float terrain(vec2 p,float det){ return -10.;');
+const P = {
+  lut: prog(vs, src('fs-lut'), 'lut'),
+  scene: prog(vs, sceneSrc, 'scene'),
+  down: prog(vs, src('fs-down').replace(' in vec4 _;', ''), 'down'),
+  up: prog(vs, src('fs-up'), 'up'),
+  final: prog(vs, src('fs-final'), 'final'),
+};
+const vao = gl.createVertexArray(); gl.bindVertexArray(vao);
+
+function target(w, h, hdr = true) {
+  const tex = gl.createTexture(); gl.bindTexture(gl.TEXTURE_2D, tex);
+  if (hdr && floatOk) gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA16F, w, h, 0, gl.RGBA, gl.HALF_FLOAT, null);
+  else gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA8, w, h, 0, gl.RGBA, gl.UNSIGNED_BYTE, null);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR); gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE); gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+  const fb = gl.createFramebuffer(); gl.bindFramebuffer(gl.FRAMEBUFFER, fb); gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, tex, 0);
+  return { tex, fb, w, h };
+}
+const free = (t) => { if (t) { gl.deleteTexture(t.tex); gl.deleteFramebuffer(t.fb); } };
+
+/* The title as a texture: red holds the crisp letters, green a soft halo used for light, shadow and rim. */
+const textCanvas = document.createElement('canvas');
+const textTex = gl.createTexture();
+function drawTitle() {
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  const W = innerWidth * dpr, H = innerHeight * dpr;
+  textCanvas.width = W; textCanvas.height = H;
+  const x = textCanvas.getContext('2d');
+  x.fillStyle = '#000'; x.fillRect(0, 0, W, H);
+  const size = Math.min(innerWidth * 0.098, innerHeight * .19, 136) * dpr;
+  const left = Math.max(16, Math.min(48, innerWidth * .04)) * dpr;
+  const base = innerHeight * 0.375 * dpr;
+  x.font = `italic 500 ${size}px "Newsreader", Georgia, serif`;
+  x.textBaseline = 'alphabetic';
+  try { x.letterSpacing = `${-0.02 * size}px`; x.fontKerning = 'normal'; } catch (e) {}
+  x.globalCompositeOperation = 'lighter';
+  x.filter = `blur(${size * 0.11}px)`; x.fillStyle = '#00ff00'; x.fillText('undumployed', left, base);
+  x.filter = 'none'; x.fillStyle = '#ff0000'; x.fillText('undumployed', left, base);
+  gl.bindTexture(gl.TEXTURE_2D, textTex);
+  gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, textCanvas);
+  gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, false);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR); gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE); gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+}
+
+const lutT = target(128, 64);
+let hist = [null, null], bloom = [], outW = 0, outH = 0, scale = 1, histValid = false;
+const fixedScale = qs.has('scale');
+function allocate() {
+  const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+  outW = BW; outH = BH;
+  if (canvas.width !== outW || canvas.height !== outH) { canvas.width = outW; canvas.height = outH; }
+  const w = Math.max(160, Math.round(outW * scale)), h = Math.max(90, Math.round(outH * scale));
+  hist.forEach(free); bloom.forEach(free);
+  hist = [target(w, h), target(w, h)];
+  bloom = []; let bw = w, bh = h;
+  for (let i = 0; i < 5; i++) { bw = Math.max(4, bw >> 1); bh = Math.max(4, bh >> 1); bloom.push(target(bw, bh)); }
+  histValid = false;
+}
+
+const halton = (i, b) => { let f = 1, r = 0; while (i > 0) { f /= b; r += f * (i % b); i = Math.floor(i / b); } return r; };
+/* ---------- state ---------- */
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+const smooth = (a, b, v) => { const t = clamp((v - a) / (b - a)); return t * t * (3 - 2 * t); };
+const mix = (a, b, t) => a + (b - a) * t;
+const norm = (v) => { const l = Math.hypot(...v); return v.map((x) => x / l); };
+
+const LHY = 68, LH = [150, LHY + 41.2, 330];
+const F = 1.25;
+const S = { p: 0, pSmooth: 0, yaw: 2.35, pitch: -.02, vy: .45, vp: 0, ptr: null, lastMove: -1e9, lamp: qs.has('t') ? 1 : 0, flash: 0, nextBolt: 6, rip: [[0,0,-99,0],[0,0,-99,0],[0,0,-99,0],[0,0,-99,0]], ripI: 0 };
+if (qs.has('yaw')) S.yaw = num('yaw', 2.35);
+
+function camera(shift, aspect) {
+  const target = Math.min(aspect * .335, .62);
+  const camX = LH[0] - target * LH[2] / F;
+  return { K: mix(.1, -.8, shift), y: mix(6.5, 38, shift), x: camX };
+}
+function pointerWorld(cam, aspect, sx, sy) {
+  const uv = [ (sx - .5) * aspect, .5 - sy ];
+  const rd = norm([uv[0], uv[1] + cam.K, F]);
+  let T = 300 / Math.max(rd[2], .2);
+  let onWater = false;
+  if (rd[1] < -0.002) { const tw = cam.y / -rd[1]; if (tw < T) T = tw; onWater = tw < 2500; }
+  return { p: [cam.x + rd[0] * T, cam.y + rd[1] * T, rd[2] * T], onWater, T };
+}
+
+addEventListener('pointermove', (e) => {
+  S.ptr = [e.clientX / innerWidth, e.clientY / innerHeight];
+  S.lastMove = performance.now() / 1000;
+  document.getElementById('hint').style.opacity = 0;
+}, { passive: true });
+addEventListener('pointerdown', (e) => {
+  if (e.target.closest && e.target.closest('button')) return;
+  const aspect = innerWidth / innerHeight, cam = camera(S.shiftNow || 0, aspect);
+  const w = pointerWorld(cam, aspect, e.clientX / innerWidth, e.clientY / innerHeight);
+  if (!w.onWater) return;
+  S.rip[S.ripI % 4] = [w.p[0], w.p[2], S.t, Math.max(.55, w.T / 42)];
+  S.ripI++;
+}, { passive: true });
+document.querySelectorAll('#moods button').forEach((b) => b.addEventListener('click', () => {
+  scrollTo({ top: parseFloat(b.dataset.p) * innerHeight * 1.8, behavior: 'smooth' });
+}));
+
+const hero = document.getElementById('hero');
+const rows = [...document.querySelectorAll('#rows li')];
+const moods = [...document.querySelectorAll('#moods button')];
+
+/* ---------- frame ---------- */
+const start = performance.now() / 1000;
+let last = start, frame = 0, ema = 16, cool = 0;
+function draw(p, target, tx) {
+  gl.bindFramebuffer(gl.FRAMEBUFFER, target ? target.fb : null);
+  gl.viewport(0, 0, target ? target.w : outW, target ? target.h : outH);
+  gl.useProgram(p.p);
+  let unit = 0;
+  for (const k in tx) { gl.activeTexture(gl.TEXTURE0 + unit); gl.bindTexture(gl.TEXTURE_2D, tx[k]); gl.uniform1i(p.u[k], unit); unit++; }
+  gl.drawArrays(gl.TRIANGLES, 0, 3);
+}
+function tick() {
+  const nowS = performance.now() / 1000;
+  const dt = Math.min(.05, nowS - last); last = nowS;
+  const T = 48 + frame * .31;
+  S.t = T;
+  const aspect = BW / BH;
+
+  const rawP = window.scrollY / (innerHeight * 1.8);
+  const p = qs.has('p') ? num('p', 0) : rawP;
+  S.pSmooth += (p - S.pSmooth) * (1 - Math.exp(-dt * 4));
+  if (qs.has('p')) S.pSmooth = p;
+  const q = S.pSmooth;
+  const eve = qs.has('eve') ? num('eve', .24) : mix(.24, 1, smooth(0, .5, q));
+  const storm = qs.has('storm') ? num('storm', 0) : smooth(.55, .84, q) * (1 - smooth(1.02, 1.3, q));
+  const shift = qs.has('shift') ? num('shift', 0) : smooth(1.12, 1.6, q);
+  S.shiftNow = shift;
+  const el = mix(3.4, -21, eve) * Math.PI / 180;
+  const sun = norm([-.055, Math.tan(el), 1]);
+  const moon = norm([-.11, .36, 1]);
+  const cam = camera(shift, aspect);
+
+  S.lamp = qs.has('t') ? 1 : Math.min(1, S.lamp + dt / 2.4);
+  const flick = S.lamp < 1 ? (S.lamp < .35 ? (Math.sin(nowS * 37) > .2 ? S.lamp * 2 : 0) : S.lamp) : 1;
+
+  /* The lens has angular momentum: it glides round on its own, and when you move, a damped spring swings it toward you. */
+  const idle = nowS - S.lastMove > 2.6;
+  const basePitch = mix(-.018, -.27, shift);
+  if (!idle && S.ptr && !qs.has('yaw')) {
+    const w = pointerWorld(cam, aspect, S.ptr[0], S.ptr[1]);
+    const v = norm([w.p[0] - LH[0], w.p[1] - LH[1], w.p[2] - LH[2]]);
+    const ty = Math.atan2(v[2], v[0]), tp = Math.asin(v[1]);
+    let dy = ty - S.yaw; dy = Math.atan2(Math.sin(dy), Math.cos(dy));
+    S.vy += (dy * 18 - S.vy * 7) * dt;
+    S.vp += ((tp - S.pitch) * 18 - S.vp * 7) * dt;
+  } else {
+    S.vy += (.42 - S.vy) * dt * 1.1;
+    S.vp += ((basePitch - S.pitch) * 3 - S.vp * 3) * dt;
+  }
+  if (!qs.has('yaw')) { S.yaw += S.vy * dt; S.pitch += S.vp * dt; }
+  const beam = norm([Math.cos(S.yaw) * Math.cos(S.pitch), Math.sin(S.pitch), Math.sin(S.yaw) * Math.cos(S.pitch)]);
+
+  /* storm: lightning on a Poisson-ish clock */
+  S.flash *= Math.exp(-dt * 6.5);
+  if (qs.has('flash')) S.flash = num('flash', 0);
+  else if (storm > .55 && T > S.nextBolt) { S.flash = 1; if (Math.random() < .5) setTimeout(() => { S.flash = .85; }, 110); S.nextBolt = T + 3 + Math.random() * 7; }
+
+  const exposure = mix(1.7, 13, Math.pow(smooth(.1, .75, eve), 1.25)) * mix(1, .4, shift) * mix(1, .62, storm);
+  const textA = 1 - smooth(1.02, 1.28, q);
+  const sw = cam.K;
+  const lampUv = [ (((LH[0] - cam.x) / LH[2]) * F) / aspect + .5, ((LH[1] - cam.y) / LH[2]) * F - sw + .5 ];
+  const seaAmp = mix(mix(.75, 1.05, eve), 4.2, storm) * mix(1, .85, shift);
+
+  gl.disable(gl.BLEND);
+  /* sky table */
+  gl.useProgram(P.lut.p); gl.uniform2f(P.lut.u.uRes, lutT.w, lutT.h); gl.uniform3fv(P.lut.u.uSun, sun);
+  draw(P.lut, lutT, {});
+
+  /* scene */
+  const [cur, prv] = frame % 2 ? [hist[0], hist[1]] : [hist[1], hist[0]];
+  const u = P.scene.u; gl.useProgram(P.scene.p);
+  gl.uniform2f(u.uRes, cur.w, cur.h); gl.uniform1f(u.uT, T); gl.uniform1f(u.uEve, eve); gl.uniform1f(u.uStorm, storm); gl.uniform1f(u.uShift, shift);
+  gl.uniform1f(u.uFlash, S.flash); gl.uniform1f(u.uLamp, flick); gl.uniform1f(u.uExposure, exposure); gl.uniform1f(u.uHist, frame / (frame + 1)); gl.uniform2f(u.uJit, halton(frame + 1, 2) - .5, halton(frame + 1, 3) - .5); gl.uniform1f(u.uMaskMode, PLATE === 'mask' ? 1 : 0); gl.uniform1f(u.uFrame, frame % 64);
+  gl.uniform1i(u.uZ, 0); gl.uniform1f(u.uCamX, cam.x); gl.uniform1f(u.uTextA, 0); gl.uniform1f(u.uSeaAmp, seaAmp);
+  gl.uniform3fv(u.uSun, sun); gl.uniform3fv(u.uMoon, moon); gl.uniform3fv(u.uBeam, beam); gl.uniform3fv(u.uLampPos, LH); gl.uniform2fv(u.uLampUv, lampUv);
+  gl.uniform4fv(u.uRip, S.rip.flat());
+  draw(P.scene, cur, { uLut: lutT.tex, uText: textTex, uPrev: prv.tex });
+  histValid = true;
+
+  /* bloom chain */
+  let srcT = cur;
+  for (let i = 0; i < bloom.length; i++) {
+    const d = bloom[i]; gl.useProgram(P.down.p); gl.uniform2f(P.down.u.uTexel, 1 / d.w, 1 / d.h); gl.uniform1f(P.down.u.uThresh, i === 0 ? .85 : 0);
+    draw(P.down, d, { uTex: srcT.tex }); srcT = d;
+  }
+  gl.enable(gl.BLEND); gl.blendFunc(gl.ONE, gl.ONE);
+  for (let i = bloom.length - 1; i > 0; i--) {
+    const d = bloom[i - 1]; gl.useProgram(P.up.p); gl.uniform2f(P.up.u.uTexel, 1 / d.w, 1 / d.h);
+    draw(P.up, d, { uTex: bloom[i].tex });
+  }
+  gl.disable(gl.BLEND);
+
+  /* final */
+  const fu = P.final.u; gl.useProgram(P.final.p);
+  gl.uniform2f(fu.uRes, outW, outH); gl.uniform1f(fu.uT, T % 100); gl.uniform1f(fu.uStorm, 0); gl.uniform1f(fu.uTextA, 0); gl.uniform1f(fu.uRaw, PLATE === 'mask' ? 1 : 0); gl.uniform1f(fu.uFlash, S.flash); gl.uniform1f(fu.uShift, shift); gl.uniform2fv(fu.uLampUv, lampUv);
+  draw(P.final, null, { uScene: cur.tex, uBloom: bloom[0].tex, uText: textTex });
+
+  /* page: the DOM answers to the same lamp */
+  document.querySelector('.nav').classList.toggle('solid', q > 1.2);
+  hero.style.opacity = 1 - smooth(1.0, 1.22, q);
+  hero.style.pointerEvents = q > 1.2 ? 'none' : 'auto';
+  hero.style.transform = `translateY(${-q * 22}px)`;
+  const tagLit = clamp(1.4 - Math.abs(Math.atan2(beam[2], beam[0]) - Math.PI * .8) * 1.2);
+  hero.style.setProperty('--lit', tagLit.toFixed(3));
+  if (shift > .3) {
+    const s = LH[1] / Math.max(-beam[1], .03);
+    const hit = [LH[0] + beam[0] * s, 0, LH[2] + beam[2] * s];
+    const front = hit[2] > 3;
+    const hx = (((hit[0] - cam.x) / hit[2]) * F / aspect + .5) * innerWidth;
+    const hy = (.5 - ((-cam.y / hit[2]) * F - cam.K)) * innerHeight;
+    rows.forEach((r) => {
+      const b = r.getBoundingClientRect();
+      const dy = (b.top + b.height / 2 - hy) / 170, dx = Math.max(0, Math.abs(hx - innerWidth / 2) - 500) / 300;
+      r.style.setProperty('--lit', front ? Math.exp(-(dy * dy + dx * dx)).toFixed(3) : '0');
+    });
+  }
+  const mood = q < .3 ? 0 : q < .72 ? 1 : q < 1.25 ? 2 : 3;
+  moods.forEach((b, i) => b.classList.toggle('on', i === mood));
+
+  /* resolution follows the machine, so it never stutters */
+  const ms = (nowS - (S.prevS || nowS)) * 1000; S.prevS = nowS;
+  if (ms > 0 && ms < 400) ema = ema * .93 + ms * .07;
+  cool--;
+  if (false) {
+    if (ema > 26 && scale > .34) { scale = Math.max(.34, scale * .84); allocate(); cool = 40; }
+    else if (ema < 14 && scale < 1) { scale = Math.min(1, scale * 1.12); allocate(); cool = 90; }
+  }
+  window.__stats = { ms: +ema.toFixed(1), scale: +scale.toFixed(2), w: hist[0].w, h: hist[0].h, eve: +eve.toFixed(2), storm: +storm.toFixed(2), shift: +shift.toFixed(2), yaw: +S.yaw.toFixed(2) };
+  frame++;
+  window.__progress = frame + '/' + N;
+  if (frame < N) { setTimeout(tick, 0); return; }
+  canvas.toBlob(async (b) => {
+    await fetch('/save/' + PLATE + '.webp', { method: 'POST', body: b });
+    window.__baked = { name: PLATE, kb: Math.round(b.size / 1024) };
+  }, 'image/webp', .99);
+}
+
+let resizeT;
+addEventListener('resize', () => { clearTimeout(resizeT); resizeT = setTimeout(() => { allocate(); drawTitle(); }, 120); });
+allocate();
+drawTitle();
+if (document.fonts) document.fonts.load('italic 500 120px "Newsreader"').then(() => document.fonts.ready).then(drawTitle);
+const info = gl.getExtension('WEBGL_debug_renderer_info');
+window.__gpu = info ? gl.getParameter(info.UNMASKED_RENDERER_WEBGL) : 'unknown';
+const compileStart = performance.now();
+(function waitForPrograms() {
+  const all = Object.values(P);
+  const ready = !parallel || all.every((pr) => gl.getProgramParameter(pr.p, parallel.COMPLETION_STATUS_KHR));
+  if (!ready) { window.__compiling = Math.round(performance.now() - compileStart); setTimeout(waitForPrograms, 60); return; }
+  all.forEach(finishProgram);
+  window.__compileMs = Math.round(performance.now() - compileStart);
+  window.__parallel = !!parallel;
+  last = performance.now() / 1000;
+  setTimeout(tick, 0);
+  canvas.classList.add('on');
+})();
+</script>
+</body>
+</html>

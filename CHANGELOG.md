@@ -2,6 +2,13 @@
 
 All notable changes to this collection. Dates are when the sweep was done.
 
+## 2026-11-03: A new home page
+
+- The bay is now a rendered scene instead of hand-drawn SVG. It appears at once, and the water, clouds, surf, smoke and the lighthouse's beam are live. The beam turns on its own and swings toward your cursor or the search box. Theme and scroll fade between dusk, night and the storm.
+- The first screen no longer holds for a long scroll: the list's edge shows from the start, and the list sits on a solid sheet. The page ends with "What's undumployed" and the dedication over the night sea.
+- With reduced motion, or without WebGL, the home page shows a still picture. Other pages don't load the scene at all.
+- `scripts/scene/` has the tools that render the pictures.
+
 ## 2026-10-26: October sweep, Drops
 
 **Drops: one-off opportunities**

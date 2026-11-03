@@ -48,7 +48,7 @@ async function render(base, params, id) {
   const fresh = main.cloneNode(false);
   main.replaceWith(fresh);
   main = fresh;
-  document.body.classList.toggle('is-home', base === 'home');
+  document.documentElement.toggleAttribute('data-home', base === 'home');
   window.scrollTo(0, 0);
   const page = PAGES[base];
   current.page = page || null;
@@ -66,7 +66,7 @@ async function render(base, params, id) {
     }
     if (token !== nav) return;
   }
-  if (!reducedMotion()) main.classList.add('page-enter');
+  if (!reducedMotion() && base !== 'home') main.classList.add('page-enter');
   document.title = TITLES[base] || 'undumployed';
   await page.mount(main, params, id);
 }

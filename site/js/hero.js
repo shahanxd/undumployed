@@ -1,309 +1,427 @@
-// Arcadia Bay at golden hour, drawn by hand in SVG and CSS.
-// Scrolling moves time forward: the sun sets, the lamp comes on, stars, then the storm rolls in.
-// Scrolling back up rewinds it. Every layer only changes transform or opacity, so the compositor does the work.
+// The bay. The world was rendered ahead of time into a few pictures (see scripts/scene), so it's on screen at once.
+// Only what moves runs live: the water, the wind in the clouds, the surf, the chimney smoke and the lighthouse's beam.
+// It's one cheap shader that looks things up in the pictures instead of computing a world, so it stays smooth on integrated graphics.
 import { getTheme, reducedMotion } from './state.js';
 
-// deterministic randomness, so the scene is the same on every visit
-function seeded(seed) { let s = seed >>> 0; return () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; }; }
-const f1 = (n) => n.toFixed(1);
+const FRAGMENT = `#version 300 es
+precision highp float;
+uniform sampler2D uA,uB,uM;
+uniform vec2 uRes; uniform vec4 uCrop,uGlass; uniform vec3 uBeam,uGlintDir,uGlintCol;
+uniform float uMix,uT,uLod,uGain,uFace,uSea,uRain,uFlash,uDim,uGlassR;
+uniform int uZ;
+out vec4 O;
+const float F=1.25,K=.1,AS=1.7777778;
+const vec3 RO=vec3(-7.24,6.5,0.),L=vec3(150.,109.2,330.),LC=vec3(1.,.82,.56);
+const vec2 LAMP=vec2(.8348,.788),CHIMNEY=vec2(.8066,.6838),HEARTH=vec2(.7926,.6583),SQ=vec2(AS,1.);
 
-/** A Douglas fir: tiers of drooping branches up to a narrow tip. */
-function fir(cx, base, h, w, rnd) {
-  const n = Math.max(5, Math.round(h / 22));
-  const step = h / (n + 0.7);
-  const L = [], LI = [], R = [], RI = [];
-  for (let i = 0; i < n; i++) {
-    const y = base - i * step;
-    const half = (w / 2) * (1 - i / (n + 0.5));
-    L.push([cx - half * (0.88 + rnd() * 0.24), y + (rnd() - 0.5) * step * 0.25]);
-    LI.push([cx - half * (0.3 + rnd() * 0.14), y - step * (1.1 + rnd() * 0.14)]);
-    R.push([cx + half * (0.88 + rnd() * 0.24), y + (rnd() - 0.5) * step * 0.25]);
-    RI.push([cx + half * (0.3 + rnd() * 0.14), y - step * (1.1 + rnd() * 0.14)]);
-  }
-  const pts = [[cx - w * 0.035, base + 40]];
-  for (let i = 0; i < n; i++) { pts.push(L[i]); if (i < n - 1) pts.push(LI[i]); }
-  pts.push([cx + (rnd() - 0.5) * 1.5, base - h]);
-  for (let i = n - 1; i >= 0; i--) { pts.push(R[i]); if (i > 0) pts.push(RI[i - 1]); }
-  pts.push([cx + w * 0.035, base + 40]);
-  return `M${pts.map((p) => `${f1(p[0])} ${f1(p[1])}`).join('L')}Z`;
+float h21(vec2 p){ vec3 q=fract(vec3(p.xyx)*.1031); q+=dot(q,q.yzx+33.33); return fract((q.x+q.y)*q.z); }
+float vn(vec2 p){ vec2 i=floor(p),f=fract(p); f=f*f*(3.-2.*f); return mix(mix(h21(i),h21(i+vec2(1,0)),f.x),mix(h21(i+vec2(0,1)),h21(i+vec2(1,1)),f.x),f.y); }
+vec3 plate(vec2 uv,float lod){ uv.y=1.-uv.y; vec3 a=textureLod(uA,uv,lod).rgb; return uMix>.002?mix(a,textureLod(uB,uv,lod).rgb,uMix):a; }
+vec3 rayOf(vec2 p){ return normalize(vec3((p.x-.5)*AS,p.y-.5+K,F)); }
+vec2 uvOf(vec3 d){ return vec2(d.x/d.z*F/AS+.5,d.y/d.z*F-K+.5); }
+
+// The beam, solved in closed form: where the view ray passes nearest the beam's axis, how much of the cone it crosses there.
+float beam(vec3 ro,vec3 rd,vec3 dir){
+  vec3 w=ro-L; float b=dot(rd,dir),d=dot(rd,w),e=dot(dir,w),den=max(1.-b*b,.001);
+  float t=(b*e-d)/den,s=(e-b*d)/den;
+  if(s<0.){ s=0.; t=-d; }
+  if(t<0.) return 0.;                                  // the fade in the air around the camera (below) makes this seamless
+  vec3 p=ro+rd*t,v=p-(L+dir*s);
+  float sig=.078*max(s,24.)+1.2,x2=dot(v,v)/(sig*sig);
+  if(x2>9.) return 0.;
+  vec3 lp=p-L; float r2=dot(lp,lp),r=sqrt(r2),mu=dot(lp/max(r,.001),-rd);
+  float ph=.91/pow(1.09-.6*mu,1.5)*.0796+.03;
+  float fog=.55+.9*vn(p.xz*.0085+vec2(uT*.05,uT*.03));
+  fog*=.65+.75*vn(p.xy*.03+vec2(-uT*.09,uT*.04));
+  return smoothstep(0.,90.,t)*smoothstep(-2.,46.,p.y)*(exp(-x2)+.45*exp(-x2*7.))*ph*fog*min(sig/sqrt(max(den,.05)),120.)/(r*420.+9000.)*exp(-r*.0017);
+}
+// A lobe heading behind the headland, or tipped down into it, doesn't show over the rock.
+float clearOf(vec3 dir,float rock){ return 1.-rock*max(smoothstep(-.3,.3,dir.z),1.-smoothstep(-.3,-.08,dir.y))*.85; }
+vec3 beams(vec3 ro,vec3 rd,float rock){ vec3 back=vec3(-uBeam.x,uBeam.y,-uBeam.z); return LC*(beam(ro,rd,uBeam)*clearOf(uBeam,rock)+.75*beam(ro,rd,back)*clearOf(back,rock))*60000.; }
+float beamSoft(vec3 ro,vec3 rd){
+  vec3 w=ro-L; float b=dot(rd,uBeam),d=dot(rd,w),e=dot(uBeam,w),den=max(1.-b*b,.0006),s=max((e-b*d)/den,24.);
+  vec3 v=ro+rd*((b*e-d)/den)-(L+uBeam*s); float sig=.09*s+1.2;
+  return exp(-dot(v,v)/(sig*sig))*sig/sqrt(den)/(s*s+500.);
+}
+vec3 glare(vec3 rd){
+  float a2=2.*(1.-dot(rd,normalize(L-RO))),a=sqrt(a2);
+  float g=.0000075/(a2+.000006)+.00022/(a+.014);
+  return LC*g*(1.+2.5*uFace);
 }
 
-function starsSvg() {
-  const rnd = seeded(11);
-  const groups = [[], [], []];
-  for (let i = 0; i < 120; i++) {
-    const x = rnd() * 1600, y = Math.pow(rnd(), 1.4) * 560;
-    const r = 0.45 + Math.pow(rnd(), 3) * 1.4;
-    groups[i % 3].push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="${r.toFixed(2)}"/>`);
-  }
-  return `<svg viewBox="0 0 1600 600" preserveAspectRatio="xMidYMin slice" fill="#fff">
-    <g class="tw">${groups[0].join('')}</g><g class="tw tw-2">${groups[1].join('')}</g><g class="tw tw-3">${groups[2].join('')}</g></svg>`;
-}
+void main(){
+  vec2 suv=gl_FragCoord.xy/uRes;
+  vec2 uv=uCrop.xy+suv*uCrop.zw;
+  vec3 m=textureLod(uM,vec2(uv.x,1.-uv.y),0.).rgb;
+  vec3 rd=rayOf(uv);
+  vec3 c,light=vec3(0.);
 
-// Long stratus bands lit from below. They keep clear of the text on the left;
-// the low ones pass in front of the sun, the way they do an hour before it sets.
-function cloudsSvg(near) {
-  const far = [
-    'M920 196c120-10 262-12 402-6 84 4 170 0 250 7-102 10-238 12-372 10-112-2-206 2-280-11Z',
-    'M1060 282c96-7 204-9 312-5 70 3 140 1 210 7-78 8-178 10-284 9-96-1-176 2-238-11Z',
-    'M980 378c96-7 206-9 312-5 70 3 132 1 190 6-70 8-160 10-254 9-96-1-180 2-248-10Z',
-  ];
-  const low = [
-    'M40 548c150-12 318-16 490-10 118 5 200 2 290 10-98 10-236 13-384 11-150-2-290 2-396-11Z',
-    'M780 502c110-9 232-12 354-7 72 3 132 1 190 7-66 8-162 11-268 9-100-2-196 1-276-9Z',
-    'M300 600c86-6 180-8 272-4 52 2 96 1 136 5-48 6-116 7-188 7-78 0-156 2-220-8Z',
-  ];
-  const id = near ? 'cl-n' : 'cl-f';
-  return `<svg class="${near ? 'near' : 'far'}" viewBox="0 0 1600 640" preserveAspectRatio="xMidYMax slice">
-    <defs><linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="${near ? '#a0648a' : '#6d5a8e'}" stop-opacity="${near ? '.5' : '.45'}"/>
-      <stop offset=".55" stop-color="${near ? '#f0977c' : '#c57f98'}" stop-opacity="${near ? '.75' : '.5'}"/>
-      <stop offset="1" stop-color="${near ? '#ffdcaa' : '#efb39c'}" stop-opacity="${near ? '.95' : '.65'}"/>
-    </linearGradient></defs>
-    <g fill="url(#${id})">${(near ? low : far).map((d) => `<path d="${d}"/>`).join('')}</g></svg>`;
-}
-
-function stormSvg() {
-  // a heavy mass whose underside hangs in soft lobes
-  const edge = (y0, amp, seed) => {
-    const rnd = seeded(seed);
-    let x = 1620;
-    let d = `M-20 -20H1620V${y0}`;
-    while (x > -20) {
-      const nx = Math.max(-20, x - (90 + rnd() * 90));
-      const span = x - nx;
-      d += `C${f1(x - span * 0.3)} ${f1(y0 + amp * (0.55 + rnd()))} ${f1(x - span * 0.7)} ${f1(y0 + amp * (0.55 + rnd()))} ${f1(nx)} ${f1(y0 + amp * (rnd() * 0.5 - 0.1))}`;
-      x = nx;
+  if(m.r>.02&&rd.y<-.0005){
+    // Water: real wave directions and speeds tilt each pixel's mirror, and it looks up its reflection in the picture.
+    float t=RO.y/-rd.y; vec2 p=RO.xz+rd.xz*t;
+    vec2 g=vec2(0.); float fr=.16,a=1.,an=.7;
+    for(int i=0;i<6+uZ;i++){
+      vec2 d=vec2(sin(an),cos(an));
+      float ph=dot(d,p)*fr+uT*sqrt(9.81*fr),sn=sin(ph);
+      g+=d*cos(ph)*exp(sn-1.)*a*fr/(1.+t*fr*.055);
+      a*=.76; fr*=1.5; an+=1.2354;
     }
-    return `${d}Z`;
-  };
-  return `<svg viewBox="0 0 1600 420" preserveAspectRatio="xMidYMin slice">
-    <defs><linearGradient id="st" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#070b14"/><stop offset=".75" stop-color="#151d2e"/><stop offset="1" stop-color="#2a3346"/></linearGradient></defs>
-    <path d="${edge(300, 34, 5)}" fill="#1c2436" opacity=".75"/>
-    <path d="${edge(236, 40, 9)}" fill="url(#st)"/></svg>`;
-}
-
-// The far shore across the bay, on the left. It drops to the water before the sun,
-// so the sun sets over open sea.
-function shoreSvg() {
-  return `<svg viewBox="0 0 1600 120" preserveAspectRatio="none">
-    <path fill="rgba(78,58,108,.5)" d="M0 120V40c60-10 130-6 200-14 70-8 130 2 190 12 60 10 110 32 170 54 30 12 50 22 80 28Z"/>
-    <path fill="rgba(52,40,80,.74)" d="M0 120V72c60-8 120-2 180-6 70-4 120 8 180 18 50 8 90 22 140 36Z"/></svg>`;
-}
-
-function townSvg() {
-  // Arcadia Bay at dusk: small warm windows along the near ridge.
-  const rnd = seeded(23);
-  const dots = [];
-  for (let i = 0; i < 64; i++) {
-    const x = 10 + Math.pow(rnd(), 1.1) * 460;
-    const ridge = 70 + (x / 500) * 44;
-    const y = ridge + 4 + rnd() * Math.max(2, 117 - ridge - 4);
-    const w = 1.6 + rnd() * 1.8;
-    dots.push(`<rect x="${f1(x)}" y="${f1(y)}" width="${f1(w)}" height="1.6" rx=".6" fill="${rnd() > 0.82 ? '#fff2cf' : '#ffcf86'}"/>`);
-  }
-  return `<svg viewBox="0 0 1600 120" preserveAspectRatio="none">${dots.join('')}</svg>`;
-}
-
-function ripplesSvg() {
-  const rnd = seeded(31);
-  const lines = [];
-  for (let k = 1; k <= 46; k++) {
-    const y = Math.pow(k / 46, 1.9) * 300;
-    const dash = 18 + (y / 300) * 120;
-    const gap = 30 + rnd() * 90 + (y / 300) * 160;
-    lines.push(`<path d="M0 ${f1(y)}H1600" stroke-dasharray="${f1(dash)} ${f1(gap)}" stroke-dashoffset="${f1(rnd() * 400)}" stroke-width="${f1(0.6 + (y / 300) * 1.4)}"/>`);
-  }
-  return `<svg class="ripples" viewBox="0 0 1600 300" preserveAspectRatio="none" fill="none" stroke="rgba(255,238,214,.08)">${lines.join('')}</svg>`;
-}
-
-// Sunlight on water: short broken flecks in a cone that widens towards you.
-function glintsSvgs() {
-  const rnd = seeded(47);
-  const groups = [[], [], []];
-  const rows = 64;
-  for (let i = 0; i < rows; i++) {
-    const t = Math.pow(i / rows, 1.35);
-    const y = t * 296;
-    const half = 5 + t * 88;
-    const count = t < 0.15 ? 1 : 1 + Math.round(rnd() * 2);
-    for (let c = 0; c < count; c++) {
-      const w = (3 + t * 42) * (0.35 + rnd() * 0.65);
-      const x = 100 + (rnd() * 2 - 1) * half * 0.85 - w / 2;
-      const h = 0.8 + t * 2.2;
-      const o = (0.95 - t * 0.6) * (0.55 + rnd() * 0.45);
-      groups[(i + c) % 3].push(`<rect x="${f1(x)}" y="${f1(y)}" width="${f1(w)}" height="${f1(h)}" rx="${f1(h / 2)}" opacity="${o.toFixed(2)}"/>`);
+    g*=uSea;
+    vec3 n=normalize(vec3(-g.x,1.,-g.y));
+    vec3 R=reflect(rd,n); R.y=max(R.y,.0008);
+    vec2 w=uvOf(vec3(R.x,-R.y,R.z)); w.y=abs(w.y);
+    vec3 mt=textureLod(uM,vec2(w.x,1.-w.y),0.).rgb;
+    vec3 wc=plate(mt.r>.5?w:uv,uLod+1.1);
+    // Where the swell meets the rock it breaks: it rolls in, lingers, and drains away.
+    float rock=textureLod(uM,vec2(uv.x,1.-uv.y),3.2).b;
+    if(rock>.015){
+      float sh=clamp(rock*2.,0.,1.);
+      float roll=.5+.5*sin(uT*.7+uv.x*40.+3.*vn(vec2(uv.x*60.,uT*.06)));
+      float fm=.55*vn(vec2(uv.x*520.+uT*.16,uv.y*1400.-uT*.5))+.45*vn(vec2(uv.x*1300.-uT*.2,uv.y*3000.+uT*.3));
+      float edge=1.-sh*(.3+.4*roll);
+      wc=mix(wc,plate(vec2(uv.x,.6),5.)*1.3+.05,smoothstep(edge,edge+.09,fm)*.7);
     }
+    float fres=.02+.98*pow(1.-max(dot(n,-rd),0.),5.);
+    wc+=uGlintCol*pow(max(dot(R,uGlintDir),0.),760.)*2.2;
+    light=(glare(R)*1.2+LC*beamSoft(RO+rd*t,R)*90.)*min(fres*2.4+.12,1.)*uGain;
+    vec3 hit=RO+rd*t,lv=hit-L; float lr=length(lv); lv/=lr;
+    float pool=exp(-(1.-dot(lv,uBeam))*2./(.078*.078))+.75*exp(-(1.-dot(lv,vec3(-uBeam.x,uBeam.y,-uBeam.z)))*2./(.078*.078));
+    light+=LC*pool*uGain*(.85+1.6*dot(g,g)*40.)*5200./(lr*lr+900.)*.9;
+    c=mix(plate(uv,uLod),wc,m.r);
+  } else {
+    // Sky: the wind carries the clouds. Two copies of the picture slide along it in turn, each taking over as the other has gone too far.
+    float clear=m.g>.7?smoothstep(.96,1.,textureLod(uM,vec2(uv.x,1.-uv.y),5.5).g):0.;
+    clear*=smoothstep(.035,.12,length((uv-uvOf(uGlintDir))*SQ))*smoothstep(.05,.15,length((uv-LAMP)*SQ));
+    if(clear>.001){
+      vec2 fl=vec2(-1.,.05)+.8*vec2(vn(uv*vec2(3.,6.)+uT*.011)-.5,vn(uv*vec2(4.,5.)-uT*.009+9.)-.5);
+      fl*=clear*(.22+1.1*clamp((uv.y-.4)/.6,0.,1.))*.036;   // the nearer overhead, the faster it crosses
+      float p0=fract(uT/16.+1.4*vn(uv*vec2(2.5,4.))),p1=fract(p0+.5);   // each patch of sky hands over at its own moment, so nothing pulses as one
+      c=mix(plate(uv-fl*(p0-.5),uLod),plate(uv-fl*(p1-.5),uLod),abs(2.*p0-1.));
+    } else c=plate(uv,uLod);
   }
-  return groups.map((g, i) => `<svg class="g${i + 1}" viewBox="0 0 200 300" preserveAspectRatio="none" fill="#ffe7b4">${g.join('')}</svg>`).join('');
-}
 
-function cliffSvg() {
-  const rnd = seeded(3);
-  const trees = [
-    [712, 302, 188, 60], [752, 300, 232, 70], [796, 298, 170, 56], [838, 296, 250, 74], [884, 294, 206, 66],
-    [560, 304, 120, 40], [528, 306, 92, 32],
-  ].map(([x, b, h, w]) => fir(x, b, h, w, rnd));
-  const railPosts = [];
-  for (let x = 608; x <= 672; x += 8) railPosts.push(`<rect x="${x - 0.8}" y="100" width="1.6" height="12"/>`);
-  return `<svg class="cliff" viewBox="0 0 900 760" preserveAspectRatio="xMaxYMax meet">
-    <defs><linearGradient id="rock" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b2334"/><stop offset=".45" stop-color="#151c29"/><stop offset="1" stop-color="#10151f"/></linearGradient></defs>
-    <g class="sil-3">${trees.slice(0, 5).map((d) => `<path d="${d}"/>`).join('')}</g>
-    <g class="sil-2">${trees.slice(5).map((d) => `<path d="${d}"/>`).join('')}</g>
-    <g class="tower">
-      <path d="M609 304 619 118h42l10 186Z"/>
-      <rect x="605" y="111" width="70" height="7" rx="1"/>
-      <rect x="605" y="98" width="70" height="2.2" rx="1"/>
-      ${railPosts.join('')}
-      <rect x="617" y="73" width="46" height="4" rx="1"/>
-      <path d="M619 74 640 55 661 74Z"/>
-      <rect x="639.2" y="44" width="1.6" height="12"/><circle cx="640" cy="43.5" r="2.4"/>
-    </g>
-    <rect class="glass" x="624" y="77" width="32" height="22"/>
-    <g class="tower"><rect x="630" y="77" width="1.6" height="22"/><rect x="639.2" y="77" width="1.6" height="22"/><rect x="648.4" y="77" width="1.6" height="22"/></g>
-    <path class="sil" d="M634 304v-16c0-4 3-7 6-7s6 3 6 7v16Z"/>
-    <path fill="url(#rock)" d="M900 760V286c-38-4-74 4-108 2-40-2-72 4-102 8-30 4-64 2-94 4-36 2-68-2-98 2-28 3-52-2-78 4-22 4-40 12-54 26-14 16-20 40-28 68-8 30-20 52-24 86-4 34-18 62-22 98-4 38-22 66-30 106-6 32-14 52-18 70Z"/>
-    <path class="sil" d="M188 760c4-20 18-32 34-30 12 2 20 16 22 30ZM142 760c8-10 18-14 28-10 8 4 10 8 12 10Z"/>
-    <path class="sil" d="M404 309c4-10 16-12 22-4 6-6 16-2 16 6ZM376 322c3-8 12-10 17-3 5-4 12-1 12 5Z"/>
-    <g class="sil">
-      <rect x="452" y="285" width="42" height="3" rx="1"/><rect x="454" y="274" width="38" height="3" rx="1"/>
-      <rect x="456" y="277" width="2" height="8"/><rect x="488" y="277" width="2" height="8"/>
-      <rect x="455" y="288" width="2.2" height="14"/><rect x="489" y="288" width="2.2" height="14"/>
-    </g>
-    <path class="foam" d="M150 758c16-5 30-5 44-2M198 756c14-4 30-5 46-1M244 757c10-3 20-3 30 0"/>
-  </svg>`;
-}
+  // The cottage: a thread of smoke from the chimney, and a fire that isn't quite steady.
+  vec2 sm=(uv-CHIMNEY)*SQ;
+  if(sm.y>-.001&&sm.y<.13&&sm.x>-.17&&sm.x<.03){
+    float hh=sm.y/.13,wd=.0022+.024*hh,cx=-.11*hh*hh-.012*hh+.004*sin(sm.y*46.-uT*.9)*(.25+hh);
+    float den=exp(-pow((sm.x-cx)/wd,2.))*smoothstep(0.,.04,hh)*pow(1.-hh,1.6)*(.15+1.35*vn(vec2(sm.x*110.+uT*.12,sm.y*70.-uT*.7)));
+    vec3 sky=plate(uv,uLod+3.);
+    c=mix(c,mix(sky,vec3(dot(sky,vec3(.33))),.65)*1.45+.05,clamp(den*.55,0.,.55));
+  }
+  vec2 hr=(uv-HEARTH)*SQ;
+  c+=vec3(1.,.62,.3)*exp(-dot(hr,hr)/.00006)*(.1+.24*vn(vec2(uT*2.7,1.)));
 
-// Warm light catching the edges that face the sun. Its own layer, so it can fade at dusk.
-function rimSvg() {
-  return `<svg class="rim-svg" viewBox="0 0 900 760" preserveAspectRatio="xMaxYMax meet">
-    <path class="rim" d="M244 760c4-18 12-38 18-70 8-40 26-68 30-106 4-36 18-64 22-98 4-34 16-56 24-86 8-28 14-52 28-68 14-14 32-22 54-26 26-6 50-1 78-4"/>
-    <path class="rim rim-thin" d="M609 304 619 118M605 111h14"/>
-  </svg>`;
-}
+  // frosted glass behind the search box: a wider mip of the same picture, so it costs one texture read and no compositing
+  if(uGlassR>0.){
+    vec2 px=gl_FragCoord.xy,ctr=.5*(uGlass.xy+uGlass.zw),hs=.5*(uGlass.zw-uGlass.xy);
+    vec2 dq=abs(px-ctr)-hs+uGlassR;
+    float sd=length(max(dq,0.))+min(max(dq.x,dq.y),0.)-uGlassR;
+    if(sd<1.) c=mix(c,plate(uv,uLod+4.4),clamp(1.-sd,0.,1.));
+  }
 
-export function heroMarkup(copyHtml) {
-  return `
-<section class="hero-track" id="hero-track" aria-labelledby="hero-title">
-<div class="hero" id="hero">
-  <div class="scene" aria-hidden="true">
-    <div class="L sky-day" data-k=".55"></div>
-    <div class="L sky-night" data-k=".55"></div>
-    <div class="L stars-wrap" data-k=".55">${starsSvg()}</div>
-    <div class="L sun-wrap" data-k=".5"><div class="sun-glow"></div><div class="sun"></div></div>
-    <div class="L clouds-wrap" data-k=".47">${cloudsSvg(false)}${cloudsSvg(true)}</div>
-    <div class="L storm-wrap" data-k=".5">${stormSvg()}</div>
-    <div class="L shore-wrap" data-k=".4"><div class="haze"></div>${shoreSvg()}</div>
-    <div class="L sea-wrap" data-k=".38"><div class="sea sea-day"></div><div class="sea sea-night"></div>${ripplesSvg()}<div class="glints">${glintsSvgs()}</div></div>
-    <div class="L cliff-wrap" data-k=".14">${cliffSvg()}${rimSvg()}</div>
-    <div class="L tint"></div>
-    <div class="L flash"></div>
-    <div class="L town-wrap" data-k=".4">${townSvg()}</div>
-    <div class="L cliff-lights" data-k=".14"><div class="lamp"></div><div class="beam-wrap"><div class="beam"></div><div class="flare"></div></div></div>
-  </div>
-  ${copyHtml}
-  <div class="scroll-cue" aria-hidden="true"><svg class="ico"><use href="#i-down"/></svg></div>
-</div>
-</section>`;
+  light+=beams(RO,rd,m.b)*uGain;
+  if(m.r<.5) light+=glare(rd)*uGain;
+  c=1.-(1.-c)*exp(-light/(1.+.62*light));               // light adds like light: it can never clip to a flat white shape
+
+  if(uRain>.01){
+    vec2 ra=vec2(suv.x*uRes.x/uRes.y+suv.y*.17,suv.y*.08)*vec2(80.,80.); ra.y+=uT*1.7;
+    vec2 id=floor(ra),f=fract(ra);
+    float r=h21(id),s=r>.78?(1.-smoothstep(0.,.08,abs(f.x-.2-.6*h21(id+3.))))*smoothstep(0.,.3,f.y)*(1.-smoothstep(.6,1.,f.y)):0.;
+    c+=vec3(.55,.62,.75)*s*uRain*(.07+dot(light,vec3(.25)));
+  }
+  c+=vec3(.55,.62,.8)*uFlash*(.03+.35*dot(c,vec3(.33)));
+  c*=uDim;
+  c+=(h21(gl_FragCoord.xy+fract(uT)*91.)-.5)*.0085;   // dither, so dark gradients never band
+  O=vec4(c,1.);
 }
+`;
+const VERTEX = '#version 300 es\nvoid main(){vec2 p=vec2((gl_VertexID<<1)&2,gl_VertexID&2);gl_Position=vec4(p*2.-1.,0.,1.);}';
+
+const scene = document.getElementById('scene');
+const plate = document.getElementById('scene-plate');
+const canvas = document.getElementById('scene-gl');
 
 const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
 const smooth = (a, b, v) => { const t = clamp((v - a) / (b - a)); return t * t * (3 - 2 * t); };
+const mix = (a, b, t) => a + (b - a) * t;
+const norm = (v) => { const l = Math.hypot(v[0], v[1], v[2]); return [v[0] / l, v[1] / l, v[2] / l]; };
 
-/** Wire up the scroll-driven time of day. Returns a teardown function.
-    The bay stays pinned for a stretch of scrolling while time passes (the sun sets, the lamp
-    comes on, the beam turns, the town and the stars come out, the storm rolls in). Then it
-    scrolls away with a little parallax. Scrolling back up rewinds all of it. */
-export function mountHero(track) {
-  const hero = track.querySelector('.hero');
-  const q = (s) => hero.querySelector(s);
-  const layers = [...hero.querySelectorAll('.scene [data-k]')].map((node) => ({ node, k: parseFloat(node.dataset.k) }));
-  const el = {
-    skyNight: q('.sky-night'), stars: q('.stars-wrap'), sun: q('.sun-wrap'), sunDisc: q('.sun'), clouds: q('.clouds-wrap'),
-    storm: q('.storm-wrap'), seaNight: q('.sea-night'), glints: q('.glints'), rim: q('.rim-svg'), flash: q('.flash'),
-    tint: q('.tint'), town: q('.town-wrap'), lamp: q('.lamp'), beam: q('.beam-wrap'), copy: q('.hero-copy'),
+/* The three moods sit on one line, dusk to night to storm. Theme and scroll each name a place on it and the scene glides there, so nothing ever cuts. */
+const MOODS = [
+  { file: 'dusk', dir: norm([-.055, .03, 1]), col: [1, .55, .3], gain: .8, sea: 1, rain: 0 },
+  { file: 'night', dir: norm([-.11, .36, 1]), col: [.8, .86, 1], gain: 1, sea: .8, rain: 0 },
+  { file: 'storm', dir: norm([.2, .3, 1]), col: [.3, .32, .4], gain: .85, sea: 2.3, rain: 1 },
+];
+const homeMood = () => (getTheme() === 'storm' ? 1 : 0);
+
+/* The camera the pictures were rendered with. */
+const F = 1.25, K = .1, AS = 16 / 9, RO = [-7.24, 6.5, 0], L = [150, 109.2, 330];
+const SPIN = .42;   // a turn every 15 seconds, with a beam passing every 7 or so
+
+const S = { yaw: 2.55, pitch: -.018, vy: SPIN, vp: 0, lastMove: -1e9, ptr: null, focus: false, aimAt: -1e9, gain: 0, flash: 0, nextBolt: 5, tod: -1, dim: 1 };
+let beamDir = [0, 0, 1];
+let page = null, crop = [0, 0, 1, 1], W = 0, H = 0, vw = 1, vh = 1, scale = 1;
+let gl = null, prog = null, parallel = null, u = null, gen = 0, M = null, P = [null, null, null];
+const pending = new Set();
+let raf = 0, running = false, shown = false, shownAt = 0, gaveUp = false, last = 0, ema = 16, slowFor = 0;
+let letterAt = [];
+
+const rayAt = (cx, cy) => {
+  const a = crop[0] + (cx / vw) * crop[2], b = crop[1] + (1 - cy / vh) * crop[3];
+  return norm([(a - .5) * AS, b - .5 + K, F]);
+};
+
+// the title catches the same light the shader draws
+const litAt = (rd) => {
+  const one = (dir) => {
+    const w = [RO[0] - L[0], RO[1] - L[1], RO[2] - L[2]];
+    const b = rd[0] * dir[0] + rd[1] * dir[1] + rd[2] * dir[2];
+    const d = rd[0] * w[0] + rd[1] * w[1] + rd[2] * w[2], e = dir[0] * w[0] + dir[1] * w[1] + dir[2] * w[2];
+    const den = Math.max(1 - b * b, .001); let t = (b * e - d) / den, s = (e - b * d) / den;
+    if (s < 0) { s = 0; t = -d; }
+    if (t < 0) return 0;
+    const v = [RO[0] + rd[0] * t - L[0] - dir[0] * s, RO[1] + rd[1] * t - L[1] - dir[1] * s, RO[2] + rd[2] * t - L[2] - dir[2] * s];
+    const sig = .078 * Math.max(s, 24) + 1.2;
+    return Math.exp(-(v[0] * v[0] + v[1] * v[1] + v[2] * v[2]) / (sig * sig));
   };
-  const still = reducedMotion();
-  let height = 0, pin = 0, sunTravel = 0;
-  let visible = true, queued = false, last = -1;
-  let lampLit = false, stormArrived = false;
-  const measure = () => {
-    height = hero.offsetHeight;
-    pin = Math.max(0, track.offsetHeight - height);
-    sunTravel = (el.sunDisc?.offsetHeight || 80) * 1.9;
-  };
+  return Math.max(one(beamDir), .75 * one([-beamDir[0], beamDir[1], -beamDir[2]]));
+};
 
-  const frame = () => {
-    queued = false;
-    const y = still ? 0 : Math.max(0, window.scrollY - track.offsetTop);
-    const storm = getTheme() === 'storm';
-    const key = y + (storm ? 1e7 : 0);
-    if (key === last) return;
-    last = key;
-    // p: how far through the evening we are (0 golden hour, 1 the storm). exit: how far the bay has scrolled away.
-    // With reduced motion there's no scrubbing, just one still frame: just after sunset, lamp lit.
-    const p = still ? 0.3 : pin > 40 ? clamp(y / pin) : clamp(y / (height * 0.82));
-    const exit = pin > 40 ? Math.max(0, y - pin) : y;
-    const night = storm ? 0.84 + 0.16 * p : smooth(0.18, 0.62, p);
-    const gather = smooth(storm ? 0.3 : 0.55, 1, p);
-    hero.classList.toggle('is-moving', y > 8);
+const measureLetters = () => {
+  if (page) letterAt = page.letters.map((el) => { const r = el.getBoundingClientRect(); return [r.left + r.width / 2, r.top + r.height / 2 + window.scrollY]; });
+};
 
-    for (const { node, k } of layers) {
-      let extra = 0;
-      if (node === el.sun) extra = smooth(0, 0.52, p) * sunTravel;          // the sun sinks into the sea
-      if (node === el.storm) extra = -(1 - gather) * height * 0.32;          // storm clouds roll down from above
-      node.style.transform = `translate3d(0, ${(exit * k + extra).toFixed(1)}px, 0)`;
-    }
-    el.skyNight.style.opacity = night.toFixed(3);
-    el.seaNight.style.opacity = (night * 0.92).toFixed(3);
-    el.tint.style.opacity = (night * 0.44 + gather * 0.12).toFixed(3);
-    el.stars.style.opacity = (storm ? 1 - gather * 0.6 : smooth(0.4, 0.8, p) * (1 - gather * 0.6)).toFixed(3);
-    el.sun.style.opacity = storm ? '0' : (1 - smooth(0.42, 0.6, p)).toFixed(3);
-    el.glints.style.opacity = storm ? '0' : (1 - smooth(0.12, 0.48, p)).toFixed(3);
-    el.rim.style.opacity = storm ? '0' : (1 - smooth(0.2, 0.5, p)).toFixed(3);
-    el.clouds.style.opacity = (1 - night * 0.8).toFixed(3);
-    el.town.style.opacity = storm ? '1' : smooth(0.25, 0.55, p).toFixed(3);
-    // The lamp glows a little even in daylight, then comes on properly as the light goes.
-    const lamp = storm ? 1 : 0.3 + 0.7 * smooth(0.12, 0.38, p);
-    el.lamp.style.opacity = lamp.toFixed(3);
-    el.beam.style.opacity = (storm ? 0.9 : 0.1 + 0.8 * smooth(0.14, 0.45, p)).toFixed(3);
-    el.storm.style.opacity = (gather * 0.92).toFixed(3);
-    if (el.copy) {
-      const fade = smooth(0.68, 0.96, p);
-      el.copy.style.transform = `translate3d(0, ${(exit * 0.28 - fade * 18).toFixed(1)}px, 0)`;
-      el.copy.style.opacity = (1 - fade).toFixed(3);
-    }
-    // little moments, each played once per crossing: the lamp catching, and the storm's first flash
-    if (!still && !storm) {
-      const lit = p > 0.16;
-      if (lit && !lampLit) { el.lamp.classList.remove('is-catching'); void el.lamp.offsetWidth; el.lamp.classList.add('is-catching'); }
-      lampLit = lit;
-    }
-    const arrived = p > 0.9;
-    if (!still && arrived && !stormArrived) { el.flash.classList.remove('is-on'); void el.flash.offsetWidth; el.flash.classList.add('is-on'); }
-    stormArrived = arrived;
-  };
-  const request = () => { if (!queued && visible) { queued = true; requestAnimationFrame(frame); } };
-  const onResize = () => { measure(); last = -1; request(); };
-  const onTheme = () => { last = -1; request(); };
+/* ---------- pictures: decoded off the main thread, at no more than the screen needs, and only when a mood calls for them ---------- */
+const upload = async (file, mine) => {
+  const blob = await (await fetch(`assets/scene/${file}.webp`)).blob();
+  const opts = file === 'mask' ? {} : { resizeWidth: Math.min(2560, Math.ceil(vw * Math.min(devicePixelRatio || 1, 1.5) / crop[2])), resizeQuality: 'high' };
+  const bmp = await createImageBitmap(blob, opts);
+  if (mine !== gen) { bmp.close(); return null; }
+  const tex = gl.createTexture();
+  gl.bindTexture(gl.TEXTURE_2D, tex);
+  gl.pixelStorei(gl.UNPACK_COLORSPACE_CONVERSION_WEBGL, gl.NONE);
+  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA8, gl.RGBA, gl.UNSIGNED_BYTE, bmp);
+  gl.generateMipmap(gl.TEXTURE_2D);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+  const w = bmp.width; bmp.close();
+  return { tex, w };
+};
+// A picture that fails to arrive gets asked for again in a few seconds. Until then the scene holds the mood it has.
+const need = (i) => {
+  if (P[i] || pending.has(i)) return;
+  pending.add(i);
+  const mine = gen;
+  upload(MOODS[i].file, mine).then((p) => { if (mine === gen) { P[i] = p; pending.delete(i); } }, () => setTimeout(() => pending.delete(i), 4000));
+};
+const needMask = (mine) => upload('mask', mine).then((m) => { if (mine === gen) M = m; }, () => setTimeout(() => { if (mine === gen) needMask(mine); }, 4000));
 
-  const io = new IntersectionObserver(([entry]) => {
-    visible = entry.isIntersecting;
-    hero.classList.toggle('is-idle', !visible);
-    if (visible) request();
-  });
-  io.observe(track);
-  if (!still) window.addEventListener('scroll', request, { passive: true });
-  window.addEventListener('resize', onResize);
-  window.addEventListener('themechange', onTheme);
-  measure();
-  lampLit = (Math.max(0, window.scrollY) / (pin || 1)) > 0.16; // no flicker if the page loads already scrolled
-  frame();
+/* ---------- the program: all of it can be rebuilt if the graphics context is lost ---------- */
+const build = () => {
+  gen++;
+  u = null; M = null; P = [null, null, null]; pending.clear();
+  parallel = gl.getExtension('KHR_parallel_shader_compile');   // extensions don't survive a lost context
+  prog = gl.createProgram();
+  for (const [type, code] of [[gl.VERTEX_SHADER, VERTEX], [gl.FRAGMENT_SHADER, FRAGMENT]]) {
+    const o = gl.createShader(type); gl.shaderSource(o, code); gl.compileShader(o); gl.attachShader(prog, o);
+  }
+  gl.linkProgram(prog);
+  gl.bindVertexArray(gl.createVertexArray());
+  const mine = gen;
+  needMask(mine);
+  need(homeMood());
+  (function wait() {
+    if (mine !== gen) return;
+    if (parallel && gl.getProgramParameter(prog, parallel.COMPLETION_STATUS_KHR) === false) { setTimeout(wait, 16); return; }
+    if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) { console.error(gl.getProgramInfoLog(prog)); return; }
+    const uniforms = {};
+    for (let i = 0, n = gl.getProgramParameter(prog, gl.ACTIVE_UNIFORMS); i < n; i++) { const a = gl.getActiveUniform(prog, i); uniforms[a.name] = gl.getUniformLocation(prog, a.name); }
+    u = uniforms;
+  })();
+};
+
+const sleep = () => { shown = false; scene.classList.remove('is-live'); };
+
+const startGl = () => {
+  gl = canvas.getContext('webgl2', { antialias: false, alpha: false, depth: false, stencil: false, powerPreference: 'default' });
+  if (!gl) { gaveUp = true; return; }
+  const info = gl.getExtension('WEBGL_debug_renderer_info');
+  if (info && /swiftshader|llvmpipe|software|basic render/i.test(gl.getParameter(info.UNMASKED_RENDERER_WEBGL))) { gaveUp = true; return; }   // no real GPU: the still picture is the better page
+  /* Drivers can drop the context (a GPU reset, a laptop switching graphics). The picture shows through until it's back. */
+  canvas.addEventListener('webglcontextlost', (e) => { e.preventDefault(); gen++; u = null; sleep(); });
+  canvas.addEventListener('webglcontextrestored', build);
+  build();
+};
+
+const size = () => {
+  vw = scene.clientWidth; vh = scene.clientHeight;
+  if (!vw || !vh) return;
+  crop = window.__frameScene();
+  measureLetters();
+  if (!gl) return;
+  const dpr = Math.min(devicePixelRatio || 1, 1.5), cap = Math.min(1, 2200 / (vw * dpr));
+  W = Math.max(2, Math.round(vw * dpr * cap * scale)); H = Math.max(2, Math.round(vh * dpr * cap * scale));
+  if (canvas.width !== W || canvas.height !== H) { canvas.width = W; canvas.height = H; }
+};
+const resizes = new ResizeObserver(size);
+
+/* ---------- each frame ---------- */
+function draw() {
+  const now = performance.now() / 1000, dt = Math.min(.05, now - last); last = now;
+  const sheet = page.sheet.getBoundingClientRect();
+  if (shown && sheet.top <= 0 && sheet.bottom >= window.innerHeight) return;   // the sheet hides the scene entirely: spend nothing
+  if (!u || !M) return;
+  if (S.tod < 0) { need(homeMood()); if (!P[homeMood()]) return; S.tod = homeMood(); }
+
+  const T = now + 40, y = window.scrollY;
+  const inCoda = !page.coda.hidden && page.coda.getBoundingClientRect().top < window.innerHeight;
+  let want = inCoda ? 1 : homeMood() + smooth(.02, .5, y / window.innerHeight);      // the page always ends on the calm night sea
+  let ready = true;
+  for (let i = Math.floor(Math.min(want, S.tod)); i <= Math.ceil(Math.max(want, S.tod)); i++) { need(i); ready = ready && !!P[i]; }
+  if (!ready) want = S.tod;                                                          // a picture still on its way: wait for it, then go
+  const glide = 1 - Math.exp(-dt * 3.2);
+  S.tod += (want - S.tod) * glide;
+  S.dim += ((inCoda ? .62 : 1) - S.dim) * glide;
+  const iA = Math.min(Math.floor(S.tod), 1), m = S.tod - iA;
+  const aTex = P[iA], bTex = P[iA + 1], cA = MOODS[iA], cB = MOODS[iA + 1];
+  if (!aTex) return;
+
+  /* The lens has weight: on its own it glides round; when you move, a damped spring swings it toward you. */
+  S.gain = Math.min(1, S.gain + dt / 1.5);
+  const toBox = S.focus && now - S.aimAt < 2.6;
+  if (toBox || (now - S.lastMove < 1.5 && S.ptr)) {
+    let cx, cy;
+    if (toBox) { const r = page.search.getBoundingClientRect(); cx = r.left + r.width * .5; cy = r.top + r.height / 2; }
+    else { cx = S.ptr[0]; cy = S.ptr[1]; }
+    const rd = rayAt(cx, cy);
+    const T0 = (L[2] - RO[2] - 1) / Math.max(rd[2], .2);
+    const v = norm([RO[0] + rd[0] * T0 - L[0], RO[1] + rd[1] * T0 - L[1], -.02]);
+    let dy = Math.atan2(v[2], v[0]) - S.yaw; dy = Math.atan2(Math.sin(dy), Math.cos(dy));
+    S.vy += (dy * 16 - S.vy * 6.5) * dt;
+    // A lens tips only so far: following the cursor it stays above the water. Only the search box, out over open sea, draws it lower.
+    S.vp += ((Math.max(Math.asin(v[1]), toBox ? -.36 : -.17) - S.pitch) * 16 - S.vp * 6.5) * dt;
+  } else {
+    S.vy += (SPIN - S.vy) * dt * 1.1;
+    S.vp += ((-.018 - S.pitch) * 3 - S.vp * 3) * dt;
+  }
+  S.yaw += S.vy * dt; S.pitch += S.vp * dt;
+  beamDir = norm([Math.cos(S.yaw) * Math.cos(S.pitch), Math.sin(S.pitch), Math.sin(S.yaw) * Math.cos(S.pitch)]);
+
+  const toCam = norm([RO[0] - L[0], 0, RO[2] - L[2]]);
+  let az = Math.abs(Math.atan2(beamDir[0] * toCam[2] - beamDir[2] * toCam[0], beamDir[0] * toCam[0] + beamDir[2] * toCam[2]));
+  az = Math.min(az, Math.PI - az);
+
+  /* lightning */
+  const raining = mix(cA.rain, cB.rain, m);
+  S.flash *= Math.exp(-dt * 7);
+  if (raining > .6 && T > S.nextBolt) { S.flash = 1; S.nextBolt = T + 5 + Math.random() * 9; }
+
+  gl.useProgram(prog);
+  gl.uniform2f(u.uRes, W, H);
+  gl.uniform4f(u.uCrop, crop[0], crop[1], crop[2], crop[3]);
+  gl.uniform3fv(u.uBeam, beamDir);
+  gl.uniform1f(u.uT, T % 4000);
+  gl.uniform1f(u.uMix, bTex ? m : 0);
+  gl.uniform1f(u.uGain, S.gain * mix(cA.gain, cB.gain, m));
+  gl.uniform1f(u.uFace, Math.exp(-az * az / .03));
+  gl.uniform1f(u.uSea, mix(cA.sea, cB.sea, m));
+  gl.uniform1f(u.uRain, raining);
+  gl.uniform1f(u.uFlash, S.flash);
+  gl.uniform1f(u.uDim, S.dim);
+  gl.uniform3fv(u.uGlintDir, norm([mix(cA.dir[0], cB.dir[0], m), mix(cA.dir[1], cB.dir[1], m), mix(cA.dir[2], cB.dir[2], m)]));
+  gl.uniform3f(u.uGlintCol, mix(cA.col[0], cB.col[0], m), mix(cA.col[1], cB.col[1], m), mix(cA.col[2], cB.col[2], m));
+  gl.uniform1f(u.uLod, Math.max(0, Math.log2(aTex.w * crop[2] / W)));
+  const r = page.search.getBoundingClientRect(), sx = W / vw, sy = H / vh;
+  gl.uniform4f(u.uGlass, r.left * sx, H - r.bottom * sy, r.right * sx, H - r.top * sy);
+  gl.uniform1f(u.uGlassR, r.bottom > 0 ? 16 * sx : 0); gl.uniform1i(u.uZ, 0);
+  const bind = (i, name, tex) => { gl.activeTexture(gl.TEXTURE0 + i); gl.bindTexture(gl.TEXTURE_2D, tex); gl.uniform1i(u[name], i); };
+  bind(0, 'uA', aTex.tex); bind(1, 'uB', (bTex || aTex).tex); bind(2, 'uM', M.tex);
+  gl.viewport(0, 0, W, H);
+  gl.drawArrays(gl.TRIANGLES, 0, 3);
+
+  if (!shown) { shown = true; shownAt = now; scene.classList.add('is-live'); }
+  if (now - shownAt > 1.4) need(homeMood() + 1);                                     // once the fade-in is over, get scrolling's mood ready
+
+  /* the title catches the light */
+  if (y < vh * 1.1 && letterAt.length) {
+    page.letters.forEach((el, i) => {
+      const v = Math.round(clamp(litAt(rayAt(letterAt[i][0], letterAt[i][1] - y)) * S.gain * 1.25) * 40) / 40;
+      if (v !== el._l) { el._l = v; el.style.setProperty('--l', v); }
+    });
+  }
+
+  /* If the machine can't keep up, drop resolution once and stay there: it never climbs back, so it can't oscillate.
+     If even half resolution is too much, the still picture is the better page. */
+  ema = ema * .94 + dt * 1000 * .06;
+  slowFor = ema > 24 && document.hasFocus() ? slowFor + 1 : 0;   // a window in the background is throttled, not slow
+  if (slowFor > 40 && scale > .5) { scale = Math.max(.5, scale * .78); size(); slowFor = 0; ema = 16; }
+  else if (slowFor > 90 && ema > 40) { gaveUp = true; running = false; sleep(); }
+}
+
+/* On a fast screen, draw every other refresh. An even 72 looks smoother than an uneven 85, and uses half the power. */
+let rafLast = 0, every = 1, tick = 0; const gaps = [];
+function loop(ts) {
+  if (!running) return;
+  raf = requestAnimationFrame(loop);
+  if (gaps.length < 16) {
+    if (rafLast) gaps.push(ts - rafLast);
+    rafLast = ts;
+    if (gaps.length === 16 && gaps.sort((a, b) => a - b)[8] < 9) every = 2;
+  }
+  if (++tick % every === 0) draw();
+}
+
+/* ---------- the page ---------- */
+const onPointer = (e) => { if (e.pointerType !== 'touch') { S.ptr = [e.clientX, e.clientY]; S.lastMove = performance.now() / 1000; } };
+const showPlate = () => { plate.src = `assets/scene/${MOODS[homeMood()].file}.webp`; };
+
+let mounts = 0;
+
+/** Brings the scene up behind the home page. Returns a teardown function; the pictures stay in memory for the next visit. */
+export function mountHero({ title, search, input, sheet, coda }) {
+  const mount = ++mounts;
+  page = { letters: [...title.children], search, sheet, coda };
+  scene.hidden = false;
+  showPlate();
+  resizes.observe(scene);
+  size();
+  window.addEventListener('themechange', showPlate);
+
+  const aim = () => { S.focus = true; S.aimAt = performance.now() / 1000; };
+  input.addEventListener('focus', aim);
+  input.addEventListener('input', aim);
+  input.addEventListener('blur', () => { S.focus = false; });
+
+  if (document.fonts?.load) {
+    title.classList.add('is-loading');
+    const show = () => { title.classList.remove('is-loading'); measureLetters(); };
+    Promise.race([document.fonts.load('italic 500 100px Newsreader'), new Promise((r) => setTimeout(r, 600))]).then(show, show);
+  }
+
+  if (!reducedMotion()) {
+    window.addEventListener('pointermove', onPointer, { passive: true });
+    // starts after first paint, and never blocks it
+    requestAnimationFrame(() => setTimeout(() => {
+      if (mount !== mounts) return;
+      if (!gl && !gaveUp) { startGl(); size(); }
+      if (gaveUp) return;
+      S.tod = -1; S.gain = 0; S.dim = 1; last = performance.now() / 1000;
+      running = true;
+      raf = requestAnimationFrame(loop);
+    }, 0));
+  }
 
   return () => {
-    io.disconnect();
-    window.removeEventListener('scroll', request);
-    window.removeEventListener('resize', onResize);
-    window.removeEventListener('themechange', onTheme);
+    mounts++;
+    running = false;
+    cancelAnimationFrame(raf);
+    page = null; letterAt = [];
+    sleep();
+    resizes.disconnect();
+    window.removeEventListener('themechange', showPlate);
+    window.removeEventListener('pointermove', onPointer);
+    scene.hidden = true;
   };
 }

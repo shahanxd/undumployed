@@ -21,7 +21,7 @@ SITE = Path(__file__).resolve().parent.parent / "site"
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     extensions_map = {**http.server.SimpleHTTPRequestHandler.extensions_map,
-                      ".js": "text/javascript", ".mjs": "text/javascript", ".webmanifest": "application/manifest+json"}
+                      ".js": "text/javascript", ".mjs": "text/javascript", ".webp": "image/webp", ".webmanifest": "application/manifest+json"}
 
     def end_headers(self):
         self.send_header("Cache-Control", "no-store")

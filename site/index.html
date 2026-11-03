@@ -10,7 +10,7 @@
 <meta property="og:title" content="undumployed">
 <meta property="og:description" content="A hand-checked list of internships, fellowships, scholarships, competitions and events for students.">
 <meta property="og:url" content="https://undumployed.vercel.app/">
-<meta property="og:image" content="https://undumployed.vercel.app/assets/og.png">
+<meta property="og:image" content="https://undumployed.vercel.app/assets/og.jpg">
 <link rel="canonical" href="https://undumployed.vercel.app/">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -55,8 +55,21 @@
       t = saved === 'storm' || saved === 'golden' ? saved : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'storm' : 'golden');
     } catch (e) {}
     document.documentElement.setAttribute('data-theme', t);
+    // Home gets its picture first of all (a saved item opened from home counts as home).
+    var h = location.hash.replace(/^#\/?/, '');
+    if (!h || h.charAt(0) === '?' || /^[oe]\/[^?]*\?(.*&)?from=home/.test(h)) {
+      document.documentElement.setAttribute('data-home', '');
+      var l = document.createElement('link'); l.rel = 'preload'; l.as = 'image'; l.fetchPriority = 'high';
+      l.href = 'assets/scene/' + (t === 'storm' ? 'night' : 'dusk') + '.webp'; document.head.appendChild(l);
+    }
   })();
 </script>
+<style>
+  /* Before the picture lands, a tiny blurred copy of it, so home never opens on an empty page. */
+  html[data-home][data-theme="golden"] { background: #1b1426 url("data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQBACdASogABIAPu1ip02ppaOiMAgBMB2JZACsM47Cst8MFrZSmOlpebkwAP7pQ55tLqXtyDVbF4Im24bq1Y75USkVMB8qYkAaxFgySfGfeb7wPhQA6tyGRiu36E+WumSOWTHihiBrEQAA") 100% 30%/cover no-repeat fixed; }
+  html[data-home][data-theme="storm"] { background: #0d1626 url("data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAACQBACdASogABIAPu1qq08ppiOiMBgIATAdiUAVHoFV0xgD08iTy1ZIvvJyqAAA/qiqQuVgEOE03HN2vSBIS1d3biLMeWn8JjOuynVmkfCp3KbncGN79ncxpNicXqmnuFquaRH83LJAZdivVjvOdsNsE7k5RQMSwILTHOi1U7Xi4i23+b2kAnZmQHJTEzwWHMs2ay2d8LVTe/z3wYtQriyq9iyzEAAA") 100% 30%/cover no-repeat fixed; }
+  html[data-home] body { background: transparent; }
+</style>
 </head>
 <body>
 <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -95,6 +108,29 @@
 </svg>
 
 <a class="skip" href="#main">Skip to content</a>
+
+<div class="scene" id="scene" aria-hidden="true" hidden>
+  <img id="scene-plate" alt="" fetchpriority="high" decoding="sync">
+  <canvas id="scene-gl"></canvas>
+</div>
+<script>
+  // Frames the picture before its first paint, with the same crop the live layer uses, so nothing jumps when that fades in.
+  (function () {
+    var scene = document.getElementById('scene'), img = document.getElementById('scene-plate');
+    window.__frameScene = function () {
+      var a = scene.clientWidth / scene.clientHeight, ap = 16 / 9, x = 0, y = 0, w = 1, h = 1;
+      if (a < ap) { w = a / ap; x = Math.min(1 - w, Math.max(0, .835 - .74 * w)); }
+      else { h = ap / a; y = Math.min(1 - h, Math.max(0, .4 - .42 * h)); }
+      img.style.objectPosition = (w < 1 ? x / (1 - w) * 100 : 50) + '% ' + (h < 1 ? (1 - y - h) / (1 - h) * 100 : 50) + '%';
+      return [x, y, w, h];
+    };
+    if (document.documentElement.hasAttribute('data-home')) {
+      scene.hidden = false;
+      window.__frameScene();
+      img.src = 'assets/scene/' + (document.documentElement.getAttribute('data-theme') === 'storm' ? 'night' : 'dusk') + '.webp';
+    }
+  })();
+</script>
 
 <header class="topbar" id="topbar">
   <a class="brand" href="#/" aria-label="undumployed, home">
