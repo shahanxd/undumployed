@@ -1,5 +1,5 @@
 // Home: the bay, one sentence to find what fits, what's closing soon, and the whole index.
-import { wireSparks } from './sparks.js';
+import { wireSparks, lightDedication } from './sparks.js';
 import { db, loadAll } from './data.js';
 import { esc, icon, oppRow, stateHtml, loadingHtml } from './ui.js';
 import { hashFor, go } from './state.js';
@@ -105,15 +105,33 @@ ${drops.length ? `<section class="section container" aria-labelledby="drops-h">
   </div>
 </section>
 
-<section class="section container" aria-labelledby="about-h">
-  <div class="section-head"><h2 id="about-h">What’s undumployed</h2></div>
-  <div class="about">
-    <p class="dedication">Made with <span class="spark spark-love" data-spark="heart">love</span> and <span class="spark spark-coffee" data-spark="bean">coffee</span>, in memory of the one who was always there to guide me.</p>
-    <p>An <a href="https://github.com/shahanxd/undumployed" rel="noopener">open-source</a> list of opportunities for all em friends who’re ready to get out there for something better.<br>
-      Checked and verified in ${esc(db.meta.lastVerified)}.<br>
-      Something off? <a href="https://github.com/shahanxd/undumployed/issues/new/choose" rel="noopener">Open an issue</a> or <a href="#/guide/contributing">fix the file</a>.</p>
+<section class="section container about-wrap" aria-labelledby="about-h">
+  <div class="about-split">
+    <div class="about">
+      <div class="section-head"><h2 id="about-h">What’s undumployed</h2></div>
+      <p>An <a href="https://github.com/shahanxd/undumployed" rel="noopener">open-source</a> list of opportunities for all em friends who’re ready to get out there for something better.<br>
+        Checked and verified in ${esc(db.meta.lastVerified)}.<br>
+        Something off? <a href="https://github.com/shahanxd/undumployed/issues/new/choose" rel="noopener">Open an issue</a> or <a href="#/guide/contributing">fix the file</a>.</p>
+    </div>
+    ${dedicationHtml()}
   </div>
 </section>`;
+}
+
+const DEDICATION = ['Made with love and coffee,', 'in memory of the one', 'who was always there', 'to guide me'];
+const SPARK_WORDS = { love: 'heart', coffee: 'bean' };
+
+// Each word carries its place in the verse (--i), so the light can pass over them in reading order.
+function dedicationHtml() {
+  let i = 0;
+  const word = (w) => {
+    const name = w.replace(',', '');
+    const spark = SPARK_WORDS[name] ? ` spark spark-${name}" data-spark="${SPARK_WORDS[name]}` : '';
+    return `<span class="ded-w${spark}" style="--i:${i++}">${w}</span>`;
+  };
+  const lines = DEDICATION.map((line) => line.replace(/\S+/g, word));
+  lines[lines.length - 1] += `<span class="ded-w ded-dot" style="--i:${i}">.</span>`;
+  return `<p class="dedication">${lines.map((line) => `<span class="ded-line">${line}</span>`).join('')}</p>`;
 }
 
 let teardown = [];
@@ -124,6 +142,11 @@ export const landingPage = {
     main.innerHTML = `${heroMarkup(copy)}<div id="home-rest">${loadingHtml()}</div>`;
     const track = main.querySelector('#hero-track');
     teardown.push(mountHero(track));
+
+    // "What’s undumployed" already says what the footer says, so the home page goes without it
+    const footer = document.querySelector('.footer');
+    footer.hidden = true;
+    teardown.push(() => { footer.hidden = false; });
 
     // the bar sits on the sky until the bay scrolls away
     const bar = document.getElementById('topbar');
@@ -151,6 +174,7 @@ export const landingPage = {
     if (!document.body.contains(rest)) return; // navigated away while loading
     rest.innerHTML = restHtml();
     wireSparks(rest);
+    teardown.push(lightDedication(rest));
     const form = rest.querySelector('#fit');
     const fits = [...form.querySelectorAll('select')].map(autosize).filter(Boolean);
     if (fits.length) {
